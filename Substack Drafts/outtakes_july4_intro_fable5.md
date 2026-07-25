@@ -1,0 +1,5 @@
+# Outtake — July 4 intro paragraphs (held for Fable 5 piece)
+
+Today is the 4th of July, a really important day for Americans and the world, and America's 250th anniversary. A milestone, for sure, at a time when many are concerned for the sustainability of the American Experiment. A time to hang out with friends and enjoy a hamburger. And for people in positions of real power, a time to think about friends and foes, and how to maintain the so-called "Pax Americana" for another 75 or 150 or 300 years when it currently seems to be hanging in tatters.
+
+Contrast that with your businesses pursuit of Agentic AI. The leverage, the process improvements, the speed to market, all of these things have changed, radically, for organizations adopting. And for most of the people working with it, AI has become if not a friend and confidante, a trusted co-worker who always does what's needed, makes you look good, and rarely if ever takes any credit. The perfect partner / assistant / 2IC. And yet, is it?

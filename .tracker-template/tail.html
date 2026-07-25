@@ -1,0 +1,206 @@
+</script>
+
+<script id="render-engine">
+  // ===================== RENDER ENGINE (do not edit) =====================
+  const STORAGE_KEY = 'brief-tracker-' + BRIEF_DATA.dateStamp + '-v1';
+
+  function loadState() {
+    try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'); }
+    catch (e) { return {}; }
+  }
+  function saveState(s) {
+    try { localStorage.setItem(STORAGE_KEY, JSON.stringify(s)); }
+    catch (e) {}
+  }
+  let state = loadState();
+
+  const collapsed = {};
+
+  function itemId(t, s, i) { return t + '-s' + s + '-i' + i; }
+  function secId(t, s) { return t + '-sec' + s; }
+
+  function tabItemIds(tab) {
+    const ids = [];
+    tab.sections.forEach((sec, s) => sec.items.forEach((it, i) => ids.push(itemId(tab.id, s, i))));
+    return ids;
+  }
+  function allItemIds() {
+    const ids = [];
+    BRIEF_DATA.tabs.forEach(tab => ids.push(...tabItemIds(tab)));
+    return ids;
+  }
+
+  function esc(str) {
+    return String(str == null ? '' : str);
+  }
+
+  function build() {
+    document.getElementById('date-label').textContent = BRIEF_DATA.dateLabel;
+    document.title = 'Brief Tracker — ' + BRIEF_DATA.dateLabel;
+
+    const progRow = document.getElementById('progress-row');
+    const tabsEl = document.getElementById('tabs');
+    const panelsEl = document.getElementById('panels');
+    progRow.innerHTML = '';
+    tabsEl.innerHTML = '';
+    panelsEl.innerHTML = '';
+
+    BRIEF_DATA.tabs.forEach((tab, ti) => {
+      const active = ti === 0;
+
+      // progress
+      const prog = document.createElement('div');
+      prog.className = 'prog';
+      prog.innerHTML =
+        '<div class="prog-label"><span>' + esc(tab.label) + '</span>' +
+        '<span id="' + tab.id + '-lbl"></span></div>' +
+        '<div class="prog-bar"><div class="prog-fill" id="' + tab.id + '-bar" ' +
+        'style="width:0%;background:' + tab.color + '"></div></div>';
+      progRow.appendChild(prog);
+
+      // tab
+      const tabDiv = document.createElement('div');
+      tabDiv.className = 'tab' + (active ? ' active' : '');
+      tabDiv.id = 'tab-' + tab.id;
+      tabDiv.textContent = tab.label;
+      tabDiv.style.borderColor = active ? tab.color : 'transparent';
+      tabDiv.style.color = active ? tab.color : '';
+      tabDiv.onclick = () => switchTab(tab.id);
+      tabsEl.appendChild(tabDiv);
+
+      // panel
+      const panel = document.createElement('div');
+      panel.className = 'panel' + (active ? ' active' : '');
+      panel.id = 'panel-' + tab.id;
+
+      const banner = document.createElement('div');
+      banner.className = 'all-done-banner';
+      banner.id = tab.id + '-done-banner';
+      banner.textContent = '✓ ' + tab.label.replace(/^[^ ]+ /, '') + ' complete';
+      panel.appendChild(banner);
+
+      if (tab.empty || !tab.sections || tab.sections.length === 0) {
+        const note = document.createElement('div');
+        note.className = 'empty-note';
+        note.innerHTML = tab.empty || 'Nothing to show for this brief today.';
+        panel.appendChild(note);
+      } else {
+        tab.sections.forEach((sec, si) => {
+          const sid = secId(tab.id, si);
+          const section = document.createElement('div');
+          section.className = 'section';
+          section.id = sid;
+
+          const hdr = document.createElement('div');
+          hdr.className = 'section-hdr';
+          hdr.onclick = () => toggleSec(sid);
+          hdr.innerHTML =
+            '<span class="section-title">' + esc(sec.title) + '</span>' +
+            '<span class="section-meta" id="' + sid + '-meta"></span>' +
+            '<span class="chevron">▼</span>';
+          section.appendChild(hdr);
+
+          const itemsWrap = document.createElement('div');
+          itemsWrap.className = 'items';
+          sec.items.forEach((it, ii) => {
+            const iid = itemId(tab.id, si, ii);
+            const item = document.createElement('div');
+            item.className = 'item';
+            item.id = iid;
+            item.onclick = () => toggle(iid);
+
+            const tagsHtml = (it.tags || []).map(tg =>
+              '<span class="tag ' + esc(tg.cls) + '">' + esc(tg.label) + '</span>').join('');
+            const srcHtml = it.source ? '<span class="item-source">' + esc(it.source) + '</span>' : '';
+
+            const body = document.createElement('div');
+            body.className = 'item-body';
+            body.innerHTML =
+              '<div class="item-meta-row">' + tagsHtml + srcHtml + '</div>' +
+              '<div class="item-title"></div>' +
+              '<div class="item-summary"></div>';
+            body.querySelector('.item-title').textContent = esc(it.title);
+            body.querySelector('.item-summary').textContent = esc(it.summary);
+
+            const cb = document.createElement('div');
+            cb.className = 'cb';
+            cb.textContent = '✓';
+
+            item.appendChild(cb);
+            item.appendChild(body);
+            itemsWrap.appendChild(item);
+          });
+          section.appendChild(itemsWrap);
+          panel.appendChild(section);
+        });
+      }
+      panelsEl.appendChild(panel);
+    });
+  }
+
+  function toggle(id) {
+    state[id] = !state[id];
+    saveState(state);
+    render();
+  }
+  function toggleSec(id) {
+    collapsed[id] = !collapsed[id];
+    document.getElementById(id).classList.toggle('collapsed', collapsed[id]);
+  }
+  function switchTab(tabId) {
+    BRIEF_DATA.tabs.forEach(tab => {
+      const t = document.getElementById('tab-' + tab.id);
+      const p = document.getElementById('panel-' + tab.id);
+      const on = tab.id === tabId;
+      t.classList.toggle('active', on);
+      t.style.borderColor = on ? tab.color : 'transparent';
+      t.style.color = on ? tab.color : '';
+      p.classList.toggle('active', on);
+    });
+  }
+  function markAllRead() {
+    allItemIds().forEach(id => { state[id] = true; });
+    saveState(state);
+    render();
+  }
+  function resetAll() {
+    state = {};
+    saveState(state);
+    render();
+  }
+
+  function render() {
+    allItemIds().forEach(id => {
+      const el = document.getElementById(id);
+      if (el) el.classList.toggle('read', !!state[id]);
+    });
+
+    BRIEF_DATA.tabs.forEach(tab => {
+      tab.sections.forEach((sec, si) => {
+        const ids = sec.items.map((it, ii) => itemId(tab.id, si, ii));
+        const r = ids.filter(id => state[id]).length;
+        const t = ids.length;
+        const meta = document.getElementById(secId(tab.id, si) + '-meta');
+        if (meta) {
+          if (t > 0 && r === t) { meta.textContent = '✓ done'; meta.classList.add('done'); }
+          else { meta.textContent = r + '/' + t; meta.classList.remove('done'); }
+        }
+      });
+
+      const ids = tabItemIds(tab);
+      const r = ids.filter(id => state[id]).length;
+      const t = ids.length;
+      const lbl = document.getElementById(tab.id + '-lbl');
+      const bar = document.getElementById(tab.id + '-bar');
+      if (lbl) lbl.textContent = r + ' / ' + t;
+      if (bar) bar.style.width = (t ? (r / t * 100) : 0) + '%';
+      const banner = document.getElementById(tab.id + '-done-banner');
+      if (banner) banner.classList.toggle('show', t > 0 && r === t);
+    });
+  }
+
+  build();
+  render();
+</script>
+</body>
+</html>

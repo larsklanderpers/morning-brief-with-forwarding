@@ -1,0 +1,241 @@
+{
+  "substack": {
+    "publication_url": "https://larsklander.substack.com",
+    "session_cookie": "REPLACE_ME_RUN_substack_auth.py",
+    "notes": "Run: python substack_auth.py  to set up. publication_url is your Substack homepage URL.",
+    "cookie_string": "REPLACE_ME_RUN_substack_auth.py --full-cookies"
+  },
+  "linkedin": {
+    "client_id": "YOUR_CLIENT_ID",
+    "client_secret": "REPLACE_ME",
+    "access_token": "REPLACE_ME",
+    "refresh_token": "REPLACE_ME",
+    "token_expiry": "REPLACE_ME"
+  },
+  "claude_api_key": "REPLACE_ME",
+  "sources": {
+    "australian_feeds": [
+      {
+        "name": "ABC News Australia",
+        "url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+        "keywords": [
+          "gambl",
+          "poker machine",
+          "pokie",
+          "AUSTRAC",
+          "OLGR",
+          "liquor",
+          "betting",
+          "self-exclusion",
+          "BetStop",
+          "ACMA",
+          "data breach",
+          "cyber",
+          "hack",
+          "clubs nsw",
+          "clubs australia",
+          "wagering"
+        ]
+      },
+      {
+        "name": "Guardian Australia",
+        "url": "https://www.theguardian.com/australia-news/rss",
+        "keywords": [
+          "gambl",
+          "poker machine",
+          "AUSTRAC",
+          "OLGR",
+          "betting",
+          "self-exclusion",
+          "BetStop",
+          "data breach",
+          "cyber",
+          "clubs nsw",
+          "clubs australia",
+          "wagering"
+        ]
+      },
+      {
+        "name": "Sydney Morning Herald",
+        "url": "https://www.smh.com.au/rss/national.xml",
+        "keywords": [
+          "gambl",
+          "AUSTRAC",
+          "OLGR",
+          "liquor",
+          "betting",
+          "self-exclusion",
+          "BetStop",
+          "data breach",
+          "cyber",
+          "hack",
+          "clubs nsw",
+          "wagering",
+          "casino"
+        ]
+      },
+      {
+        "name": "Queensland Gov Media Statements",
+        "url": "https://statements.qld.gov.au/statements.rss",
+        "keywords": [
+          "gaming",
+          "liquor",
+          "OLGR",
+          "clubs",
+          "gambling",
+          "wagering",
+          "pokies",
+          "BetStop"
+        ]
+      },
+      {
+        "name": "ACMA Newsroom",
+        "url": "https://www.acma.gov.au/rss-acma-newsroom",
+        "keywords": [
+          "gambling",
+          "betting",
+          "wagering",
+          "advertising",
+          "sports betting"
+        ]
+      },
+      {
+        "name": "IT News Australia",
+        "url": "https://www.itnews.com.au/rss.xml",
+        "keywords": [
+          "breach",
+          "cyber",
+          "hack",
+          "security",
+          "vulnerability",
+          "ransomware",
+          "Optus",
+          "AUSTRAC",
+          "data"
+        ]
+      },
+      {
+        "name": "The Conversation (AU)",
+        "url": "https://theconversation.com/au/articles.atom",
+        "keywords": [
+          "gambl",
+          "poker machine",
+          "pokie",
+          "AUSTRAC",
+          "betting",
+          "self-exclusion",
+          "BetStop",
+          "clubs",
+          "wagering",
+          "casino",
+          "harm"
+        ]
+      }
+    ],
+    "gmail_alerts": {
+      "enabled": true,
+      "imap_server": "imap.gmail.com",
+      "imap_port": 993,
+      "email": "you@example.com",
+      "app_password": "REPLACE_ME",
+      "lookback_hours": 25,
+      "alert_subjects": [
+        "Google Alert - problem gambling",
+        "Google Alert - self exclusion",
+        "Google Alert - Queensland OLGR",
+        "Google Alert - Queensland Office of Liquor and Gaming",
+        "Google Alert - \"clubs nsw\"",
+        "Google Alert - clubs australia",
+        "Google Alert - optus data breach"
+      ]
+    },
+    "rss_feeds": [
+      {
+        "name": "Krebs on Security",
+        "url": "https://krebsonsecurity.com/feed/"
+      },
+      {
+        "name": "Bleeping Computer",
+        "url": "https://www.bleepingcomputer.com/feed/"
+      },
+      {
+        "name": "The Hacker News",
+        "url": "https://feeds.feedburner.com/TheHackersNews"
+      },
+      {
+        "name": "Dark Reading",
+        "url": "https://www.darkreading.com/rss_simple.asp"
+      },
+      {
+        "name": "Threatpost",
+        "url": "https://threatpost.com/feed/"
+      },
+      {
+        "name": "Schneier on Security",
+        "url": "https://www.schneier.com/feed/atom/"
+      },
+      {
+        "name": "SANS Internet Storm Center",
+        "url": "https://isc.sans.edu/rssfeed_full.xml"
+      }
+    ],
+    "government_feeds": [
+      {
+        "name": "CISA Advisories",
+        "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml"
+      },
+      {
+        "name": "ACSC Advisories",
+        "url": "https://www.cyber.gov.au/about-us/advisories",
+        "scrape": true
+      },
+      {
+        "name": "NIST NVD Recent CVEs",
+        "url": "https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-recent.json.gz",
+        "type": "json_gz"
+      }
+    ],
+    "reddit": [
+      {
+        "subreddit": "netsec",
+        "limit": 10,
+        "sort": "hot"
+      },
+      {
+        "subreddit": "cybersecurity",
+        "limit": 10,
+        "sort": "hot"
+      },
+      {
+        "subreddit": "hacking",
+        "limit": 5,
+        "sort": "hot"
+      },
+      {
+        "subreddit": "ArtificialIntelligence",
+        "limit": 5,
+        "sort": "hot",
+        "filter_keywords": [
+          "security",
+          "cyber",
+          "threat",
+          "exploit",
+          "vulnerability"
+        ]
+      }
+    ]
+  },
+  "output": {
+    "workspace_path": ".",
+    "daily_briefs_folder": "Daily Briefs",
+    "substack_drafts_folder": "Substack Drafts",
+    "linkedin_posts_folder": "LinkedIn Posts"
+  },
+  "brief": {
+    "max_items_per_source": 5,
+    "tone": "thought_leader_strategic",
+    "author_name": "Lars Klander",
+    "linkedin_post_length": "long",
+    "commentary_style": "big-picture strategic takes, business and policy implications, what decision-makers should know"
+  }
+}
