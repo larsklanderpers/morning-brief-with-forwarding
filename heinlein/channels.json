@@ -1,0 +1,9 @@
+{
+  "_comment": "Slack channel IDs for Heinlein. Empty string means not yet created; skills skip Slack steps and say so. Fill after the workspace decision.",
+  "workspace": "",
+  "lars_user_id": "",
+  "briefs": "",
+  "inbox": "",
+  "out": "",
+  "log": ""
+}

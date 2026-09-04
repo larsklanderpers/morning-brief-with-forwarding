@@ -1,0 +1,1 @@
+Snapshots of the four Cowork scheduled-task prompts as uploaded on 2026-07-20 (the latest copies found in the Cowork session store). Kept for provenance only; the live versions are heinlein/skills/*.md. These files keep their original em-dashes because they are quotations, not authored text.

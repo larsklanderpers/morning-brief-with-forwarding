@@ -1,0 +1,9 @@
+{
+  "_comment": "Intake watermarks and processed map. Slack ts strings. Edited only by the intake skill.",
+  "watermarks": {
+    "inbox": "0",
+    "out": "0"
+  },
+  "processed": {},
+  "last_run": ""
+}
