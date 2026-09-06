@@ -50,10 +50,20 @@ heinlein/
 | heinlein-brief-work | `0 5 * * *` | skills/brief-work.md | AI Briefs, #heinlein-briefs |
 | heinlein-intake | `0 7,12,17,21 * * *` | skills/intake.md | Research Notes/intake, Vault, References, #heinlein-log |
 
+Created 2026-09-06 in the Claude desktop app (Code tab), stored under
+`C:\Users\LarsDev\.claude\scheduled-tasks\<task id>\SKILL.md`. The scheduler adds a few minutes of
+deterministic delay to recurring runs, so the briefs actually dispatch at about 04:37, 04:49 and
+05:04.
+
 Scheduled tasks run while the Claude desktop app is open. If it was closed at the due time, the
 task runs on next launch. The Cowork tasks `cyber-morning-brief`, `ai-morning-brief`,
 `ai-work-community-brief` and `brief-tracker-rebuild` must be disabled in Cowork once these are
 live, or the briefs will be generated twice.
+
+**First run of each task should be a manual "Run now" from the Scheduled sidebar.** Tool approvals
+granted during a run are stored on the task and reused, so the first interactive run is where the
+Slack, Firecrawl, Gmail and Chrome permissions get pre-approved. Without it, an unattended 04:30 run
+can stall on a permission prompt.
 
 ## How to change things
 

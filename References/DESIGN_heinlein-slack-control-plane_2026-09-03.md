@@ -205,6 +205,21 @@ Still to do, in order: workspace decision and connector re-point; create the fou
 fill `channels.json`; create the four scheduled tasks; disable the four Cowork tasks; dry-run
 intake by hand against real phone posts; add the outbound convention to the writing-flow skills.
 
+## 12. Live, 6 Sep 2026
+
+- Workspace `lars-klander-personal` created by Lars; connector re-pointed and verified.
+- Four private channels created; IDs in `heinlein/channels.json`. Hello posts with the legend.
+- Dry run: the 4 Sep cyber, AI and work briefs posted as 3 parents and 48 thread replies. Four
+  format drifts found in the real briefs and absorbed by the parser with tests.
+- Four scheduled tasks created on Lars's "we'll try it now". Cowork tasks not yet disabled.
+- Lars expects to end up on a self-hosted Slack app (option C) for what he has in mind. The
+  channel layout, reaction vocabulary, skill files and parser all carry over; only the transport
+  changes.
+
+Open: first manual "Run now" on each task to pre-approve tools; disable the Cowork tasks after
+one clean morning; outbound convention in the writing-flow skills; `#heinlein-out` posting of
+drafts and research notes.
+
 ## 10. Build order once unblocked
 
 1. Create the channels; post a hello with the reaction legend.
