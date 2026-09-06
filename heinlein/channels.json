@@ -1,9 +1,9 @@
 {
-  "_comment": "Slack channel IDs for Heinlein. Empty string means not yet created; skills skip Slack steps and say so. Fill after the workspace decision.",
-  "workspace": "",
-  "lars_user_id": "",
-  "briefs": "",
-  "inbox": "",
-  "out": "",
-  "log": ""
+  "_comment": "Slack channel IDs for Heinlein in the lars-klander-personal workspace. Created 2026-09-04. Never hard-code these in a skill; read this file.",
+  "workspace": "lars-klander-personal",
+  "lars_user_id": "U0BV6G7KYFP",
+  "briefs": "C0BUVJE9A9M",
+  "inbox": "C0BVCSV0PJ5",
+  "out": "C0BVCSV3MFB",
+  "log": "C0C00K4PSH2"
 }

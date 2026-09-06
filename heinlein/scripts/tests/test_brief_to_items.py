@@ -238,3 +238,70 @@ def test_real_briefs_parse_if_present(relpath, min_items):
     assert all(it.title for s in brief.sections for it in s.items)
     urls = sum(1 for s in brief.sections for it in s.items if it.url)
     assert urls >= min_items // 2
+
+
+HEADING_STYLE = """# 🛡️ Cybersecurity Morning Brief
+**Friday, 4 September 2026**
+
+---
+
+## 🚨 Government Advisories
+
+### ACSC: Critical Citrix NetScaler Authentication Bypass
+**Source:** [Cyber.gov.au](https://www.cyber.gov.au/alerts) | [Rapid7 Analysis](https://www.rapid7.com/x) | [Help Net Security](https://www.helpnetsecurity.com/y)
+
+The ACSC issued a 4 September advisory on two Citrix NetScaler vulnerabilities.
+
+💡 **Strategic take:** NetScaler is the front door. Patch today.
+
+---
+
+### CISA KEV Update: 7 Added
+**Source:** [CISA](https://www.cisa.gov/kev)
+
+On 2 September, CISA added seven vulnerabilities.
+
+💡 **Strategic take:** Seven at once is a pattern.
+
+## 🗣️ Community Pulse
+
+Reddit direct API access was unavailable today. Based on web search, discussion focused on:
+
+- **SonicWall SMA1000 chain** - practical exploitation guidance and IOC sharing
+- **Cisco Nexus AI fabric exposure** - concern about network and AI cluster security
+
+## 📌 Today's Signal
+
+Edge infrastructure under sustained assault.
+"""
+
+
+def test_heading_style_items_absorb_source_body_and_take():
+    brief = b2i.parse_brief(HEADING_STYLE, "brief_2026-09-04.md")
+    gov = brief.sections[0]
+    assert len(gov.items) == 2
+    citrix = gov.items[0]
+    assert citrix.title == "ACSC: Critical Citrix NetScaler Authentication Bypass"
+    assert citrix.source == "Cyber.gov.au"
+    assert citrix.url == "https://www.cyber.gov.au/alerts"
+    assert citrix.summary == "The ACSC issued a 4 September advisory on two Citrix NetScaler vulnerabilities."
+    assert citrix.take == "NetScaler is the front door. Patch today."
+    assert "Source" not in citrix.summary
+    kev = gov.items[1]
+    assert kev.source == "CISA"
+    assert kev.take == "Seven at once is a pattern."
+
+
+def test_bullet_list_becomes_items_and_preamble_is_note():
+    brief = b2i.parse_brief(HEADING_STYLE, "brief_2026-09-04.md")
+    pulse = brief.sections[1]
+    assert pulse.note.startswith("Reddit direct API access was unavailable")
+    assert [i.title for i in pulse.items] == ["SonicWall SMA1000 chain", "Cisco Nexus AI fabric exposure"]
+    assert pulse.items[0].summary == "practical exploitation guidance and IOC sharing"
+    assert pulse.items[0].url == ""
+
+
+def test_legend_is_first_line_only(tmp_path):
+    p = tmp_path / "reactions.md"
+    p.write_text("\n📌 file · 🔍 dig\n\n<!--\nhidden contract\n-->\n", encoding="utf-8")
+    assert b2i.load_legend(p) == "📌 file · 🔍 dig"

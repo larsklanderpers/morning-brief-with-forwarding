@@ -25,7 +25,8 @@ SIGNAL_SECTION = "today's signal"
 BOLD_RE = re.compile(r"\*\*(.+?)\*\*")
 MD_LINK_RE = re.compile(r"\[([^\]]*)\]\((https?://[^)\s]+)\)")
 BARE_URL_RE = re.compile(r"https?://[^\s<>()\[\]]+")
-SOURCE_LINE_RE = re.compile(r"^Source:\s*(.+?)\s*(?:\|.*)?$")
+SOURCE_LINE_RE = re.compile(r"^\**Source:\**\s*(.+?)\s*(?:\|.*)?$")
+BULLET_ITEM_RE = re.compile(r"^\s*[-*]\s+\*\*")
 TAKE_PREFIX_RE = re.compile(
     r"^\s*(?:💡\s*)?\*{0,2}\s*(?:Strategic take|Constructive read|The constructive read is|Why it matters)\s*:?\s*\*{0,2}\s*:?\s*",
     re.IGNORECASE,
@@ -138,7 +139,8 @@ def parse_item(block: list[str], section_heading: str) -> Item:
         url = _first_url(meta_text)
     if meta_text:
         stripped_meta = _clean(_strip_urls(meta_text)).strip(" \u2014-·")
-        if stripped_meta and not stripped_meta.startswith('"') and len(stripped_meta) <= 80:
+        looks_like_meta = bool(url) or "·" in stripped_meta or len(block) > 1
+        if stripped_meta and looks_like_meta and not stripped_meta.startswith('"') and len(stripped_meta) <= 80:
             source = _source_from_meta(stripped_meta)
         elif stripped_meta:
             summary_lines.append(stripped_meta.strip(" \u2014-·"))
@@ -149,7 +151,8 @@ def parse_item(block: list[str], section_heading: str) -> Item:
             continue
         src = SOURCE_LINE_RE.match(stripped)
         if src:
-            source = _clean(src.group(1))
+            link = MD_LINK_RE.search(src.group(1))
+            source = _clean(link.group(1)) if link else _clean(_strip_urls(src.group(1)))
             if not url:
                 url = _first_url(stripped)
             continue
@@ -189,6 +192,45 @@ def _blocks(lines: list[str]) -> list[list[str]]:
     return blocks
 
 
+def _group_item_blocks(blocks: list[list[str]]) -> list[list[str]]:
+    """Normalise the three item shapes the briefs have used into bold-title blocks.
+
+    - `**Title**` block: as is.
+    - `### Title` heading: absorbs every following plain block until the next item starts,
+      because that style puts blank lines between source, body and take.
+    - Bullet list of `- **Title** ...` lines: one item per line.
+    """
+    out: list[list[str]] = []
+    open_heading: list[str] | None = None
+    for b in blocks:
+        first = b[0]
+        if first.startswith("### "):
+            if open_heading:
+                out.append(open_heading)
+            open_heading = ["**" + _clean(first[4:]) + "**"] + b[1:]
+            continue
+        if all(BULLET_ITEM_RE.match(l) for l in b):
+            if open_heading:
+                out.append(open_heading)
+                open_heading = None
+            for l in b:
+                out.append([re.sub(r"^\s*[-*]\s+", "", l)])
+            continue
+        if first.lstrip().startswith("**") and not SOURCE_LINE_RE.match(first.strip()):
+            if open_heading:
+                out.append(open_heading)
+                open_heading = None
+            out.append(b)
+            continue
+        if open_heading is not None:
+            open_heading.extend(b)
+        else:
+            out.append(b)
+    if open_heading:
+        out.append(open_heading)
+    return out
+
+
 def _is_footer(block: list[str]) -> bool:
     return all(l.strip().startswith("*") and not l.strip().startswith("**") for l in block)
 
@@ -225,12 +267,9 @@ def parse_brief(text: str, filename: str = "") -> Brief:
         elif any(s in heading_l for s in SKIP_SECTIONS):
             brief.drafts_note = "\n".join(l for b in blocks for l in b)
         else:
-            for b in blocks:
+            for b in _group_item_blocks(blocks):
                 if b[0].lstrip().startswith("**"):
                     section.items.append(parse_item(b, section.heading))
-                elif b[0].startswith("### "):
-                    sub = [("**" + _clean(b[0][4:]) + "**")] + b[1:]
-                    section.items.append(parse_item(sub, section.heading))
                 elif section.items:
                     section.items[-1].summary = (section.items[-1].summary + " " + _clean(" ".join(b)))[:SUMMARY_LIMIT]
                 else:
@@ -296,6 +335,13 @@ def render_slack(brief: Brief, legend: str = "") -> dict:
     return {"kind": brief.kind, "date_stamp": brief.date_stamp, "parent": render_parent(brief, legend), "items": items}
 
 
+def load_legend(path: str | Path) -> str:
+    for line in Path(path).read_text(encoding="utf-8").splitlines():
+        if line.strip():
+            return line.strip()
+    return ""
+
+
 def load_brief(path: str | Path) -> Brief:
     p = Path(path)
     return parse_brief(p.read_text(encoding="utf-8"), p.name)
@@ -308,7 +354,7 @@ def main(argv: list[str]) -> int:
     brief = load_brief(argv[1])
     legend = ""
     if "--legend" in argv:
-        legend = Path(argv[argv.index("--legend") + 1]).read_text(encoding="utf-8").strip()
+        legend = load_legend(argv[argv.index("--legend") + 1])
     if "--slack" in argv:
         out = render_slack(brief, legend)
     else:
