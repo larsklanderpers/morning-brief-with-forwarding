@@ -42,6 +42,14 @@ heinlein/
     cowork-prompts_2026-07-20/   the Cowork task prompts this replaced, kept for provenance
 ```
 
+## The bot (built 6 Sep 2026, awaiting Lars's setup steps)
+
+`heinlein/bot/` is the self-hosted Slack app that replaces the polling intake task: Socket Mode,
+posts as Heinlein, one-call file uploads, runs `claude -p` in this folder under Lars's login. Its
+own README carries the six setup steps; the design and the cost decision are in
+`References/DESIGN_heinlein-bot_2026-09-06.md`. Until it is running, the `heinlein-intake`
+scheduled task below stays enabled. The three brief tasks stay in the desktop app either way.
+
 ## What runs, when (local time)
 
 | Task id | Cron | Skill file | Writes |

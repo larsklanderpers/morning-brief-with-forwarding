@@ -15,3 +15,9 @@ env/
 Thumbs.db
 .vscode/
 .idea/
+
+# Heinlein bot secrets and runtime
+heinlein/bot/.env
+heinlein/bot/logs/
+heinlein/bot/downloads/
+heinlein/bot/queue/

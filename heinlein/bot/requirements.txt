@@ -1,0 +1,5 @@
+slack-bolt>=1.21
+slack-sdk>=3.33
+python-dotenv>=1.0
+requests>=2.32
+pytest>=8
