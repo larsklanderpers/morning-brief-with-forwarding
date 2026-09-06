@@ -39,11 +39,14 @@ a reaction from Lars, look up the reaction set already handled in the processed 
 reply's ts). Any reaction not yet handled is work. Map the reply to its item by ts in the posted
 file, falling back to matching the bold title on the message text.
 
-**Out reactions.** Same procedure for `ROOT\heinlein\state\posted\out_*.json` if any exist (drafts
-and notes posted to `out` record themselves there). Reactions there mean: mag = re-verify the claim
-Lars named in the thread, pencil2 = another revision pass, x = park the draft. Do the work in the
-same session if it is under fifteen minutes; otherwise write the request to
-`ROOT\References\heinlein_queue.md` and tell Lars it is queued.
+**Out reactions.** Read `out` with `slack_read_channel` for the last 7 days. Every top-level
+message is a deliverable parent, whether or not `ROOT\heinlein\state\posted\out_*.json` records
+it (Cowork sessions often post without the record; the message text names the file path). Use the
+record when present, otherwise take the file path from the message. Reactions there mean: mag =
+re-verify the claim Lars named in the thread, pencil2 = another revision pass with the editor
+panel (`ROOT\Writing Flow\03_editor-panel.SKILL.md`), x = park the draft and note it in
+`SUBSTACK_INDEX.md`. Do the work in the same session if it is under fifteen minutes; otherwise
+write the request to `ROOT\References\heinlein_queue.md` and tell Lars it is queued.
 
 If there is nothing to do, write one line to `log` ("tick HH:MM, nothing new") and stop.
 
