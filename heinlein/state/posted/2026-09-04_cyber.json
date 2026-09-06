@@ -1,0 +1,100 @@
+{
+  "kind": "cyber",
+  "date_stamp": "2026-09-04",
+  "file": "Daily Briefs/brief_2026-09-04.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1788696905.836679",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1788696932.431409",
+      "title": "ACSC: Critical Citrix NetScaler Authentication Bypass",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories"
+    },
+    {
+      "index": 2,
+      "ts": "1788696937.035829",
+      "title": "CISA KEV Update: 7 Actively Exploited Vulnerabilities Added",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/09/02/cisa-adds-seven-known-exploited-vulnerabilities-catalog"
+    },
+    {
+      "index": 3,
+      "ts": "1788696942.513399",
+      "title": "SonicWall SMA1000 Zero-Days Chained for Unauthenticated RCE — Actively Exploited",
+      "section": "📰 Top Security News",
+      "url": "https://www.securityweek.com/sonicwall-warns-of-two-sma1000-zero-days-exploited-in-attacks/"
+    },
+    {
+      "index": 4,
+      "ts": "1788696946.287349",
+      "title": "Cisco Nexus 9000 CVE-2026-20212: Unauthenticated Root RCE in AI Data Centre Fabric",
+      "section": "📰 Top Security News",
+      "url": "https://thehackernews.com/2026/09/critical-cisco-nexus-9000-flaw-lets.html"
+    },
+    {
+      "index": 5,
+      "ts": "1788696951.740109",
+      "title": "September Patch Tuesday Preview: Three CVSS 10.0 CVEs in Azure Arc and Exchange",
+      "section": "📰 Top Security News",
+      "url": "https://www.helpnetsecurity.com/2026/09/04/september-2026-patch-tuesday-forecast/"
+    },
+    {
+      "index": 6,
+      "ts": "1788696954.556059",
+      "title": "MAG 550GB Data Dump After Refusing Ransomware Payment",
+      "section": "📰 Top Security News",
+      "url": "https://www.pkware.com/blog/2026-data-breaches"
+    },
+    {
+      "index": 7,
+      "ts": "1788696957.355749",
+      "title": "BraZetsu Python Malware Framework Fuelling Compromised-Host Marketplace",
+      "section": "📰 Top Security News",
+      "url": "https://cybernews.com/"
+    },
+    {
+      "index": 8,
+      "ts": "1788696961.918959",
+      "title": "IBM: AI-Driven Attacks Up 56%; AI Agents Introduce New Attack Surfaces",
+      "section": "🤖 AI & Security",
+      "url": "https://www.ibm.com/think/insights/more-2026-cyberthreat-trends"
+    },
+    {
+      "index": 9,
+      "ts": "1788696965.560029",
+      "title": "NIST: Traditional Cybersecurity Practices Need Adaptation for AI Agents",
+      "section": "🤖 AI & Security",
+      "url": "https://www.online-sciences.com/technology/cybersecurity-today-2026"
+    },
+    {
+      "index": 10,
+      "ts": "1788696968.299499",
+      "title": "SonicWall SMA1000 chain",
+      "section": "🗣️ Community Pulse",
+      "url": ""
+    },
+    {
+      "index": 11,
+      "ts": "1788696971.255809",
+      "title": "Cisco Nexus AI fabric exposure",
+      "section": "🗣️ Community Pulse",
+      "url": ""
+    },
+    {
+      "index": 12,
+      "ts": "1788696974.669999",
+      "title": "Patch Tuesday preparation",
+      "section": "🗣️ Community Pulse",
+      "url": ""
+    },
+    {
+      "index": 13,
+      "ts": "1788696977.744439",
+      "title": "LiteLLM and Artifactory on KEV",
+      "section": "🗣️ Community Pulse",
+      "url": ""
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "kind": "ai",
+  "date_stamp": "2026-09-04",
+  "file": "AI Briefs/ai_brief_2026-09-04.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1788696912.919859",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1788696996.011809",
+      "title": "OpenAI releases GPT-6 Astra — first model rated Critical for cybersecurity",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.unite.ai/openai-releases-gpt-6-astra-its-first-model-rated-critical-for-cyber/"
+    },
+    {
+      "index": 2,
+      "ts": "1788697000.818959",
+      "title": "Anthropic releases Claude Fable 5.1 and Mythos 5.1",
+      "section": "🔬 Frontier Labs",
+      "url": "https://venturebeat.com/technology/anthropics-claude-fable-5-1-and-mythos-5-1-arrive-with-a-75-cost-reduction-for-fable-cache-reads"
+    },
+    {
+      "index": 3,
+      "ts": "1788697005.324329",
+      "title": "Google releases Gemini 3.8 Flash and Flash Cyber",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.datacamp.com/blog/gemini-3-8-flash-cyber"
+    },
+    {
+      "index": 4,
+      "ts": "1788697009.096809",
+      "title": "xAI ships Grok 4.7 and Grok Bot persistent agents",
+      "section": "🔬 Frontier Labs",
+      "url": "https://docs.x.ai/developers/release-notes"
+    },
+    {
+      "index": 5,
+      "ts": "1788697013.681199",
+      "title": "NVIDIA agrees to acquire Hugging Face for $12.93 billion",
+      "section": "🚀 Shipping with AI",
+      "url": "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/"
+    },
+    {
+      "index": 6,
+      "ts": "1788697017.147679",
+      "title": "Euromonitor Passport Agent integrates into Microsoft 365 Copilot via MCP",
+      "section": "🚀 Shipping with AI",
+      "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-september-3-2026/"
+    },
+    {
+      "index": 7,
+      "ts": "1788697021.428549",
+      "title": "Qwen3.8-27B leads the open-weight leaderboard",
+      "section": "🏠 Local Models",
+      "url": "https://www.promptquorum.com/local-llms/local-llm-model-updates-2026"
+    },
+    {
+      "index": 8,
+      "ts": "1788697025.555269",
+      "title": "Ollama 0.32.6 ships Apple GPU speculative decoding",
+      "section": "🏠 Local Models",
+      "url": "https://local-ai-zone.github.io/blog/September_2026_AI_Model_Updates.html"
+    },
+    {
+      "index": 9,
+      "ts": "1788697029.204649",
+      "title": "Australian Privacy Act Dec 10, 2026 deadline — automated decision-making transparency",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://vocarelaw.com.au/not-for-profits-charity/privacy-act-automated-decision-making-amendments-2026/"
+    },
+    {
+      "index": 10,
+      "ts": "1788697033.996739",
+      "title": "EU AI Act enforcement live — GDPR/CLOUD Act sovereignty conflict in focus",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://vucense.com/privacy-sovereignty/law-policy/eu-ai-act-enforcement-2026-sovereign-compliance-checklist/"
+    },
+    {
+      "index": 11,
+      "ts": "1788697038.175439",
+      "title": "⚠️ Australian \"data residency\" AI claims often misleading",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://www.lorikeetcx.ai/articles/ai-support-australian-data-residency-guide"
+    },
+    {
+      "index": 12,
+      "ts": "1788697042.511269",
+      "title": "Australian AI policy roadmap taking shape — Joint Select Committee appointed",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://www.bakermckenzie.com/en/insight/publications/2026/08/australia-charts-a-new-course-on-ai-regulation-and-policy"
+    },
+    {
+      "index": 13,
+      "ts": "1788697046.290319",
+      "title": "Mistral at ~$1B ARR, anchoring European sovereign AI",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://mistral.ai/news/regional-inference-open-models-new-compute/"
+    },
+    {
+      "index": 14,
+      "ts": "1788697051.107819",
+      "title": "TransformerNews — \"GPT-6 Astra might be too powerful to understand or control\"",
+      "section": "📬 From the Substacks",
+      "url": "https://www.transformernews.ai/p/openai-gpt-6-astra-might-be-too-powerful-to-understand-or-control"
+    },
+    {
+      "index": 15,
+      "ts": "1788697055.897229",
+      "title": "The Slow AI — \"Your AI Policy Does Not Apply to the Person Who Wrote It\"",
+      "section": "📬 From the Substacks",
+      "url": "https://theslowai.substack.com/p/ai-disclosure-statement-template"
+    },
+    {
+      "index": 16,
+      "ts": "1788697059.482439",
+      "title": "The Anthropic Stack — \"Five Repos, 570,000 Stars, One Actual Pattern\"",
+      "section": "📬 From the Substacks",
+      "url": "https://theanthropicstack.substack.com/p/five-repos-570000-stars-one-actual"
+    },
+    {
+      "index": 17,
+      "ts": "1788697062.633509",
+      "title": "AI Agents Simplified — \"Forget the Demo. Can Your AI Agent Make Money?\"",
+      "section": "📬 From the Substacks",
+      "url": "https://aiagentssimplified.substack.com/p/forget-the-demo-can-your-ai-agent"
+    },
+    {
+      "index": 18,
+      "ts": "1788697065.812209",
+      "title": "The AI Break — Claude Fable 5.1, Gemini 3.8 Flash, NVIDIA/Hugging Face",
+      "section": "📬 From the Substacks",
+      "url": "https://theaibreak.substack.com/p/claude-fable-51-is-here-anthropics"
+    },
+    {
+      "index": 19,
+      "ts": "1788697069.021369",
+      "title": "LinkedIn @Dnya Bader (AI Governance Professional)",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    },
+    {
+      "index": 20,
+      "ts": "1788697072.527089",
+      "title": "LinkedIn @Cyber Threat Observatory (Alan Turing Institute)",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    },
+    {
+      "index": 21,
+      "ts": "1788697075.912199",
+      "title": "LinkedIn @Ravi Gopalakrishnan (HashiCorp/IBM)",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    },
+    {
+      "index": 22,
+      "ts": "1788697078.984009",
+      "title": "X — Trending (Sep 4):",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    }
+  ]
+}

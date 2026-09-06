@@ -167,6 +167,10 @@ def parse_item(block: list[str], section_heading: str) -> Item:
 
     summary = " ".join(s for s in summary_lines if s)
     take = " ".join(t for t in take_lines if t)
+    if not take and "💡" in summary:
+        summary, _, inline_take = summary.partition("💡")
+        take = _clean(TAKE_PREFIX_RE.sub("", inline_take.strip(), count=1)).strip("* ")
+        summary = summary.rstrip(" .") + ("." if summary.strip() else "")
     return Item(
         title=title,
         source=source,
@@ -195,9 +199,8 @@ def _blocks(lines: list[str]) -> list[list[str]]:
 def _group_item_blocks(blocks: list[list[str]]) -> list[list[str]]:
     """Normalise the three item shapes the briefs have used into bold-title blocks.
 
-    - `**Title**` block: as is.
-    - `### Title` heading: absorbs every following plain block until the next item starts,
-      because that style puts blank lines between source, body and take.
+    - `**Title**` block or `### Title` heading: absorbs every following plain block until the
+      next item starts, because some days put blank lines between source, body and take.
     - Bullet list of `- **Title** ...` lines: one item per line.
     """
     out: list[list[str]] = []
@@ -219,8 +222,7 @@ def _group_item_blocks(blocks: list[list[str]]) -> list[list[str]]:
         if first.lstrip().startswith("**") and not SOURCE_LINE_RE.match(first.strip()):
             if open_heading:
                 out.append(open_heading)
-                open_heading = None
-            out.append(b)
+            open_heading = list(b)
             continue
         if open_heading is not None:
             open_heading.extend(b)

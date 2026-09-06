@@ -23,11 +23,12 @@ Do not hand-write messages as a fallback; a broken parser is a bug to fix, not t
 
 ## 2. Post
 
-1. Send `parent` to the `briefs` channel with `slack_send_message`. Note the message link that
-   comes back; the `p` number at the end of the link is the timestamp with the dot removed
-   (`p1725400000123456` is ts `1725400000.123456`).
+1. Send `parent` to the `briefs` channel with `slack_send_message`. The result carries
+   `message_context.message_ts`; that is the parent timestamp. Keep it.
 2. For each item in order, send `text` as a thread reply: same channel, `thread_ts` set to the
-   parent timestamp. Do not set `reply_broadcast`. Note each reply's link.
+   parent timestamp. Do not set `reply_broadcast`. Keep each reply's `message_ts`.
+   Send the replies as parallel tool calls in batches; Slack accepted 22 in one burst on the
+   4 Sep dry run without a rate-limit error.
 3. Slack rate-limits bursts. If a send errors, wait a few seconds and retry that one item once.
    If it fails again, continue with the rest and list the failed indexes in the summary.
 

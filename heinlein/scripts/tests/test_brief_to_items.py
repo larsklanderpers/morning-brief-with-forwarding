@@ -305,3 +305,21 @@ def test_legend_is_first_line_only(tmp_path):
     p = tmp_path / "reactions.md"
     p.write_text("\n📌 file · 🔍 dig\n\n<!--\nhidden contract\n-->\n", encoding="utf-8")
     assert b2i.load_legend(p) == "📌 file · 🔍 dig"
+
+
+INLINE_TAKE = """# 🤖 AI Morning Brief
+**Friday, 4 September 2026**
+
+## 🔬 Frontier Labs
+
+**Anthropic releases Claude Fable 5.1**
+Source: VentureBeat | https://venturebeat.com/x
+Released Sep 1. Cache reads cut 75%. 💡 Strategic take: The 75% cut is the commercially significant number. It reprices the business case.
+"""
+
+
+def test_inline_take_on_summary_line_is_split_out():
+    brief = b2i.parse_brief(INLINE_TAKE, "ai_brief_2026-09-04.md")
+    item = brief.sections[0].items[0]
+    assert item.summary == "Released Sep 1. Cache reads cut 75%."
+    assert item.take == "The 75% cut is the commercially significant number. It reprices the business case."
