@@ -26,6 +26,7 @@ heinlein/
   common/
     brief-rules.md           item shape, accuracy rules, voice notes shared by all three briefs
     post-brief-to-slack.md   the procedure every brief runs at the end to post itself
+    post-to-out.md           how any session, Cowork or Code, posts a draft or note to #heinlein-out
   skills/
     brief-cyber.md           04:30 daily  -> Daily Briefs/brief_YYYY-MM-DD.md
     brief-ai.md              04:45 daily  -> AI Briefs/ai_brief_YYYY-MM-DD.md

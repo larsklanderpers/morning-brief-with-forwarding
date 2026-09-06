@@ -81,6 +81,14 @@ Invoke a package by name in chat ("interview me on X", "research this", "run the
 - **Lars holds the final gate.** Nothing here publishes or overwrites. Revisions save as new `-rvN` files beside the original; his edits at sign-off feed back into the voice rubric.
 - **Publish conventions are untouched.** Index update, Google Drive dual-write, and stage-move/rename all run exactly as they do today, after sign-off.
 
+## Delivery to Slack (added 2026-09-06, Heinlein)
+
+When a stage produces a file Lars will read (a draft, a revision, a research note, a panel
+verdict), post it to `#heinlein-out` following `heinlein/common/post-to-out.md`. Works from Cowork
+and from Claude Code; both hold the same Slack connector. His reactions there (another pass,
+re-verify, park) come back through the Heinlein intake tick. This replaces "present the file so he
+can open it" as the hand-off; the file on disk stays the record.
+
 ## Running just one package
 
 You don't have to run the whole chain. Common single moves:
@@ -102,3 +110,22 @@ It measures **provenance, not voice** (Claude-assisted drafts will read as AI-As
 
 ## Overpolish guard on the 9.0 bar (Lars's priority, 21 Jul 2026)
 The raised bar is a bar on **voice-truth and substance, not polish.** Intentional rough edges that serve his voice score a 10 on voice-fidelity and are never "corrected"; the panel stops the moment voice-fidelity and slop are maxed, even if a tightening seat could smooth further. "Top flight" = unmistakably Lars and genuinely good — never buffed into competent mush.
+
+---
+
+## Week-shaping skills (added 2026-08-08)
+
+Three skills sit *upstream* of the writing flow. They decide what gets written; the flow
+(interviewer -> research-assistant -> draft -> editor-panel -> sign-off -> final-review) decides
+how well it gets written.
+
+- **story-candidate** — captures one signal into `Vault\Writing\Signals\`, update-don't-duplicate.
+- **draft-week** — sweeps what ran, what is locked and what is unspent, then proposes a seven-day
+  shaping note with a capstone spine. Proposal only.
+- **lock-plan** — freezes an agreed week to `References\week-plan_YYYY-MM-DD.md`, registers it in
+  `CLAUDE.md` and reconciles memory and the index.
+
+**Deliberately NOT snapshotted here.** The installed skills are authoritative. This project has been
+bitten three times by the same guidance existing in three copies and diverging; a fourth copy in this
+folder would be that failure again. If a rule in those skills needs changing, change the installed
+skill and change nothing else.
