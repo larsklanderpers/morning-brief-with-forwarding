@@ -1,7 +1,7 @@
 {
   "_comment": "Intake watermarks and processed map. Slack ts strings. Edited only by the intake skill.",
   "watermarks": {
-    "inbox": "1788741714.512159",
+    "inbox": "1788808700.378669",
     "out": "0"
   },
   "processed": {
@@ -18,7 +18,25 @@
       "file": "Research Notes/intake/intake_2026-09-06_brooks-anthropomorphising.md",
       "verdict": "backgrounder",
       "processed_at": "2026-09-06T09:50-07:00"
+    },
+    "C0BVCSV0PJ5:intake_item:1788741714.512159": {
+      "channel": "inbox",
+      "kind": "intake_item",
+      "reaction": "",
+      "ok": false,
+      "session_id": "",
+      "cost_usd": 0.0,
+      "turns": 0,
+      "processed_at": "2026-09-06T17:45:37-0700"
+    },
+    "1788808700.378669": {
+      "channel": "inbox",
+      "reactions_handled": [],
+      "file": "Research Notes/intake/intake_2026-09-07_pro-worker-ai.md",
+      "verdict": "feeds a planned piece - Sun 13 Sep capstone Four Numbers No Instrument",
+      "filed_to": "References/week-plan_2026-09-07.md (Sun 13 Sep amendment block)",
+      "processed_at": "2026-09-07T12:20-07:00"
     }
   },
-  "last_run": "2026-09-06T09:50-07:00 (bot, single item)"
+  "last_run": "2026-09-07T12:20-07:00 (bot, single-item intake)"
 }
