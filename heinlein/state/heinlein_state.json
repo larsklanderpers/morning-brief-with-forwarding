@@ -1,7 +1,7 @@
 {
   "_comment": "Intake watermarks and processed map. Slack ts strings. Edited only by the intake skill.",
   "watermarks": {
-    "inbox": "1788705558.071959",
+    "inbox": "1788741714.512159",
     "out": "0"
   },
   "processed": {
@@ -11,7 +11,14 @@
       "file": "Research Notes/intake/intake_2026-09-06_coe-ai-treaty.md",
       "verdict": "feeds a thread",
       "processed_at": "2026-09-06T07:55-07:00"
+    },
+    "1788741714.512159": {
+      "channel": "inbox",
+      "reactions_handled": [],
+      "file": "Research Notes/intake/intake_2026-09-06_brooks-anthropomorphising.md",
+      "verdict": "backgrounder",
+      "processed_at": "2026-09-06T09:50-07:00"
     }
   },
-  "last_run": "2026-09-06T07:55-07:00 (manual, in session)"
+  "last_run": "2026-09-06T09:50-07:00 (bot, single item)"
 }
