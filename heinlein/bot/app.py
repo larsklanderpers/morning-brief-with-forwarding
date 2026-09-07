@@ -103,6 +103,8 @@ def handle(job: events.Job) -> None:
             slack.post(job.channel_id, chunk, thread_ts=job.thread_ts)
         if result.ok:
             slack.react(job.channel_id, job.ts, events.RECEIPT_REACTION)
+        log.info("job %s -> %s (%d turns, $%.2f)%s", key, "ok" if result.ok else "FAILED", result.turns,
+                 result.cost_usd, "" if result.ok else f"; stderr: {result.stderr[-300:]}")
         state.mark(key, {"channel": job.channel_name, "kind": job.kind, "reaction": job.reaction,
                          "ok": result.ok, "session_id": result.session_id, "cost_usd": result.cost_usd,
                          "turns": result.turns})

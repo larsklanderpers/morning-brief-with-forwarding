@@ -8,6 +8,7 @@ import json
 import os
 import shutil
 import subprocess
+import time
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -47,18 +48,40 @@ def build_args(cli: str, prompt: str, max_turns: int = DEFAULT_MAX_TURNS, mcp_co
     return args
 
 
+def _find_result_object(stdout: str) -> dict | None:
+    """The CLI prints one JSON object, but other lines can surround it (warnings, tool chatter).
+    Take the whole thing if it parses; otherwise the last line that parses as a result object;
+    otherwise any parsable line."""
+    try:
+        data = json.loads(stdout)
+        if isinstance(data, dict):
+            return data
+    except json.JSONDecodeError:
+        pass
+    candidates: list[dict] = []
+    for line in stdout.splitlines():
+        line = line.strip()
+        if not line.startswith("{"):
+            continue
+        try:
+            obj = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+        if isinstance(obj, dict):
+            candidates.append(obj)
+    for obj in reversed(candidates):
+        if obj.get("type") == "result" or "result" in obj:
+            return obj
+    return candidates[-1] if candidates else None
+
+
 def parse_result(stdout: str) -> RunResult:
     stdout = stdout.strip()
     if not stdout:
         return RunResult(False, "Claude returned no output.")
-    try:
-        data = json.loads(stdout)
-    except json.JSONDecodeError:
-        last = stdout.splitlines()[-1]
-        try:
-            data = json.loads(last)
-        except json.JSONDecodeError:
-            return RunResult(False, "Claude returned non-JSON output.", raw={"stdout": stdout[-2000:]})
+    data = _find_result_object(stdout)
+    if data is None:
+        return RunResult(False, "Claude returned non-JSON output.", raw={"stdout": stdout[-4000:]})
     text = str(data.get("result") or "").strip()
     ok = not data.get("is_error", False) and bool(text)
     return RunResult(
@@ -79,13 +102,19 @@ def run(prompt: str, root: str | Path, timeout_min: int = 15, cli: str | None = 
     env.setdefault("PYTHONIOENCODING", "utf-8")
     try:
         proc = subprocess.run(
-            args, cwd=str(root), capture_output=True, text=True, encoding="utf-8",
-            errors="replace", timeout=timeout_min * 60, env=env,
+            args, cwd=str(root), capture_output=True, stdin=subprocess.DEVNULL, text=True,
+            encoding="utf-8", errors="replace", timeout=timeout_min * 60, env=env,
         )
     except subprocess.TimeoutExpired:
         return RunResult(False, f"Job exceeded {timeout_min} minutes and was stopped.")
     result = parse_result(proc.stdout)
     result.stderr = (proc.stderr or "")[-2000:]
+    if not result.ok:
+        dump_dir = Path(__file__).resolve().parent / "logs"
+        dump_dir.mkdir(exist_ok=True)
+        stamp = time.strftime("%Y%m%d-%H%M%S")
+        (dump_dir / f"job-{stamp}.stdout.txt").write_text(proc.stdout or "", encoding="utf-8")
+        (dump_dir / f"job-{stamp}.stderr.txt").write_text(proc.stderr or "", encoding="utf-8")
     if proc.returncode != 0 and result.ok:
         result.ok = False
     return result

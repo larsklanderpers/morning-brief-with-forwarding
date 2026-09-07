@@ -63,3 +63,9 @@ def test_post_helpers():
     assert lines[2] == "v1, not panelled"
     assert lines[-1].startswith("React:")
     assert len(parent) <= 3900
+
+
+def test_parse_result_finds_json_among_noise_lines():
+    noisy = "Some warning line\n" + json.dumps({"type": "system", "x": 1}) + "\n" + json.dumps({"type": "result", "result": "Filed it.", "is_error": False, "num_turns": 3}) + "\nTrailing noise"
+    r = runner.parse_result(noisy)
+    assert r.ok and r.text == "Filed it." and r.turns == 3
