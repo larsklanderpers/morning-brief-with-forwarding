@@ -74,6 +74,14 @@ signatures, one ratification (the EU), in force nowhere, private actors left to 
 "other appropriate measures", defence excluded, Australia negotiated and never signed. The improvised
 instruments in this thread bite; the formal one does not yet. That inversion is a piece on its own.
 
+**Promoted 2026-09-12 (Heinlein inbox, Lars).** The UK arrives at the soft end of the regime.
+[[UK AI Risk Management Toolkit - guidance, not a gate]]: DSIT, 8 Sep 2026, filed on GOV.UK as guidance
+for departments, with no stated requirement to use it, an Orange Book 5x5 scoring method and an Excel
+workbook. The central risk log is something GDS only "encourages". Against
+[[NSW mandates AI registration and assessment across government]] it is the same spreadsheet with the
+opposite status: one government made it a gate, the other a suggestion. It names neither ISO/IEC 42001
+nor NIST AI RMF.
+
 ## Pieces
 
 - 2026-07-06 — Welcome to the Other Side of the Form *(· KYC)*

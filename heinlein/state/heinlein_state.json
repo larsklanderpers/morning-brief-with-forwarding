@@ -1,7 +1,7 @@
 {
   "_comment": "Intake watermarks and processed map. Slack ts strings. Edited only by the intake skill.",
   "watermarks": {
-    "inbox": "1788808700.378669",
+    "inbox": "1789256189.103029",
     "out": "0"
   },
   "processed": {
@@ -36,7 +36,222 @@
       "verdict": "feeds a planned piece - Sun 13 Sep capstone Four Numbers No Instrument",
       "filed_to": "References/week-plan_2026-09-07.md (Sun 13 Sep amendment block)",
       "processed_at": "2026-09-07T12:20-07:00"
+    },
+    "C0BVCSV0PJ5:intake_item:1788808700.378669": {
+      "channel": "inbox",
+      "kind": "intake_item",
+      "reaction": "",
+      "ok": false,
+      "session_id": "",
+      "cost_usd": 0.0,
+      "turns": 0,
+      "processed_at": "2026-09-07T12:23:02-0700"
+    },
+    "C0BUVJE9A9M:followup:1789256028.291379": {
+      "channel": "briefs",
+      "kind": "followup",
+      "reaction": "",
+      "ok": false,
+      "session_id": "",
+      "cost_usd": 0.0,
+      "turns": 0,
+      "processed_at": "2026-09-12T16:37:50-0700"
+    },
+    "C0BVCSV0PJ5:followup:1788975153.589619": {
+      "channel": "inbox",
+      "kind": "followup",
+      "reaction": "",
+      "ok": false,
+      "session_id": "",
+      "cost_usd": 0.0,
+      "turns": 0,
+      "processed_at": "2026-09-12T16:36:42-0700"
+    },
+    "C0BVCSV0PJ5:followup:1789092636.186849": {
+      "channel": "inbox",
+      "kind": "followup",
+      "reaction": "",
+      "ok": false,
+      "session_id": "",
+      "cost_usd": 0.0,
+      "turns": 0,
+      "processed_at": "2026-09-12T16:36:49-0700"
+    },
+    "C0BVCSV0PJ5:intake_item:1789256189.103029": {
+      "channel": "inbox",
+      "kind": "intake_item",
+      "reaction": "",
+      "ok": false,
+      "session_id": "",
+      "cost_usd": 0.0,
+      "turns": 0,
+      "processed_at": "2026-09-12T16:37:27-0700"
+    },
+    "1789256074.185469": {
+      "channel": "briefs",
+      "reactions_handled": [],
+      "file": "Research Notes/intake/intake_2026-09-12_idscan-breach.md",
+      "verdict": "backgrounder",
+      "note": "brief item 5 of 2026-09-12 cyber brief echoed as a Lars followup; not a Lars instruction; source fetch failed",
+      "processed_at": "2026-09-12T16:40-07:00"
+    },
+    "C0BUVJE9A9M:followup:1789256232.048269": {
+      "channel": "briefs",
+      "kind": "followup",
+      "reaction": "",
+      "ok": false,
+      "session_id": "",
+      "cost_usd": 0.0,
+      "turns": 0,
+      "processed_at": "2026-09-12T16:38:04-0700"
+    },
+    "C0BVCSV0PJ5:mention:1789256189.103029": {
+      "channel": "inbox",
+      "kind": "mention",
+      "reaction": "",
+      "ok": false,
+      "session_id": "",
+      "cost_usd": 0.0,
+      "turns": 0,
+      "processed_at": "2026-09-12T16:38:17-0700"
+    },
+    "C0BVCSV0PJ5:followup:1789187930.996739": {
+      "channel": "inbox",
+      "kind": "followup",
+      "reaction": "",
+      "ok": false,
+      "session_id": "",
+      "cost_usd": 0.0,
+      "turns": 0,
+      "processed_at": "2026-09-12T16:39:21-0700"
+    },
+    "C0BUVJE9A9M:followup:1789256388.737989": {
+      "channel": "briefs",
+      "kind": "followup",
+      "reaction": "",
+      "ok": false,
+      "session_id": "",
+      "cost_usd": 0.0,
+      "turns": 0,
+      "processed_at": "2026-09-12T16:40:44-0700"
+    },
+    "C0BVCSV0PJ5:followup:1789148895.077749": {
+      "channel": "inbox",
+      "kind": "followup",
+      "reaction": "",
+      "ok": false,
+      "session_id": "",
+      "cost_usd": 0.0,
+      "turns": 0,
+      "processed_at": "2026-09-12T16:41:25-0700"
+    },
+    "C0BVCSV0PJ5:followup:1789187991.955619": {
+      "channel": "inbox",
+      "kind": "followup",
+      "reaction": "",
+      "ok": false,
+      "session_id": "",
+      "cost_usd": 0.0,
+      "turns": 0,
+      "processed_at": "2026-09-12T16:42:07-0700"
+    },
+    "1788975111.085239": {
+      "channel": "inbox",
+      "reactions_handled": [],
+      "file": "Research Notes/intake/intake_2026-09-12_poteto-pstack.md",
+      "verdict": "feeds a planned piece - Sat 19 Sep The Control Plane I Built (drafting aid)",
+      "filed_to": "Research Notes/intake; note on References/week-plan_2026-09-14.md board (Carried on purpose)",
+      "processed_at": "2026-09-12T16:45-07:00"
+    },
+    "1788975130.863539": {
+      "channel": "inbox",
+      "reactions_handled": [],
+      "file": "Research Notes/intake/intake_2026-09-12_poteto-pstack.md",
+      "verdict": "feeds a planned piece - Sat 19 Sep The Control Plane I Built (drafting aid)",
+      "filed_to": "Research Notes/intake; note on References/week-plan_2026-09-14.md board (Carried on purpose)",
+      "processed_at": "2026-09-12T16:45-07:00",
+      "note": "second post of item 1788975111.085239"
+    },
+    "1788975153.589619": {
+      "channel": "inbox",
+      "reactions_handled": [],
+      "file": "Research Notes/intake/intake_2026-09-12_poteto-pstack.md",
+      "verdict": "feeds a planned piece - Sat 19 Sep The Control Plane I Built (drafting aid)",
+      "filed_to": "Research Notes/intake; note on References/week-plan_2026-09-14.md board (Carried on purpose)",
+      "processed_at": "2026-09-12T16:45-07:00",
+      "note": "Lars's question for item 1788975111.085239; reply threaded here"
+    },
+    "1789092636.186849": {
+      "channel": "inbox",
+      "reactions_handled": [
+        "pushpin (in words)"
+      ],
+      "file": "Research Notes/intake/intake_2026-09-12_uk-ai-risk-toolkit.md",
+      "verdict": "feeds a thread - Ad Hoc Regulatory Regime (+ Trust Boundaries)",
+      "filed_to": "Vault/Writing/Signals/UK AI Risk Management Toolkit - guidance, not a gate.md; hub lines in both threads",
+      "processed_at": "2026-09-12T16:45-07:00"
+    },
+    "1789148895.077749": {
+      "channel": "inbox",
+      "reactions_handled": [
+        "mag (in words)",
+        "pencil2 (in words)"
+      ],
+      "file": "Research Notes/intake/intake_2026-09-12_congress-ai-policy-window.md",
+      "verdict": "feeds a planned piece - Tue 15 Sep political variation (his ruling, late)",
+      "filed_to": "References/research_tue15-political-delta_2026-09-12.md; Substack Drafts/substack_draft_rules-you-can-read_2026-09-15.md (seed); week-plan_2026-09-14 Tue 15 row + Blocked-on-him; SUBSTACK_INDEX row",
+      "processed_at": "2026-09-12T16:45-07:00"
+    },
+    "1789187915.824589": {
+      "channel": "inbox",
+      "reactions_handled": [
+        "mag (in words)"
+      ],
+      "file": "Research Notes/intake/intake_2026-09-12_openai-agents-api.md",
+      "verdict": "feeds a thread - Trust Boundaries (+ Machine Identity)",
+      "filed_to": "References/research_openai-agents-api_2026-09-12.md; Vault/Writing/Signals/Managed agent harnesses - the vendor keeps the session.md; hub lines; Sat 19 and Thu 17 notes on 14 Sep board",
+      "processed_at": "2026-09-12T16:45-07:00",
+      "note": "video is Frank Coyle's ontology talk, not the Agents API; cross-referenced in item 1789187965.320589"
+    },
+    "1789187930.996739": {
+      "channel": "inbox",
+      "reactions_handled": [
+        "mag (in words)"
+      ],
+      "file": "Research Notes/intake/intake_2026-09-12_openai-agents-api.md",
+      "verdict": "feeds a thread - Trust Boundaries (+ Machine Identity)",
+      "filed_to": "References/research_openai-agents-api_2026-09-12.md; Vault/Writing/Signals/Managed agent harnesses - the vendor keeps the session.md; hub lines; Sat 19 and Thu 17 notes on 14 Sep board",
+      "processed_at": "2026-09-12T16:45-07:00",
+      "note": "Lars's instruction for item 1789187915.824589; reply threaded here"
+    },
+    "1789187965.320589": {
+      "channel": "inbox",
+      "reactions_handled": [
+        "mag (in words)"
+      ],
+      "file": "Research Notes/intake/intake_2026-09-12_ontology-aie-talks.md",
+      "verdict": "feeds a planned piece - Wed 16 Sep The Score Is Not the Severity (security half); ontology half backgrounder",
+      "filed_to": "References/research_ontology_2026-09-12.md; Wed 16 note on 14 Sep board",
+      "processed_at": "2026-09-12T16:45-07:00"
+    },
+    "1789187991.955619": {
+      "channel": "inbox",
+      "reactions_handled": [
+        "mag (in words)"
+      ],
+      "file": "Research Notes/intake/intake_2026-09-12_ontology-aie-talks.md",
+      "verdict": "feeds a planned piece - Wed 16 Sep The Score Is Not the Severity (security half); ontology half backgrounder",
+      "filed_to": "References/research_ontology_2026-09-12.md; Wed 16 note on 14 Sep board",
+      "processed_at": "2026-09-12T16:45-07:00",
+      "note": "Lars's instruction for item 1789187965.320589; reply threaded here"
+    },
+    "1789256189.103029": {
+      "channel": "inbox",
+      "reactions_handled": [],
+      "file": null,
+      "verdict": "not an item (@Heinlein bot test)",
+      "processed_at": "2026-09-12T16:45-07:00"
     }
   },
-  "last_run": "2026-09-07T12:20-07:00 (bot, single-item intake)"
+  "last_run": "2026-09-12T16:45-07:00 (desktop intake tick, backlog 7 to 12 Sep, run in session)"
 }
