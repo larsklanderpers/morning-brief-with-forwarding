@@ -55,6 +55,35 @@ def test_thread_reply_is_a_followup_on_the_parent():
     assert job.ts == "2.000" and job.thread_ts == "2.000"
 
 
+CONNECTOR = {
+    "app_id": "A08SF47R6P4",
+    "blocks": [{"type": "context", "elements": [{"type": "mrkdwn", "text": "*Sent using* Claude"}]}],
+}
+
+
+def test_thread_reply_posted_through_an_app_is_not_a_followup():
+    # The Claude connector posts under Lars's user id. Its thread replies are Heinlein's own
+    # answers (or brief items), and treating them as his instructions loops the bot.
+    reply = msg("C0BVCSV0PJ5", text="Filed. Verdict: feeds a thread. *Sent using* Claude", ts="3.300",
+                thread_ts="3.000", **CONNECTOR)
+    assert events.classify(reply, CFG, BOT) is None
+    brief_item = msg("C0BUVJE9A9M", text="*5. IDScan breach*", ts="4.400", thread_ts="4.000", app_id="A08SF47R6P4")
+    assert events.classify(brief_item, CFG, BOT) is None
+
+
+def test_thread_reply_typed_by_lars_is_still_a_followup():
+    typed = msg("C0BVCSV0PJ5", text="file it under Trust Boundaries", ts="3.301", thread_ts="3.000",
+                client_msg_id="1b8b4438-ca44-46cc-a7ff-0d8e02aa7868")
+    job = events.classify(typed, CFG, BOT)
+    assert job is not None and job.kind == "followup"
+
+
+def test_top_level_inbox_post_through_an_app_is_still_an_item():
+    # Lars can forward a link to the inbox from a Claude chat; that is still his item.
+    job = events.classify(msg("C0BVCSV0PJ5", text="https://example.com/y", ts="5.500", **CONNECTOR), CFG, BOT)
+    assert job is not None and job.kind == "intake_item"
+
+
 def test_top_level_post_outside_inbox_is_ignored():
     assert events.classify(msg("C0BUVJE9A9M", text="stray"), CFG, BOT) is None
     assert events.classify(msg("C0C00K4PSH2", text="stray"), CFG, BOT) is None

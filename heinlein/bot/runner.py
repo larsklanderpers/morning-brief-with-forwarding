@@ -37,9 +37,11 @@ def resolve_cli(explicit: str | None = None) -> str:
     raise FileNotFoundError(f"Claude Code CLI not found: {candidate}. Install it and run `claude login` once.")
 
 
-def build_args(cli: str, prompt: str, max_turns: int = DEFAULT_MAX_TURNS, mcp_config: str | None = None,
+def build_args(cli: str, max_turns: int = DEFAULT_MAX_TURNS, mcp_config: str | None = None,
                resume: str | None = None) -> list[str]:
-    args = [cli, "-p", prompt, "--output-format", "json", "--max-turns", str(max_turns),
+    # The prompt goes on stdin, never argv: on Windows `claude` is npm's claude.cmd, and cmd.exe
+    # truncates an argument at its first newline and interprets & | < > inside it.
+    args = [cli, "-p", "--output-format", "json", "--max-turns", str(max_turns),
             "--allowedTools", ALLOWED_TOOLS, "--permission-mode", "acceptEdits"]
     if mcp_config:
         args += ["--mcp-config", mcp_config]
@@ -97,12 +99,12 @@ def parse_result(stdout: str) -> RunResult:
 def run(prompt: str, root: str | Path, timeout_min: int = 15, cli: str | None = None,
         max_turns: int = DEFAULT_MAX_TURNS, mcp_config: str | None = None, resume: str | None = None) -> RunResult:
     exe = resolve_cli(cli)
-    args = build_args(exe, prompt, max_turns=max_turns, mcp_config=mcp_config, resume=resume)
+    args = build_args(exe, max_turns=max_turns, mcp_config=mcp_config, resume=resume)
     env = dict(os.environ)
     env.setdefault("PYTHONIOENCODING", "utf-8")
     try:
         proc = subprocess.run(
-            args, cwd=str(root), capture_output=True, stdin=subprocess.DEVNULL, text=True,
+            args, cwd=str(root), capture_output=True, input=prompt, text=True,
             encoding="utf-8", errors="replace", timeout=timeout_min * 60, env=env,
         )
     except subprocess.TimeoutExpired:

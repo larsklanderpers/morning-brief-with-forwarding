@@ -1,4 +1,5 @@
 import json
+import subprocess
 import sys
 from pathlib import Path
 
@@ -9,8 +10,8 @@ import runner  # noqa: E402
 
 
 def test_build_args_shape():
-    args = runner.build_args("claude", "do the thing", max_turns=7, mcp_config="x.json", resume="abc")
-    assert args[:3] == ["claude", "-p", "do the thing"]
+    args = runner.build_args("claude", max_turns=7, mcp_config="x.json", resume="abc")
+    assert args[:2] == ["claude", "-p"]
     assert "--output-format" in args and args[args.index("--output-format") + 1] == "json"
     assert args[args.index("--max-turns") + 1] == "7"
     assert args[args.index("--allowedTools") + 1] == runner.ALLOWED_TOOLS
@@ -18,6 +19,26 @@ def test_build_args_shape():
     assert args[args.index("--mcp-config") + 1] == "x.json"
     assert args[args.index("--resume") + 1] == "abc"
     assert "--cwd" not in args
+
+
+def test_run_sends_the_prompt_on_stdin_not_argv(monkeypatch, tmp_path):
+    # On Windows `claude` resolves to npm's claude.cmd, and cmd.exe cuts an argument at its first
+    # newline and interprets & | < > in it. The prompt is multi-line Slack text, so it must never be argv.
+    seen = {}
+
+    def fake_run(args, **kwargs):
+        seen["args"], seen["kwargs"] = args, kwargs
+        out = json.dumps({"result": "done", "session_id": "s", "total_cost_usd": 0.01, "num_turns": 2})
+        return subprocess.CompletedProcess(args, 0, stdout=out, stderr="")
+
+    monkeypatch.setattr(runner, "resolve_cli", lambda cli=None: "claude.cmd")
+    monkeypatch.setattr(runner.subprocess, "run", fake_run)
+    prompt = "HEADER LINE\nEVENT KIND: intake_item\nTEXT: a & b | c > d"
+    result = runner.run(prompt, tmp_path)
+    assert result.ok and result.turns == 2
+    assert all("EVENT KIND" not in a and "HEADER LINE" not in a for a in seen["args"])
+    assert seen["kwargs"]["input"] == prompt
+    assert "stdin" not in seen["kwargs"]
 
 
 def test_parse_result_success_and_error_shapes():

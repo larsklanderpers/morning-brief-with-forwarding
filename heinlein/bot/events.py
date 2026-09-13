@@ -107,6 +107,13 @@ def _in_scope(channel_id: str, user: str, cfg: Config, bot_user_id: str) -> str 
     return cfg.channel_name(channel_id)
 
 
+def _posted_through_an_app(event: dict) -> bool:
+    """The Claude connector posts under Lars's user id, with an app_id and no client_msg_id, so
+    its thread replies (Heinlein's own answers, brief items) look like his follow-ups. Only
+    thread replies are screened: a top-level inbox post forwarded from a Claude chat is still his."""
+    return bool(event.get("app_id")) and not event.get("client_msg_id")
+
+
 def _classify_message(event: dict, cfg: Config, bot_user_id: str) -> Job | None:
     subtype = event.get("subtype")
     if subtype in IGNORED_MESSAGE_SUBTYPES:
@@ -125,6 +132,8 @@ def _classify_message(event: dict, cfg: Config, bot_user_id: str) -> Job | None:
     files = tuple(_file_summary(f) for f in event.get("files", []) or [])
 
     if thread_ts and thread_ts != ts:
+        if _posted_through_an_app(event):
+            return None
         if name in ("inbox", "briefs", "out"):
             return Job("followup", channel_id, name, thread_ts, thread_ts, user, text=text, files=files)
         return None
