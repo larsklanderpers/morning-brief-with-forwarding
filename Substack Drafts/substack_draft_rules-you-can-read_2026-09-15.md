@@ -1,5 +1,7 @@
 # [WORKING TITLE] Rules You Can Read
 
+**SUPERSEDED 12 Sep 2026 - DO NOT DRAFT FROM THIS SEED.** The Tue 15 day chat took the slot on his word with `substack_draft_institutionalists-accelerationists_2026-09-15.md` (week plan v0.4). Kept for its evidence map only; the research notes it cites stay live.
+
 **Status: Draft (SEED ONLY). Tuesday, 15 September 2026. No prose. Not panelled. Not his yet.**
 **Seeded 12 Sep 2026 by the Heinlein intake tick from his #heinlein-inbox note of 11 Sep, 10:48 PDT ("we can
 go ahead and draft it since it's a different kind of piece. It's probably gonna take me a little bit extra work
