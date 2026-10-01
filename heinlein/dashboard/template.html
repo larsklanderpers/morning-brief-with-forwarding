@@ -1,0 +1,432 @@
+<title>Brief Desk</title>
+<meta name="robots" content="noindex,nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap">
+<style>
+:root{
+  --ground:#F3F5F7; --surface:#FFFFFF; --ink:#16202B; --muted:#5B6877; --faint:#8A96A3; --rule:#D9DFE6; --hover:#EAEFF4;
+  --cyber:#2F6DB5; --ai:#7A4FD0; --work:#1D8A74;
+  --ok:#2E8540; --warn:#B7791F; --bad:#C2412D; --star:#C98A0C;
+  --serif:"Newsreader",Georgia,"Times New Roman",serif;
+  --sans:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ground:#0F151B; --surface:#172029; --ink:#E4EAF0; --muted:#93A1B0; --faint:#6B7887; --rule:#28333E; --hover:#1E2934;
+    --cyber:#6FA3E6; --ai:#A98BEA; --work:#4CC2A6; --ok:#5DBB6E; --warn:#E0A84A; --bad:#EE7A63; --star:#F0B43A;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ground:#0F151B; --surface:#172029; --ink:#E4EAF0; --muted:#93A1B0; --faint:#6B7887; --rule:#28333E; --hover:#1E2934;
+  --cyber:#6FA3E6; --ai:#A98BEA; --work:#4CC2A6; --ok:#5DBB6E; --warn:#E0A84A; --bad:#EE7A63; --star:#F0B43A;
+}
+*{box-sizing:border-box}
+body{background:var(--ground);color:var(--ink);font:14px/1.5 var(--sans);margin:0}
+.wrap{max-width:1180px;margin:0 auto;padding:20px 16px 48px;display:grid;gap:20px}
+a{color:inherit}
+button,select,input{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--cyber);outline-offset:2px}
+
+header.top{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px 16px}
+header.top h1{font:600 26px/1.1 var(--serif);margin:0;letter-spacing:-.01em}
+header.top .built{font:12px var(--mono);color:var(--muted)}
+
+.days{display:grid;grid-template-columns:repeat(8,minmax(0,1fr));gap:6px;overflow-x:auto}
+.day{background:var(--surface);border:1px solid var(--rule);border-radius:6px;padding:8px 8px 7px;text-align:left;cursor:pointer;display:grid;gap:6px;min-width:84px}
+.day:hover{background:var(--hover)}
+.day[aria-pressed="true"]{border-color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
+.day .d{font:500 12px var(--mono);color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+.day .d b{color:var(--ink);font-weight:500}
+.pips{display:flex;gap:4px;align-items:center}
+.pip{width:18px;height:6px;border-radius:3px;background:var(--rule)}
+.pip.posted{background:var(--k)}
+.pip.on_disk{background:transparent;box-shadow:inset 0 0 0 1.5px var(--k)}
+.day .n{font:11px var(--mono);color:var(--muted);display:flex;gap:8px}
+.day .n .w{color:var(--warn)}
+
+.cols{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:20px;align-items:start}
+@media (max-width:900px){.cols{grid-template-columns:1fr}}
+
+.status{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+@media (max-width:640px){.status{grid-template-columns:1fr}}
+.card{background:var(--surface);border:1px solid var(--rule);border-radius:6px;padding:12px 14px;display:grid;gap:6px;border-top:3px solid var(--k)}
+.card h2{font:600 12px var(--sans);text-transform:uppercase;letter-spacing:.06em;color:var(--k);margin:0;display:flex;justify-content:space-between;gap:8px}
+.card .state{font:12px var(--mono);color:var(--muted);display:flex;flex-wrap:wrap;gap:4px 10px}
+.chip{display:inline-flex;align-items:center;gap:5px;font:500 11px var(--mono);padding:1px 7px;border-radius:10px;border:1px solid currentColor}
+.chip.posted{color:var(--ok)} .chip.on_disk{color:var(--warn)} .chip.missing{color:var(--bad)} .chip.warn{color:var(--warn)}
+.card p.sig{font:15px/1.5 var(--serif);margin:2px 0 0;color:var(--ink)}
+.card p.sig.clamp{display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+.linkbtn{background:none;border:0;padding:0;color:var(--muted);text-decoration:underline;cursor:pointer;font-size:12px;justify-self:start}
+
+.filters{display:flex;flex-wrap:wrap;gap:8px;align-items:center;position:sticky;top:env(safe-area-inset-top,0px);background:var(--ground);padding-block:8px;z-index:2}
+.seg{display:inline-flex;border:1px solid var(--rule);border-radius:6px;overflow:hidden;background:var(--surface)}
+.seg button{border:0;background:none;padding:5px 10px;cursor:pointer;display:inline-flex;gap:6px;align-items:center;font-size:13px}
+.seg button+button{border-left:1px solid var(--rule)}
+.seg button[aria-pressed="true"]{background:var(--hover);font-weight:600}
+.seg .sw{width:8px;height:8px;border-radius:50%;background:var(--k)}
+.filters input[type=search]{flex:1 1 200px;min-width:0;border:1px solid var(--rule);background:var(--surface);border-radius:6px;padding:6px 10px}
+.filters select{border:1px solid var(--rule);background:var(--surface);border-radius:6px;padding:5px 8px;max-width:100%}
+.toggle{display:inline-flex;gap:6px;align-items:center;font-size:13px;color:var(--muted);cursor:pointer}
+.count{font:12px var(--mono);color:var(--muted);margin-left:auto}
+
+.list{display:grid;gap:8px}
+.item{background:var(--surface);border:1px solid var(--rule);border-left:4px solid var(--k);border-radius:6px;padding:12px 14px;display:grid;gap:6px}
+.item.read{opacity:.62}
+.item .meta{font:12px var(--mono);color:var(--muted);display:flex;flex-wrap:wrap;gap:2px 10px}
+.item .meta .kind{color:var(--k);font-weight:500}
+.item h3{font:500 18px/1.3 var(--serif);margin:0;text-wrap:balance}
+.item h3 a{text-decoration:none}
+.item h3 a:hover{text-decoration:underline}
+.item .sum{margin:0;color:var(--ink);max-width:72ch}
+.item .take{margin:0;font:italic 15px/1.5 var(--serif);color:var(--muted);max-width:72ch;padding-left:12px;border-left:2px solid var(--rule)}
+.item .acts{display:flex;flex-wrap:wrap;gap:6px;margin-top:2px}
+.act{border:1px solid var(--rule);background:none;border-radius:5px;padding:3px 9px;font-size:12px;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:5px;color:var(--muted)}
+.act:hover{background:var(--hover);color:var(--ink)}
+.act.on{color:var(--star);border-color:var(--star)}
+.act.readon{color:var(--ok);border-color:var(--ok)}
+.empty{padding:28px;text-align:center;color:var(--muted);border:1px dashed var(--rule);border-radius:6px}
+
+aside{display:grid;gap:16px}
+aside section{background:var(--surface);border:1px solid var(--rule);border-radius:6px;padding:12px 14px;display:grid;gap:8px}
+aside h2{font:600 12px var(--sans);text-transform:uppercase;letter-spacing:.06em;margin:0;color:var(--muted)}
+aside ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+aside li{font-size:13px;line-height:1.45}
+aside li .k{font:500 11px var(--mono);color:var(--k);display:block}
+aside li .f{font:11px var(--mono);color:var(--faint);word-break:break-all;display:block}
+aside li.warnli{border-left:2px solid var(--warn);padding-left:8px}
+aside .none{color:var(--muted);font-size:13px;margin:0}
+.legend{font-size:12px;color:var(--muted);display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center}
+.legend .pip{display:inline-block;vertical-align:middle;margin-right:4px}
+.item .pick{display:inline-flex;align-items:center;gap:6px;color:var(--ink);cursor:pointer}
+.item .pick input{width:16px;height:16px;accent-color:var(--k);margin:0}
+.item.sel{box-shadow:0 0 0 2px var(--k)}
+.sent{font:500 11px var(--mono);color:var(--ok);border:1px solid var(--ok);border-radius:10px;padding:0 7px}
+.tray{position:fixed;left:0;right:0;bottom:0;z-index:5;background:var(--surface);border-top:1px solid var(--rule);box-shadow:0 -6px 20px rgba(0,0,0,.08);padding:12px 16px calc(12px + env(safe-area-inset-bottom,0px))}
+.tray .in{max-width:1180px;margin:0 auto;display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center}
+.tray strong{font:600 14px var(--sans)}
+.tray select,.tray input[type=text]{border:1px solid var(--rule);background:var(--ground);border-radius:6px;padding:6px 10px;min-width:0}
+.tray input[type=text]{flex:1 1 240px}
+.btn{border:1px solid var(--ink);background:var(--ink);color:var(--ground);border-radius:6px;padding:6px 14px;font-weight:600;cursor:pointer}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+.btn.ghost{background:none;color:var(--ink);border-color:var(--rule);font-weight:500}
+.tray .msg{font-size:12px;color:var(--muted);flex-basis:100%}
+.tray .msg.err{color:var(--bad)}
+body.has-tray .wrap{padding-bottom:140px}
+aside li.dec{display:grid;gap:3px;border-left:2px solid var(--rule);padding-left:8px}
+aside li.dec.done{border-color:var(--ok)} aside li.dec.new{border-color:var(--warn)} aside li.dec.working{border-color:var(--cyber)}
+aside li.dec .top{display:flex;justify-content:space-between;gap:8px;font:500 12px var(--mono)}
+aside li.dec .t{font-size:12px;color:var(--muted)}
+aside li.dec .reply{font:14px/1.45 var(--serif);color:var(--ink)}
+@media (prefers-reduced-motion:no-preference){.item,.day{transition:background .12s,opacity .12s}}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <h1>Brief Desk</h1>
+    <span class="built" id="built"></span>
+  </header>
+
+  <nav class="days" id="days" aria-label="Choose a day"></nav>
+  <div class="legend" aria-hidden="true">
+    <span><span class="pip posted" style="--k:var(--muted)"></span>posted to Slack</span>
+    <span><span class="pip on_disk" style="--k:var(--muted)"></span>on disk only</span>
+    <span><span class="pip"></span>no brief</span>
+    <span>Pips: Cyber, AI, Work</span>
+  </div>
+
+  <div class="cols">
+    <main style="display:grid;gap:14px;min-width:0">
+      <div class="status" id="status"></div>
+
+      <div class="filters">
+        <div class="seg" id="kinds" role="group" aria-label="Filter by brief"></div>
+        <input type="search" id="q" placeholder="Search titles, summaries, takes">
+        <select id="section" aria-label="Filter by section"><option value="">All sections</option></select>
+        <label class="toggle"><input type="checkbox" id="starred"> Starred</label>
+        <label class="toggle"><input type="checkbox" id="unread"> Unread</label>
+        <button class="act" id="selall" type="button">Select all shown</button>
+        <span class="count" id="count"></span>
+      </div>
+
+      <div class="list" id="list"></div>
+    </main>
+
+    <aside>
+      <section>
+        <h2>Sent to Claude</h2>
+        <ul id="decisions"><li><p class="none">Tick items, pick what to do with them, and send. Claude picks them up from here.</p></li></ul>
+      </section>
+      <section id="lanebox">
+        <h2>Lane failures</h2>
+        <ul id="warnings"></ul>
+      </section>
+      <section id="draftbox">
+        <h2>Open drafts</h2>
+        <ul id="drafts"></ul>
+      </section>
+    </aside>
+  </div>
+</div>
+
+<div class="tray" id="tray" hidden>
+  <div class="in">
+    <strong id="traycount"></strong>
+    <select id="action" aria-label="What to do with the selected items">
+      <option value="hold">Hold for later</option>
+      <option value="research">Research deeper</option>
+      <option value="draft">Seed a draft from these</option>
+      <option value="vault">File to vault</option>
+      <option value="kill">Kill the claim</option>
+    </select>
+    <input type="text" id="note" placeholder="Note for Claude (optional): the angle, the question, which day">
+    <button class="btn" id="send" type="button">Send to Claude</button>
+    <button class="btn ghost" id="clear" type="button">Clear</button>
+    <span class="msg" id="traymsg"></span>
+  </div>
+</div>
+
+<script>
+const DATA = /*__DATA__*/null;
+const KINDS = [["cyber","Cyber"],["ai","AI"],["work","Work"]];
+const KVAR = {cyber:"var(--cyber)",ai:"var(--ai)",work:"var(--work)"};
+const STATUS_TEXT = {posted:"posted",on_disk:"not posted",missing:"no brief"};
+
+function load(key){ try { return new Set(JSON.parse(localStorage.getItem(key) || "[]")); } catch(e){ return new Set(); } }
+function save(key,set){ try { localStorage.setItem(key, JSON.stringify([...set])); } catch(e){} }
+const stars = load("briefdesk.stars"), reads = load("briefdesk.read");
+let savedView = {};
+try { savedView = JSON.parse(localStorage.getItem("briefdesk.view") || "{}"); } catch(e){}
+
+const state = {
+  day: DATA.today,
+  kinds: new Set(savedView.kinds || ["cyber","ai","work"]),
+  q: "", section: "", starred: false, unread: false, expanded: new Set()
+};
+function saveView(){ try { localStorage.setItem("briefdesk.view", JSON.stringify({kinds:[...state.kinds]})); } catch(e){} }
+
+const el = id => document.getElementById(id);
+function h(tag, attrs, ...kids){
+  const n = document.createElement(tag);
+  for (const [k,v] of Object.entries(attrs||{})) {
+    if (v == null || v === false) continue;
+    if (k === "style") n.setAttribute("style", v);
+    else if (k.startsWith("on")) n.addEventListener(k.slice(2), v);
+    else n.setAttribute(k, v === true ? "" : v);
+  }
+  for (const c of kids.flat()) if (c != null && c !== false) n.append(c.nodeType ? c : document.createTextNode(c));
+  return n;
+}
+function fmtDay(s, long){
+  const d = new Date(s + "T12:00:00");
+  return long ? d.toLocaleDateString("en-AU",{weekday:"long",day:"numeric",month:"long"})
+              : [d.toLocaleDateString("en-AU",{weekday:"short"}), d.getDate()];
+}
+function briefsFor(day){ return day === "week" ? DATA.days.flatMap(d => d.briefs) : (DATA.days.find(d => d.date === day)?.briefs || []); }
+function allItems(){ return briefsFor(state.day).flatMap(b => b.items); }
+
+function renderDays(){
+  const nav = el("days"); nav.replaceChildren();
+  for (const d of DATA.days) {
+    const [wd, dn] = fmtDay(d.date);
+    const items = d.briefs.reduce((a,b)=>a+b.items.length,0);
+    const warns = d.briefs.reduce((a,b)=>a+b.warnings.length,0);
+    nav.append(h("button",{class:"day","aria-pressed":String(state.day===d.date),onclick:()=>{state.day=d.date;state.section="";render();}},
+      h("span",{class:"d"}, wd, " ", h("b",{}, dn)),
+      h("span",{class:"pips"}, d.briefs.map(b => h("span",{class:"pip "+b.status, style:"--k:"+KVAR[b.kind], title:b.label+": "+STATUS_TEXT[b.status]}))),
+      h("span",{class:"n"}, items+" items", warns ? h("span",{class:"w"}, warns+" ⚠") : null)
+    ));
+  }
+  const total = DATA.days.reduce((a,d)=>a+d.briefs.reduce((x,b)=>x+b.items.length,0),0);
+  nav.append(h("button",{class:"day","aria-pressed":String(state.day==="week"),onclick:()=>{state.day="week";state.section="";render();}},
+    h("span",{class:"d"}, h("b",{},"Week")),
+    h("span",{class:"n"}, total+" items"),
+    h("span",{class:"n"}, "search all 7")));
+}
+
+function renderStatus(){
+  const box = el("status"); box.replaceChildren();
+  if (state.day === "week") { box.hidden = true; return; }
+  box.hidden = false;
+  for (const b of briefsFor(state.day)) {
+    const key = b.date+"-"+b.kind;
+    const open = state.expanded.has(key);
+    box.append(h("div",{class:"card", style:"--k:"+KVAR[b.kind]},
+      h("h2",{}, b.label, h("span",{class:"chip "+b.status}, STATUS_TEXT[b.status])),
+      h("div",{class:"state"},
+        h("span",{}, b.items.length+" items"),
+        b.warnings.length ? h("span",{class:"chip warn"}, b.warnings.length+" lane "+(b.warnings.length===1?"failure":"failures")) : null,
+        b.slack ? h("a",{href:b.slack,target:"_blank",rel:"noopener"},"Slack thread") : null),
+      b.signal ? h("p",{class:"sig"+(open?"":" clamp")}, b.signal) : h("p",{class:"sig",style:"color:var(--muted)"}, b.status==="missing" ? "No brief on disk for this day." : "No signal paragraph."),
+      b.signal && b.signal.length > 260 ? h("button",{class:"linkbtn",onclick:()=>{open?state.expanded.delete(key):state.expanded.add(key);renderStatus();}}, open?"Show less":"Read the full signal") : null
+    ));
+  }
+}
+
+function renderKinds(){
+  const seg = el("kinds"); seg.replaceChildren();
+  for (const [k,label] of KINDS) {
+    seg.append(h("button",{"aria-pressed":String(state.kinds.has(k)), style:"--k:"+KVAR[k], onclick:()=>{
+      if (state.kinds.has(k) && state.kinds.size>1) state.kinds.delete(k); else state.kinds.add(k);
+      saveView(); render();
+    }}, h("span",{class:"sw"}), label));
+  }
+}
+
+function renderSections(){
+  const sel = el("section");
+  const secs = [...new Set(allItems().filter(i=>state.kinds.has(i.kind)).map(i=>i.section))];
+  if (!secs.includes(state.section)) state.section = "";
+  sel.replaceChildren(h("option",{value:""},"All sections"), ...secs.map(s=>h("option",{value:s, selected:s===state.section}, s)));
+}
+
+function matches(i){
+  if (!state.kinds.has(i.kind)) return false;
+  if (state.section && i.section !== state.section) return false;
+  if (state.starred && !stars.has(i.id)) return false;
+  if (state.unread && reads.has(i.id)) return false;
+  if (state.q) {
+    const hay = (i.title+" "+i.summary+" "+i.take+" "+i.source+" "+i.section).toLowerCase();
+    if (!state.q.toLowerCase().split(/\s+/).every(w => hay.includes(w))) return false;
+  }
+  return true;
+}
+
+function toggle(set, key, id){ set.has(id) ? set.delete(id) : set.add(id); save(key, set); renderList(); renderAside(); }
+
+function renderList(){
+  const list = el("list"); list.replaceChildren();
+  const items = allItems().filter(matches);
+  el("count").textContent = items.length + (items.length===1?" item":" items");
+  if (!items.length) { list.append(h("div",{class:"empty"}, "Nothing matches these filters.")); return; }
+  const label = Object.fromEntries(KINDS);
+  for (const i of items) {
+    const starred = stars.has(i.id), read = reads.has(i.id);
+    const picked = selected.has(i.id);
+    const sentAs = sentActions.get(i.id);
+    list.append(h("article",{class:"item"+(read?" read":"")+(picked?" sel":""), style:"--k:"+KVAR[i.kind]},
+      h("div",{class:"meta"},
+        h("label",{class:"pick"}, h("input",{type:"checkbox", id:"pick-"+i.id, checked:picked, "aria-label":"Select "+i.title, onchange:e=>{ e.target.checked?selected.add(i.id):selected.delete(i.id); renderList(); renderTray(); }})),
+        h("span",{class:"kind"}, label[i.kind]),
+        sentAs ? h("span",{class:"sent"}, "Sent: "+ACTION_TEXT[sentAs]) : null,
+        state.day==="week" ? h("span",{}, fmtDay(i.date,true)) : null,
+        h("span",{}, i.section),
+        i.source ? h("span",{}, i.source) : null),
+      h("h3",{}, i.url ? h("a",{href:i.url,target:"_blank",rel:"noopener",onclick:()=>{ if(!reads.has(i.id)){reads.add(i.id);save("briefdesk.read",reads);setTimeout(renderList,0);} }}, i.title) : i.title),
+      i.summary ? h("p",{class:"sum"}, i.summary) : null,
+      i.take ? h("p",{class:"take"}, i.take) : null,
+      h("div",{class:"acts"},
+        h("button",{class:"act"+(starred?" on":""),"aria-pressed":String(starred),onclick:()=>toggle(stars,"briefdesk.stars",i.id)}, starred?"★ Starred":"☆ Star"),
+        h("button",{class:"act"+(read?" readon":""),"aria-pressed":String(read),onclick:()=>toggle(reads,"briefdesk.read",i.id)}, read?"✓ Read":"Mark read"),
+        i.slack ? h("a",{class:"act",href:i.slack,target:"_blank",rel:"noopener",title:"React here to flag it for intake"}, "Open in Slack to flag") : null)
+    ));
+  }
+}
+
+function renderAside(){
+  const w = el("warnings"); w.replaceChildren();
+  const briefs = briefsFor(state.day).filter(b=>b.warnings.length);
+  if (!briefs.length) w.append(h("li",{}, h("p",{class:"none"}, "No lane failures recorded for "+(state.day==="week"?"this week.":"this day."))));
+  for (const b of briefs) for (const msg of b.warnings)
+    w.append(h("li",{class:"warnli", style:"--k:"+KVAR[b.kind]}, h("span",{class:"k"}, b.label+(state.day==="week"?" · "+b.date:"")), msg.replace(/^⚠️?\s*/,"")));
+  const d = el("drafts"); d.replaceChildren();
+  if (!DATA.drafts.length) d.append(h("li",{}, h("p",{class:"none"},"No drafts marked Status: Draft in the last 7 days.")));
+  for (const x of DATA.drafts) d.append(h("li",{}, x.title, h("span",{class:"f"}, x.file+" · "+x.modified)));
+}
+
+const ACTION_TEXT = {hold:"Hold",research:"Research",draft:"Draft",vault:"Vault",kill:"Kill"};
+const STATUS_LABEL = {new:"waiting",working:"in progress",done:"done"};
+const selected = new Set();
+const sentActions = new Map();
+const itemById = new Map(DATA.days.flatMap(d=>d.briefs.flatMap(b=>b.items)).map(i=>[i.id,i]));
+let db = null, decisions = [];
+const PUBLIC = DATA.mode === "public";
+
+function renderTray(){
+  const tray = el("tray");
+  tray.hidden = selected.size === 0;
+  document.body.classList.toggle("has-tray", selected.size > 0);
+  el("traycount").textContent = selected.size + (selected.size===1?" item selected":" items selected");
+  el("send").disabled = !db && !PUBLIC;
+  if (!db && !PUBLIC && selected.size) setMsg("Sending needs this page open in claude.ai. Your selection is kept here until then.");
+}
+function setMsg(text, err){ const m = el("traymsg"); m.textContent = text || ""; m.classList.toggle("err", !!err); }
+
+// The public page has no database, so a send becomes a pre-filled issue the reader submits while
+// signed in to GitHub. The JSON block carries the same shape the db decisions use.
+function issueUrl(body){
+  const lines = [body.note ? "Note: " + body.note : "No note.", ""];
+  for (const i of body.items) lines.push("- [" + i.kind + " " + i.date + "] " + i.title + (i.url ? " " + i.url : ""));
+  lines.push("", "```json", JSON.stringify(body, null, 1), "```");
+  const title = "Brief Desk: " + (ACTION_TEXT[body.action]||body.action) + ", " + body.items.length + (body.items.length===1?" item":" items");
+  return "https://github.com/" + DATA.issues_repo + "/issues/new?labels=brief-desk&title=" + encodeURIComponent(title) + "&body=" + encodeURIComponent(lines.join("\n"));
+}
+
+async function send(){
+  if ((!db && !PUBLIC) || !selected.size) return;
+  const items = [...selected].map(id => itemById.get(id)).filter(Boolean)
+    .map(i => ({id:i.id, kind:i.kind, date:i.date, section:i.section, title:i.title, url:i.url, source:i.source}));
+  const body = {created:new Date().toISOString(), action:el("action").value, note:el("note").value.trim(), items, status:"new", reply:""};
+  if (PUBLIC) {
+    window.open(issueUrl(body), "_blank", "noopener");
+    selected.clear(); el("note").value = "";
+    renderList(); renderTray();
+    return;
+  }
+  el("send").disabled = true; setMsg("Sending...");
+  try {
+    await db.collection("decisions").add(body);
+    selected.clear(); el("note").value = "";
+    setMsg(""); renderList(); renderTray();
+  } catch (e) {
+    const why = e && e.code === "quota_exceeded" ? "The decision log is full. Ask Claude to archive old decisions."
+      : e && e.code === "invalid_argument" ? "This view can't write decisions. Only the page owner and editors can send."
+      : "Couldn't send just now. Try again in a moment.";
+    setMsg(why, true); el("send").disabled = false;
+  }
+}
+
+function renderDecisions(){
+  const ul = el("decisions"); ul.replaceChildren();
+  sentActions.clear();
+  for (const d of decisions) for (const it of (d.items||[])) if (!sentActions.has(it.id)) sentActions.set(it.id, d.action);
+  if (PUBLIC) { ul.append(h("li",{}, h("p",{class:"none"}, "Send opens a pre-filled GitHub issue. Submit it there and Claude picks it up from the issue list."))); return; }
+  if (!db) { ul.append(h("li",{}, h("p",{class:"none"}, "Open this page in claude.ai to send items to Claude and see replies here."))); return; }
+  if (!decisions.length) { ul.append(h("li",{}, h("p",{class:"none"}, "Nothing sent yet. Tick items, pick an action, send."))); return; }
+  for (const d of decisions.slice(0,15)) {
+    const when = new Date(d.created).toLocaleString("en-AU",{day:"numeric",month:"short",hour:"numeric",minute:"2-digit"});
+    ul.append(h("li",{class:"dec "+(d.status||"new")},
+      h("span",{class:"top"}, h("span",{}, ACTION_TEXT[d.action]||d.action, " · ", (d.items||[]).length, " items"), h("span",{}, STATUS_LABEL[d.status]||d.status)),
+      h("span",{class:"t"}, when + (d.note ? " · " + d.note : "")),
+      h("span",{class:"t"}, (d.items||[]).slice(0,3).map(x=>x.title).join("; ") + ((d.items||[]).length>3?"; ...":"")),
+      d.reply ? h("span",{class:"reply"}, d.reply) : null));
+  }
+}
+
+function render(){ renderDays(); renderStatus(); renderKinds(); renderSections(); renderList(); renderAside(); renderTray(); }
+
+el("selall").addEventListener("click", () => { allItems().filter(matches).forEach(i=>selected.add(i.id)); renderList(); renderTray(); });
+el("clear").addEventListener("click", () => { selected.clear(); setMsg(""); renderList(); renderTray(); });
+el("send").addEventListener("click", send);
+if (PUBLIC) { el("send").textContent = "Send as GitHub issue"; el("lanebox").hidden = true; el("draftbox").hidden = true; }
+
+(async () => {
+  try { db = window.claude && typeof window.claude.use === "function" ? await window.claude.use("db") : null; } catch(e) { db = null; }
+  if (!db) { renderDecisions(); renderTray(); return; }
+  db.collection("decisions").orderBy("created","desc").limit(50).onSnapshot(snap => {
+    decisions = snap.docs.map(d => ({_id:d.id, ...d.data()}));
+    renderDecisions(); renderList(); renderTray();
+  }, () => { renderDecisions(); });
+  renderDecisions(); renderTray();
+})();
+
+el("built").textContent = "Snapshot built " + DATA.built + " · last " + DATA.days.length + " days";
+el("q").addEventListener("input", e => { state.q = e.target.value.trim(); renderList(); });
+el("section").addEventListener("change", e => { state.section = e.target.value; renderList(); });
+el("starred").addEventListener("change", e => { state.starred = e.target.checked; renderList(); });
+el("unread").addEventListener("change", e => { state.unread = e.target.checked; renderList(); });
+render();
+</script>
