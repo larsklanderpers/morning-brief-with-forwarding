@@ -1,0 +1,72 @@
+{
+  "kind": "work",
+  "date_stamp": "2026-10-16",
+  "file": "AI Briefs/work_brief_2026-10-16.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1792153015.134479",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1792153027.890269",
+      "title": "\"Work Like the Pros: AI Agent Teams, Explained\" - Matt Maher (15 Oct, about 4K views)",
+      "section": "🎥 What Creators Are Saying (YouTube)",
+      "url": "https://www.youtube.com/watch?v=79hKmlnyvso"
+    },
+    {
+      "index": 2,
+      "ts": "1792153031.180349",
+      "title": "\"AI Agents Just Became Multiplayer. Here's How to Build Them.\" - Nate Herk (15 Oct, about 64K views)",
+      "section": "🎥 What Creators Are Saying (YouTube)",
+      "url": "https://www.youtube.com/watch?v=KZiF2J83zaY"
+    },
+    {
+      "index": 3,
+      "ts": "1792153033.877709",
+      "title": "@emollick (Ethan Mollick) - \"use the best models as orchestrators\" (16 Oct)",
+      "section": "🐦 The Conversation on X",
+      "url": "https://x.com/emollick/status/2110918113550307778"
+    },
+    {
+      "index": 4,
+      "ts": "1792153036.487929",
+      "title": "@emollick (Ethan Mollick) - \"the sudden collapse of the value of CoT\" (15 Oct)",
+      "section": "🐦 The Conversation on X",
+      "url": "https://x.com/emollick/status/2110751021454811549"
+    },
+    {
+      "index": 5,
+      "ts": "1792153038.672809",
+      "title": "AI Daily Brief - no new work episode",
+      "section": "🎙️ Podcasts & Newsletters",
+      "url": "https://www.youtube.com/@AIDailyBrief"
+    },
+    {
+      "index": 6,
+      "ts": "1792153047.559969",
+      "title": "Ethan Mollick - One Useful Thing",
+      "section": "🎙️ Podcasts & Newsletters",
+      "url": "https://www.oneusefulthing.org/archive"
+    },
+    {
+      "index": 7,
+      "ts": "1792153050.103509",
+      "title": "Workday names the jobs its task software expects to create",
+      "section": "🆕 New Roles & Archetypes Watch",
+      "url": "https://www.techrepublic.com/article/news-workday-work-intelligence-ai-workforce-planning/"
+    },
+    {
+      "index": 8,
+      "ts": "1792153053.161629",
+      "title": "Agents move from adviser to executor in HR and finance",
+      "section": "🆕 New Roles & Archetypes Watch",
+      "url": "https://www.enterprisetimes.co.uk/2026/10/16/workday-unveils-autopilot-agents-a-headless-agent-platform-and-new-decision-tools-at-rising-2026/"
+    },
+    {
+      "index": 9,
+      "ts": "1792153056.404379",
+      "title": "NPR stages the argument: Acemoglu versus OpenAI's chief economist",
+      "section": "⚖️ The Debate (kept honest, kept brief)",
+      "url": "https://www.npr.org/2026/10/13/g-s1-147853/will-ai-take-my-job-ask-an-economist"
+    }
+  ]
+}
