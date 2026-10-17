@@ -1,0 +1,163 @@
+{
+  "kind": "ai",
+  "date_stamp": "2026-10-17",
+  "file": "AI Briefs/ai_brief_2026-10-17.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1792238543.248709",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1792238549.488649",
+      "title": "Google's Gemini 4 Argon model card says it cannot rule out critical capability levels in bio, cyber and stealth",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.transformernews.ai/p/leading-the-future-struggles-ai-safety-pacs-gain-ground"
+    },
+    {
+      "index": 2,
+      "ts": "1792238553.026829",
+      "title": "White House Super Intelligence Force now requires labs to notify third parties hit by their models' incidents",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.transformernews.ai/p/leading-the-future-struggles-ai-safety-pacs-gain-ground"
+    },
+    {
+      "index": 3,
+      "ts": "1792238556.193989",
+      "title": "Jack Clark pulls his recursive self-improvement estimate forward to 2027",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.transformernews.ai/p/leading-the-future-struggles-ai-safety-pacs-gain-ground"
+    },
+    {
+      "index": 4,
+      "ts": "1792238559.038179",
+      "title": "OpenAI reportedly in early talks to buy Trail of Bits",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.transformernews.ai/p/leading-the-future-struggles-ai-safety-pacs-gain-ground"
+    },
+    {
+      "index": 5,
+      "ts": "1792238562.417169",
+      "title": "OpenAI says it now has over 1 million public-sector seats and waives licence fees for US governments",
+      "section": "🚀 Shipping with AI",
+      "url": "https://openaiglobalaffairs.substack.com/p/a-better-path-for-ai-progress"
+    },
+    {
+      "index": 6,
+      "ts": "1792238565.500119",
+      "title": "Anthropic replaces git internally as Claude-driven merges climb from 2,500 to 30,000 a day",
+      "section": "🚀 Shipping with AI",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-477"
+    },
+    {
+      "index": 7,
+      "ts": "1792238568.750099",
+      "title": "Cloudflare extends its Clef decision models to audio, video and images at about 130ms",
+      "section": "🚀 Shipping with AI",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-477"
+    },
+    {
+      "index": 8,
+      "ts": "1792238570.930649",
+      "title": "Nvidia reportedly in talks to acquire US open-model startup Reflection AI",
+      "section": "🏠 Local Models",
+      "url": "https://www.transformernews.ai/p/leading-the-future-struggles-ai-safety-pacs-gain-ground"
+    },
+    {
+      "index": 9,
+      "ts": "1792238577.274789",
+      "title": "A narrow model trained on real incidents matched frontier models at 3 to 8 times lower cost, per Ken Huang",
+      "section": "🏠 Local Models",
+      "url": "https://kenhuangus.substack.com/p/multi-agent-vs-single-agent-ai-which"
+    },
+    {
+      "index": 10,
+      "ts": "1792238582.446889",
+      "title": "⚠️ Google's $10M bid for Spirit Airlines' internal data: lawmakers say de-identification is not enough",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://therecord.media/lawmakers-warn-of-google-spirit-ai-training-deal"
+    },
+    {
+      "index": 11,
+      "ts": "1792238584.278249",
+      "title": "⚠️ Amazon launches two Bee ambient AI devices, a $74.99 wearable and a $99.99 phone attachment",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://www.transformernews.ai/p/leading-the-future-struggles-ai-safety-pacs-gain-ground"
+    },
+    {
+      "index": 12,
+      "ts": "1792238587.304949",
+      "title": "Anthropic licenses Opaque Systems' confidential AI technology and hires some of its engineers",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://constellationr.com/insights/news/anthropic-licenses-releases-opaque-acquihire"
+    },
+    {
+      "index": 13,
+      "ts": "1792238590.980939",
+      "title": "UK AI minister calls a rogue-AI breach of government systems \"likely, if not inevitable\" and backs mandatory safety reporting",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://www.resultsense.com/news/2026-10-14-narayan-medicare-style-ai-breach-likely-uk/"
+    },
+    {
+      "index": 14,
+      "ts": "1792238593.768119",
+      "title": "Australia: no fresh primary in the last 24h",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://www.oaic.gov.au/newsroom"
+    },
+    {
+      "index": 15,
+      "ts": "1792238596.067499",
+      "title": "OpenAI says weekly agent use at EU small businesses in its sample rose over 700% since May",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://openaiglobalaffairs.substack.com/p/a-better-path-for-ai-progress"
+    },
+    {
+      "index": 16,
+      "ts": "1792238602.161119",
+      "title": "Transformer - \"Leading the Future stumbles as pro-safety PACs gain ground\"",
+      "section": "📬 From the Substacks",
+      "url": "https://www.transformernews.ai/p/leading-the-future-struggles-ai-safety-pacs-gain-ground"
+    },
+    {
+      "index": 17,
+      "ts": "1792238604.477389",
+      "title": "Ken Huang - \"Multi-Agent vs. Single-Agent AI: Which Should You Use?\"",
+      "section": "📬 From the Substacks",
+      "url": "https://kenhuangus.substack.com/p/multi-agent-vs-single-agent-ai-which"
+    },
+    {
+      "index": 18,
+      "ts": "1792238606.924849",
+      "title": "The Prompt (OpenAI Global Affairs) - \"A Better Path for AI Progress\"",
+      "section": "📬 From the Substacks",
+      "url": "https://openaiglobalaffairs.substack.com/p/a-better-path-for-ai-progress"
+    },
+    {
+      "index": 19,
+      "ts": "1792238609.352959",
+      "title": "Deep Learning Weekly - \"Issue 477\"",
+      "section": "📬 From the Substacks",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-477"
+    },
+    {
+      "index": 20,
+      "ts": "1792238611.486309",
+      "title": "[X] @ArgileNoland (Bud C.)",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    },
+    {
+      "index": 21,
+      "ts": "1792238613.533589",
+      "title": "[X] @NextAIPraxis (Praxis)",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    },
+    {
+      "index": 22,
+      "ts": "1792238615.384139",
+      "title": "[X] @ReadOmniscient (Omniscient Media)",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    }
+  ]
+}
