@@ -1,0 +1,79 @@
+{
+  "kind": "cyber",
+  "date_stamp": "2026-10-17",
+  "file": "Daily Briefs/brief_2026-10-17.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1792237703.443559",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1792237712.739069",
+      "title": "CISA tells BeyondTrust customers to hunt, rebuild and rotate, and adds a Fortinet path traversal to KEV",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-urges-patching-critical-vulnerability-beyondtrust-remote-support"
+    },
+    {
+      "index": 2,
+      "ts": "1792237715.218799",
+      "title": "No new ACSC alert for a third day; the 14 October OT alert is still the latest",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.cyber.gov.au/alert/protecting-operational-technology-and-edge-devices"
+    },
+    {
+      "index": 3,
+      "ts": "1792237718.432509",
+      "title": "Burger King Japan says attackers took 11.18 million app member records",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/"
+    },
+    {
+      "index": 4,
+      "ts": "1792237722.292139",
+      "title": "Sansec warns a Magento and Adobe Commerce flaw Adobe rated \"priority 2\" is days from mass exploitation",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/"
+    },
+    {
+      "index": 5,
+      "ts": "1792237725.085149",
+      "title": "Rhysida-claimed attack confirmed by Anne Arundel County, home to the Maryland capital",
+      "section": "📰 Top Security News",
+      "url": "https://therecord.media/anne-arundel-county-maryland-confirms-data-breach"
+    },
+    {
+      "index": 6,
+      "ts": "1792237733.831159",
+      "title": "Fake Arch Linux AUR packages impersonating yay and paru ran a remote script as root",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/fake-arch-linux-packages-push-malware-with-root-privileges/"
+    },
+    {
+      "index": 7,
+      "ts": "1792237737.034099",
+      "title": "Moscow court charges suspected DataSuckers member over Dodo Pizza breach; attack reportedly began with credentials leaked on GitHub",
+      "section": "📰 Top Security News",
+      "url": "https://therecord.media/russia-datasuckers-hackers-arrested"
+    },
+    {
+      "index": 8,
+      "ts": "1792237740.826799",
+      "title": "NIST, NSA and CISA publish ten practices for when a superintelligence agent goes off-script during training",
+      "section": "🤖 AI & Security",
+      "url": "https://www.cisa.gov/resources-tools/resources/key-practices-incident-readiness-and-response-super-intelligence-training-and-evaluation"
+    },
+    {
+      "index": 9,
+      "ts": "1792237744.085989",
+      "title": "Proofpoint agrees to buy Varonis for $6.3 billion in cash, pitching \"data and AI security\"",
+      "section": "🤖 AI & Security",
+      "url": "https://therecord.media/proofpoint-varonis-cybersecurity-acquisition"
+    },
+    {
+      "index": 10,
+      "ts": "1792237745.960439",
+      "title": "Reddit lane failed for a second morning",
+      "section": "🗣️ Community Pulse",
+      "url": "https://www.reddit.com/r/netsec/"
+    }
+  ]
+}
