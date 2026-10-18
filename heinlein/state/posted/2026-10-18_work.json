@@ -1,0 +1,72 @@
+{
+  "kind": "work",
+  "date_stamp": "2026-10-18",
+  "file": "AI Briefs/work_brief_2026-10-18.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1792325778.716729",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1792325785.414409",
+      "title": "\"How AI Is Changing the Working World\" - DW Shift (17 Oct, about 17K views)",
+      "section": "🎥 What Creators Are Saying (YouTube)",
+      "url": "https://www.youtube.com/watch?v=bWAXazCVi6A"
+    },
+    {
+      "index": 2,
+      "ts": "1792325789.042039",
+      "title": "\"AI Engineering Full Roadmap vs 100-Day Sprint: In-Demand Skills, Job Market Data & Curriculum\" - CampusX (17 Oct, about 166K views)",
+      "section": "🎥 What Creators Are Saying (YouTube)",
+      "url": "https://www.youtube.com/watch?v=dQgsHROf8Cw"
+    },
+    {
+      "index": 3,
+      "ts": "1792325792.396559",
+      "title": "@emollick (Ethan Mollick) - \"do you make services worse or better\" (17 Oct)",
+      "section": "🐦 The Conversation on X",
+      "url": "https://x.com/emollick/status/2111595040913100837"
+    },
+    {
+      "index": 4,
+      "ts": "1792325794.943309",
+      "title": "AI Daily Brief - no new work episode",
+      "section": "🎙️ Podcasts & Newsletters",
+      "url": "https://www.youtube.com/@AIDailyBrief"
+    },
+    {
+      "index": 5,
+      "ts": "1792325797.537729",
+      "title": "Ethan Mollick - One Useful Thing",
+      "section": "🎙️ Podcasts & Newsletters",
+      "url": "https://www.oneusefulthing.org/archive"
+    },
+    {
+      "index": 6,
+      "ts": "1792325800.718069",
+      "title": "The manager of Claudes: meta-work doubles",
+      "section": "🆕 New Roles & Archetypes Watch",
+      "url": "https://www.anthropic.com/research/employment-at-anthropic"
+    },
+    {
+      "index": 7,
+      "ts": "1792325804.332919",
+      "title": "Writers become prompt and eval writers; assistants become chiefs of staff",
+      "section": "🆕 New Roles & Archetypes Watch",
+      "url": "https://www.anthropic.com/research/employment-at-anthropic"
+    },
+    {
+      "index": 8,
+      "ts": "1792325807.569299",
+      "title": "Hiring for judgment over implementation",
+      "section": "🆕 New Roles & Archetypes Watch",
+      "url": "https://www.anthropic.com/research/employment-at-anthropic"
+    },
+    {
+      "index": 9,
+      "ts": "1792325810.425179",
+      "title": "Anthropic's own data on juniors, and its own caveat",
+      "section": "⚖️ The Debate (kept honest, kept brief)",
+      "url": "https://www.anthropic.com/research/employment-at-anthropic"
+    }
+  ]
+}
