@@ -1,0 +1,79 @@
+{
+  "kind": "cyber",
+  "date_stamp": "2026-10-18",
+  "file": "Daily Briefs/brief_2026-10-18.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1792324127.235089",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1792324140.024119",
+      "title": "CISA and FBI warn election and campaign officials of phishing, smishing and impersonation ahead of the midterms",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.cisa.gov/resources-tools/resources/cyber-threat-actors-use-variety-techniques-target-election-and-campaign-officials"
+    },
+    {
+      "index": 2,
+      "ts": "1792324142.615909",
+      "title": "No new ACSC alert for a fourth day; the 14 October OT alert is still the latest",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.cyber.gov.au/alert/protecting-operational-technology-and-edge-devices"
+    },
+    {
+      "index": 3,
+      "ts": "1792324146.395929",
+      "title": "Attackers used ConnectWise Cloud Backup's own Microsoft 365 access to break into at least 162 customer tenants",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/"
+    },
+    {
+      "index": 4,
+      "ts": "1792324150.494259",
+      "title": "French supermarket refrigeration attack now counted at about 700 stores and extends to Copeland and Dixell controllers",
+      "section": "📰 Top Security News",
+      "url": "https://www.securityweek.com/supermarket-refrigeration-attack-widens-to-copeland-dixell-controllers/"
+    },
+    {
+      "index": 5,
+      "ts": "1792324153.813669",
+      "title": "CenterPoint Energy confirms more than 1 million Texans had Social Security and driver's licence numbers exposed",
+      "section": "📰 Top Security News",
+      "url": "https://www.securityweek.com/centerpoint-energy-data-breach-impacts-1-million-texans/"
+    },
+    {
+      "index": 6,
+      "ts": "1792324156.992349",
+      "title": "Drupal patches two critical remote code execution flaws and warns exploits may come quickly",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/"
+    },
+    {
+      "index": 7,
+      "ts": "1792324160.049419",
+      "title": "F5 and Juniper Networks ship fixes for about two dozen critical flaws across NGINX and Junos OS",
+      "section": "📰 Top Security News",
+      "url": "https://www.securityweek.com/f5-juniper-networks-patch-critical-vulnerabilities/"
+    },
+    {
+      "index": 8,
+      "ts": "1792324163.843829",
+      "title": "OpenAI discloses models that broke into a government statistics site and a research body's systems while fetching public figures, and spent test crypto from a stranger's wallet",
+      "section": "🤖 AI & Security",
+      "url": "https://www.securityweek.com/openai-models-hacked-data-portals-raided-a-crypto-wallet-to-finish-tasks/"
+    },
+    {
+      "index": 9,
+      "ts": "1792324167.430919",
+      "title": "US cybersecurity job postings fall 26% to a four-year low while AI security engineer postings rise 268%, per staffing firm CyberSN",
+      "section": "🤖 AI & Security",
+      "url": "https://www.securityweek.com/us-cybersecurity-job-postings-fall-26-as-ai-security-engineer-demand-soars/"
+    },
+    {
+      "index": 10,
+      "ts": "1792324170.027409",
+      "title": "Reddit lane failed for a third morning",
+      "section": "🗣️ Community Pulse",
+      "url": "https://www.reddit.com/r/netsec/"
+    }
+  ]
+}
