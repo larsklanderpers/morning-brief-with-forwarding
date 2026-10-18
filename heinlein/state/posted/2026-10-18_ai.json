@@ -1,0 +1,107 @@
+{
+  "kind": "ai",
+  "date_stamp": "2026-10-18",
+  "file": "AI Briefs/ai_brief_2026-10-18.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1792324933.531849",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1792324940.696739",
+      "title": "Anthropic publishes its own workforce data: agents logged 6 hours per human hour by August, and junior technical hires fell from 27% to 9%",
+      "section": "🔬 Frontier Labs",
+      "url": "https://anthropic.com/research/employment-at-anthropic"
+    },
+    {
+      "index": 2,
+      "ts": "1792324943.343059",
+      "title": "OpenAI's GPT-6.1 Sol reportedly carries a 500K-token context by default in ChatGPT Work and Codex",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.whytryai.com/p/sunday-rundown-161-ai-voices"
+    },
+    {
+      "index": 3,
+      "ts": "1792324946.283629",
+      "title": "Anthropic opens Claude Code Projects to all Pro and Max users, running each task as its own parallel thread",
+      "section": "🚀 Shipping with AI",
+      "url": "https://www.whytryai.com/p/sunday-rundown-161-ai-voices"
+    },
+    {
+      "index": 4,
+      "ts": "1792324949.682479",
+      "title": "NVIDIA ships Nemotron 3.5 Bolt 74B-A9B, built to run in 24GB with native 2-bit quantisation",
+      "section": "🏠 Local Models",
+      "url": "https://www.hpcwire.com/aiwire/2026/10/15/nvidia-expands-nemotron-family-with-highest-efficiency-super-vl-and-bolt-models/"
+    },
+    {
+      "index": 5,
+      "ts": "1792324952.586559",
+      "title": "Liquid AI releases LFM2.5-24B-A2B, an on-device reasoning model for private agents",
+      "section": "🏠 Local Models",
+      "url": "https://www.llmreference.com/model/lfm-2.5-24b-a2b"
+    },
+    {
+      "index": 6,
+      "ts": "1792324956.046129",
+      "title": "⚠️ Meta walks back commercial terms that lawyers said let it scrape any business account's website for AI training",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://www.aichatdaily.com/ai-security/meta-walks-back-terms-appeared-authorize-scraping-publisher"
+    },
+    {
+      "index": 7,
+      "ts": "1792324959.091719",
+      "title": "OAIC transparency guidance for the 10 December automated-decision duties is reportedly out",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://www.brightlaw.com.au/privacy-regulation-update-october-2026/"
+    },
+    {
+      "index": 8,
+      "ts": "1792324965.415459",
+      "title": "Australia: no fresh primary in the last 24h",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://www.oaic.gov.au/newsroom"
+    },
+    {
+      "index": 9,
+      "ts": "1792324967.987779",
+      "title": "EU: no fresh enforcement news in the last 24h",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+    },
+    {
+      "index": 10,
+      "ts": "1792324970.717859",
+      "title": "The AI Corner - \"The Agent Workforce Kit: Anthropic's 8 Metrics, a Role Radar and 12 Claude Prompts\"",
+      "section": "📬 From the Substacks",
+      "url": "https://www.the-ai-corner.com/p/the-agent-workforce-kit-anthropics"
+    },
+    {
+      "index": 11,
+      "ts": "1792324973.239869",
+      "title": "Generative Programmer - \"AI Agents Are Having Their Kubernetes Moment\"",
+      "section": "📬 From the Substacks",
+      "url": "https://generativeprogrammer.com/p/ai-agents-are-having-their-kubernetes"
+    },
+    {
+      "index": 12,
+      "ts": "1792324975.873779",
+      "title": "Paul Krugman - \"AI, Rising Inequality and Rising Oligarchy\"",
+      "section": "📬 From the Substacks",
+      "url": "https://paulkrugman.substack.com/p/ai-rising-inequality-and-rising-oligarchy"
+    },
+    {
+      "index": 13,
+      "ts": "1792324978.423209",
+      "title": "Why Try AI - \"Sunday Rundown #161: AI Voices & Remote Connections\"",
+      "section": "📬 From the Substacks",
+      "url": "https://www.whytryai.com/p/sunday-rundown-161-ai-voices"
+    },
+    {
+      "index": 14,
+      "ts": "1792324980.299839",
+      "title": "[X] @ricardoakrug (Ricardo Krug)",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    }
+  ]
+}
