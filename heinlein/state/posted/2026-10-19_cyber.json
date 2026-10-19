@@ -1,0 +1,79 @@
+{
+  "kind": "cyber",
+  "date_stamp": "2026-10-19",
+  "file": "Daily Briefs/brief_2026-10-19.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1792410610.218149",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1792410617.766519",
+      "title": "JPCERT/CC and the vendor confirm attacks on a SiteGuard web application firewall flaw that runs commands as root or SYSTEM",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/"
+    },
+    {
+      "index": 2,
+      "ts": "1792410620.415999",
+      "title": "CISA and ACSC both quiet over the weekend; ACSC's 14 October OT alert is still its latest for a fifth day",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.cyber.gov.au/alerts-and-advisories"
+    },
+    {
+      "index": 3,
+      "ts": "1792410624.676299",
+      "title": "Unit 42 ties the Fortinet flaw CISA added to KEV on Friday to a memory-only FortiGate implant inside a telecom network",
+      "section": "📰 Top Security News",
+      "url": "https://www.securityweek.com/exploited-fortinet-bug-linked-to-stealthy-fortigate-implant-in-telecom-hack/"
+    },
+    {
+      "index": 4,
+      "ts": "1792410627.834659",
+      "title": "Microsoft confirms October Windows Server updates are breaking Exchange sign-in and mail flow on some servers",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-windows-server-updates-cause-exchange-issues/"
+    },
+    {
+      "index": 5,
+      "ts": "1792410631.503469",
+      "title": "MITRE ATT&CK v20 adds AI abuse, MFA bypass and water utility techniques, plus 15 new detection strategies",
+      "section": "📰 Top Security News",
+      "url": "https://www.securityweek.com/mitre-attck-v20-catalogs-ai-abuse-mfa-bypass-water-utility-attacks/"
+    },
+    {
+      "index": 6,
+      "ts": "1792410634.944889",
+      "title": "Langflow flaw was under attack more than two weeks before its CVE was published",
+      "section": "📰 Top Security News",
+      "url": "https://www.securityweek.com/in-other-news-ics-sniper-attack-hacking-xworm-malware-operators-250k-chrome-exploit/"
+    },
+    {
+      "index": 7,
+      "ts": "1792410638.530499",
+      "title": "XBOW used a public OpenAI model to build a full-chain Chrome exploit in six days for about $40,000 of compute, and Google paid $250,000",
+      "section": "🤖 AI & Security",
+      "url": "https://xbow.com/blog/xbow-built-a-chrome-full-chain-exploit"
+    },
+    {
+      "index": 8,
+      "ts": "1792410642.233329",
+      "title": "Bank of America says it added 1,000 contractors to 3,000 staff to patch flaws that frontier AI models like Mythos exposed",
+      "section": "🤖 AI & Security",
+      "url": "https://www.cnbc.com/2026/10/14/anthropic-mythos-bank-of-america-hiring-cost.html"
+    },
+    {
+      "index": 9,
+      "ts": "1792410646.475689",
+      "title": "SecurityWeek reports Anthropic has acquired Opaque Systems and that Opaque is winding down, as Intel drops SGX from future Xeons",
+      "section": "🤖 AI & Security",
+      "url": "https://www.securityweek.com/anthropic-acquires-confidential-ai-startup-opaque-systems/"
+    },
+    {
+      "index": 10,
+      "ts": "1792410648.464559",
+      "title": "Reddit lane failed for a fourth morning",
+      "section": "🗣️ Community Pulse",
+      "url": "https://www.reddit.com/r/netsec/"
+    }
+  ]
+}
