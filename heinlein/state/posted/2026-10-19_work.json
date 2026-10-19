@@ -1,0 +1,72 @@
+{
+  "kind": "work",
+  "date_stamp": "2026-10-19",
+  "file": "AI Briefs/work_brief_2026-10-19.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1792412093.235679",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1792412099.115249",
+      "title": "\"What Is Loop Engineering? Building Better AI Agents\" - IBM Technology (19 Oct, about 1.3K views)",
+      "section": "🎥 What Creators Are Saying (YouTube)",
+      "url": "https://www.youtube.com/watch?v=DQBqh6gcx7U"
+    },
+    {
+      "index": 2,
+      "ts": "1792412102.401199",
+      "title": "\"Workday CEO Predicts AI Job Displacement And Which Roles May Be Safe\" - Fortune Magazine (14 Oct, about 35K views)",
+      "section": "🎥 What Creators Are Saying (YouTube)",
+      "url": "https://www.youtube.com/watch?v=MhZK1bOqkE4"
+    },
+    {
+      "index": 3,
+      "ts": "1792412105.302339",
+      "title": "@emollick (Ethan Mollick) - \"pretending they don't actually launders responsibility\" (19 Oct)",
+      "section": "🐦 The Conversation on X",
+      "url": "https://x.com/emollick/status/2112030115752456456"
+    },
+    {
+      "index": 4,
+      "ts": "1792412108.312939",
+      "title": "@emollick (Ethan Mollick) - \"Developers are going to be a small part of total token usage\" (18 Oct)",
+      "section": "🐦 The Conversation on X",
+      "url": "https://x.com/emollick/status/2111884340955062274"
+    },
+    {
+      "index": 5,
+      "ts": "1792412110.125059",
+      "title": "AI Daily Brief - no new work episode",
+      "section": "🎙️ Podcasts & Newsletters",
+      "url": "https://www.youtube.com/@AIDailyBrief/videos"
+    },
+    {
+      "index": 6,
+      "ts": "1792412115.696929",
+      "title": "Ethan Mollick - Co-Existence lands tomorrow",
+      "section": "🎙️ Podcasts & Newsletters",
+      "url": "https://co-existence.ai"
+    },
+    {
+      "index": 7,
+      "ts": "1792412118.036159",
+      "title": "The loop engineer",
+      "section": "🆕 New Roles & Archetypes Watch",
+      "url": "https://www.youtube.com/watch?v=DQBqh6gcx7U"
+    },
+    {
+      "index": 8,
+      "ts": "1792412120.942589",
+      "title": "The remediation bench: a Sweeper role at bank scale",
+      "section": "🆕 New Roles & Archetypes Watch",
+      "url": "https://thenextweb.com/news/bank-of-america-1000-contractors-mythos-flaws"
+    },
+    {
+      "index": 9,
+      "ts": "1792412124.085369",
+      "title": "A CEO forecast and an entry-level data point",
+      "section": "⚖️ The Debate (kept honest, kept brief)",
+      "url": "https://www.youtube.com/watch?v=MhZK1bOqkE4"
+    }
+  ]
+}
