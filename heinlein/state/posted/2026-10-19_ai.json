@@ -1,0 +1,142 @@
+{
+  "kind": "ai",
+  "date_stamp": "2026-10-19",
+  "file": "AI Briefs/ai_brief_2026-10-19.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1792411382.339179",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1792411388.964949",
+      "title": "Bank of America puts the first number on defending against frontier-model bug finding: 1,000 contractors on top of 3,000 staff",
+      "section": "🔬 Frontier Labs",
+      "url": "https://thenextweb.com/news/bank-of-america-1000-contractors-mythos-flaws"
+    },
+    {
+      "index": 2,
+      "ts": "1792411392.332239",
+      "title": "JPMorgan's block on outside agents is now confirmed on the record; a newsletter says Citi is following, but I could not confirm Citi",
+      "section": "🔬 Frontier Labs",
+      "url": "https://fortune.com/2026/10/15/jamie-dimon-ai-agents-meta-muse-jpmorgan/"
+    },
+    {
+      "index": 3,
+      "ts": "1792411395.125259",
+      "title": "Strands Box puts coding agents in a default-deny sandbox where reading a secret can block the next network call",
+      "section": "🚀 Shipping with AI",
+      "url": "https://theanthropicstack.substack.com/p/steal-the-claude-code-teams-code"
+    },
+    {
+      "index": 4,
+      "ts": "1792411398.024479",
+      "title": "Ramp opens early access to Glass, routing every AI request through a cost meter after its token bill passed 10% of payroll",
+      "section": "🚀 Shipping with AI",
+      "url": "https://linas.substack.com/p/weeklyfintechpulse420"
+    },
+    {
+      "index": 5,
+      "ts": "1792411401.707069",
+      "title": "China reportedly drafts export controls covering model weights and agents, with a performance threshold not yet published",
+      "section": "🏠 Local Models",
+      "url": "https://www.usecarly.com/blog/ai-news-2026-10-16/"
+    },
+    {
+      "index": 6,
+      "ts": "1792411404.163489",
+      "title": "No new open-weights release found in the last 24h; NVIDIA's 4GB Bolt E4B is still due 23 Oct",
+      "section": "🏠 Local Models",
+      "url": "https://www.hpcwire.com/aiwire/2026/10/15/nvidia-expands-nemotron-family-with-highest-efficiency-super-vl-and-bolt-models/"
+    },
+    {
+      "index": 7,
+      "ts": "1792411407.316699",
+      "title": "⚠️ A support-routing example shows how an AI classifier can bury a deletion request in a normal queue with no error raised",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://acdigest.substack.com/p/your-ai-needs-a-review-queue"
+    },
+    {
+      "index": 8,
+      "ts": "1792411411.265519",
+      "title": "OAIC's automated-decision transparency guidance is confirmed on the regulator's own site, dated 30 September",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://www.oaic.gov.au/news/media-centre/new-resources-on-transparency-for-use-of-ai-and-automated-decision-making"
+    },
+    {
+      "index": 9,
+      "ts": "1792411414.677199",
+      "title": "SBS launches a sovereign AI layer for core banking on NVIDIA's stack; Scottish Building Society is first live, on AWS",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://fintechmagazine.com/news/how-sbs-and-nvidia-bring-sovereign-ai-into-core-banking"
+    },
+    {
+      "index": 10,
+      "ts": "1792411417.245259",
+      "title": "Australia: no fresh federal AI primary over the weekend",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://www.oaic.gov.au/news/media-centre"
+    },
+    {
+      "index": 11,
+      "ts": "1792411423.011009",
+      "title": "EU: no fresh enforcement news; Digital Omnibus dates still only confirmed in secondary sources",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+    },
+    {
+      "index": 12,
+      "ts": "1792411425.690179",
+      "title": "Linas's Newsletter - \"Bank of America just put the first number on what defending against AI costs a bank\"",
+      "section": "📬 From the Substacks",
+      "url": "https://linas.substack.com/p/fintechpulse1140"
+    },
+    {
+      "index": 13,
+      "ts": "1792411428.149109",
+      "title": "The Anthropic Stack - \"Steal the Claude Code Team's Code Review Checklist\"",
+      "section": "📬 From the Substacks",
+      "url": "https://theanthropicstack.substack.com/p/steal-the-claude-code-teams-code"
+    },
+    {
+      "index": 14,
+      "ts": "1792411429.909439",
+      "title": "AC Digest - \"Your AI Needs a Review Queue\"",
+      "section": "📬 From the Substacks",
+      "url": "https://acdigest.substack.com/p/your-ai-needs-a-review-queue"
+    },
+    {
+      "index": 15,
+      "ts": "1792411432.455799",
+      "title": "Ken Huang - \"What is Reward Hacking and Why you need to Know about it?\"",
+      "section": "📬 From the Substacks",
+      "url": "https://kenhuangus.substack.com/p/what-is-reward-hacking-and-why-you"
+    },
+    {
+      "index": 16,
+      "ts": "1792411434.861819",
+      "title": "Linas's Newsletter - \"Ramp is building the operating system for AI-native companies\"",
+      "section": "📬 From the Substacks",
+      "url": "https://linas.substack.com/p/weeklyfintechpulse420"
+    },
+    {
+      "index": 17,
+      "ts": "1792411436.565939",
+      "title": "[X] @deanwball (Dean W. Ball)",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    },
+    {
+      "index": 18,
+      "ts": "1792411438.474469",
+      "title": "[X] @botnewsnetwork (automated news account)",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    },
+    {
+      "index": 19,
+      "ts": "1792411440.773549",
+      "title": "[X] @NextAIPraxis (Praxis)",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    }
+  ]
+}
