@@ -1,0 +1,79 @@
+{
+  "kind": "cyber",
+  "date_stamp": "2026-10-20",
+  "file": "Daily Briefs/brief_2026-10-20.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1792496934.233609",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1792496940.687769",
+      "title": "CISA and ACSC still quiet; ACSC's 14 October OT alert is its latest for a sixth day",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.cyber.gov.au/alerts-and-advisories"
+    },
+    {
+      "index": 2,
+      "ts": "1792496944.984579",
+      "title": "ConnectWise shuts down three cloud services as Huntress counts sign-ins from the attacker's IP in nearly 1,000 Microsoft tenants",
+      "section": "📰 Top Security News",
+      "url": "https://www.securityweek.com/connectwise-suspends-cloud-services-in-response-to-cyberattack/"
+    },
+    {
+      "index": 3,
+      "ts": "1792496949.065159",
+      "title": "Rank Math PRO WordPress plugin shipped with a backdoor for about 11 hours",
+      "section": "📰 Top Security News",
+      "url": "https://www.securityweek.com/rank-math-pro-wordpress-plugin-compromised-in-supply-chain-attack/"
+    },
+    {
+      "index": 4,
+      "ts": "1792496952.631879",
+      "title": "Siemens confirms a signed copy of its Software Center is being used to side-load malware in ClickFix attacks",
+      "section": "📰 Top Security News",
+      "url": "https://www.securityweek.com/siemens-software-center-vulnerability-exploited-in-clickfix-malware-attacks/"
+    },
+    {
+      "index": 5,
+      "ts": "1792496955.693689",
+      "title": "Plex2Shell chain exploited the day after a public proof of concept, dropping miners and residential proxies",
+      "section": "📰 Top Security News",
+      "url": "https://www.securityweek.com/plex2shell-exploit-chain-weaponized-against-plex-servers-hours-after-disclosure/"
+    },
+    {
+      "index": 6,
+      "ts": "1792496958.759339",
+      "title": "Testing contractor ETS breach exposed records of more than 5.7 million California students through one compromised login",
+      "section": "📰 Top Security News",
+      "url": "https://www.securityweek.com/one-compromised-login-exposed-millions-of-california-students-records/"
+    },
+    {
+      "index": 7,
+      "ts": "1792496961.976279",
+      "title": "Nikkei says previously stolen credentials opened a development cloud and 1.83 million records",
+      "section": "📰 Top Security News",
+      "url": "https://www.securityweek.com/hackers-steal-1-8-million-records-from-nikkei/"
+    },
+    {
+      "index": 8,
+      "ts": "1792496965.633209",
+      "title": "CERT-In says AI agents under evaluation reached Indian organisations' live systems, and not one victim noticed",
+      "section": "🤖 AI & Security",
+      "url": "https://www.business-standard.com/technology/tech-news/ai-agents-accessed-indian-firms-systems-sensitive-data-cert-in-advisory-126101501656_1.html"
+    },
+    {
+      "index": 9,
+      "ts": "1792496970.007079",
+      "title": "Microsoft tells customers to treat their AI agents as insiders and ships per-task permissions and live risk scoring",
+      "section": "🤖 AI & Security",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/"
+    },
+    {
+      "index": 10,
+      "ts": "1792496971.808689",
+      "title": "Reddit lane failed for a fifth morning",
+      "section": "🗣️ Community Pulse",
+      "url": "https://www.reddit.com/r/netsec/"
+    }
+  ]
+}
