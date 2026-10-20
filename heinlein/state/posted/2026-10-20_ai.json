@@ -1,0 +1,107 @@
+{
+  "kind": "ai",
+  "date_stamp": "2026-10-20",
+  "file": "AI Briefs/ai_brief_2026-10-20.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1792497800.249059",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1792497809.056509",
+      "title": "Anthropic's leaked federal AI bill would let only Commerce, via a court, stop a model, and only above $1 billion in harm or 50 casualties",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.transformernews.ai/p/anthropic-leaked-ai-bill-undermines-safety-first-approach"
+    },
+    {
+      "index": 2,
+      "ts": "1792497812.403249",
+      "title": "Anthropic pledges 5% of its shares to a public benefit fund, not yet binding, weeks before a reported IPO",
+      "section": "🔬 Frontier Labs",
+      "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/"
+    },
+    {
+      "index": 3,
+      "ts": "1792497815.845089",
+      "title": "Microsoft ships per-task agent permissions that start at zero and can drop an agent to read-only mid-task",
+      "section": "🚀 Shipping with AI",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/"
+    },
+    {
+      "index": 4,
+      "ts": "1792497819.758789",
+      "title": "One operator's agents breached 100+ company sites at roughly $50 per success, and the exposed control panels showed the stolen credentials",
+      "section": "🚀 Shipping with AI",
+      "url": "https://thenextweb.com/news/ai-agents-hacker-cairn-100-sites-deere-norforge"
+    },
+    {
+      "index": 5,
+      "ts": "1792497823.931469",
+      "title": "DeepSeek publishes open weights for V4.1 Flash 1017 and claims it beats Claude Opus 5 on four agent benchmarks; independent scores are lower",
+      "section": "🏠 Local Models",
+      "url": "https://the-decoder.com/deepseek-v4-1-flash-1017-beats-larger-rivals-in-agentic-tasks-while-once-again-massively-cutting-per-task-costs/"
+    },
+    {
+      "index": 6,
+      "ts": "1792497827.782069",
+      "title": "⚠️ DHS orders federal civilian agencies to remove DeepSeek, including third-party products built on its models",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://cyberscoop.com/dhs-bans-deepseek-federal-agencies/"
+    },
+    {
+      "index": 7,
+      "ts": "1792497831.018569",
+      "title": "Workato partners with Gulanga Group and Trellis Data to sell \"sovereign AI\" to Australian business and government",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://www.manilatimes.net/2026/10/14/tmt-newswire/pr-newswire/workato-announces-agreement-with-gulanga-and-trellis-data-to-bring-sovereign-ai-capability-to-australian-businesses-and-government/2445173/amp"
+    },
+    {
+      "index": 8,
+      "ts": "1792497837.485909",
+      "title": "Australia: no fresh federal AI primary in the last 24h",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://www.oaic.gov.au/news"
+    },
+    {
+      "index": 9,
+      "ts": "1792497840.460769",
+      "title": "EU: no new enforcement step since the AI Office's information requests; Mistral Large 4 weights still due 27 October",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://www.euronews.com/2026/10/14/eus-ai-rules-face-first-enforcement-test-over-lab-incidents"
+    },
+    {
+      "index": 10,
+      "ts": "1792497842.635069",
+      "title": "The AI Standard - \"Websites Are Starting to Block AI Agents\"",
+      "section": "📬 From the Substacks",
+      "url": "https://theaistandard.substack.com/p/websites-are-starting-to-block-ai"
+    },
+    {
+      "index": 11,
+      "ts": "1792497845.066719",
+      "title": "Ken Huang - \"Your RAG Found the Documents. Why Is the Answer Still Wrong?\"",
+      "section": "📬 From the Substacks",
+      "url": "https://kenhuangus.substack.com/p/your-rag-found-the-documents-why"
+    },
+    {
+      "index": 12,
+      "ts": "1792497847.712949",
+      "title": "Monitoring the Situation - \"10/19: Anthropic Shares the Wealth\"",
+      "section": "📬 From the Substacks",
+      "url": "https://mtslive.substack.com/p/1019-anthropic-shares-the-wealth"
+    },
+    {
+      "index": 13,
+      "ts": "1792497850.282939",
+      "title": "The AI Break - \"Anthropic's AI Agents Now Log 6x More Hours Than Its Staff\"",
+      "section": "📬 From the Substacks",
+      "url": "https://theaibreak.substack.com/p/anthropics-ai-agents-now-log-6x-more"
+    },
+    {
+      "index": 14,
+      "ts": "1792497851.913359",
+      "title": "[X] @aPeaceOfAdam (Adam Norman Jenkins)",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    }
+  ]
+}
