@@ -1,0 +1,72 @@
+{
+  "kind": "work",
+  "date_stamp": "2026-10-20",
+  "file": "AI Briefs/work_brief_2026-10-20.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1792498551.964209",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1792498563.352509",
+      "title": "\"Ethan Mollick on Co-Existence & the End of Apprenticeship\" - nexxworks, Never Normal Heroes (20 Oct, under 20 views at time of check)",
+      "section": "🎥 What Creators Are Saying (YouTube)",
+      "url": "https://www.youtube.com/watch?v=RKI2PaA2BnY"
+    },
+    {
+      "index": 2,
+      "ts": "1792498566.472949",
+      "title": "@emollick (Ethan Mollick) - \"Writing good STATA code ... is largely becoming obsolete\" (19 Oct)",
+      "section": "🐦 The Conversation on X",
+      "url": "https://x.com/emollick/status/2112165213202157907"
+    },
+    {
+      "index": 3,
+      "ts": "1792498569.087949",
+      "title": "AI Daily Brief - no new work episode",
+      "section": "🎙️ Podcasts & Newsletters",
+      "url": "https://www.youtube.com/watch?v=d6SO10ihpL4"
+    },
+    {
+      "index": 4,
+      "ts": "1792498572.278889",
+      "title": "\"Ethan Mollick on Coexisting with AI, at Scale\" - Scaling Theory (20 Oct)",
+      "section": "🎙️ Podcasts & Newsletters",
+      "url": "https://www.youtube.com/watch?v=dzNRxTQBBAI"
+    },
+    {
+      "index": 5,
+      "ts": "1792498574.811409",
+      "title": "Ethan Mollick - Co-Existence publishes today",
+      "section": "🎙️ Podcasts & Newsletters",
+      "url": "https://co-existence.ai"
+    },
+    {
+      "index": 6,
+      "ts": "1792498578.020899",
+      "title": "The silent-error checker",
+      "section": "🆕 New Roles & Archetypes Watch",
+      "url": "https://cepr.org/voxeu/columns/letting-ai-agents-write-econometric-code"
+    },
+    {
+      "index": 7,
+      "ts": "1792498581.951229",
+      "title": "An AI-first studio: Epic's Disney shooter",
+      "section": "🆕 New Roles & Archetypes Watch",
+      "url": "https://www.aichatdaily.com/ai-business/epic-games-goes-ai-first-unannounced-disney-shooter-delays"
+    },
+    {
+      "index": 8,
+      "ts": "1792498584.397519",
+      "title": "Forward-deployed engineer keeps spreading beyond the labs",
+      "section": "🆕 New Roles & Archetypes Watch",
+      "url": "https://careers.servicenow.com/jobs/744000154008689/principal-ai-forward-deployed-engineer/"
+    },
+    {
+      "index": 9,
+      "ts": "1792498586.829919",
+      "title": "The data side has not moved this week",
+      "section": "⚖️ The Debate (kept honest, kept brief)",
+      "url": "https://budgetlab.yale.edu/sites/default/files/page_to_pdf/1419/publication_1419.pdf"
+    }
+  ]
+}
