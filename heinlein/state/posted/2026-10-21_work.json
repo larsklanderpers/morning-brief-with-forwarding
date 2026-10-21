@@ -1,0 +1,79 @@
+{
+  "kind": "work",
+  "date_stamp": "2026-10-21",
+  "file": "AI Briefs/work_brief_2026-10-21.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1792585061.771479",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1792585067.944929",
+      "title": "\"Claude Engineering Lead: Stop Using Claude Like It's 2024\" - Silicon Valley Girl (20 Oct, about 53K views)",
+      "section": "🎥 What Creators Are Saying (YouTube)",
+      "url": "https://www.youtube.com/watch?v=D-SVFneJ_Nk"
+    },
+    {
+      "index": 2,
+      "ts": "1792585071.045359",
+      "title": "\"Let Your AI Agent Do ITS OWN Harness Engineering (Here's How)\" - Cole Medin (20 Oct, about 15K views)",
+      "section": "🎥 What Creators Are Saying (YouTube)",
+      "url": "https://www.youtube.com/watch?v=TVhhmhvCovg"
+    },
+    {
+      "index": 3,
+      "ts": "1792585073.874089",
+      "title": "\"Anthropic Just Revealed What's Happening to Its Own Workers\" - AI Copium (20 Oct, about 102K views)",
+      "section": "🎥 What Creators Are Saying (YouTube)",
+      "url": "https://www.youtube.com/watch?v=X8Qwp_naMzg"
+    },
+    {
+      "index": 4,
+      "ts": "1792585076.716139",
+      "title": "@emollick (Ethan Mollick) - \"Multiplayer AI needs to move past the group chat phase\" (19 Oct)",
+      "section": "🐦 The Conversation on X",
+      "url": "https://x.com/emollick/status/2112289593286352976"
+    },
+    {
+      "index": 5,
+      "ts": "1792585079.219719",
+      "title": "AI Daily Brief - \"The AI Wealth Problem\" (20 Oct, about 7.3K views)",
+      "section": "🎙️ Podcasts & Newsletters",
+      "url": "https://www.youtube.com/watch?v=bw8nHS0_cl0"
+    },
+    {
+      "index": 6,
+      "ts": "1792585085.582719",
+      "title": "Ethan Mollick - \"30 Months on the Exponential (in Charts)\" (20 Oct)",
+      "section": "🎙️ Podcasts & Newsletters",
+      "url": "https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts"
+    },
+    {
+      "index": 7,
+      "ts": "1792585088.465409",
+      "title": "The conjurer: Mollick's third way of working with AI",
+      "section": "🆕 New Roles & Archetypes Watch",
+      "url": "https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts"
+    },
+    {
+      "index": 8,
+      "ts": "1792585090.778779",
+      "title": "The harness engineer, or the agent's team lead",
+      "section": "🆕 New Roles & Archetypes Watch",
+      "url": "https://www.youtube.com/watch?v=TVhhmhvCovg"
+    },
+    {
+      "index": 9,
+      "ts": "1792585093.736179",
+      "title": "Forward-deployed engineer: now there is a number",
+      "section": "🆕 New Roles & Archetypes Watch",
+      "url": "https://fourweekmba.com/ai-awss-1b-fde-push-meets-openais-4b-deployment-company/"
+    },
+    {
+      "index": 10,
+      "ts": "1792585096.321729",
+      "title": "The jobs debate turns to who owns the gains",
+      "section": "⚖️ The Debate (kept honest, kept brief)",
+      "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/"
+    }
+  ]
+}
