@@ -1,0 +1,100 @@
+{
+  "kind": "cyber",
+  "date_stamp": "2026-10-21",
+  "file": "Daily Briefs/brief_2026-10-21.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1792583307.861969",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1792583315.528879",
+      "title": "CISA, FBI and partners publish a SafePay ransomware advisory counting at least 600 victims across critical infrastructure",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-293a"
+    },
+    {
+      "index": 2,
+      "ts": "1792583318.936789",
+      "title": "CISA adds six exploited flaws to KEV, confirming three stories this brief ran in the last three days",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/10/20/cisa-adds-six-known-exploited-vulnerabilities-catalog"
+    },
+    {
+      "index": 3,
+      "ts": "1792583321.489239",
+      "title": "⚠️ ACSC site unreachable this morning",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.cyber.gov.au/alerts-and-advisories"
+    },
+    {
+      "index": 4,
+      "ts": "1792583324.900609",
+      "title": "Leaked PHP2Shell flaws hit every PHP version since PHP 5, and patches land today at 14:00 UTC",
+      "section": "📰 Top Security News",
+      "url": "https://www.securityweek.com/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws/"
+    },
+    {
+      "index": 5,
+      "ts": "1792583328.172539",
+      "title": "Attacker swapped OVHcloud's official CLI binaries for a secret stealer for about 94 minutes",
+      "section": "📰 Top Security News",
+      "url": "https://www.securityweek.com/hijacked-developer-account-used-to-plant-stealer-in-ovhcloud-cli/"
+    },
+    {
+      "index": 6,
+      "ts": "1792583331.636389",
+      "title": "AOMEI Backupper's update server pushed a backdoor in five to ten minute bursts from April to July",
+      "section": "📰 Top Security News",
+      "url": "https://www.securityweek.com/aomei-backupper-compromised-in-short-burst-supply-chain-campaign/"
+    },
+    {
+      "index": 7,
+      "ts": "1792583334.447859",
+      "title": "Ahold Delhaize restoring services after the 12 October attack, and says no data was stolen",
+      "section": "📰 Top Security News",
+      "url": "https://www.securityweek.com/ahold-delhaize-restoring-services-disrupted-by-cyberattack/"
+    },
+    {
+      "index": 8,
+      "ts": "1792583337.585839",
+      "title": "Paradigm Healthcare breach of 970,000 Medi-Cal members took 11 months to reach notification",
+      "section": "📰 Top Security News",
+      "url": "https://www.securityweek.com/970000-medi-cal-members-affected-by-paradigm-healthcare-data-breach/"
+    },
+    {
+      "index": 9,
+      "ts": "1792583340.332919",
+      "title": "Accenture, Dragos and SANS put about $10 million into free OT security for small US utilities",
+      "section": "📰 Top Security News",
+      "url": "https://www.securityweek.com/accenture-dragos-sans-launch-10m-initiative-to-defend-small-us-utilities/"
+    },
+    {
+      "index": 10,
+      "ts": "1792583344.845609",
+      "title": "Attackers ran AI agent platform Cairn against websites and breached more than 100 companies, including John Deere and SharkNinja per Reuters",
+      "section": "🤖 AI & Security",
+      "url": "https://www.securityweek.com/ai-platform-cairn-abused-to-hack-over-100-organizations/"
+    },
+    {
+      "index": 11,
+      "ts": "1792583347.420549",
+      "title": "Alibaba's Qwen3-Coder wrote hackable code more often for a US defence contractor than a Chinese one, a vendor test finds",
+      "section": "🤖 AI & Security",
+      "url": "https://www.securityweek.com/chinese-ai-model-writes-more-hackable-code-when-told-its-for-us-contractor/"
+    },
+    {
+      "index": 12,
+      "ts": "1792583350.489459",
+      "title": "NIST, CISA and NSA publish ten practices for when AI agents go rogue",
+      "section": "🤖 AI & Security",
+      "url": "https://www.securityweek.com/us-agencies-detail-incident-response-practices-for-rogue-ai-agents/"
+    },
+    {
+      "index": 13,
+      "ts": "1792583352.382439",
+      "title": "Reddit lane failed for a sixth morning",
+      "section": "🗣️ Community Pulse",
+      "url": "https://www.reddit.com/r/netsec/"
+    }
+  ]
+}
