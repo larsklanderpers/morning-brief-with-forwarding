@@ -1,0 +1,114 @@
+{
+ "kind": "ai",
+ "date_stamp": "2026-10-21",
+ "file": "AI Briefs/ai_brief_2026-10-21.md",
+ "channel": "C0BUVJE9A9M",
+ "parent_ts": "1792584135.570989",
+ "items": [
+  {
+   "index": 1,
+   "ts": "1792584143.602479",
+   "title": "Anthropic's newer draft S-1 shows $16.3 billion first-half revenue, an $80.7 billion net loss and cloud partners refusing it extra capacity",
+   "section": "🔬 Frontier Labs",
+   "url": "https://www.aichatdaily.com/ai-business/anthropic-draft-ipo-filing-shows-16-3b-first-half"
+  },
+  {
+   "index": 2,
+   "ts": "1792584146.848339",
+   "title": "Amodei answers Encode's nine-point critique with nine \"commercially costly\" safety calls and concedes missteps on the draft bill",
+   "section": "🔬 Frontier Labs",
+   "url": "https://www.aichatdaily.com/ai-security/dario-amodei-defends-anthropic-safety-record-lengthy-reply"
+  },
+  {
+   "index": 3,
+   "ts": "1792584150.317749",
+   "title": "ChatGPT adds Locked Chats behind a PIN or biometrics, but nothing is newly encrypted and a forgotten PIN deletes everything",
+   "section": "🚀 Shipping with AI",
+   "url": "https://www.aichatdaily.com/ai-tools/openai-adds-locked-chats-chatgpt-pin-biometric-protection"
+  },
+  {
+   "index": 4,
+   "ts": "1792584153.347239",
+   "title": "OpenAI adds 12-hour prompt caching to the Responses API: writes cost 2.5x input, reads 0.1x",
+   "section": "🚀 Shipping with AI",
+   "url": "https://www.aichatdaily.com/ai-tools/openai-adds-12-hour-prompt-caching-responses-api-gpt-5"
+  },
+  {
+   "index": 5,
+   "ts": "1792584156.494449",
+   "title": "No new open-weights release confirmed in the last 24h; NVIDIA's 4GB Bolt E4B is still due 23 October",
+   "section": "🏠 Local Models",
+   "url": "https://www.aichatdaily.com/ai-models"
+  },
+  {
+   "index": 6,
+   "ts": "1792584160.141909",
+   "title": "⚠️ New York City proposes a rule forcing businesses to disclose AI chatbots and offer an easy path to a human, with fines from $525",
+   "section": "🔒 Privacy, PII & Data Sovereignty",
+   "url": "https://www.aichatdaily.com/ai-security/new-york-city-proposes-rule-forcing-businesses-offer"
+  },
+  {
+   "index": 7,
+   "ts": "1792584164.026699",
+   "title": "OAIC automated-decision guidance: law firms now read it as reaching human decisions made on AI summaries",
+   "section": "🔒 Privacy, PII & Data Sovereignty",
+   "url": "https://www.allens.com.au/insights-news/insights/2026/10/mandatory-automated-decision-making-disclosure-requirements-are-coming-key-takeaways-from-the-oaic-guidance/"
+  },
+  {
+   "index": 8,
+   "ts": "1792584166.434319",
+   "title": "Pigment raises $250 million at a $2.3 billion valuation, led by the EU-backed Scaleup Europe Fund",
+   "section": "🌏 AU/EU AI Ecosystem",
+   "url": "https://www.aichatdaily.com/ai-business/pigment-raises-250m-2-3b-valuation-aim-ai"
+  },
+  {
+   "index": 9,
+   "ts": "1792584172.096909",
+   "title": "Australia: no fresh federal AI primary in the last 24h; EU: no fresh enforcement step, Mistral Large 4 weights still due 27 October",
+   "section": "🌏 AU/EU AI Ecosystem",
+   "url": "https://www.oaic.gov.au/news"
+  },
+  {
+   "index": 10,
+   "ts": "1792584174.944119",
+   "title": "The Argument - \"What I saw inside Anthropic\"",
+   "section": "📬 From the Substacks",
+   "url": "https://www.theargumentmag.com/p/what-i-saw-inside-anthropic"
+  },
+  {
+   "index": 11,
+   "ts": "1792584177.929889",
+   "title": "Nobody Has to Listen to You - \"How to Govern AI When You Weren't Invited to the Room\"",
+   "section": "📬 From the Substacks",
+   "url": "https://nobodyhastolistentoyou.substack.com/p/how-to-govern-ai-when-you-werent"
+  },
+  {
+   "index": 12,
+   "ts": "1792584181.025199",
+   "title": "The Pragmatic Engineer - \"What's the ROI of software engineers' spending on AI?\"",
+   "section": "📬 From the Substacks",
+   "url": "https://newsletter.pragmaticengineer.com/p/whats-the-roi-of-software-engineers"
+  },
+  {
+   "index": 13,
+   "ts": "1792584183.623359",
+   "title": "Behavioral Capital - \"Whoever Writes the Summary Shapes the Story\"",
+   "section": "📬 From the Substacks",
+   "url": "https://toniemgordonphd.substack.com/p/whoever-writes-the-summary-shapes"
+  },
+  {
+   "index": 14,
+   "ts": "1792584186.061669",
+   "title": "Linas's Newsletter - \"Anthropic's new IPO prospectus shows why profits didn't save its $2 trillion valuation\"",
+   "section": "📬 From the Substacks",
+   "url": "https://linas.substack.com/p/fintechpulse1141"
+  },
+  {
+   "index": 15,
+   "ts": "1792584187.808689",
+   "title": "[X] @matthewjetthall",
+   "section": "📡 Social Intelligence",
+   "url": ""
+  }
+ ]
+}
