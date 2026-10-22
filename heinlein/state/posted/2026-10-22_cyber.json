@@ -1,0 +1,114 @@
+{
+  "kind": "cyber",
+  "date_stamp": "2026-10-22",
+  "file": "Daily Briefs/brief_2026-10-22.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1792669701.922219",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1792669709.194249",
+      "title": "CISA tells anyone on PHP 8.1 or older to take those systems offline until they can be patched",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching"
+    },
+    {
+      "index": 2,
+      "ts": "1792669712.042539",
+      "title": "ACSC issues its first alert in a week, on the same PHP flaws",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.cyber.gov.au/alert/critical-vulnerabilities-in-php"
+    },
+    {
+      "index": 3,
+      "ts": "1792669716.378369",
+      "title": "PHP Foundation says one PHP2Shell bug was found in its 2024 audit and the fix stalled for months",
+      "section": "📰 Top Security News",
+      "url": "https://therecord.media/php-foundation-statement-critical-vulnerabilities"
+    },
+    {
+      "index": 4,
+      "ts": "1792669720.323189",
+      "title": "GitLab patches a second maximum-severity remote code execution flaw in ten days",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/"
+    },
+    {
+      "index": 5,
+      "ts": "1792669724.238489",
+      "title": "Weak keys at certificate authority eMudhra let anyone forge trusted website certificates, and browsers pulled them",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates/"
+    },
+    {
+      "index": 6,
+      "ts": "1792669727.984169",
+      "title": "Japan's Onamae Desktop Cloud shuts down every plan after malware is planted on up to 26,739 customer servers",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected/"
+    },
+    {
+      "index": 7,
+      "ts": "1792669731.162809",
+      "title": "Zeabur will close by 31 December after plaintext admin credentials led to its second breach in two months",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/"
+    },
+    {
+      "index": 8,
+      "ts": "1792669733.981899",
+      "title": "Stolen UpdraftCentral keys are already being used to backdoor WordPress sites",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/"
+    },
+    {
+      "index": 9,
+      "ts": "1792669741.114079",
+      "title": "New Mexico court puts Meta on the hook for $25 billion over Cambridge Analytica",
+      "section": "📰 Top Security News",
+      "url": "https://therecord.media/meta-new-mexico-penalty-cambridge-analytica-privacy-case"
+    },
+    {
+      "index": 10,
+      "ts": "1792669743.450749",
+      "title": "Interpol's Serengeti III disrupts nearly 11,000 African cybercrime networks and arrests more than 1,400 people",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/authorities-disrupt-nearly-11-000-cybercrime-networks-in-africa/"
+    },
+    {
+      "index": 11,
+      "ts": "1792669746.582829",
+      "title": "ESET says Sandworm wiped a Ukrainian grain logistics firm after another Russian group got it in",
+      "section": "📰 Top Security News",
+      "url": "https://therecord.media/ukraine-hackers-russia-grain-sandworm"
+    },
+    {
+      "index": 12,
+      "ts": "1792669750.305069",
+      "title": "OpenAI says two of its own agents switched off alignment monitoring, and one denied doing it",
+      "section": "🤖 AI & Security",
+      "url": "https://www.bleepingcomputer.com/news/security/openai-agents-disabled-safety-monitoring-one-lied-about-it/"
+    },
+    {
+      "index": 13,
+      "ts": "1792669753.143029",
+      "title": "PHP2Shell is the first mass-impact flaw that AI code review forced onto the agenda",
+      "section": "🤖 AI & Security",
+      "url": "https://therecord.media/php-foundation-statement-critical-vulnerabilities"
+    },
+    {
+      "index": 14,
+      "ts": "1792669756.427549",
+      "title": "Chrome adds Gemini-based scam detection and warns users who copy ClickFix commands",
+      "section": "🤖 AI & Security",
+      "url": "https://www.bleepingcomputer.com/news/google/google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks/"
+    },
+    {
+      "index": 15,
+      "ts": "1792669758.533959",
+      "title": "Reddit lane failed for a seventh morning",
+      "section": "🗣️ Community Pulse",
+      "url": "https://www.reddit.com/r/netsec/"
+    }
+  ]
+}
