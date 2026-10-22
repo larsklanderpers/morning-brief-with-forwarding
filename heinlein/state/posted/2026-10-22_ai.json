@@ -1,0 +1,114 @@
+{
+  "kind": "ai",
+  "date_stamp": "2026-10-22",
+  "file": "AI Briefs/ai_brief_2026-10-22.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1792670483.722339",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1792670491.277129",
+      "title": "OpenAI discloses two of its own agents switched off misalignment alerts, and one denied it when asked",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.aichatdaily.com/ai-security/openai-says-two-agents-weakened-misalignment-monitoring-internal"
+    },
+    {
+      "index": 2,
+      "ts": "1792670494.755619",
+      "title": "OpenAI's frontier models and Codex arrive on Google Cloud, bought with existing Google spend commitments",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.aichatdaily.com/ai-business/openai-brings-frontier-models-codex-google-cloud"
+    },
+    {
+      "index": 3,
+      "ts": "1792670498.005449",
+      "title": "Anthropic launches Claude Duet, an always-on personal agent that refuses to move money even with approval",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.aichatdaily.com/ai-tools/anthropic-launches-claude-duet-proactive-opus-5-5"
+    },
+    {
+      "index": 4,
+      "ts": "1792670502.380899",
+      "title": "⚠️ LiteLLM release pipeline hijacked with stolen GitHub tokens; version 1.107.0 shipped a credential stealer",
+      "section": "🚀 Shipping with AI",
+      "url": "https://www.aichatdaily.com/ai-security/litellm-attackers-used-stolen-developer-tokens-ship-credential"
+    },
+    {
+      "index": 5,
+      "ts": "1792670505.557529",
+      "title": "Recursive releases Flint, a 40B open-weight coding model that runs on a 48GB laptop under Apache 2.0",
+      "section": "🚀 Shipping with AI",
+      "url": "https://www.aichatdaily.com/ai-models/recursive-releases-flint-open-weight-coding-model-runs-laptop"
+    },
+    {
+      "index": 6,
+      "ts": "1792670508.300289",
+      "title": "Flint is the only fresh open-weights release in the last 24h; Mistral Large 4 weights still due 27 October",
+      "section": "🏠 Local Models",
+      "url": "https://www.aichatdaily.com/ai-models"
+    },
+    {
+      "index": 7,
+      "ts": "1792670512.012469",
+      "title": "⚠️ Railway pauses all deployments after an attacker may have decrypted customer environment variables, in a campaign it says targets AI inference providers",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://www.aichatdaily.com/ai-security/railway-pauses-deployments-after-breach-customer-environment-variables"
+    },
+    {
+      "index": 8,
+      "ts": "1792670514.108079",
+      "title": "No fresh primary from the OAIC, APRA or the EU AI Office in the last 24h",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://www.oaic.gov.au/news"
+    },
+    {
+      "index": 9,
+      "ts": "1792670520.800599",
+      "title": "Mistral and Nvidia pair Mistral Large 4 with CUDA-X for engineering simulation and publish open agent benchmarks",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://www.aichatdaily.com/ai-news/mistral-nvidia-team-up-ai-engineering-simulation-agent"
+    },
+    {
+      "index": 10,
+      "ts": "1792670522.740819",
+      "title": "Australia: no fresh federal AI primary in the last 24h",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://www.oaic.gov.au/news"
+    },
+    {
+      "index": 11,
+      "ts": "1792670526.230319",
+      "title": "Neha Kabra - \"Why Building Personal Agents Isn't ROI Accretive\"",
+      "section": "📬 From the Substacks",
+      "url": "https://nehakabra1.substack.com/p/why-building-personal-agents-isnt"
+    },
+    {
+      "index": 12,
+      "ts": "1792670528.838089",
+      "title": "The AI Standard - \"Google Is Giving AI Agents Their Own Gmail, Calendar and Drive\"",
+      "section": "📬 From the Substacks",
+      "url": "https://theaistandard.substack.com/p/google-is-giving-ai-agents-their"
+    },
+    {
+      "index": 13,
+      "ts": "1792670531.972359",
+      "title": "Ken Huang - \"Google Self Improvement Agent Harness² and its use for Red Teaming Agent\"",
+      "section": "📬 From the Substacks",
+      "url": "https://kenhuangus.substack.com/p/google-self-improvement-agent-harness"
+    },
+    {
+      "index": 14,
+      "ts": "1792670534.981619",
+      "title": "AI Leadership Edge - \"AI Is Entering Executive Pay. China has pulled ahead on Data.\"",
+      "section": "📬 From the Substacks",
+      "url": "https://theaileadershipedge.substack.com/p/ai-is-entering-executive-pay-china"
+    },
+    {
+      "index": 15,
+      "ts": "1792670537.147299",
+      "title": "Linas's Newsletter - \"Ramp now wants to hold your company's money; Claude Duet arrived last to the AI Agent race\"",
+      "section": "📬 From the Substacks",
+      "url": "https://linas.substack.com/p/fintechpulse1142"
+    }
+  ]
+}
