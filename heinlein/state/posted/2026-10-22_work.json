@@ -1,0 +1,86 @@
+{
+  "kind": "work",
+  "date_stamp": "2026-10-22",
+  "file": "AI Briefs/work_brief_2026-10-22.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1792671362.567769",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1792671368.545589",
+      "title": "\"AI Makes Us WAY Faster but Fries Our Focus (Here's What I Do About It)\" - Cole Medin (22 Oct, about 11.5K views)",
+      "section": "🎥 What Creators Are Saying (YouTube)",
+      "url": "https://www.youtube.com/watch?v=zj1TJlP7c9Y"
+    },
+    {
+      "index": 2,
+      "ts": "1792671371.420449",
+      "title": "\"Sam Altman: RSI, AI Consciousness, OpenAI's New Hardware, Compute, and more!\" - Matthew Berman (21 Oct, about 155K views)",
+      "section": "🎥 What Creators Are Saying (YouTube)",
+      "url": "https://www.youtube.com/watch?v=3gXLmy7DK_4"
+    },
+    {
+      "index": 3,
+      "ts": "1792671373.879959",
+      "title": "\"Microsoft AI's CEO on building a human-first AI future\" - CNN, Terms of Service (20 Oct, about 40K views)",
+      "section": "🎥 What Creators Are Saying (YouTube)",
+      "url": "https://www.youtube.com/watch?v=a-_TTEdieaI"
+    },
+    {
+      "index": 4,
+      "ts": "1792671376.858839",
+      "title": "@emollick (Ethan Mollick) - \"the bottlenecks to product improvements are often elsewhere\" (21 Oct)",
+      "section": "🐦 The Conversation on X",
+      "url": "https://x.com/emollick/status/2112968222538686592"
+    },
+    {
+      "index": 5,
+      "ts": "1792671379.832209",
+      "title": "@UberEng (Uber Engineering) - \"Using AI to Delete Code: Agentic Tech Debt Cleanup at Uber\" (20 Oct)",
+      "section": "🐦 The Conversation on X",
+      "url": "https://x.com/UberEng/status/2112604623454470476"
+    },
+    {
+      "index": 6,
+      "ts": "1792671382.573079",
+      "title": "AI Daily Brief - \"Why AI Companies Are Betting Personality Beats Intelligence\" (21 Oct, about 5K views)",
+      "section": "🎙️ Podcasts & Newsletters",
+      "url": "https://www.youtube.com/watch?v=FSX5JFJS9PQ"
+    },
+    {
+      "index": 7,
+      "ts": "1792671385.207499",
+      "title": "One Useful Thing - nothing fresh in the last 24 to 72h",
+      "section": "🎙️ Podcasts & Newsletters",
+      "url": "https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts"
+    },
+    {
+      "index": 8,
+      "ts": "1792671387.747299",
+      "title": "The flag sweeper: tech-debt cleanup becomes an agent job with a human owner",
+      "section": "🆕 New Roles & Archetypes Watch",
+      "url": "https://x.com/UberEng/status/2112604623454470476"
+    },
+    {
+      "index": 9,
+      "ts": "1792671390.581699",
+      "title": "Forward-deployed engineer: the buyer's side of the bet",
+      "section": "🆕 New Roles & Archetypes Watch",
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/22/vendors-asking-forward-deployed-engineers-to-make-good-on-trillion-dollar-ai-bet/5304366"
+    },
+    {
+      "index": 10,
+      "ts": "1792671392.887499",
+      "title": "The agent air-traffic controller, and its limit",
+      "section": "🆕 New Roles & Archetypes Watch",
+      "url": "https://www.youtube.com/watch?v=zj1TJlP7c9Y"
+    },
+    {
+      "index": 11,
+      "ts": "1792671395.974649",
+      "title": "Barclays to cut 5,000 jobs in an AI-linked efficiency push",
+      "section": "⚖️ The Debate (kept honest, kept brief)",
+      "url": "https://www.cnbc.com/2026/10/22/barclays-ai-jobs-cuts.html"
+    }
+  ]
+}
