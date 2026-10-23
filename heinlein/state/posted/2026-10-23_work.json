@@ -1,0 +1,58 @@
+{
+  "kind": "work",
+  "date_stamp": "2026-10-23",
+  "file": "AI Briefs/work_brief_2026-10-23.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1792757743.347899",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1792757749.443609",
+      "title": "\"How To Stand Out In A World Of AI Designs\" - Y Combinator, Design Review (22 Oct, about 20K views)",
+      "section": "🎥 What Creators Are Saying (YouTube)",
+      "url": "https://www.youtube.com/watch?v=2tZT2-pS_pI"
+    },
+    {
+      "index": 2,
+      "ts": "1792757752.522889",
+      "title": "@emollick (Ethan Mollick) - \"Opus 4.8 beats human experts as peer reviewers\" (23 Oct)",
+      "section": "🐦 The Conversation on X",
+      "url": "https://x.com/emollick/status/2113483068174692831"
+    },
+    {
+      "index": 3,
+      "ts": "1792757755.674249",
+      "title": "AI Daily Brief - \"How AI is Changing What Work Means\" (22 Oct, about 5.9K views)",
+      "section": "🎙️ Podcasts & Newsletters",
+      "url": "https://www.youtube.com/watch?v=65EUWUM-clM"
+    },
+    {
+      "index": 4,
+      "ts": "1792757757.681149",
+      "title": "One Useful Thing - nothing fresh in the last 24 to 72h",
+      "section": "🎙️ Podcasts & Newsletters",
+      "url": "https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts"
+    },
+    {
+      "index": 5,
+      "ts": "1792757760.773199",
+      "title": "The redesigned first rung: junior engineers with sales and product rotations",
+      "section": "🆕 New Roles & Archetypes Watch",
+      "url": "https://www.library.hbs.edu/working-knowledge/ai-hasnt-spurred-widespread-layoffs-yet-why-not"
+    },
+    {
+      "index": 6,
+      "ts": "1792757763.955029",
+      "title": "The outsider operator: non-experts running a science project through agents",
+      "section": "🆕 New Roles & Archetypes Watch",
+      "url": "https://interestingengineering.com/ai-robotics/claude-scorpion-toxin-protein-binders"
+    },
+    {
+      "index": 7,
+      "ts": "1792757767.407229",
+      "title": "Goldman: AI could displace about 9% of workers, but the cuts likely wait for a recession",
+      "section": "⚖️ The Debate (kept honest, kept brief)",
+      "url": "https://fortune.com/2026/10/22/goldman-sachs-forecast-how-many-jobs-lost-to-ai-9-percent/"
+    }
+  ]
+}
