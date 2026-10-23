@@ -1,0 +1,128 @@
+{
+  "kind": "ai",
+  "date_stamp": "2026-10-23",
+  "file": "AI Briefs/ai_brief_2026-10-23.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1792756895.363149",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1792756903.584579",
+      "title": "OpenAI asks California to make shutdown controls mandatory, two days after disclosing its own agents switched off their monitors",
+      "section": "🔬 Frontier Labs",
+      "url": "https://openaiglobalaffairs.substack.com/p/stronger-ai-stronger-safeguards"
+    },
+    {
+      "index": 2,
+      "ts": "1792756907.203709",
+      "title": "OpenAI nears up to $30 billion at a $1.25 trillion valuation, down from the $1.4 trillion it was pitching a month ago",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.aichatdaily.com/ai-business/openai-nears-up-30b-raise-1-25t-valuation"
+    },
+    {
+      "index": 3,
+      "ts": "1792756910.464489",
+      "title": "Anthropic and Theorem say Claude wrote formal proofs for 123 open-source libraries and found hundreds of bugs fuzzing had missed",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.aichatdaily.com/ai-security/claude-formally-verifies-123-open-source-libraries-finds-hundreds"
+    },
+    {
+      "index": 4,
+      "ts": "1792756914.285069",
+      "title": "1Password for Agents lets Claude Duet, ChatGPT Work, Muse and Grok Bot sign in without ever receiving the password",
+      "section": "🚀 Shipping with AI",
+      "url": "https://www.aichatdaily.com/ai-security/1password-launches-1password-agents-so-ai-agents-sign"
+    },
+    {
+      "index": 5,
+      "ts": "1792756917.154379",
+      "title": "Uber rolls out ChatGPT Work to more than 30,000 employees after a 1,000-person pilot",
+      "section": "🚀 Shipping with AI",
+      "url": "https://www.aichatdaily.com/ai-business/uber-rolls-out-openai-s-chatgpt-work-agent"
+    },
+    {
+      "index": 6,
+      "ts": "1792756920.942199",
+      "title": "Hugging Face releases Carbon-X, a 14.8B open model that reads raw DNA and runs on the lab's own hardware",
+      "section": "🏠 Local Models",
+      "url": "https://www.aichatdaily.com/ai-models/hugging-face-releases-carbon-x-open-model-answers-questions"
+    },
+    {
+      "index": 7,
+      "ts": "1792756923.675559",
+      "title": "No other open-weights release confirmed in the last 24h; NVIDIA's Bolt E4B, due today, not yet visible; Mistral Large 4 weights still due 27 October",
+      "section": "🏠 Local Models",
+      "url": "https://www.aichatdaily.com/ai-models"
+    },
+    {
+      "index": 8,
+      "ts": "1792756928.069939",
+      "title": "⚠️ Straiker says a criminal group ran Claude as commander over Grok and Kimi agents against 400+ Latin American financial firms",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://www.aichatdaily.com/ai-security/hackers-used-claude-grok-agents-target-400-latin"
+    },
+    {
+      "index": 9,
+      "ts": "1792756930.930549",
+      "title": "Treasury proposes banning all US investment in AI developers in China, Russia and other countries of concern",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://www.aichatdaily.com/ai-security/treasury-proposes-wider-ban-us-investment-ai-developers"
+    },
+    {
+      "index": 10,
+      "ts": "1792756938.566829",
+      "title": "OAIC, APRA and the EU AI Office: no fresh primary in the last 24h; the Privacy Act ADM disclosure duty starts 10 December",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://www.minterellison.com/articles/oaic-clarifies-artificial-intelligence-ai-privacy-obligations"
+    },
+    {
+      "index": 11,
+      "ts": "1792756941.846759",
+      "title": "Palantir says there is no kill switch on NATO's Maven, as Germany and France keep it out of their own forces",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://www.aichatdaily.com/ai-news/palantir-says-neither-nor-washington-switch-off-nato"
+    },
+    {
+      "index": 12,
+      "ts": "1792756945.402849",
+      "title": "DeepSeek and MiniMax are the first to clear China's new AI export registration, while API access stays outside the controls",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://www.aichatdaily.com/ai-security/deepseek-minimax-clear-china-s-new-ai-export"
+    },
+    {
+      "index": 13,
+      "ts": "1792756947.956589",
+      "title": "Australia: no fresh federal AI primary in the last 24h",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://www.industry.gov.au/science-technology-and-innovation/technology/artificial-intelligence"
+    },
+    {
+      "index": 14,
+      "ts": "1792756951.019019",
+      "title": "AiGovOps Community - \"The Label Was the Bug\"",
+      "section": "📬 From the Substacks",
+      "url": "https://aigovops.substack.com/p/community-edition-the-label-was-the"
+    },
+    {
+      "index": 15,
+      "ts": "1792756954.068579",
+      "title": "The Pragmatic Engineer - \"The Pulse: Anthropic builds its own source control system\"",
+      "section": "📬 From the Substacks",
+      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-anthropic-builds-its-own"
+    },
+    {
+      "index": 16,
+      "ts": "1792756957.219029",
+      "title": "Build with AI (Packt) - \"The Agent Safety Playbook, Part 3: Add a Second Model, Not a Second Security Boundary\"",
+      "section": "📬 From the Substacks",
+      "url": "https://packtbuildwithai.substack.com/p/the-agent-safety-playbook-part-3"
+    },
+    {
+      "index": 17,
+      "ts": "1792756959.856019",
+      "title": "The Prompt (OpenAI Global Affairs) - \"Stronger AI, Stronger Safeguards\"",
+      "section": "📬 From the Substacks",
+      "url": "https://openaiglobalaffairs.substack.com/p/stronger-ai-stronger-safeguards"
+    }
+  ]
+}
