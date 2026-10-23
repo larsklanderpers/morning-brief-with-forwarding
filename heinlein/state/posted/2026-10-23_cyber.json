@@ -1,0 +1,72 @@
+{
+  "kind": "cyber",
+  "date_stamp": "2026-10-23",
+  "file": "Daily Briefs/brief_2026-10-23.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1792756027.875199",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1792756034.922049",
+      "title": "ACSC tells every Fortinet customer to patch now, while the details wait until 10 November",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.cyber.gov.au/alert/critical-vulnerabilities-in-fortinet-products"
+    },
+    {
+      "index": 2,
+      "ts": "1792756038.250009",
+      "title": "CISA and Canada's Cyber Centre publish guidance on running out of AI tokens",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.cisa.gov/resources-tools/resources/managing-ai-token-consumption-operational-resilience"
+    },
+    {
+      "index": 3,
+      "ts": "1792756041.977259",
+      "title": "Amazon says attackers were probing PHP2Shell four days before the patch shipped",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/"
+    },
+    {
+      "index": 4,
+      "ts": "1792756045.425509",
+      "title": "Arista patches its fourth exploited VeloCloud zero-day of the year",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/"
+    },
+    {
+      "index": 5,
+      "ts": "1792756049.037509",
+      "title": "Capcom says 11.7 million CAPCOM ID accounts were exposed",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/"
+    },
+    {
+      "index": 6,
+      "ts": "1792756052.515229",
+      "title": "Lazarus wraps its malware delivery in NIST's post-quantum encryption",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/"
+    },
+    {
+      "index": 7,
+      "ts": "1792756056.531059",
+      "title": "LiteLLM's release pipeline was hijacked to ship a credential stealer to AI gateways",
+      "section": "🤖 AI & Security",
+      "url": "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/"
+    },
+    {
+      "index": 8,
+      "ts": "1792756060.305279",
+      "title": "Railway tells all 4.8 million users to rotate secrets in an attack it links to AI inference providers",
+      "section": "🤖 AI & Security",
+      "url": "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/"
+    },
+    {
+      "index": 9,
+      "ts": "1792756062.282259",
+      "title": "Reddit lane failed for an eighth morning",
+      "section": "🗣️ Community Pulse",
+      "url": "https://www.reddit.com/r/netsec/"
+    }
+  ]
+}
