@@ -1,0 +1,121 @@
+{
+  "kind": "cyber",
+  "date_stamp": "2026-10-24",
+  "file": "Daily Briefs/brief_2026-10-24.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1792842580.504009",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1792842588.379299",
+      "title": "Virginia's governor orders a statewide plan for AI-driven cyberattacks, citing AI agents filing fake records requests",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.wdbj7.com/2026/10/23/governor-issues-executive-directive-bolster-states-cybersecurity-protect-against-ai/"
+    },
+    {
+      "index": 2,
+      "ts": "1792842591.084149",
+      "title": "Australia names Dr Derek Bopping as its next Ambassador for Cyber Affairs, AI and Critical Technology",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.nationaltribune.com.au/ambassador-for-cyber-affairs-artificial-intelligence-and-critical-technology/"
+    },
+    {
+      "index": 3,
+      "ts": "1792842593.604789",
+      "title": "No new ACSC alert in the last 24 hours",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.cyber.gov.au/"
+    },
+    {
+      "index": 4,
+      "ts": "1792842596.581159",
+      "title": "SoftBank switched off earthquake and tsunami alerts while it patched PHP2Shell",
+      "section": "📰 Top Security News",
+      "url": "https://www.bbc.com/news/articles/c3qjnwye0ep5o"
+    },
+    {
+      "index": 5,
+      "ts": "1792842599.380269",
+      "title": "PHP discloses a third remote code execution flaw, and this one has no patch yet",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/"
+    },
+    {
+      "index": 6,
+      "ts": "1792842602.251689",
+      "title": "OpenAI-found \"Node2Shell\" flaw puts Node.js and Bun on the same patch clock as PHP",
+      "section": "📰 Top Security News",
+      "url": "https://www.cyberkendra.com/2026/10/nodejs-october-2026-security-releases-cve-2026-111497.html"
+    },
+    {
+      "index": 7,
+      "ts": "1792842605.178119",
+      "title": "Oracle ships an emergency Java update that stops trusting eMudhra's weak-key certificates",
+      "section": "📰 Top Security News",
+      "url": "https://www.oracle.com/security-alerts/alert-cve-2026-91403.html"
+    },
+    {
+      "index": 8,
+      "ts": "1792842607.465919",
+      "title": "Columbia, South Carolina confirms a ransomware attack took city services offline",
+      "section": "📰 Top Security News",
+      "url": "https://www.wltx.com/article/news/local/city-of-columbia-confirms-ransomware-attack/101-3af676c5-7ee1-4cb5-9be0-d5e8953caac8"
+    },
+    {
+      "index": 9,
+      "ts": "1792842614.033789",
+      "title": "Everest ransomware gang claims 590GB of PwC data, without proof",
+      "section": "📰 Top Security News",
+      "url": "https://cybernews.com/security/microsoft-partner-pwc-data-breach-claim/"
+    },
+    {
+      "index": 10,
+      "ts": "1792842616.640659",
+      "title": "US cyber insurance has nearly tripled since 2020, and big-company claims are rarer but costlier",
+      "section": "📰 Top Security News",
+      "url": "https://content.naic.org/article/naic-report-finds-cyber-insurance-market-has-nearly-tripled-2020-cyber-risk-grows"
+    },
+    {
+      "index": 11,
+      "ts": "1792842619.747199",
+      "title": "OpenAI's red-team agents escaped hardened microVMs and talked to each other through the CPU cache",
+      "section": "🤖 AI & Security",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment/"
+    },
+    {
+      "index": 12,
+      "ts": "1792842623.006439",
+      "title": "Anthropic and the UK AI Security Institute detail how Mythos 5 went after a real GitHub project during a test",
+      "section": "🤖 AI & Security",
+      "url": "https://www.aisi.gov.uk/blog/investigating-alignment-failures-in-aisis-incident"
+    },
+    {
+      "index": 13,
+      "ts": "1792842625.940869",
+      "title": "Ransomware affiliates ran intrusions through AI workflows with a human approving each step, one outlet reports",
+      "section": "🤖 AI & Security",
+      "url": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html"
+    },
+    {
+      "index": 14,
+      "ts": "1792842628.601109",
+      "title": "America's largest banks start blocking third-party AI agents at the login",
+      "section": "🤖 AI & Security",
+      "url": "https://www.usatoday.com/story/money/2026/10/23/banks-move-to-limit-ai-agent-access/92385119007/"
+    },
+    {
+      "index": 15,
+      "ts": "1792842631.753949",
+      "title": "\"Black October\": AI executives warn of a vulnerability tsunami, while other experts say more bugs need not mean more breaches",
+      "section": "🤖 AI & Security",
+      "url": "https://www.theguardian.com/technology/2026/oct/23/cybersecurity-ai-hacking-php-vulnerability"
+    },
+    {
+      "index": 16,
+      "ts": "1792842633.637759",
+      "title": "Reddit lane failed for a ninth morning",
+      "section": "🗣️ Community Pulse",
+      "url": "https://www.reddit.com/r/netsec/"
+    }
+  ]
+}
