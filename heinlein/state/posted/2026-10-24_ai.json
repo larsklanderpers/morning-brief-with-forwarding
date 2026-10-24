@@ -1,0 +1,128 @@
+{
+  "kind": "ai",
+  "date_stamp": "2026-10-24",
+  "file": "AI Briefs/ai_brief_2026-10-24.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1792843422.156289",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1792843436.069739",
+      "title": "OpenAI fired three safety researchers after its security team read the Signal chats on their personal phones",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.aichatdaily.com/ai-news/openai-fired-three-safety-researchers-after-reviewing-their"
+    },
+    {
+      "index": 2,
+      "ts": "1792843439.734429",
+      "title": "Anthropic will make auto mode the default in the Claude apps next week, citing its own study: 89% of dangerous commands caught versus 13.6% for humans",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.aichatdaily.com/ai-tools/anthropic-makes-auto-mode-default-claude-s-web"
+    },
+    {
+      "index": 3,
+      "ts": "1792843443.240879",
+      "title": "The Agentic AI Foundation takes in Anthropic's Agent Skills and OpenAI's Open Responses, now 10 projects under the Linux Foundation",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.aichatdaily.com/ai-news/agentic-ai-foundation-adds-anthropic-s-agent-skills"
+    },
+    {
+      "index": 4,
+      "ts": "1792843446.786529",
+      "title": "Microsoft says MAI-DxO diagnosed 83% of complex NEJM cases against 36% for physicians, in a Science paper, and now moves to a hospital study",
+      "section": "🚀 Shipping with AI",
+      "url": "https://www.aichatdaily.com/ai-news/microsoft-s-mai-dxo-diagnoses-83-complex-nejm-cases"
+    },
+    {
+      "index": 5,
+      "ts": "1792843450.326589",
+      "title": "Anthropic's 20-seat minimum prices most of Schwab's 16,000 small advisory firms out of Claude for Financial Advisors",
+      "section": "🚀 Shipping with AI",
+      "url": "https://www.aichatdaily.com/ai-business/anthropic-s-20-seat-claude-minimum-sidelines-thousands-schwab"
+    },
+    {
+      "index": 6,
+      "ts": "1792843453.703779",
+      "title": "Ken Huang runs Recursive's Flint on a DGX Spark and drives it from Windows, with the cloud reduced to an optional browser key",
+      "section": "🏠 Local Models",
+      "url": "https://kenhuangus.substack.com/p/how-i-use-recursives-flint-model"
+    },
+    {
+      "index": 7,
+      "ts": "1792843457.001259",
+      "title": "No other open-weights release confirmed in the last 24h; NVIDIA's Bolt E4B, due 23 October, still not visible; Mistral Large 4 weights still due 27 October",
+      "section": "🏠 Local Models",
+      "url": "https://www.hpcwire.com/aiwire/2026/10/15/nvidia-expands-nemotron-family-with-highest-efficiency-super-vl-and-bolt-models/"
+    },
+    {
+      "index": 8,
+      "ts": "1792843460.620369",
+      "title": "⚠️ Reservoir sues Anthropic and asks the court to destroy its works inside training sets and model weights",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://www.aichatdaily.com/ai-security/reservoir-sues-anthropic-suno-over-ai-training-1"
+    },
+    {
+      "index": 9,
+      "ts": "1792843462.924589",
+      "title": "OAIC, APRA and the EU AI Office: no fresh primary in the last 24h; Australia's automated-decision disclosure duty starts 10 December",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://www.oaic.gov.au/"
+    },
+    {
+      "index": 10,
+      "ts": "1792843471.341449",
+      "title": "The UK commits £100 million to an AI Biosecurity Lab, with OpenAI and Anthropic adding up to £200 million in model credits",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://www.aichatdaily.com/ai-security/uk-commits-100m-ai-biosecurity-lab-backed-openai"
+    },
+    {
+      "index": 11,
+      "ts": "1792843474.515259",
+      "title": "Anthropic and Hg plan a European AI consultancy with London and Berlin hubs, launching before the end of 2026",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://www.aichatdaily.com/ai-business/anthropic-hg-launch-european-ai-consultancy-london-berlin"
+    },
+    {
+      "index": 12,
+      "ts": "1792843476.516689",
+      "title": "Australia: no fresh federal AI primary in the last 24h",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://www.industry.gov.au/"
+    },
+    {
+      "index": 13,
+      "ts": "1792843479.755129",
+      "title": "The Durability Curve (Harry Floyd) - \"AI Agent Permissions: How to Stop Your Agent Doing Something You Can't Undo\"",
+      "section": "📬 From the Substacks",
+      "url": "https://harryfloyd.substack.com/p/ai-agent-permissions"
+    },
+    {
+      "index": 14,
+      "ts": "1792843482.313989",
+      "title": "Ken Huang - \"Agent commerce's 7 layer stack, with case studies per layer\"",
+      "section": "📬 From the Substacks",
+      "url": "https://kenhuangus.substack.com/p/the-seven-layer-agent-commerce-stack"
+    },
+    {
+      "index": 15,
+      "ts": "1792843484.960149",
+      "title": "Mother Using AI - \"How to Check If Your App or Website Is Safe With Claude\"",
+      "section": "📬 From the Substacks",
+      "url": "https://motherusingai.substack.com/p/check-app-website-safe-with-claude"
+    },
+    {
+      "index": 16,
+      "ts": "1792843487.194559",
+      "title": "[X] Trending: \"Claude Code Engineer Thariq Shihipar Leaves Anthropic Ahead of IPO\"",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    },
+    {
+      "index": 17,
+      "ts": "1792843489.559399",
+      "title": "[X] Trending: \"Moonshot AI Releases Kimi K3.1 Pro Amid Claude Usage Frustrations\"",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    }
+  ]
+}
