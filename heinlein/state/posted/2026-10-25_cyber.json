@@ -1,0 +1,100 @@
+{
+  "kind": "cyber",
+  "date_stamp": "2026-10-25",
+  "file": "Daily Briefs/brief_2026-10-25.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1792928864.688249",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1792928871.222879",
+      "title": "CISA adds the Arista VeloCloud Orchestrator zero-day to its exploited list, two days after the patch",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/10/23/cisa-adds-one-known-exploited-vulnerability-catalog"
+    },
+    {
+      "index": 2,
+      "ts": "1792928873.869089",
+      "title": "CISA flags an exploited command-injection flaw in Collabora Online, the engine behind many self-hosted office suites",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/10/23/cisa-adds-one-known-exploited-vulnerability-catalog-0"
+    },
+    {
+      "index": 3,
+      "ts": "1792928876.185489",
+      "title": "No new ACSC alert since Friday's Fortinet notice",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.cyber.gov.au/alerts-and-advisories"
+    },
+    {
+      "index": 4,
+      "ts": "1792928879.683559",
+      "title": "PHP2Shell exploitation attempts are everywhere, confirmed compromises are not, and 41 million servers are still unpatched",
+      "section": "📰 Top Security News",
+      "url": "https://therecord.media/php-php2shell-exploitation-attempts-pocs"
+    },
+    {
+      "index": 5,
+      "ts": "1792928882.932579",
+      "title": "eMudhra quits the global certificate business after its CA keys turned out to be the numbers 4, 56 and 115",
+      "section": "📰 Top Security News",
+      "url": "https://therecord.media/indian-tech-company-announces-withdrawal-certificate-business-incident"
+    },
+    {
+      "index": 6,
+      "ts": "1792928885.873779",
+      "title": "Quest Diagnostics discloses unauthorised access to the lab platform clinicians use to order tests and read results",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/"
+    },
+    {
+      "index": 7,
+      "ts": "1792928889.027379",
+      "title": "APT41-linked BlackX bootkit beat Secure Boot on fully patched Windows because nobody flipped the manual revocation",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/"
+    },
+    {
+      "index": 8,
+      "ts": "1792928895.022589",
+      "title": "HPE patches 72 ArubaOS flaws, eight of them maximum severity",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/"
+    },
+    {
+      "index": 9,
+      "ts": "1792928898.291859",
+      "title": "Windows Server 2016 stops getting security updates in January",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-january/"
+    },
+    {
+      "index": 10,
+      "ts": "1792928900.001129",
+      "title": "Researchers remotely shut off an abandoned Popcorn Time fork's updater that exposed millions of PCs to code execution",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/"
+    },
+    {
+      "index": 11,
+      "ts": "1792928903.425009",
+      "title": "Microsoft ties the ConnectWise supply-chain attack to a Chinese state group running ARTEX AI agents, at 2,900 sign-ins a minute",
+      "section": "🤖 AI & Security",
+      "url": "https://therecord.media/china-cyber-connectwise-ai"
+    },
+    {
+      "index": 12,
+      "ts": "1792928906.194119",
+      "title": "Teams will start reading conversation context for phishing from November, and Microsoft says it will not keep the messages",
+      "section": "🤖 AI & Security",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/"
+    },
+    {
+      "index": 13,
+      "ts": "1792928908.304769",
+      "title": "Reddit lane failed for a tenth morning",
+      "section": "🗣️ Community Pulse",
+      "url": "https://www.reddit.com/r/netsec/"
+    }
+  ]
+}
