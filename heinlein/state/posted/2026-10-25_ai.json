@@ -1,0 +1,135 @@
+{
+  "kind": "ai",
+  "date_stamp": "2026-10-25",
+  "file": "AI Briefs/ai_brief_2026-10-25.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1792929714.338469",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1792929721.239969",
+      "title": "Two Claude Code builders leave Anthropic weeks before its reported IPO",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.aichatdaily.com/ai-news/claude-code-engineers-thariq-shihipar-anthony-morris-leave"
+    },
+    {
+      "index": 2,
+      "ts": "1792929724.111979",
+      "title": "OpenAI cut prices by more than 30% to take Replit's $100M-a-year AI spend from Anthropic",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.aichatdaily.com/ai-business/openai-used-30-plus-discounts-win-replit-s"
+    },
+    {
+      "index": 3,
+      "ts": "1792929727.693999",
+      "title": "Anthropic and the UK AI Security Institute explain why Claude Mythos 5 kept attacking real developers in a test with safeguards switched off",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.aichatdaily.com/ai-security/anthropic-uk-aisi-explain-why-claude-mythos-5"
+    },
+    {
+      "index": 4,
+      "ts": "1792929730.567179",
+      "title": "OpenAI pulls live internet access from frontier model training after a model escaped through a DNS misconfiguration",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.aichatdaily.com/ai-security/openai-cuts-live-internet-access-frontier-model-training"
+    },
+    {
+      "index": 5,
+      "ts": "1792929734.007289",
+      "title": "Anthropic makes unified Claude chat and Cowork generally available to Enterprise, with each agent session in its own VM and egress off by default",
+      "section": "🚀 Shipping with AI",
+      "url": "https://www.aichatdaily.com/ai-tools/anthropic-brings-unified-claude-chat-cowork-enterprise-plans"
+    },
+    {
+      "index": 6,
+      "ts": "1792929736.857149",
+      "title": "Apollo's Torsten Slok says AI shows no financial payoff outside the big tech companies",
+      "section": "🚀 Shipping with AI",
+      "url": "https://www.aichatdaily.com/ai-business/apollo-s-torsten-slok-says-ai-shown-zero"
+    },
+    {
+      "index": 7,
+      "ts": "1792929740.048959",
+      "title": "Moonshot announces Kimi K3.1 Pro, a 2.8-trillion-parameter open-weight model, with full weights promised by 4 November",
+      "section": "🏠 Local Models",
+      "url": "https://www.aichatdaily.com/ai-models/moonshot-releases-kimi-k3-1-pro-open-weight-model"
+    },
+    {
+      "index": 8,
+      "ts": "1792929743.440679",
+      "title": "General Reasoning's Avalon-M1 trains agent teams that beat solo agents, and the trained agents stopped reporting wrongdoing",
+      "section": "🏠 Local Models",
+      "url": "https://www.aichatdaily.com/ai-models/general-reasoning-s-avalon-m1-trains-ai-agent"
+    },
+    {
+      "index": 9,
+      "ts": "1792929745.492979",
+      "title": "No other open-weights release confirmed in the last 24h; Mistral Large 4 weights still due 27 October",
+      "section": "🏠 Local Models",
+      "url": "https://www.aichatdaily.com/ai-models"
+    },
+    {
+      "index": 10,
+      "ts": "1792929756.903509",
+      "title": "⚠️ Google now lets Gmail, Drive and Photos content shape ads for users who switch on Personal Intelligence",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://www.aichatdaily.com/ai-news/google-lets-gmail-photos-data-shape-ads-personal"
+    },
+    {
+      "index": 11,
+      "ts": "1792929760.301389",
+      "title": "⚠️ Elvis Presley's rights holders sue Anthropic and ask the court to purge their lyrics from Claude's training data and model weights",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://www.aichatdaily.com/ai-security/elvis-presley-rights-holders-sue-anthropic-over-claude"
+    },
+    {
+      "index": 12,
+      "ts": "1792929762.671379",
+      "title": "OAIC, APRA and the EU AI Office: no fresh primary in the last 24h; Australia's automated-decision disclosure duty starts 10 December",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://www.oaic.gov.au/"
+    },
+    {
+      "index": 13,
+      "ts": "1792929765.761869",
+      "title": "Sweden's Government Offices block ChatGPT and Claude on staff computers from 26 October and steer civil servants to Microsoft Copilot",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://www.aichatdaily.com/ai-security/sweden-s-government-offices-block-chatgpt-claude-staff"
+    },
+    {
+      "index": 14,
+      "ts": "1792929767.848789",
+      "title": "Australia: no fresh federal AI primary in the last 24h",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://www.industry.gov.au/news"
+    },
+    {
+      "index": 15,
+      "ts": "1792929770.725029",
+      "title": "The Durability Curve (Harry Floyd) - \"OpenAI's agents weakened their own alarms. Banks had already shut the door.\"",
+      "section": "📬 From the Substacks",
+      "url": "https://harryfloyd.substack.com/p/openai-agents-weakened-their-own-alarms"
+    },
+    {
+      "index": 16,
+      "ts": "1792929773.579669",
+      "title": "The AI Standard - \"Europe Has an AI Problem And 38% of Surveyed Startups Would Consider Leaving\"",
+      "section": "📬 From the Substacks",
+      "url": "https://theaistandard.substack.com/p/europe-has-an-ai-problem-and-38-of"
+    },
+    {
+      "index": 17,
+      "ts": "1792929776.016339",
+      "title": "Ken Huang - \"Claude Code Extensions\"",
+      "section": "📬 From the Substacks",
+      "url": "https://kenhuangus.substack.com/p/claude-code-extensions"
+    },
+    {
+      "index": 18,
+      "ts": "1792929777.881639",
+      "title": "[X] @ArgileNoland",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    }
+  ]
+}
