@@ -1,0 +1,58 @@
+{
+  "kind": "work",
+  "date_stamp": "2026-10-25",
+  "file": "AI Briefs/work_brief_2026-10-25.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1792930443.636879",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1792930449.416199",
+      "title": "\"/roast-room: How I Use Claude to Think Like the Top 1%\" - Nate Herk (23 Oct, about 34K views)",
+      "section": "🎥 What Creators Are Saying (YouTube)",
+      "url": "https://www.youtube.com/watch?v=DSS1Yqb6-qE"
+    },
+    {
+      "index": 2,
+      "ts": "1792930452.038899",
+      "title": "@farrukh_codes (Farrukh Naveed Anjum) - \"AI may not remove software engineers, but it could weaken the path that creates senior ones\" (25 Oct)",
+      "section": "🐦 The Conversation on X",
+      "url": "https://x.com/farrukh_codes/status/2114272327357898820"
+    },
+    {
+      "index": 3,
+      "ts": "1792930455.374969",
+      "title": "AI Daily Brief - \"The Most Concerning AI Bubble Signals\" (24 Oct, about 5.5K views)",
+      "section": "🎙️ Podcasts & Newsletters",
+      "url": "https://www.youtube.com/watch?v=3WYxicCws8k"
+    },
+    {
+      "index": 4,
+      "ts": "1792930457.244789",
+      "title": "One Useful Thing - nothing fresh in the last 24 to 72h",
+      "section": "🎙️ Podcasts & Newsletters",
+      "url": "https://www.oneusefulthing.org/"
+    },
+    {
+      "index": 5,
+      "ts": "1792930460.608889",
+      "title": "The apprenticeship designer: treating the junior rung as infrastructure",
+      "section": "🆕 New Roles & Archetypes Watch",
+      "url": "https://neurips.cc/virtual/2026/173295"
+    },
+    {
+      "index": 6,
+      "ts": "1792930463.611659",
+      "title": "The non-technical shipper: Coinbase's description of who builds now",
+      "section": "🆕 New Roles & Archetypes Watch",
+      "url": "https://www.usnews.com/news/technology/articles/2026-10-23/layoffs-linked-to-changes-in-corporate-ai-spending"
+    },
+    {
+      "index": 7,
+      "ts": "1792930466.733319",
+      "title": "AP: layoffs as a reallocation from payroll to AI capital",
+      "section": "⚖️ The Debate (kept honest, kept brief)",
+      "url": "https://www.usnews.com/news/technology/articles/2026-10-23/layoffs-linked-to-changes-in-corporate-ai-spending"
+    }
+  ]
+}
