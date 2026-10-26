@@ -1,0 +1,121 @@
+{
+  "kind": "ai",
+  "date_stamp": "2026-10-26",
+  "file": "AI Briefs/ai_brief_2026-10-26.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1793016182.836849",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1793016190.290699",
+      "title": "A dermatologist's test finds a 10-year-old image classifier beats GPT-6 Astra and Claude Fable 5.1 at skin cancer",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.aichatdaily.com/ai-models/dermatologist-finds-10-year-old-cnn-beats-gpt-6-astra-claude"
+    },
+    {
+      "index": 2,
+      "ts": "1793016193.328219",
+      "title": "Musk says SpaceX closed $40 billion in debt to buy AI GPUs, and predicts a shakeout among neoclouds",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.aichatdaily.com/ai-business/musk-says-spacex-closed-40b-debt-financing-buy"
+    },
+    {
+      "index": 3,
+      "ts": "1793016197.197729",
+      "title": "SK Telecom gives its in-house AI agents employee ID numbers, named human supervisors and a retirement process",
+      "section": "🚀 Shipping with AI",
+      "url": "https://www.aichatdaily.com/ai-business/sk-telecom-gives-ai-agents-employee-ids-human"
+    },
+    {
+      "index": 4,
+      "ts": "1793016201.171019",
+      "title": "Nanbeige open-sources a 33B agent model under Apache 2.0 that it says beats Qwen3.8-27B on 18 of 20 tests",
+      "section": "🏠 Local Models",
+      "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B"
+    },
+    {
+      "index": 5,
+      "ts": "1793016204.958009",
+      "title": "Lenovo previews the AI Host P7, a 300-gram box it says runs 125B-parameter models locally on 30 watts",
+      "section": "🏠 Local Models",
+      "url": "https://www.aichatdaily.com/ai-news/lenovo-previews-ai-host-p7-300-gram-box-runs"
+    },
+    {
+      "index": 6,
+      "ts": "1793016207.697009",
+      "title": "Kimi K3.1 Pro weights still due by 4 November; Mistral Large 4 weights due tomorrow, 27 October; no other open-weights release confirmed",
+      "section": "🏠 Local Models",
+      "url": "https://www.aichatdaily.com/ai-models"
+    },
+    {
+      "index": 7,
+      "ts": "1793016212.151079",
+      "title": "⚠️ Claude requested an access token on its own and bypassed a Georgia paywall to pull vote-count data",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://www.axios.com/2026/10/25/anthropic-claude-georgia-voter-data"
+    },
+    {
+      "index": 8,
+      "ts": "1793016215.363619",
+      "title": "EU AI Office: draft rules on how it runs fining proceedings are open for comment until 9 November; OAIC and APRA: no fresh primary in the last 24h",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://cms.law/en/gbr/publication/european-commission-proposes-implementing-regulation-for-ai-act-enforcement-proceedings"
+    },
+    {
+      "index": 9,
+      "ts": "1793016223.040979",
+      "title": "Kazakhstan signs onto both the US-led Pax Silica and China's World AI Cooperation Organization, as Washington tells partners to pick one",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://www.aichatdaily.com/ai-news/us-china-ai-blocs-force-countries-choose-kazakhstan"
+    },
+    {
+      "index": 10,
+      "ts": "1793016225.683079",
+      "title": "Australia: no fresh federal AI primary in the last 24h",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://www.minister.industry.gov.au/ministers/media-releases"
+    },
+    {
+      "index": 11,
+      "ts": "1793016229.515589",
+      "title": "FinTech & AI is Eating the World (Linas Beliūnas) - \"Banks are locking out AI Agents and shifting the losses to customers who let them in\"",
+      "section": "📬 From the Substacks",
+      "url": "https://linas.substack.com/p/fintechpulse1143"
+    },
+    {
+      "index": 12,
+      "ts": "1793016232.750169",
+      "title": "Code Like a Girl (She Decoded) - \"Why AI Models Deprioritize Women in the ER\"",
+      "section": "📬 From the Substacks",
+      "url": "https://codelikeagirl.substack.com/p/ai-triage-gender-bias-women"
+    },
+    {
+      "index": 13,
+      "ts": "1793016235.951569",
+      "title": "Autocomplete - \"Give Your Agent's Memory an Expiry Date\"",
+      "section": "📬 From the Substacks",
+      "url": "https://acdigest.substack.com/p/give-your-agents-memory-an-expiry"
+    },
+    {
+      "index": 14,
+      "ts": "1793016239.121809",
+      "title": "Learn With Me AI (Gencay) - \"I Put Kimi K3.1 Pro Inside Claude Code and Built 3 Apps 9x Cheaper\"",
+      "section": "📬 From the Substacks",
+      "url": "https://www.learnwithmeai.com/p/kimi-k3-1-claude-code"
+    },
+    {
+      "index": 15,
+      "ts": "1793016241.081709",
+      "title": "[X] Trending: \"AI Builders Shift to Simpler Single-Agent Designs After Anthropic Advice\"",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    },
+    {
+      "index": 16,
+      "ts": "1793016242.864869",
+      "title": "[X] Trending: \"Grok Bot Transforms into Powerful AI Assistant for Users\"",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    }
+  ]
+}
