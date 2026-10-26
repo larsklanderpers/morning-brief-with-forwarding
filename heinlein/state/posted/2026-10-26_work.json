@@ -1,0 +1,44 @@
+{
+  "kind": "work",
+  "date_stamp": "2026-10-26",
+  "file": "AI Briefs/work_brief_2026-10-26.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1793016976.551719",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1793016983.186049",
+      "title": "@emollick (Ethan Mollick) - \"how do I make what I am doing even more ambitious?\" (25 Oct)",
+      "section": "🐦 The Conversation on X",
+      "url": "https://x.com/emollick/status/2114503849826549842"
+    },
+    {
+      "index": 2,
+      "ts": "1793016985.512259",
+      "title": "AI Daily Brief - no new episode since 24 Oct",
+      "section": "🎙️ Podcasts & Newsletters",
+      "url": "https://www.youtube.com/@AIDailyBrief/videos"
+    },
+    {
+      "index": 3,
+      "ts": "1793016987.741469",
+      "title": "One Useful Thing - nothing fresh in the last 24 to 72h",
+      "section": "🎙️ Podcasts & Newsletters",
+      "url": "https://www.oneusefulthing.org/"
+    },
+    {
+      "index": 4,
+      "ts": "1793016990.702339",
+      "title": "The agent supervisor: SK Telecom gives every in-house agent an employee ID and a named human boss",
+      "section": "🆕 New Roles & Archetypes Watch",
+      "url": "https://www.aichatdaily.com/ai-business/sk-telecom-gives-ai-agents-employee-ids-human"
+    },
+    {
+      "index": 5,
+      "ts": "1793016993.542509",
+      "title": "Goldman's AI labour note, second pass: smaller than feared so far, and only 23% of establishments are using AI",
+      "section": "⚖️ The Debate (kept honest, kept brief)",
+      "url": "https://ph.investing.com/news/stock-market-news/recent-labor-market-data-show-some-signs-of-airelated-hiring-headwinds-2648228"
+    }
+  ]
+}
