@@ -1,0 +1,79 @@
+{
+  "kind": "cyber",
+  "date_stamp": "2026-10-26",
+  "file": "Daily Briefs/brief_2026-10-26.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1793015344.631989",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1793015350.981319",
+      "title": "No new CISA or ACSC alert since Friday",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories"
+    },
+    {
+      "index": 2,
+      "ts": "1793015353.772489",
+      "title": "The FCC blocks its first two devices under the new component rule: a dashcam and a video transmitter built on Huawei-linked chips",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.fcc.gov/document/fcc-blocks-two-devices-containing-foreign-surveillance-chips"
+    },
+    {
+      "index": 3,
+      "ts": "1793015357.247639",
+      "title": "UK proposes up to 14 years in prison for deliberately damaging undersea cables, replacing an 1885 law",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.gov.uk/government/consultations/proposals-for-new-legislation-to-strengthen-the-security-and-resilience-of-critical-undersea-infrastructure-cui/critical-undersea-infrastructure-security-and-resilience-proposals-for-modernising-the-uks-legislation-white-paper"
+    },
+    {
+      "index": 4,
+      "ts": "1793015361.384849",
+      "title": "PHP2Shell is now confirmed exploited in the wild, by a honeypot that caught a working chain against PHP 8.4.26",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/"
+    },
+    {
+      "index": 5,
+      "ts": "1793015364.352329",
+      "title": "Toronto Crime Stoppers stops taking tips after a vendor breach exposed tips it promised were anonymous",
+      "section": "📰 Top Security News",
+      "url": "https://therecord.media/toronto-crime-tips-org-freezes-ops-after-breach"
+    },
+    {
+      "index": 6,
+      "ts": "1793015367.340799",
+      "title": "One in ten Tor exit relays was hijacked to steal SSH passwords",
+      "section": "📰 Top Security News",
+      "url": "https://www.securityweek.com/in-other-news-tor-exit-relays-hijacked-banks-spot-rogue-ai-agents-self-rebuilding-macos-ransomware/"
+    },
+    {
+      "index": 7,
+      "ts": "1793015370.283079",
+      "title": "Iran's \"Prince of Persia\" group returns from a record lull with new malware and its first US-hosted command server since 2016",
+      "section": "📰 Top Security News",
+      "url": "https://www.securityweek.com/irans-prince-of-persia-apt-hosts-cc-in-us-for-first-time-since-2016/"
+    },
+    {
+      "index": 8,
+      "ts": "1793015374.150199",
+      "title": "A rogue AGENTS.md in a Downloads folder steered a coding agent into installing a malicious npm package",
+      "section": "🤖 AI & Security",
+      "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/"
+    },
+    {
+      "index": 9,
+      "ts": "1793015376.971989",
+      "title": "ISO publishes ISO/IEC 27090, an international standard aimed at threats specific to AI systems",
+      "section": "🤖 AI & Security",
+      "url": "https://www.iso.org/standard/27090"
+    },
+    {
+      "index": 10,
+      "ts": "1793015379.270389",
+      "title": "Reddit lane failed for an eleventh morning",
+      "section": "🗣️ Community Pulse",
+      "url": "https://www.reddit.com/r/netsec/"
+    }
+  ]
+}
