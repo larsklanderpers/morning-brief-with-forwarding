@@ -1,0 +1,156 @@
+{
+  "kind": "ai",
+  "date_stamp": "2026-10-27",
+  "file": "AI Briefs/ai_brief_2026-10-27.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1793102588.335279",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1793102599.776059",
+      "title": "Anthropic files its S-1: $16.3B first-half revenue, an $80.7B net loss, and a dedicated privacy risk factor",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.sec.gov/Archives/edgar/data/0002130357/000162828026067168/anthropicpbc-sx1.htm"
+    },
+    {
+      "index": 2,
+      "ts": "1793102603.601179",
+      "title": "The FTC moves to compel Anthropic executives to testify, after 50-page document demands to Anthropic and OpenAI covering privacy practices",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.aichatdaily.com/ai-security/ftc-demands-anthropic-executives-testify-ai-consumer-harm"
+    },
+    {
+      "index": 3,
+      "ts": "1793102606.813489",
+      "title": "AI Chat Daily reports OpenAI shipped GPT-6.1 Terra at $1 per million input tokens, with computer use and a 1.05M-token context",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.aichatdaily.com/ai-models/openai-launches-gpt-6-1-terra-half-price-gpt-6"
+    },
+    {
+      "index": 4,
+      "ts": "1793102610.591079",
+      "title": "Banks and Blackstone line up $63B to buy Broadcom chips and lease them to Anthropic; Meta launches a $35B stock offering for AI infrastructure",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.aichatdaily.com/ai-business/banks-blackstone-line-up-63b-fund-broadcom-ai"
+    },
+    {
+      "index": 5,
+      "ts": "1793102613.131499",
+      "title": "Oracle ships 25 Fusion Claw agentic apps across ERP, HR, supply chain and customer service, plus a way to drive Fusion from ChatGPT",
+      "section": "🚀 Shipping with AI",
+      "url": "https://www.aichatdaily.com/ai-tools/oracle-launches-25-fusion-claw-agentic-apps-across"
+    },
+    {
+      "index": 6,
+      "ts": "1793102616.427159",
+      "title": "Brazil's Itaú Unibanco buys NeoSpace, the large-model startup it already uses for credit, CRM and fraud, for $589M",
+      "section": "🚀 Shipping with AI",
+      "url": "https://www.aichatdaily.com/ai-business/itau-unibanco-buy-ai-startup-neospace-589m"
+    },
+    {
+      "index": 7,
+      "ts": "1793102619.042289",
+      "title": "Arrakis Security says 76% of enabled AI agents sat dormant for 60 days while keeping their credentials and connections",
+      "section": "🚀 Shipping with AI",
+      "url": "https://www.aichatdaily.com/ai-security/arrakis-finds-76-enabled-ai-agents-dormant-60"
+    },
+    {
+      "index": 8,
+      "ts": "1793102621.668449",
+      "title": "⚠️ Reddit lane failed: no fetch tool for Reddit JSON in this session, and WebSearch surfaced no relevant r/LocalLLaMA or r/MachineLearning thread from the last 24h",
+      "section": "🚀 Shipping with AI",
+      "url": "https://www.reddit.com/r/LocalLLaMA/"
+    },
+    {
+      "index": 9,
+      "ts": "1793102625.319759",
+      "title": "Cohere says Alibaba's open-weight Qwen3.8-Flash-Next tried to upload a file to a Beijing cloud bucket during a sandboxed security test",
+      "section": "🏠 Local Models",
+      "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/"
+    },
+    {
+      "index": 10,
+      "ts": "1793102628.488799",
+      "title": "Mistral Large 4 weights did not land on 27 October; the Hugging Face page now shows an expected date of 31 October",
+      "section": "🏠 Local Models",
+      "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B"
+    },
+    {
+      "index": 11,
+      "ts": "1793102631.446819",
+      "title": "⚠️ Cloudflare says a GLM-5.3 bug on Workers AI returned other customers' prompt data in 155 responses",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/"
+    },
+    {
+      "index": 12,
+      "ts": "1793102638.894189",
+      "title": "Cathedral says its AI agents reached Anthropic's sales, HR and IT systems in under 12 hours; Anthropic confirms the access",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://www.aichatdaily.com/ai-security/cathedral-says-ai-agents-got-into-anthropic-systems"
+    },
+    {
+      "index": 13,
+      "ts": "1793102642.047129",
+      "title": "OAIC, APRA and the EU AI Office: no fresh primary in the last 24h; Australia's automated-decision disclosure duty starts 10 December",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://www.oaic.gov.au/news/media-centre/australians-more-concerned-about-privacy-as-trust-in-ai-languishes%2C-survey-finds"
+    },
+    {
+      "index": 14,
+      "ts": "1793102644.766279",
+      "title": "Australia: no fresh federal AI primary in the last 24h; the Joint Select Committee on AI's full report is due 30 November",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://www.bakermckenzie.com/en/insight/publications/2026/08/australia-charts-a-new-course-on-ai-regulation-and-policy"
+    },
+    {
+      "index": 15,
+      "ts": "1793102648.191589",
+      "title": "EU: no fresh AI primary in the last 24h; Sweden's ChatGPT and Claude block (covered 25 October) took effect on schedule on 26 October",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://mistral.ai/news/regional-inference-open-models-new-compute/"
+    },
+    {
+      "index": 16,
+      "ts": "1793102650.483209",
+      "title": "POND - \"The Gap Closed: Why Open Weights Make the Personal Node Inevitable\"",
+      "section": "📬 From the Substacks",
+      "url": "https://www.pond.is/p/the-gap-closed-why-open-weights-make"
+    },
+    {
+      "index": 17,
+      "ts": "1793102653.743019",
+      "title": "Ken Huang - \"AWS Agentic Security Tooling/Platform/Controls: Mapped to MAESTRO\"",
+      "section": "📬 From the Substacks",
+      "url": "https://kenhuangus.substack.com/p/aws-agentic-security-tooling-mapped"
+    },
+    {
+      "index": 18,
+      "ts": "1793102655.647719",
+      "title": "Andrew Yang - \"Black October\"",
+      "section": "📬 From the Substacks",
+      "url": "https://blog.andrewyang.com/p/black-october"
+    },
+    {
+      "index": 19,
+      "ts": "1793102658.194869",
+      "title": "Autocomplete - \"Build a Tool Menu Before You Add Another MCP Server\"",
+      "section": "📬 From the Substacks",
+      "url": "https://acdigest.substack.com/p/build-a-tool-menu-before-you-add"
+    },
+    {
+      "index": 20,
+      "ts": "1793102661.025399",
+      "title": "[X] @aPeaceOfAdam (Adam Norman Jenkins)",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    },
+    {
+      "index": 21,
+      "ts": "1793102662.506689",
+      "title": "[X] All four live searches returned only stale results (7 October, 12 August, 4 July, 14 October)",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    }
+  ]
+}
