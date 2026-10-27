@@ -1,0 +1,65 @@
+{
+  "kind": "work",
+  "date_stamp": "2026-10-27",
+  "file": "AI Briefs/work_brief_2026-10-27.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1793103309.788739",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1793103316.807019",
+      "title": "\"The New Full-Stack Designer\" - Y Combinator, Design Review (26 Oct, about 31K views)",
+      "section": "🎥 What Creators Are Saying (YouTube)",
+      "url": "https://www.youtube.com/watch?v=eojywvxqoLc"
+    },
+    {
+      "index": 2,
+      "ts": "1793103319.488349",
+      "title": "@emollick (Ethan Mollick) - hidden thinking traces push us \"towards automation, rather than augmentation\" (27 Oct)",
+      "section": "🐦 The Conversation on X",
+      "url": "https://x.com/emollick/status/2114942007533515261"
+    },
+    {
+      "index": 3,
+      "ts": "1793103322.522949",
+      "title": "AI Daily Brief - \"4 Questions for AI This Week\" (27 Oct, posted about 11:37 UTC)",
+      "section": "🎙️ Podcasts & Newsletters",
+      "url": "https://www.youtube.com/watch?v=uGvgPwcy9V0"
+    },
+    {
+      "index": 4,
+      "ts": "1793103324.793689",
+      "title": "AI Daily Brief - \"How I'm Actually Using Claude Duet\" (26 Oct, about 5.4K views)",
+      "section": "🎙️ Podcasts & Newsletters",
+      "url": "https://www.youtube.com/watch?v=HyEfRBW10Kk"
+    },
+    {
+      "index": 5,
+      "ts": "1793103326.628569",
+      "title": "One Useful Thing - nothing fresh in the last 24 to 72h",
+      "section": "🎙️ Podcasts & Newsletters",
+      "url": "https://www.oneusefulthing.org/"
+    },
+    {
+      "index": 6,
+      "ts": "1793103330.011019",
+      "title": "The AI capability assessor: Proton re-interviews staff on how they use AI",
+      "section": "🆕 New Roles & Archetypes Watch",
+      "url": "https://www.aichatdaily.com/ai-careers/proton-re-interview-staff-their-ai-use-jobs-stake"
+    },
+    {
+      "index": 7,
+      "ts": "1793103331.946639",
+      "title": "The designer who builds: Shopify's studio as the template",
+      "section": "🆕 New Roles & Archetypes Watch",
+      "url": "https://www.youtube.com/watch?v=eojywvxqoLc"
+    },
+    {
+      "index": 8,
+      "ts": "1793103334.922989",
+      "title": "Microsoft offers voluntary buyouts to about 60,000 staff",
+      "section": "⚖️ The Debate (kept honest, kept brief)",
+      "url": "https://fortune.com/2026/10/26/microsoft-offers-buyouts-to-nearly-30-of-workforce-in-ongoing-ai-shift"
+    }
+  ]
+}
