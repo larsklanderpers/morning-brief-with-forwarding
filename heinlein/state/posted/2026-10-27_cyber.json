@@ -1,0 +1,93 @@
+{
+  "kind": "cyber",
+  "date_stamp": "2026-10-27",
+  "file": "Daily Briefs/brief_2026-10-27.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1793101757.117629",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1793101764.373989",
+      "title": "CISA puts both PHP2Shell flaws on its exploited list, a day after a honeypot caught a working chain",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/10/26/cisa-adds-two-known-exploited-vulnerabilities-catalog"
+    },
+    {
+      "index": 2,
+      "ts": "1793101767.990499",
+      "title": "Ukraine's CERT-UA warns that Dahua cameras and recorders are being taken over through the Easy4IP cloud feature",
+      "section": "🚨 Government Advisories",
+      "url": "https://therecord.media/ukraine-cert-ua-warning-chinese-dahua-cameras-hacked"
+    },
+    {
+      "index": 3,
+      "ts": "1793101769.983289",
+      "title": "No new ACSC alert since Friday's Fortinet notice",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.cyber.gov.au/alerts-and-advisories"
+    },
+    {
+      "index": 4,
+      "ts": "1793101773.719109",
+      "title": "Microsoft ships emergency .NET patches for the Brotli flaw, now going by three names",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-net-patches-for-critical-brotli-flaw/"
+    },
+    {
+      "index": 5,
+      "ts": "1793101776.373389",
+      "title": "University of Copenhagen says hackers reached a test environment holding data on 525,000 people",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/"
+    },
+    {
+      "index": 6,
+      "ts": "1793101778.980649",
+      "title": "ENGIE confirms customer data was stolen through a partner's marketing platform",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/energy-giant-engie-discloses-data-breach-affecting-customers/"
+    },
+    {
+      "index": 7,
+      "ts": "1793101785.930439",
+      "title": "DreamHost forces email and FTP password resets in an \"incident\" it has not explained",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/"
+    },
+    {
+      "index": 8,
+      "ts": "1793101788.023799",
+      "title": "Apple backports an exploited CoreGraphics zero-day fix to older iPhones and iPads",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/"
+    },
+    {
+      "index": 9,
+      "ts": "1793101791.702179",
+      "title": "South Korean police say a former pentester's gang used the ARTEX AI framework to breach more than 90 organisations",
+      "section": "🤖 AI & Security",
+      "url": "https://www.bleepingcomputer.com/news/security/former-pentester-used-artex-ai-to-steal-82-million-data-records/"
+    },
+    {
+      "index": 10,
+      "ts": "1793101795.153579",
+      "title": "LiteLLM says the supply-chain attack came through a master key it found exposed in May and never revoked",
+      "section": "🤖 AI & Security",
+      "url": "https://therecord.media/litellm-hackers-ai-malware"
+    },
+    {
+      "index": 11,
+      "ts": "1793101798.023259",
+      "title": "Texas sues OpenAI and names Sam Altman personally, over ChatGPT safety claims",
+      "section": "🤖 AI & Security",
+      "url": "https://therecord.media/texas-sues-openai-deceiving-customers"
+    },
+    {
+      "index": 12,
+      "ts": "1793101800.475729",
+      "title": "Reddit lane failed for a twelfth morning",
+      "section": "🗣️ Community Pulse",
+      "url": "https://www.reddit.com/r/netsec/"
+    }
+  ]
+}
