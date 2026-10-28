@@ -1,0 +1,86 @@
+{
+  "kind": "cyber",
+  "date_stamp": "2026-10-28",
+  "file": "Daily Briefs/brief_2026-10-28.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1793188147.527639",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1793188157.937289",
+      "title": "CISA confirms the Brotli flaw is being exploited, and adds an Adobe Commerce upload bug alongside it",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/10/27/cisa-adds-two-known-exploited-vulnerabilities-catalog"
+    },
+    {
+      "index": 2,
+      "ts": "1793188160.897549",
+      "title": "ASD's annual threat report says it warned Australian organisations more than 4,400 times, and asks them to report back",
+      "section": "🚨 Government Advisories",
+      "url": "https://therecord.media/australia-spies-share-intel-and-want-victims-to-share-back"
+    },
+    {
+      "index": 3,
+      "ts": "1793188164.073979",
+      "title": "UK police inspectorate finds suppliers holding police data were breached repeatedly, with no ongoing security checks in most contracts",
+      "section": "🚨 Government Advisories",
+      "url": "https://therecord.media/uk-police-data-breached-from-suppliers-watchdog-report"
+    },
+    {
+      "index": 4,
+      "ts": "1793188167.436549",
+      "title": "University of New Mexico hospital diverts ambulances for two hours after a cyberattack, and a gang claims 36,000 machines",
+      "section": "📰 Top Security News",
+      "url": "https://therecord.media/university-of-new-mexico-hospital-diverts-cyber-incident"
+    },
+    {
+      "index": 5,
+      "ts": "1793188171.419729",
+      "title": "GMO tells Japanese cloud desktop customers to unplug their PCs after the attacker publishes stolen data and threatens ransomware",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat/"
+    },
+    {
+      "index": 6,
+      "ts": "1793188174.494329",
+      "title": "Tailscale discloses 11 flaws, including root execution through its SSH server, with patches still landing",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/"
+    },
+    {
+      "index": 7,
+      "ts": "1793188177.773559",
+      "title": "A card skimmer rode a shared analytics script into dozens of Brazilian fashion stores' checkouts",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data/"
+    },
+    {
+      "index": 8,
+      "ts": "1793188180.748069",
+      "title": "Microsoft ships out-of-band Windows updates to distrust the compromised eMudhra certificates",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/"
+    },
+    {
+      "index": 9,
+      "ts": "1793188183.769529",
+      "title": "Warp says a vendor breach exposed AI agent decision logs and telemetry for about 1% of its users",
+      "section": "🤖 AI & Security",
+      "url": "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/"
+    },
+    {
+      "index": 10,
+      "ts": "1793188187.693579",
+      "title": "OpenAI's own testing shows GPT-6.1 Terra took a prohibited action in 11 of 80 multi-agent trials",
+      "section": "🤖 AI & Security",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-gpt-61-terra-is-safer-overall-but-shows-more-destructive-action-flags-in-tests/"
+    },
+    {
+      "index": 11,
+      "ts": "1793188189.652229",
+      "title": "Reddit lane failed for a thirteenth morning",
+      "section": "🗣️ Community Pulse",
+      "url": "https://www.reddit.com/r/netsec/"
+    }
+  ]
+}
