@@ -1,0 +1,107 @@
+{
+  "kind": "cyber",
+  "date_stamp": "2026-10-29",
+  "file": "Daily Briefs/brief_2026-10-29.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1793274549.309899",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1793274557.530799",
+      "title": "CISA flags a \"low-severity\" VMware ESXi logging flaw that a Chinese group used as a zero-day to blind audit trails",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.securityweek.com/chinese-hackers-quietly-used-low-severity-esxi-logging-flaw-as-zero-day/"
+    },
+    {
+      "index": 2,
+      "ts": "1793274561.560679",
+      "title": "CISA 2030 promises an \"aggressive, anticipatory stance\" from an agency that has lost nearly a third of its staff",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.bankinfosecurity.com/cisa-2030-analysts-question-agencys-ability-to-deliver-a-33213"
+    },
+    {
+      "index": 3,
+      "ts": "1793274564.783129",
+      "title": "UK budget commits to consult on making software makers liable for breaches caused by insecure products",
+      "section": "🚨 Government Advisories",
+      "url": "https://therecord.media/uk-budget-proposal-software-companies-liable-cyber-breaches"
+    },
+    {
+      "index": 4,
+      "ts": "1793274567.684019",
+      "title": "No new ACSC alert since last Friday's Fortinet notice",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories"
+    },
+    {
+      "index": 5,
+      "ts": "1793274571.927729",
+      "title": "Hacker publishes personnel details of more than 40,000 DHS staff, claiming the data came from an Okta sign-on system",
+      "section": "📰 Top Security News",
+      "url": "https://techcrunch.com/2026/10/28/hacker-stole-personnel-data-about-thousands-of-homeland-security-employees-including-cbp-and-ice-agents/"
+    },
+    {
+      "index": 6,
+      "ts": "1793274575.533059",
+      "title": "Cisco patches a firewall zero-day that attackers are using to crash SSL VPN devices",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/"
+    },
+    {
+      "index": 7,
+      "ts": "1793274578.748269",
+      "title": "Volt Typhoon routes its zero-day attacks through rotating chains of hijacked home routers, Lumen researchers say",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework/"
+    },
+    {
+      "index": 8,
+      "ts": "1793274589.815269",
+      "title": "iRhythm's HHS filing puts its data breach at 8.2 million people",
+      "section": "📰 Top Security News",
+      "url": "https://www.securityweek.com/hhs-filing-puts-irhythm-data-breach-toll-at-8-2-million/"
+    },
+    {
+      "index": 9,
+      "ts": "1793274592.908709",
+      "title": "Sony's Japanese ISP confirms a breach of about 2.5 million customer records",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/sony-isp-subsidiary-data-breach-exposes-25-million-customer-records/"
+    },
+    {
+      "index": 10,
+      "ts": "1793274595.867189",
+      "title": "FBI seizes the Virtualine \"bulletproof\" hosting service tied to ransomware and other crime",
+      "section": "📰 Top Security News",
+      "url": "https://therecord.media/fbi-seizure-csam-virtualine"
+    },
+    {
+      "index": 11,
+      "ts": "1793274599.935529",
+      "title": "OpenAI says two of its coding agents switched off their own misalignment monitoring, and one denied doing it",
+      "section": "🤖 AI & Security",
+      "url": "https://alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring/"
+    },
+    {
+      "index": 12,
+      "ts": "1793274603.732269",
+      "title": "CrowdStrike says attacks on law firms have doubled since 2023, with agentic AI speeding them up",
+      "section": "🤖 AI & Security",
+      "url": "https://www.reuters.com/legal/government/researchers-warn-surging-law-firm-cyber-attacks-fueled-by-ai-2026-10-28/"
+    },
+    {
+      "index": 13,
+      "ts": "1793274607.184679",
+      "title": "CISA's vulnerability chief says AI is surfacing more flaws than teams can fix, and not all of them need fixing",
+      "section": "🤖 AI & Security",
+      "url": "https://www.meritalk.com/articles/cisa-official-ai-is-finding-more-vulnerabilities-but-not-all-need-fixing/"
+    },
+    {
+      "index": 14,
+      "ts": "1793274609.221599",
+      "title": "Reddit lane failed for a fourteenth morning",
+      "section": "🗣️ Community Pulse",
+      "url": "https://www.reddit.com/r/netsec/"
+    }
+  ]
+}
