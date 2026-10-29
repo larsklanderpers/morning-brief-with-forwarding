@@ -1,0 +1,156 @@
+{
+  "kind": "ai",
+  "date_stamp": "2026-10-29",
+  "file": "AI Briefs/ai_brief_2026-10-29.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1793275460.580029",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1793275475.827639",
+      "title": "Google ships Gemini 4 Carbon, now first on the Artificial Analysis index at 59, and gives cyber defenders first access",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.aichatdaily.com/ai-models/google-unveils-gemini-4-carbon-ranking-first-artificial"
+    },
+    {
+      "index": 2,
+      "ts": "1793275478.976249",
+      "title": "A report says DeepSeek and Moonshot trained their newest models on GPT-6 Astra outputs, including Kimi K3.1 Pro",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.aichatdaily.com/ai-models/deepseek-moonshot-trained-new-models-openai-s-gpt-6"
+    },
+    {
+      "index": 3,
+      "ts": "1793275482.103429",
+      "title": "Microsoft booked about $10B from OpenAI last quarter, 11% of its revenue, and is owed $7.2B",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.aichatdaily.com/ai-business/microsoft-booked-10b-openai-last-quarter-11-revenue"
+    },
+    {
+      "index": 4,
+      "ts": "1793275485.364429",
+      "title": "Senator Warren gives Anthropic until 3 November to answer 10 questions drawn from its S-1",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.aichatdaily.com/ai-security/warren-gives-anthropic-until-november-3-answer-existential-risk"
+    },
+    {
+      "index": 5,
+      "ts": "1793275488.456019",
+      "title": "Anthropic's Frontier Red Team says an unreleased Claude model built working exploit chains for Chrome, Safari, Android, Windows and Linux",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.aichatdaily.com/ai-security/anthropic-s-unreleased-claude-model-built-exploit-chains"
+    },
+    {
+      "index": 6,
+      "ts": "1793275491.575429",
+      "title": "GitHub launches Copilot Fusion, which picks and chains models per task and claims half the API cost",
+      "section": "🚀 Shipping with AI",
+      "url": "https://www.aichatdaily.com/ai-tools/github-launches-copilot-fusion-routing-coding-tasks-across"
+    },
+    {
+      "index": 7,
+      "ts": "1793275494.806259",
+      "title": "ServiceNow puts its actions inside ChatGPT through an MCP plugin, with joint OpenAI security tools due in 2027",
+      "section": "🚀 Shipping with AI",
+      "url": "https://www.aichatdaily.com/ai-news/servicenow-expands-openai-deal-bringing-codex-chatgpt-into"
+    },
+    {
+      "index": 8,
+      "ts": "1793275498.002819",
+      "title": "Amazon launches five Alexa+ devices, with a $99.99 Echo Dot carrying an on-device AI accelerator",
+      "section": "🚀 Shipping with AI",
+      "url": "https://www.aichatdaily.com/ai-news/amazon-launches-five-alexa-devices-led-499-echo"
+    },
+    {
+      "index": 9,
+      "ts": "1793275500.516729",
+      "title": "⚠️ Reddit lane failed: no fetch tool for Reddit JSON in this session, and WebSearch returned no r/LocalLLaMA or r/MachineLearning thread from the last 24h",
+      "section": "🚀 Shipping with AI",
+      "url": "https://www.reddit.com/r/LocalLLaMA/"
+    },
+    {
+      "index": 10,
+      "ts": "1793275503.934589",
+      "title": "Nvidia releases Nemotron 3.5 Transcribe, an open-weight speech model for 40 languages that runs on one GPU",
+      "section": "🏠 Local Models",
+      "url": "https://www.aichatdaily.com/ai-models/nvidia-releases-nemotron-3-5-transcribe-open-speech"
+    },
+    {
+      "index": 11,
+      "ts": "1793275506.940799",
+      "title": "Anthropic study: analysts went with a randomly assigned Claude lean on 86% of judgment calls, and only 15% credited the agent",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://www.aichatdaily.com/ai-news/anthropic-study-finds-analysts-follow-their-ai-agent"
+    },
+    {
+      "index": 12,
+      "ts": "1793275514.823179",
+      "title": "OAIC, APRA and the EU AI Office: no fresh primary in the last 24h; the EU fining-procedure consultation closes 9 November",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://www.oaic.gov.au/news"
+    },
+    {
+      "index": 13,
+      "ts": "1793275517.791729",
+      "title": "Australia: no fresh federal AI primary in the last 24h; the Joint Select Committee on AI's full report is still due 30 November",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://www.abc.net.au/news/2026-10-08/federal-politics-ai-regulation-andrew-charlton-speech/107241674"
+    },
+    {
+      "index": 14,
+      "ts": "1793275520.497769",
+      "title": "EU: no fresh AI primary in the last 24h; the ECB's deadline for bank plans against AI-enabled cyberattacks is Saturday, 31 October",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://www.lexology.com/library/detail.aspx?g=cdc3a626-bf58-48c1-a9b3-d80923381e31"
+    },
+    {
+      "index": 15,
+      "ts": "1793275523.096799",
+      "title": "Ken Huang - \"Know Your Agent (KYA)\"",
+      "section": "📬 From the Substacks",
+      "url": "https://kenhuangus.substack.com/p/know-your-agent-is-not-a-disclosure"
+    },
+    {
+      "index": 16,
+      "ts": "1793275525.794489",
+      "title": "FinTech & AI is Eating the World (Linas Beliūnas) - \"With free instant transfers, Stripe moves to own how AI Agents pay businesses\"",
+      "section": "📬 From the Substacks",
+      "url": "https://linas.substack.com/p/fintechpulse1145"
+    },
+    {
+      "index": 17,
+      "ts": "1793275528.481909",
+      "title": "Nate's Newsletter (Nate B. Jones) - \"Anthropic's existing customers collectively spent about 9x as much as a year earlier\"",
+      "section": "📬 From the Substacks",
+      "url": "https://natesnewsletter.substack.com/p/anthropic-ipo-s1-analysis"
+    },
+    {
+      "index": 18,
+      "ts": "1793275530.860399",
+      "title": "ByteByteGo - \"How Uber Built A Gateway For AI Agents To Access Tools\"",
+      "section": "📬 From the Substacks",
+      "url": "https://blog.bytebytego.com/p/how-uber-built-a-gateway-for-ai-agents"
+    },
+    {
+      "index": 19,
+      "ts": "1793275533.365719",
+      "title": "Thriving in Engineering - \"Headcount Math, Compute Budgets, and What AI Actually Costs\"",
+      "section": "📬 From the Substacks",
+      "url": "https://thrivinginengineering.substack.com/p/headcount-math-compute-budgets-and-what-ai-actually-costs"
+    },
+    {
+      "index": 20,
+      "ts": "1793275535.400829",
+      "title": "[X] @aPeaceOfAdam (Adam Norman Jenkins)",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    },
+    {
+      "index": 21,
+      "ts": "1793275537.574839",
+      "title": "[X] All four live searches returned only stale results (7 October, 26 October, 4 July, 14 October)",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    }
+  ]
+}
