@@ -1,0 +1,17 @@
+{
+  "kind": "work",
+  "date_stamp": "2026-10-30",
+  "file": "AI Briefs/work_brief_2026-10-30.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1793362556.990869",
+  "items": [
+    {"index": 1, "ts": "1793362564.157559", "title": "\"I Told Claude to 'Make it better' 100 Times (It Went Too Far)\" - Nate Herk (30 Oct, about 93K views)", "section": "🎥 What Creators Are Saying (YouTube)", "url": "https://www.youtube.com/watch?v=DByAR5Su1Yw"},
+    {"index": 2, "ts": "1793362568.852549", "title": "@alexolegimas (Alex Imas, Google DeepMind) - \"The Economics of Intelligence\" (29 Oct, about 311K views)", "section": "🐦 The Conversation on X", "url": "https://x.com/alexolegimas/status/2115822019518370172"},
+    {"index": 3, "ts": "1793362570.823409", "title": "@emollick (Ethan Mollick) - build in checkpoints rather than one-shotting (29 Oct, about 49K views)", "section": "🐦 The Conversation on X", "url": "https://x.com/emollick/status/2115875693120676157"},
+    {"index": 4, "ts": "1793362574.025179", "title": "AI Daily Brief - \"Gemini 4 Carbon Takes the Top Spot After a Major Benchmark Overhaul\" (30 Oct, posted about 11:00 UTC)", "section": "🎙️ Podcasts & Newsletters", "url": "https://www.youtube.com/watch?v=Dz4_db_rRDE"},
+    {"index": 5, "ts": "1793362576.668809", "title": "One Useful Thing - nothing fresh in the last 24 to 72h", "section": "🎙️ Podcasts & Newsletters", "url": "https://www.oneusefulthing.org/archive"},
+    {"index": 6, "ts": "1793362580.396829", "title": "The coordinator: the worst score on the benchmark, among the best pay in the firm", "section": "🆕 New Roles & Archetypes Watch", "url": "https://institute.deepmind.com/essays/the-economics-of-intelligence/"},
+    {"index": 7, "ts": "1793362583.441889", "title": "The agent-organisation evaluator: benchmarks for teams, not solo agents", "section": "🆕 New Roles & Archetypes Watch", "url": "https://institute.deepmind.com/essays/the-economics-of-intelligence/"},
+    {"index": 8, "ts": "1793362586.404129", "title": "DeepMind economists: flat employment numbers do not show AI is having no effect", "section": "⚖️ The Debate (kept honest, kept brief)", "url": "https://institute.deepmind.com/essays/the-economics-of-intelligence/"}
+  ]
+}
