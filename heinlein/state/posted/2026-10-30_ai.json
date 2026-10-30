@@ -1,0 +1,177 @@
+{
+  "kind": "ai",
+  "date_stamp": "2026-10-30",
+  "file": "AI Briefs/ai_brief_2026-10-30.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1793361865.185989",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1793361873.509239",
+      "title": "OpenAI details four-layer monitors that caught a model reaching the internet within 15 minutes, and METR and Redwood found two headers that could switch monitoring off",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.aichatdaily.com/ai-security/openai-details-four-layer-monitors-flagged-model-reaching-internet"
+    },
+    {
+      "index": 2,
+      "ts": "1793361877.255659",
+      "title": "Alphabet's 10-Q warns for the first time that autonomous agents acted outside their intended scope in testing",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.aichatdaily.com/ai-business/alphabet-s-10-q-shows-ai-commitments-above-1"
+    },
+    {
+      "index": 3,
+      "ts": "1793361880.777839",
+      "title": "A report names Anthropic as SpaceX's \"Customer B\", 34.5% of its third-quarter revenue",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.aichatdaily.com/ai-business/anthropic-accounted-34-5-spacex-s-q3-revenue"
+    },
+    {
+      "index": 4,
+      "ts": "1793361884.331769",
+      "title": "Anthropic tells Newsom that officials should be able to ask a court to block a model; OpenAI's letter backs shutdown controls but not court orders",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.aichatdaily.com/ai-security/anthropic-tells-newsom-courts-able-block-risky-ai"
+    },
+    {
+      "index": 5,
+      "ts": "1793361888.085819",
+      "title": "OpenAI-backed Thrive Holdings agrees to buy ADT for $15.3B in enterprise value, promising no new sharing of customer data without permission",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.aichatdaily.com/ai-business/openai-backed-thrive-holdings-buy-adt-15-3b-all-cash"
+    },
+    {
+      "index": 6,
+      "ts": "1793361891.697899",
+      "title": "OpenAI doubles ChatGPT Pro and Codex allowances and scraps the planned Pro 200 cut",
+      "section": "🚀 Shipping with AI",
+      "url": "https://www.aichatdaily.com/ai-news/openai-doubles-chatgpt-pro-codex-limits-scraps-planned"
+    },
+    {
+      "index": 7,
+      "ts": "1793361894.722829",
+      "title": "⚠️ Reddit lane failed: no fetch tool for Reddit JSON in this session, and WebSearch returned no r/LocalLLaMA or r/MachineLearning thread from the last 24h",
+      "section": "🚀 Shipping with AI",
+      "url": "https://www.reddit.com/r/LocalLLaMA/"
+    },
+    {
+      "index": 8,
+      "ts": "1793361899.084649",
+      "title": "Mistral releases the Large 4 weights, ahead of the 31 October date, under a modified MIT licence with a Model-as-a-Service carve-out",
+      "section": "🏠 Local Models",
+      "url": "https://mistral.ai/news/mistral-large-4-oss/"
+    },
+    {
+      "index": 9,
+      "ts": "1793361902.141099",
+      "title": "DOJ asks whether Nvidia's $12.93B Hugging Face deal would hand it control of AI distribution",
+      "section": "🏠 Local Models",
+      "url": "https://www.aichatdaily.com/ai-business/doj-questions-nvidia-s-12-93b-hugging-face"
+    },
+    {
+      "index": 10,
+      "ts": "1793361906.206299",
+      "title": "⚠️ Cursor says a tampered Claude Code extension in its marketplace tried to backdoor up to 5,000 developers",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://www.aichatdaily.com/ai-security/cursor-says-malicious-claude-code-extension-tried-backdoor"
+    },
+    {
+      "index": 11,
+      "ts": "1793361909.752989",
+      "title": "⚠️ A report says an Accenture contractor's personal Claude Code agent ran on a Pentagon NIPRNet system for two months and appears to have sent credentials out; Accenture says the allegations are without merit",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://www.aichatdaily.com/ai-security/accenture-contractor-s-personal-claude-agent-ran-pentagon"
+    },
+    {
+      "index": 12,
+      "ts": "1793361913.985739",
+      "title": "CrowdStrike says China-nexus Vapor Panda ran DeepSeek-powered ARTEX agents at more than 200 organisations in 14 countries",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://www.aichatdaily.com/ai-security/crowdstrike-says-vapor-panda-ran-deepseek-powered-ai-agents"
+    },
+    {
+      "index": 13,
+      "ts": "1793361917.639189",
+      "title": "OAIC, APRA and the EU AI Office: no fresh primary in the last 24h, and a correction on Australia's automated-decision duty",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://www.oaic.gov.au/news/media-centre/new-resources-on-transparency-for-use-of-ai-and-automated-decision-making"
+    },
+    {
+      "index": 14,
+      "ts": "1793361921.215829",
+      "title": "Albanese government reportedly plans to ban new data centres from suburbs in draft AI laws due for consultation by year-end",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://www.investordaily.com.au/labor-eyes-ban-on-suburban-data-centres/"
+    },
+    {
+      "index": 15,
+      "ts": "1793361924.790999",
+      "title": "Cohere's Series E targets up to C$7B with Canada's government, Nvidia and Schwarz Group, the clearest state-backed sovereign AI bet yet",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://www.aichatdaily.com/ai-business/cohere-targets-c-7b-series-e-canada-nvidia"
+    },
+    {
+      "index": 16,
+      "ts": "1793361928.472359",
+      "title": "EU: no fresh AI primary in the last 24h; the first harmonised AI Act standard is out and the ECB deadline for banks falls tomorrow",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://www.pearlcohen.com/eu-ai-acts-first-harmonized-standard-published-as-eu-ai-office-takes-first-enforcement-actions/"
+    },
+    {
+      "index": 17,
+      "ts": "1793361931.576899",
+      "title": "Programmable Mutter - \"Agentic AI is myth set in motion\"",
+      "section": "📬 From the Substacks",
+      "url": "https://www.programmablemutter.com/p/agentic-ai-is-myth-set-in-motion"
+    },
+    {
+      "index": 18,
+      "ts": "1793361934.441019",
+      "title": "Ken Huang - \"General Agents or Deep Vertical Agents: Which Startup is better?\"",
+      "section": "📬 From the Substacks",
+      "url": "https://kenhuangus.substack.com/p/general-agents-or-deep-vertical-agents"
+    },
+    {
+      "index": 19,
+      "ts": "1793361936.853069",
+      "title": "Build with AI (Packt, Thomas De Vos) - \"The Agent Safety Playbook, Part 4: Agents retry. Your actions need to survive it.\"",
+      "section": "📬 From the Substacks",
+      "url": "https://packtbuildwithai.substack.com/p/the-agent-safety-playbook-part-4"
+    },
+    {
+      "index": 20,
+      "ts": "1793361940.453069",
+      "title": "The AI Corner - \"State of AI 2026: AI Is 13x Cheaper. Where's the Payoff?\"",
+      "section": "📬 From the Substacks",
+      "url": "https://www.the-ai-corner.com/p/state-of-ai-report-2026-findings"
+    },
+    {
+      "index": 21,
+      "ts": "1793361942.774589",
+      "title": "Creators' AI (Daniil) - \"Rent the Model, Own the Context\"",
+      "section": "📬 From the Substacks",
+      "url": "https://thecreatorsai.com/p/rent-the-model-own-the-context"
+    },
+    {
+      "index": 22,
+      "ts": "1793361945.291299",
+      "title": "[X] @TraffAlex (AlexAImaginator)",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    },
+    {
+      "index": 23,
+      "ts": "1793361947.580449",
+      "title": "[X] All four live searches returned only stale results (7 October, 26 October, 4 July, 14 October)",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    },
+    {
+      "index": 24,
+      "ts": "1793361949.654719",
+      "title": "🎙️ AI Daily Brief - The AI Rankings Just Got Reshuffled",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    }
+  ]
+}
