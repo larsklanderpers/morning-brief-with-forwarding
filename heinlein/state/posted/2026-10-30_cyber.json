@@ -1,0 +1,121 @@
+{
+  "kind": "cyber",
+  "date_stamp": "2026-10-30",
+  "file": "Daily Briefs/brief_2026-10-30.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1793361024.450739",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1793361032.138079",
+      "title": "CISA lists the max-severity GitLab flaw and Thursday's Cisco firewall zero-day as exploited",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/10/29/cisa-adds-two-known-exploited-vulnerabilities-catalog"
+    },
+    {
+      "index": 2,
+      "ts": "1793361036.403399",
+      "title": "CISA says the Fragnesia Linux bug can be chained with PHP2Shell, and a vendor report shows that chain reaching a firewall management server",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks/"
+    },
+    {
+      "index": 3,
+      "ts": "1793361039.844609",
+      "title": "36 state attorneys general settle with GM for $220 million over selling driver data",
+      "section": "🚨 Government Advisories",
+      "url": "https://therecord.media/general-motors-lawsuit-privacy"
+    },
+    {
+      "index": 4,
+      "ts": "1793361042.873859",
+      "title": "No new ACSC alert since last Friday's Fortinet notice",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories"
+    },
+    {
+      "index": 5,
+      "ts": "1793361047.075539",
+      "title": "Binance loses about $6.3 billion in the largest crypto theft on record, reportedly starting from one engineer's laptop",
+      "section": "📰 Top Security News",
+      "url": "https://www.securityweek.com/6-billion-binance-hack-bears-hallmarks-of-north-koreas-tradertraitor/"
+    },
+    {
+      "index": 6,
+      "ts": "1793361050.990849",
+      "title": "Polymarket briefly halts trading after a monitoring script on its site started draining users, with researchers pointing to DebugBear",
+      "section": "📰 Top Security News",
+      "url": "https://www.securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack/"
+    },
+    {
+      "index": 7,
+      "ts": "1793361055.243339",
+      "title": "Japan Airlines ties its breach to Amadeus, and three other Asian carriers report impact",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/japan-airlines-suffers-third-party-data-breach-exposing-passenger-info/"
+    },
+    {
+      "index": 8,
+      "ts": "1793361058.498429",
+      "title": "Drupal warns a highly critical Commerce Core flaw is being used against online stores",
+      "section": "📰 Top Security News",
+      "url": "https://www.securityweek.com/drupal-commerce-core-vulnerability-exploited-against-online-stores/"
+    },
+    {
+      "index": 9,
+      "ts": "1793361061.713789",
+      "title": "Oracle E-Business Suite flaw draws probes a week after patching, on one firm's decoys",
+      "section": "📰 Top Security News",
+      "url": "https://www.securityweek.com/hackers-start-probing-fresh-oracle-ebs-vulnerability/"
+    },
+    {
+      "index": 10,
+      "ts": "1793361064.658039",
+      "title": "Belgium takes its main tax portal offline after a cyberattack, days before a filing deadline",
+      "section": "📰 Top Security News",
+      "url": "https://therecord.media/cyberattack-disrupts-belgian-tax-services-before-deadline"
+    },
+    {
+      "index": 11,
+      "ts": "1793361067.913029",
+      "title": "US bankruptcy court notices restart after a two-week outage at BAE-run system, and BAE says no data was taken",
+      "section": "📰 Top Security News",
+      "url": "https://therecord.media/us-bankruptcy-courts-it-contractor-says-no-data-stolen-cyberattack"
+    },
+    {
+      "index": 12,
+      "ts": "1793361071.196699",
+      "title": "319 Chrome extensions with 13.4 million reported installs hijacked searches, and could swap the destination at will",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/chrome-extensions-with-134-million-installs-caught-hijacking-searches/"
+    },
+    {
+      "index": 13,
+      "ts": "1793361075.049689",
+      "title": "Malware on Hugging Face returned within days of takedown, and a fake repo is reportedly positioned for AI coding agents to find",
+      "section": "🤖 AI & Security",
+      "url": "https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining/"
+    },
+    {
+      "index": 14,
+      "ts": "1793361079.020339",
+      "title": "Google says Gemini 4 Carbon beats rivals at finding, exploiting and fixing flaws, on benchmarks it reported itself",
+      "section": "🤖 AI & Security",
+      "url": "https://www.securityweek.com/google-says-gemini-4-carbon-leads-in-finding-exploiting-and-fixing-vulnerabilities/"
+    },
+    {
+      "index": 15,
+      "ts": "1793361082.526849",
+      "title": "Cisco open-sources Quarry, a rule language for AI agent attacks that only appear across a sequence of harmless steps",
+      "section": "🤖 AI & Security",
+      "url": "https://www.securityweek.com/cisco-open-sources-quarry-to-catch-ai-agent-attacks-hidden-in-harmless-steps/"
+    },
+    {
+      "index": 16,
+      "ts": "1793361084.891609",
+      "title": "Reddit lane failed for a fifteenth morning",
+      "section": "🗣️ Community Pulse",
+      "url": "https://www.reddit.com/r/netsec/"
+    }
+  ]
+}
