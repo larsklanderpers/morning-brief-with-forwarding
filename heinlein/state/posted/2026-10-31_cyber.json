@@ -1,0 +1,156 @@
+{
+  "kind": "cyber",
+  "date_stamp": "2026-10-31",
+  "file": "Daily Briefs/brief_2026-10-31.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1793447338.085519",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1793447345.074489",
+      "title": "CISA lists two more Ivanti Connect Secure flaws as exploited, and the fix for this month's first Ivanti bug does not cover them",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog"
+    },
+    {
+      "index": 2,
+      "ts": "1793447349.015839",
+      "title": "UK watchdog says GCHQ cannot account for thousands of USB sticks and hard drives, some possibly holding intercept data",
+      "section": "🚨 Government Advisories",
+      "url": "https://therecord.media/gchq-cannot-account-for-thousands-of-data-devices"
+    },
+    {
+      "index": 3,
+      "ts": "1793447352.703659",
+      "title": "DOJ's bankruptcy office asks for a privacy ombudsman before Character.AI's chat histories can be sold",
+      "section": "🚨 Government Advisories",
+      "url": "https://therecord.media/doj-raises-privacy-concerns-over-character-ai-sale"
+    },
+    {
+      "index": 4,
+      "ts": "1793447356.727549",
+      "title": "ACSC alerts page unchanged, with the Fortinet notice of 23 October still the latest",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories"
+    },
+    {
+      "index": 5,
+      "ts": "1793447361.036109",
+      "title": "Linux kernel flaw from 4.4 onward gets a working remote root exploit, and the two severity scores are nowhere near each other",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/"
+    },
+    {
+      "index": 6,
+      "ts": "1793447364.475049",
+      "title": "Palo Alto confirms PHP2Shell rooted its firewalls, while Wordfence has yet to see one WordPress site fall",
+      "section": "📰 Top Security News",
+      "url": "https://www.securityweek.com/php2shell-attacks-root-palo-alto-firewalls-but-fail-against-wordpress/"
+    },
+    {
+      "index": 7,
+      "ts": "1793447368.849179",
+      "title": "A failed attack on Alpine Linux shows upgrading GitLab does not fix the GitLab flaw if you run your own Ruby",
+      "section": "📰 Top Security News",
+      "url": "https://www.securityweek.com/max-severity-gitlab-vulnerability-exploited-against-alpine-linux/"
+    },
+    {
+      "index": 8,
+      "ts": "1793447372.434379",
+      "title": "WordPress core flaw draws 18,500 exploit attempts in 21 hours, before it even has a CVE number",
+      "section": "📰 Top Security News",
+      "url": "https://www.securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs/"
+    },
+    {
+      "index": 9,
+      "ts": "1793447376.236779",
+      "title": "Binance's co-CEO says it was not one engineer's permissions, and about $2.7 billion has been frozen",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/"
+    },
+    {
+      "index": 10,
+      "ts": "1793447379.569399",
+      "title": "Florida says 4.9 million financial aid applicants had Social Security numbers exposed",
+      "section": "📰 Top Security News",
+      "url": "https://therecord.media/florida-warns-5-million-affected-financial-aid-site-breach"
+    },
+    {
+      "index": 11,
+      "ts": "1793447383.181169",
+      "title": "Revolve tells the SEC hackers took saved card numbers, and Texas filings show at least 127,200 people affected",
+      "section": "📰 Top Security News",
+      "url": "https://therecord.media/resolve-fashion-retailer-data-breach-payment-cards"
+    },
+    {
+      "index": 12,
+      "ts": "1793447386.624399",
+      "title": "TeamViewer flaw reverses the usual direction: a malicious host can take over the support technician",
+      "section": "📰 Top Security News",
+      "url": "https://www.securityweek.com/teamviewer-flaw-could-let-malicious-hosts-take-over-support-technicians-machines/"
+    },
+    {
+      "index": 13,
+      "ts": "1793447390.484919",
+      "title": "Talos details KeyDrift, malware that lifts IPsec keys from inside Cisco SD-WAN controllers",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/"
+    },
+    {
+      "index": 14,
+      "ts": "1793447394.417449",
+      "title": "Trezor warns of a suspected cellular implant in a wallet sold through the same reseller as the Ledger case",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/"
+    },
+    {
+      "index": 15,
+      "ts": "1793447398.249209",
+      "title": "Sixteen-year-old UEFI flaw reaches most of the world's servers, but only those booting over the network",
+      "section": "📰 Top Security News",
+      "url": "https://www.securityweek.com/in-other-news-anthropic-breach-dispute-uefi-flaw-hits-most-servers-cloudflare-ai-data-leak/"
+    },
+    {
+      "index": 16,
+      "ts": "1793447402.112929",
+      "title": "US officials reportedly suspect Iran in hacks that spoiled food at military commissaries",
+      "section": "📰 Top Security News",
+      "url": "https://www.securityweek.com/in-other-news-anthropic-breach-dispute-uefi-flaw-hits-most-servers-cloudflare-ai-data-leak/"
+    },
+    {
+      "index": 17,
+      "ts": "1793447406.128389",
+      "title": "Trojanised Claude Code extension sat on Cursor's marketplace for 11 hours, and nobody has said how it got there",
+      "section": "🤖 AI & Security",
+      "url": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/"
+    },
+    {
+      "index": 18,
+      "ts": "1793447410.092689",
+      "title": "A startup founded by ex-DOGE staff says its agents got inside Anthropic in under 12 hours, and Anthropic disputes the scope",
+      "section": "🤖 AI & Security",
+      "url": "https://www.securityweek.com/in-other-news-anthropic-breach-dispute-uefi-flaw-hits-most-servers-cloudflare-ai-data-leak/"
+    },
+    {
+      "index": 19,
+      "ts": "1793447414.029089",
+      "title": "Cloudflare says its Workers AI served 155 responses containing other customers' prompts",
+      "section": "🤖 AI & Security",
+      "url": "https://www.securityweek.com/in-other-news-anthropic-breach-dispute-uefi-flaw-hits-most-servers-cloudflare-ai-data-leak/"
+    },
+    {
+      "index": 20,
+      "ts": "1793447418.136129",
+      "title": "Vendors report AI agents running ransomware lateral movement, on three fronts at once",
+      "section": "🤖 AI & Security",
+      "url": "https://www.securityweek.com/in-other-news-anthropic-breach-dispute-uefi-flaw-hits-most-servers-cloudflare-ai-data-leak/"
+    },
+    {
+      "index": 21,
+      "ts": "1793447420.108109",
+      "title": "Reddit lane failed for a sixteenth morning",
+      "section": "🗣️ Community Pulse",
+      "url": "https://www.reddit.com/r/netsec/"
+    }
+  ]
+}
