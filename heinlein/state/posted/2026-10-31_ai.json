@@ -1,0 +1,184 @@
+{
+  "kind": "ai",
+  "date_stamp": "2026-10-31",
+  "file": "AI Briefs/ai_brief_2026-10-31.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1793448253.961389",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1793448262.907649",
+      "title": "OpenAI cuts its round from $30B to $20B and its valuation from $1.4T to $1.25T, and the first close may come in lower still",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.aichatdaily.com/ai-business/openai-cuts-funding-round-target-10b-20b"
+    },
+    {
+      "index": 2,
+      "ts": "1793448267.141579",
+      "title": "Nasdaq ends its worst month since March 2025 as investors turn on AI capex, with Alphabet losing about $500B in a day",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.aichatdaily.com/ai-business/nasdaq-posts-worst-month-since-march-2025-ai"
+    },
+    {
+      "index": 3,
+      "ts": "1793448270.318859",
+      "title": "Anthropic files for its IPO under the ticker ANT, and Blackstone reportedly told investors it may not get an investment-grade rating afterwards",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.aichatdaily.com/ai-business/openai-cuts-funding-round-target-10b-20b"
+    },
+    {
+      "index": 4,
+      "ts": "1793448274.065249",
+      "title": "Anthropic renames Max 20x to Ultra and drops the 5-hour session limit for verified accounts, a day after OpenAI doubled Pro allowances",
+      "section": "🚀 Shipping with AI",
+      "url": "https://www.aichatdaily.com/ai-tools/anthropic-renames-max-20x-ultra-drops-5-hour-limit"
+    },
+    {
+      "index": 5,
+      "ts": "1793448278.564899",
+      "title": "Apple's iOS 27.2 gives Siri AI a memory and reach into Messages photos, voicemails and Calendar attendees, but not in the EU",
+      "section": "🚀 Shipping with AI",
+      "url": "https://www.aichatdaily.com/ai-tools/apple-ships-ios-27-2-siri-ai-memory"
+    },
+    {
+      "index": 6,
+      "ts": "1793448280.523029",
+      "title": "⚠️ Reddit lane failed: no fetch tool for Reddit JSON in this session, and WebSearch returned no r/LocalLLaMA or r/MachineLearning thread from the last 24h",
+      "section": "🚀 Shipping with AI",
+      "url": "https://www.reddit.com/r/LocalLLaMA/"
+    },
+    {
+      "index": 7,
+      "ts": "1793448283.931329",
+      "title": "Kimi K3.1 Pro weights are due by 4 November, and no licence has been announced",
+      "section": "🏠 Local Models",
+      "url": "https://letsdatascience.com/news/moonshot-releases-kimi-k31-pro-api-open-weights-due-nov-4-786e160c"
+    },
+    {
+      "index": 8,
+      "ts": "1793448287.480969",
+      "title": "Google's Suncatcher prototype runs Gemma 4 in orbit, in 15 to 20 minute bursts between cooling",
+      "section": "🏠 Local Models",
+      "url": "https://www.aichatdaily.com/ai-news/google-s-suncatcher-satellite-comes-online-runs-gemma"
+    },
+    {
+      "index": 9,
+      "ts": "1793448292.059569",
+      "title": "⚠️ An AI law firm bids for Weil Gotshal's brand and \"unspecified internal data\" as the 95-year-old firm prepares to dissolve",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://www.aichatdaily.com/ai-business/ai-law-firm-crosby-bids-weil-gotshal-brand"
+    },
+    {
+      "index": 10,
+      "ts": "1793448295.805289",
+      "title": "⚠️ UK CMA opens a Competition Act case into Meta's terms that would let it use publisher website content in AI features, after a Norwegian court temporarily blocked them",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://www.aichatdaily.com/ai-security/uk-cma-investigates-meta-over-terms-letting-use"
+    },
+    {
+      "index": 11,
+      "ts": "1793448299.708469",
+      "title": "OpenAI, Google, Microsoft and Anthropic back one robots.txt token to opt out of AI training, and it does not touch what they already hold",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://www.aichatdaily.com/ai-security/openai-google-microsoft-anthropic-back-one-robots-txt"
+    },
+    {
+      "index": 12,
+      "ts": "1793448302.769949",
+      "title": "OAIC, APRA and the EU AI Office: no fresh primary in the last 24h; Australia's automated-decision duty starts in 40 days",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://www.oaic.gov.au/news/media-centre"
+    },
+    {
+      "index": 13,
+      "ts": "1793448306.225009",
+      "title": "Australia: no fresh federal AI primary in the last 24h; yesterday's suburb data-centre story still has a state-consent problem",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://www.mobileworldlive.com/ai-cloud/australia-data-centre-curbs-hit-a-wall/"
+    },
+    {
+      "index": 14,
+      "ts": "1793448309.553489",
+      "title": "ECB deadline falls today: the 110 banks it directly supervises owe plans against AI-enabled cyberattacks",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://www.euronews.com/2026/07/07/ecb-tells-europes-biggest-banks-to-prepare-for-ai-powered-cyber-threats"
+    },
+    {
+      "index": 15,
+      "ts": "1793448313.276999",
+      "title": "Paul Krugman - \"Azeem Azhar on the Explosion of Hacking and Other AI Issues\"",
+      "section": "📬 From the Substacks",
+      "url": "https://paulkrugman.substack.com/p/azeem-azhar-on-the-explosion-of-hacking"
+    },
+    {
+      "index": 16,
+      "ts": "1793448316.636589",
+      "title": "The Pragmatic Engineer (Gergely Orosz) - \"The Pulse: Time to rethink software security because of AI?\"",
+      "section": "📬 From the Substacks",
+      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-time-to-rethink-software"
+    },
+    {
+      "index": 17,
+      "ts": "1793448319.610369",
+      "title": "Big Technology (Alex Kantrowitz) - \"Why Are We All Just Waiting For The Inevitable AI-Driven Catastrophe To Happen?\"",
+      "section": "📬 From the Substacks",
+      "url": "https://www.bigtechnology.com/p/why-are-we-all-just-waiting-for-the"
+    },
+    {
+      "index": 18,
+      "ts": "1793448323.001229",
+      "title": "AIGovOps Foundation (Ken Johnston) - \"Will AI Steal Your Boyfriend?\"",
+      "section": "📬 From the Substacks",
+      "url": "https://aigovops.substack.com/p/will-ai-steal-your-boyfriend"
+    },
+    {
+      "index": 19,
+      "ts": "1793448325.719519",
+      "title": "AI by Aakash (Aakash Gupta) - \"Claude Duet.\"",
+      "section": "📬 From the Substacks",
+      "url": "https://www.aibyaakash.com/p/claude-duet-review"
+    },
+    {
+      "index": 20,
+      "ts": "1793448328.174249",
+      "title": "Autocomplete - \"Your RAG Answer Can Be True and Still Be Wrong\"",
+      "section": "📬 From the Substacks",
+      "url": "https://acdigest.substack.com/p/your-rag-answer-can-be-true-and-still"
+    },
+    {
+      "index": 21,
+      "ts": "1793448330.714189",
+      "title": "[X] @TraffAlex (AlexAImaginator)",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    },
+    {
+      "index": 22,
+      "ts": "1793448332.618399",
+      "title": "[X] @CYBERPULSEsol (CYBERPULSE AI)",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    },
+    {
+      "index": 23,
+      "ts": "1793448334.911499",
+      "title": "[X] @fleetingbits (FleetingBits)",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    },
+    {
+      "index": 24,
+      "ts": "1793448337.541999",
+      "title": "[X] Correction to the X lane",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    },
+    {
+      "index": 25,
+      "ts": "1793448340.154709",
+      "title": "🎙️ AI Daily Brief - How the Most AI-Pilled Company in the World Works",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    }
+  ]
+}
