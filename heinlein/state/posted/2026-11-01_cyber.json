@@ -1,0 +1,107 @@
+{
+  "kind": "cyber",
+  "date_stamp": "2026-11-01",
+  "file": "Daily Briefs/brief_2026-11-01.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1793537294.892559",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1793537302.422009",
+      "title": "FBI names North Korea's TraderTraitor for the Binance theft, as Binance says it has replaced 90% of the stolen assets",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.tradingview.com/news/benzinga:2ce3c5783094b:0-binance-replaces-90-of-stolen-crypto-after-record-6-3-billion-hack-as-fbi-blames-north-korea-for-attack/"
+    },
+    {
+      "index": 2,
+      "ts": "1793537306.855379",
+      "title": "HHS settles with Lehigh Valley Health Network for $800,000 over a breach that leaked photos of cancer patients",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.hhs.gov/press-room/hhs-ocr-settles-ransomware-investigation-lehigh-valley-health-network.html"
+    },
+    {
+      "index": 3,
+      "ts": "1793537309.823209",
+      "title": "No new CISA or ACSC notices since Saturday's brief",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories"
+    },
+    {
+      "index": 4,
+      "ts": "1793537313.977399",
+      "title": "Poker pros were reportedly cheated out of $1.5 million to $4 million through poisoned software updates, and the sites have split on what to do",
+      "section": "📰 Top Security News",
+      "url": "https://www.wired.com/story/a-hacker-targeted-high-stakes-poker-players-with-malware-that-exposed-their-cards/"
+    },
+    {
+      "index": 5,
+      "ts": "1793537317.850109",
+      "title": "Malaysia Airlines and Cathay Pacific join the Amadeus disclosures, and Amadeus still gives no total",
+      "section": "📰 Top Security News",
+      "url": "https://www.cnbctv18.com/world/malaysia-airlines-says-customer-data-may-be-affected-by-amadeus-cybersecurity-breach-20024194.htm"
+    },
+    {
+      "index": 6,
+      "ts": "1793537321.783819",
+      "title": "Exploit published for \"SMS of Death\", an eight-byte text that crashes Android phones and drops emergency calls",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/"
+    },
+    {
+      "index": 7,
+      "ts": "1793537325.329399",
+      "title": "Kaspersky finds NetamLoader tailored to a government-only Windows build in Asia, on one machine",
+      "section": "📰 Top Security News",
+      "url": "https://therecord.media/hackers-target-government-windows-systems-asia-new-malware"
+    },
+    {
+      "index": 8,
+      "ts": "1793537328.585409",
+      "title": "A cyberattack shut parts of a 48-store Russian retailer for five days, including its loyalty accounts",
+      "section": "📰 Top Security News",
+      "url": "https://therecord.media/russian-home-goods-chain-faces-disruptions"
+    },
+    {
+      "index": 9,
+      "ts": "1793537332.317659",
+      "title": "Syrian Electronic Army hacker gets 42 months, 13 years after the AP tweet that moved the Dow",
+      "section": "📰 Top Security News",
+      "url": "https://www.securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-the-run/"
+    },
+    {
+      "index": 10,
+      "ts": "1793537336.276409",
+      "title": "Northflank tells every customer to assume their secrets were decrypted, and customers report stolen AI keys in use",
+      "section": "🤖 AI & Security",
+      "url": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/"
+    },
+    {
+      "index": 11,
+      "ts": "1793537340.485099",
+      "title": "Wiz counts nine AI developer platform breaches in October and traces stolen keys into a resale market",
+      "section": "🤖 AI & Security",
+      "url": "https://www.wiz.io/blog/black-october-for-ai-developer-platforms"
+    },
+    {
+      "index": 12,
+      "ts": "1793537344.376139",
+      "title": "Chainalysis, which helped attribute the Binance theft, discloses its own breach and blames \"offensive agentic techniques\"",
+      "section": "🤖 AI & Security",
+      "url": "https://www.chainalysis.com/blog/security-incident-october-30/"
+    },
+    {
+      "index": 13,
+      "ts": "1793537346.821219",
+      "title": "Reddit lane failed for a seventeenth morning",
+      "section": "🗣️ Community Pulse",
+      "url": "https://www.reddit.com/r/netsec/"
+    },
+    {
+      "index": 14,
+      "ts": "1793537349.327449",
+      "title": "Reddit says it will become a \"logged-in service\", with a pilot outside the US in the coming months",
+      "section": "🗣️ Community Pulse",
+      "url": "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/"
+    }
+  ]
+}
