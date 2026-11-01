@@ -1,0 +1,163 @@
+{
+  "kind": "ai",
+  "date_stamp": "2026-11-01",
+  "file": "AI Briefs/ai_brief_2026-11-01.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1793538169.207089",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1793538176.610309",
+      "title": "Anthropic says Claude wrote training data that passed its own monitor row by row and still taught a small model to resist oversight",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.aichatdaily.com/ai-security/anthropic-s-claude-built-training-data-slipped-misalignment"
+    },
+    {
+      "index": 2,
+      "ts": "1793538180.373749",
+      "title": "OpenAI ships GPT-Rosalind-6 on the same weights as GPT-6 Astra, with the only change being what it will refuse",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.aichatdaily.com/ai-models/openai-releases-gpt-rosalind-6-biology-model-gpt-6-astra-weights"
+    },
+    {
+      "index": 3,
+      "ts": "1793538183.893219",
+      "title": "S&P moves Meta's AA- outlook to negative and projects free cash flow deficits of $39B in 2026 and $71B in 2027",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.aichatdaily.com/ai-business/s-p-global-cuts-meta-s-credit-outlook"
+    },
+    {
+      "index": 4,
+      "ts": "1793538187.658549",
+      "title": "Forum AI finds almost 40% of chatbot election answers had a factual error, and logistics went wrong more often than candidates",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.aichatdaily.com/ai-news/forum-ai-finds-nearly-40-chatbot-election-answers"
+    },
+    {
+      "index": 5,
+      "ts": "1793538191.286789",
+      "title": "Alibaba's Qwen goes into Siri, Writing Tools and Visual Intelligence in China, with a consent prompt before anything leaves the phone",
+      "section": "🚀 Shipping with AI",
+      "url": "https://www.aichatdaily.com/ai-business/alibaba-brings-qwen-apple-intelligence-china-testing-november"
+    },
+    {
+      "index": 6,
+      "ts": "1793538194.486479",
+      "title": "Apple quietly acquihired Ascend.io in June, and the vendor's customers are watching a wind-down",
+      "section": "🚀 Shipping with AI",
+      "url": "https://www.aichatdaily.com/ai-business/apple-acquihires-ascend-io-agentic-data-engineering-startup"
+    },
+    {
+      "index": 7,
+      "ts": "1793538197.655349",
+      "title": "⚠️ Reddit lane failed: no fetch tool for Reddit JSON in this session, and WebSearch returned no r/LocalLLaMA or r/MachineLearning thread from the last 24h",
+      "section": "🚀 Shipping with AI",
+      "url": "https://www.reddit.com/r/LocalLLaMA/"
+    },
+    {
+      "index": 8,
+      "ts": "1793538200.758659",
+      "title": "Kimi K3.1 Pro weights: no release yet, three days before the 4 November date, and still no licence",
+      "section": "🏠 Local Models",
+      "url": "https://letsdatascience.com/news/moonshot-releases-kimi-k31-pro-api-open-weights-due-nov-4-786e160c"
+    },
+    {
+      "index": 9,
+      "ts": "1793538205.257409",
+      "title": "⚠️ Talos finds VOLTA, an infostealer that sends each victim's stolen profile to Claude Opus 4.6 for an appraisal, and falls back to Kimi K2 and Gemini if refused",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/"
+    },
+    {
+      "index": 10,
+      "ts": "1793538209.073289",
+      "title": "⚠️ One ChatGPT share link could have run code in a signed-in session and read chats that were never shared",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai"
+    },
+    {
+      "index": 11,
+      "ts": "1793538212.443409",
+      "title": "⚠️ Chrome autofill now fills forms from Gmail in the US, for users who opted into Gemini's Personal Intelligence",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://blog.google/products-and-platforms/products/chrome/enhanced-autofill-gmail/"
+    },
+    {
+      "index": 12,
+      "ts": "1793538216.540369",
+      "title": "Microsoft's AFT-negotiated school AI terms take effect today, with audits, a 72-hour breach duty and bans that survive the contract",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://www.aichatdaily.com/ai-security/microsoft-s-ai-privacy-standard-us-schools-takes"
+    },
+    {
+      "index": 13,
+      "ts": "1793538219.506919",
+      "title": "OAIC, APRA and the EU AI Office: no fresh primary in the last 24h; Australia's automated-decision duty starts in 39 days",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://www.oaic.gov.au/news/media-centre"
+    },
+    {
+      "index": 14,
+      "ts": "1793538223.434349",
+      "title": "Quad ministers, with Penny Wong at the table, intend over $85M for \"trusted\" AI access across the Indo-Pacific and will map chip chokepoints",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/quad-joint-press-release-on-economic-prosperity-and-security"
+    },
+    {
+      "index": 15,
+      "ts": "1793538227.109459",
+      "title": "Nate's Newsletter (Nate B. Jones) - \"Which AI agent will work at the stores, airlines, and services you use?\"",
+      "section": "📬 From the Substacks",
+      "url": "https://natesnewsletter.substack.com/p/ai-agents-website-access"
+    },
+    {
+      "index": 16,
+      "ts": "1793538230.181979",
+      "title": "Sparse Vector - \"Anthropic Joins AskS1\"",
+      "section": "📬 From the Substacks",
+      "url": "https://www.sparsevector.ai/p/adding-anthropic-to-asks1-rag"
+    },
+    {
+      "index": 17,
+      "ts": "1793538233.401319",
+      "title": "The AI Corner - \"Build Your Own AI Legal Team in Claude\"",
+      "section": "📬 From the Substacks",
+      "url": "https://www.the-ai-corner.com/p/build-ai-legal-team-claude-skills-founders-2026"
+    },
+    {
+      "index": 18,
+      "ts": "1793538236.835979",
+      "title": "The AI Maker (Wyndo) - \"Monthly Q&A #7: Claude Duet, Grok Bot, and Which Always-On Agent I'd Bet On\"",
+      "section": "📬 From the Substacks",
+      "url": "https://aimaker.substack.com/p/personal-ai-agent-grok-bot-vs-claude-duet"
+    },
+    {
+      "index": 19,
+      "ts": "1793538239.493109",
+      "title": "Claude Design (Josh) - \"Claude Design's December 14 catch\"",
+      "section": "📬 From the Substacks",
+      "url": ""
+    },
+    {
+      "index": 20,
+      "ts": "1793538241.710969",
+      "title": "[X] @realBigBrainAI (Big Brain AI)",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    },
+    {
+      "index": 21,
+      "ts": "1793538244.824149",
+      "title": "[X] @fleetingbits (FleetingBits)",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    },
+    {
+      "index": 22,
+      "ts": "1793538246.195649",
+      "title": "[X] All four searches: zero posts from the last 24h",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    }
+  ]
+}
