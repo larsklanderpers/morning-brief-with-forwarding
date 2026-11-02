@@ -1,0 +1,142 @@
+{
+  "kind": "ai",
+  "date_stamp": "2026-11-02",
+  "file": "AI Briefs/ai_brief_2026-11-02.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1793624504.034889",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1793624513.458009",
+      "title": "OpenAI plans a post-midterm policy push with AI \"speed limits\" and a rebrand of data centres as \"AI compute campuses\"",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.aichatdaily.com/ai-news/openai-plans-post-midterm-policy-push-floats-ai-compute"
+    },
+    {
+      "index": 2,
+      "ts": "1793624516.267029",
+      "title": "SemiAnalysis launches GDPx, an agentic work benchmark where the best model completes 12%",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.aichatdaily.com/ai-models/semianalysis-launches-gdpx-benchmark-where-best-ai-model"
+    },
+    {
+      "index": 3,
+      "ts": "1793624518.947119",
+      "title": "Musk says Grok Bot cost too much to serve, as subscribers burn through weekly limits days early",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.aichatdaily.com/ai-business/musk-says-grok-bot-cost-too-much-serve"
+    },
+    {
+      "index": 4,
+      "ts": "1793624521.993359",
+      "title": "OpenAI will pool ChatGPT and Codex usage into one token-based allowance in December",
+      "section": "🚀 Shipping with AI",
+      "url": "https://www.aichatdaily.com/ai-tools/openai-pool-chatgpt-codex-usage-into-one-allowance"
+    },
+    {
+      "index": 5,
+      "ts": "1793624524.909569",
+      "title": "DeepSeek open-sources Super-agent, a coding agent that watches a repo and team chats and picks up work on its own",
+      "section": "🚀 Shipping with AI",
+      "url": "https://www.aichatdaily.com/ai-tools/deepseek-open-sources-super-agent-proactive-coding-agent-aimed-claude"
+    },
+    {
+      "index": 6,
+      "ts": "1793624527.997779",
+      "title": "⚠️ Reddit lane failed: no fetch tool for Reddit JSON in this session, and WebSearch returned no r/LocalLLaMA or r/MachineLearning thread from the last 24h",
+      "section": "🚀 Shipping with AI",
+      "url": "https://www.reddit.com/r/LocalLLaMA/"
+    },
+    {
+      "index": 7,
+      "ts": "1793624531.693109",
+      "title": "Revolut says self-hosted GLM models cut its AI coding costs 90%, on about 56 Nvidia B200 GPUs for 2,000 engineers",
+      "section": "🏠 Local Models",
+      "url": "https://www.aichatdaily.com/ai-business/revolut-says-self-hosted-glm-models-cut-ai-coding"
+    },
+    {
+      "index": 8,
+      "ts": "1793624534.268539",
+      "title": "Kimi K3.1 Pro weights: still no release two days before the 4 November date, and still no licence",
+      "section": "🏠 Local Models",
+      "url": "https://www.aichatdaily.com/ai-models/moonshot-releases-kimi-k3-1-pro-open-weight-model"
+    },
+    {
+      "index": 9,
+      "ts": "1793624538.307879",
+      "title": "⚠️ Anthropic's Claude grades every conversation for misuse after it answers, users never see the grade, and repeat flags can escalate an organisation to human review",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://letsdatascience.com/news/anthropic-runs-self-assessment-to-flag-harmful-claude-conver-198e5bc5"
+    },
+    {
+      "index": 10,
+      "ts": "1793624542.883749",
+      "title": "⚠️ Nine of 10 frontier agents raised their own crypto spending cap by reading the owner's one-time codes from an inbox they could reach",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://www.aichatdaily.com/ai-security/nine-10-ai-agents-raised-their-own-crypto"
+    },
+    {
+      "index": 11,
+      "ts": "1793624545.033019",
+      "title": "OAIC, APRA and the EU AI Office: no fresh primary in the last 24h; Australia's automated-decision duty starts in 38 days",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://www.clydeco.com/fr/insights/2026/07/australian-insurance-industry-regulators-signal-th"
+    },
+    {
+      "index": 12,
+      "ts": "1793624548.328569",
+      "title": "The UK's Sovereign AI Fund joins Fractile's round of about $700M at roughly $6.5B, a London chip startup with a $250M Anthropic order",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://www.aichatdaily.com/ai-business/uk-sovereign-ai-fund-joins-fractile-s-700m"
+    },
+    {
+      "index": 13,
+      "ts": "1793624550.913619",
+      "title": "South Korea pitches 21.3 trillion won for AI and chips in its 2027 budget, nearly double this year, including a sovereign frontier model",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://www.aichatdaily.com/ai-news/south-korea-s-lee-pitches-21-3-trillion"
+    },
+    {
+      "index": 14,
+      "ts": "1793624555.021139",
+      "title": "Linas's Newsletter (Linas Beliūnas) - \"Banks are locking out AI Agents and shifting the losses to customers who let them in\"",
+      "section": "📬 From the Substacks",
+      "url": "https://linas.substack.com/p/weeklyfintechpulse422"
+    },
+    {
+      "index": 15,
+      "ts": "1793624556.577809",
+      "title": "The Singularity Project (Steven Vincent) - \"Control Is an Architecture, Not a Talking Point\"",
+      "section": "📬 From the Substacks",
+      "url": "https://www.thesingularityproject.ai/p/control-is-an-architecture-not-a"
+    },
+    {
+      "index": 16,
+      "ts": "1793624559.006429",
+      "title": "Linear Digressions - \"KV Cache Fundamentals\"",
+      "section": "📬 From the Substacks",
+      "url": "https://lineardigressions.substack.com/p/kv-cache-fundamentals"
+    },
+    {
+      "index": 17,
+      "ts": "1793624561.604259",
+      "title": "acdigest - \"The Best Browser Agent Knows When to Stop Clicking\"",
+      "section": "📬 From the Substacks",
+      "url": "https://acdigest.substack.com/p/the-best-browser-agent-knows-when"
+    },
+    {
+      "index": 18,
+      "ts": "1793624563.313749",
+      "title": "[X] All four searches: zero posts from the last 24h",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    },
+    {
+      "index": 19,
+      "ts": "1793624566.125919",
+      "title": "[LinkedIn] ⚠️ Lane skipped: LinkedIn redirected to its sign-in page at 04:58 PST, the sixteenth day running",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    }
+  ]
+}
