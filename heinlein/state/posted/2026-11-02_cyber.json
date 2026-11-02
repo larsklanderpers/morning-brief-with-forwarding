@@ -1,0 +1,72 @@
+{
+  "kind": "cyber",
+  "date_stamp": "2026-11-02",
+  "file": "Daily Briefs/brief_2026-11-02.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1793623713.160799",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1793623724.788599",
+      "title": "Federal deadline for the first of Friday's two Ivanti Connect Secure flaws falls today, with no new CISA notice found over the weekend",
+      "section": "🚨 Government Advisories",
+      "url": "https://securityaffairs.com/202175/security/u-s-cisa-adds-ivanti-connect-secure-flaws-to-its-known-exploited-vulnerabilities-catalog.html"
+    },
+    {
+      "index": 2,
+      "ts": "1793623727.419529",
+      "title": "ACSC alerts page still tops out at the 23 October Fortinet notice",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.cyber.gov.au/alerts-and-advisories"
+    },
+    {
+      "index": 3,
+      "ts": "1793623731.074549",
+      "title": "Hackers push fake radiation and chemical alerts through Ukraine's and Russia's emergency apps on the same night",
+      "section": "📰 Top Security News",
+      "url": "https://www.washingtontimes.com/news/2026/nov/2/ukraine-russia-report-fake-emergency-alerts-cyberattack-targets-apps/"
+    },
+    {
+      "index": 4,
+      "ts": "1793623734.641479",
+      "title": "Qantas joins the Amadeus disclosures, says its own systems were not touched, and does not yet know about its customers",
+      "section": "📰 Top Security News",
+      "url": "https://www.newstalkzb.co.nz/news/business/airlines-including-qantas-cathay-pacific-impacted-in-amadeus-cyber-attack/"
+    },
+    {
+      "index": 5,
+      "ts": "1793623737.580039",
+      "title": "Fresh probes hit BeyondTrust Remote Support decoys, as a public Metasploit module raises the odds of wider attacks",
+      "section": "📰 Top Security News",
+      "url": "https://cybersecuritynews.com/critical-beyondtrust-vulnerability/"
+    },
+    {
+      "index": 6,
+      "ts": "1793623740.492149",
+      "title": "BTCPay Server tells operators to switch off their instances after reports of drained hot wallets",
+      "section": "📰 Top Security News",
+      "url": "https://www.coindesk.com/tech/2026/11/02/btcpay-a-bitcoin-payment-tool-tells-users-to-switch-off-their-servers-after-reports-of-drained-wallets"
+    },
+    {
+      "index": 7,
+      "ts": "1793623744.308249",
+      "title": "Copilot in Visual Studio could be talked into rewriting its own config with a trailing dot, and the fix shipped on 13 October",
+      "section": "🤖 AI & Security",
+      "url": "https://securityonline.info/cve-2026-103572-visual-studio-copilot-rce-disclosed/"
+    },
+    {
+      "index": 8,
+      "ts": "1793623747.256819",
+      "title": "Attackers posted 83 booby-trapped issues and comments across 61 GitHub projects in 43 minutes, including Google's LangExtract and MLflow",
+      "section": "🤖 AI & Security",
+      "url": "https://cybersecuritynews.com/hackers-target-61-github-repositories/"
+    },
+    {
+      "index": 9,
+      "ts": "1793623749.233739",
+      "title": "Reddit lane failed for an eighteenth morning",
+      "section": "🗣️ Community Pulse",
+      "url": "https://www.reddit.com/r/netsec/"
+    }
+  ]
+}
