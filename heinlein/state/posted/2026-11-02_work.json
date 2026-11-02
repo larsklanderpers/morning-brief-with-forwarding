@@ -1,0 +1,51 @@
+{
+  "kind": "work",
+  "date_stamp": "2026-11-02",
+  "file": "AI Briefs/work_brief_2026-11-02.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1793625209.771719",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1793625221.525079",
+      "title": "@emollick (Ethan Mollick) - GDPx is a valuable successor to GDPval, but it needs human baselines (2 Nov, about 6.6K views on the follow-up)",
+      "section": "🐦 The Conversation on X",
+      "url": "https://x.com/emollick/status/2117142297934757916"
+    },
+    {
+      "index": 2,
+      "ts": "1793625225.195409",
+      "title": "The AI support engineer: \"less of the doer but more of the checker\"",
+      "section": "🆕 New Roles & Archetypes Watch",
+      "url": "https://www.business-standard.com/technology/artificial-intelligence/traditional-entry-level-engineering-roles-have-collapsed-due-to-ai-ltm-126110100668_1.html"
+    },
+    {
+      "index": 3,
+      "ts": "1793625228.826719",
+      "title": "The field solution specialist: engineers who define the problem and direct the agents",
+      "section": "🆕 New Roles & Archetypes Watch",
+      "url": "https://www.aichatdaily.com/ai-business/hd-hyundai-robotics-says-ai-agents-palantir-work"
+    },
+    {
+      "index": 4,
+      "ts": "1793625231.666539",
+      "title": "The tokenomics expert: someone who owns the cost of the work, not just the work",
+      "section": "🆕 New Roles & Archetypes Watch",
+      "url": "https://www.business-standard.com/technology/artificial-intelligence/traditional-entry-level-engineering-roles-have-collapsed-due-to-ai-ltm-126110100668_1.html"
+    },
+    {
+      "index": 5,
+      "ts": "1793625235.063009",
+      "title": "Mollick and Imas: put the productivity line at January 2026, not at ChatGPT",
+      "section": "⚖️ The Debate (kept honest, kept brief)",
+      "url": "https://x.com/emollick/status/2116987671939875319"
+    },
+    {
+      "index": 6,
+      "ts": "1793625237.058369",
+      "title": "Calendar: Proton re-interviews begin Wednesday",
+      "section": "⚖️ The Debate (kept honest, kept brief)",
+      "url": "https://www.aichatdaily.com/ai-careers/proton-re-interview-staff-their-ai-use-jobs-stake"
+    }
+  ]
+}
