@@ -1,4 +1,5 @@
 <!--
+SCHEDULED -- Tue 3 Nov 2026, on his word 3 Nov 18:00 ("move it to scheduled"). Source: rv5. He pushes to Substack himself; header image built by him separately. File into the Changing Management section.
 DRAFT rv4 -- Tue 3 Nov 2026 (file keeps its 20 Oct date until it schedules). Changing Management. Function: SUPPORT. TUESDAY GATE: PASS.
 SOURCE: Lars's draft2 as uploaded 17:51 3 Nov (saved as substack_draft2_first-conversation_2026-10-20_lars-3nov.md). This is the current text. rv1/rv2 were built from an earlier upload and are superseded -- do not draft from them.
 rv3 changes (mechanical, on his word): typos and dropped words; dates corrected to a 3 Nov run; Jev day count 45 -> 35; one sentence added to the Jev paragraph from his words (tested on email first, then expanded; the question is the key); the three checks un-indented so they render as a list.
