@@ -4,7 +4,23 @@ Every posted note, full text, newest first. NEVER trimmed (notes_log.md trims af
 Written in the same turn Lars names the pick. Fields as in notes_log.md. If his posted wording differs from the candidate, record his wording and mark it "as posted".
 Gaps: entries before 2026-09-27 were never logged. 3-8 Oct 2026 notes (if any) not yet logged.
 
-### 2026-10-13 (Tue, afternoon lift; cadence-trial optional lift) -- source: `substack_scheduled_signed-by-you_2026-10-13.md` (Only What You Saw, Management Tuesday)
+### 2026-10-13### 2026-11-03 (Tue, afternoon) -- source: `substack_scheduled_first-conversation_2026-11-03.md` (The First Conversation, Changing Management)
+- **Type:** Build-in-Public
+- **Standalone / link-back:** standalone
+- **Opener shape:** first-person process declarative ("Before we built anything for the support bot, we graded last week's tickets by hand.")
+- **Closer shape:** humans-before-agents turn ("We had to fix the definitions for the *human* agents before we could even think about an agent.")
+- **Controlling image / device:** "everyone knows" -- partial vs FULL outage definitions differing across the desk
+- **Provenance:** mostly his (lines lifted from the outage paragraph; opener drafter), candidate A, picked 3 Nov 18:06 **with his revisions**
+- **Text as offered (his revised wording NOT captured -- paste it in to record "as posted"):**
+  > Before we built anything for the support bot, we graded last week's tickets by hand.
+  >
+  > Every person on the desk had a different definition of a partial outage. They also had different definitions for what constituted a FULL outage.
+  >
+  > "Everyone knows" means very different things to different people.
+  >
+  > We had to fix the definitions for the *human* agents before we could even think about an agent.
+
+ (Tue, afternoon lift; cadence-trial optional lift) -- source: `substack_scheduled_signed-by-you_2026-10-13.md` (Only What You Saw, Management Tuesday)
 - **Type:** Contrarian
 - **Standalone / link-back:** link-back (restack of the published post, or link card)
 - **Opener shape:** survey-range declarative ("Somewhere between a quarter and two-fifths of managers ...")
