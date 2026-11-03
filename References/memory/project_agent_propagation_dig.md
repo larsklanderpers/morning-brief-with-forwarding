@@ -69,10 +69,10 @@ the reading, and running it thin breaks the promise rather than keeps it.
   beginnings of it all."* He found the reassuring detail more unsettling than the alarming one and
   said so. That instinct — taking the comforting fact and turning it — is worth recognising and
   protecting when he reaches for it.
-- **Contractions at the emotional core were NOT deliberate.** rv2's two new paragraphs ran nine
-  contractions against ~1,400 otherwise-uncontracted words; asked, he said *"fix the contractions to
-  my usual voice."* **So: his uncontracted register is the standing default even in the spoken-cadence
-  emotional-core paragraphs. Normalize silently in future rather than flagging.**
+- **Contractions at the emotional core (21 Aug).** He asked for nine contractions in rv2's new
+  paragraphs to be fixed "to my usual voice." **SUPERSEDED as a rule -- do not read this as "no
+  contractions by default".** The standing rule is [[lars-contractions]] (25 Sep ruling, amended
+  3 Nov: register-dependent, and his own contractions are never expanded).
 - **He will take a "label the side quest" fix rather than cut or pay a second thesis.** Offered
   leave-it-or-pay-it on the unpaid idea, he chose a third option: promise it forward and name the
   research as unfinished. Consistent with his "concede big and fair in three words" tell.
