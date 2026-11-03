@@ -82,6 +82,11 @@ New 17 Oct (his four, for Sat 24 and after; `week-plan_2026-10-19.md`):
 13. **The Grok bot "stand up your own whole staff for $20 a month" argument.** Carries S1 and pays S9 (child bots) as the method. Proposed for Sat 24.
 14. **The ChatGPT version of S13.** His words: *"similar to the Grok bot argument, but I don't know if it's as compelling because the price point is much higher."* Proposed as a comparison inside S13.
 
+New 3 Nov (his word, `week-plan_2026-11-02.md` thread):
+
+15. **The dot (OpenAI) -- one memory for everything.** **TAKEN -> Sat 7 Nov 2026**, Shop Hours #1, drafted 3 Nov as *The Junk Drawer* (`Substack Drafts\substack_draft_the-junk-drawer_2026-11-07.md`). Pays Sat 31 Duet's printed promise ("Dot ... gets its own piece next week").
+16. **Build a roast room.** **SET -> Sat 14 Nov 2026 (his word, 3 Nov).** Make the AI argue against its own answer before you decide. Source: `AI Briefs\work_brief_2026-10-29.md` (Matt Wolfe with Nate Herk, "The Roast Room"; both sell courses, name it). Answers the Anthropic study where analysts took the agent's side on 86% of judgment calls (work_brief 28 Oct; primary owed). **Owed from him before drafting:** has he built one, and on which stack. Saturday gate: PASS if it is his build with prompts; FAIL if it becomes a study piece.
+
 ---
 
 ## CROSS-SLOT NOTES
