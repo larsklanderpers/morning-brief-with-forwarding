@@ -5,25 +5,27 @@ Read this before acting in this project. It defines what runs unattended and wha
 
 ## Current week plan
 
-**`References\week-plan_2026-10-26.md` -- covers Mon 26 Oct to Sun 1 Nov 2026.** Read it before drafting,
+**`References\week-plan_2026-11-02.md` -- covers Mon 2 to Sun 8 Nov 2026.** Read it before drafting,
 scheduling or shaping anything in that window. **Start every session by reading its status board** -- it is the handoff.
 
-⏩ **Shifted 23 Oct 2026 on his word:** the 19-25 Oct week was a bust and the whole plan moved 7 days, day for day.
-`week-plan_2026-10-19.md` is DEFERRED except **Sat 24 (Claude Duet + Claude Projects, Grok Bot between)**, which lives
-there as an amendment. The 19 Oct drafts keep their original filenames; the 26 Oct plan's banner maps them, and a
-perishability re-check is owed on each before it is touched.
+⏩ **Shifted 30 Oct 2026 on his word:** the 26 Oct-1 Nov week moved 7 days, day for day, except **Sat 31 Oct, the
+Duet piece**, whose row is on the `week-plan_2026-10-26.md` board. The 19 Oct drafts keep their original filenames;
+the 2 Nov plan's banner maps them, and a perishability re-check is owed on each before it is touched.
 
 **One board per plan.** A day's chat **edits the existing board**; it does not open a new one. The rule,
 the grep that enforces it and the reason it exists are under *One chat per piece* below — **that is its
 home, so it survives this pointer being rewritten every Monday.**
 
-Superseded and not to be drafted from (except Sat 24 above): `week-plan_2026-10-19.md` (19-25 Oct, deferred), `week-plan_2026-10-12.md` (12-18 Oct), `week-plan_2026-10-05.md` (5-11 Oct), `week-plan_2026-09-28.md` and earlier.
+Superseded and not to be drafted from (except Sat 31 above): `week-plan_2026-10-26.md` (26 Oct-1 Nov, deferred), `week-plan_2026-10-19.md` (19-25 Oct, deferred), `week-plan_2026-10-12.md` (12-18 Oct) and earlier.
 
 ## Slot charter (adopted 10 Sep 2026)
 
 **`References\SLOT_CHARTER.md` defines what each day's slot is FOR. Read it before writing or amending a
 week plan.** It is the only copy of those rules on purpose -- do not restate them here or in a week plan,
 because three copies of a charter drift and the stale one wins.
+
+**Through 13 Dec 2026 the HOLIDAY MAP (charter §1.2) governs: Tue Changing Management, Thu the one argument,
+Sat Shop Hours, Notes on Mon/Wed/Fri, monthly capstone (Sun 22 Nov, Sun 13 Dec).** The line below is the standing rule it suspends.
 
 In one line: **Mon / Wed / Thu / Fri are the spine and feed Sunday. Tuesday and Saturday are VARIATIONS
 and must be a different kind of thing.** Every week plan carries a `TUESDAY GATE:` and a `SATURDAY GATE:`

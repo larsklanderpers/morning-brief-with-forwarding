@@ -11,10 +11,10 @@ post the brief to Slack.
 
 ## STEP 0: READ THE SHARED RULES
 
-Read `D:\vc-personal-projects\Morning Brief with Forwarding\heinlein\common\brief-rules.md` and
+Read `heinlein/common/brief-rules.md` and
 apply it.
 
-Workspace root: `D:\vc-personal-projects\Morning Brief with Forwarding\`
+Workspace root: `./` (the repository root, which is the working directory)
 - `AI Briefs\` : the brief markdown, `ai_brief_YYYY-MM-DD.md`
 - `LinkedIn Posts\` : the LinkedIn draft, `ai_linkedin_YYYY-MM-DD.md`
 - `Substack Drafts\` : only written when Lars flags items
@@ -218,7 +218,7 @@ Klander, AI and privacy thought leader:
 
 ## STEP 4: POST TO SLACK
 
-Follow `D:\vc-personal-projects\Morning Brief with Forwarding\heinlein\common\post-brief-to-slack.md`
+Follow `heinlein/common/post-brief-to-slack.md`
 for the file you wrote in STEP 2.
 
 ## STEP 5: PRESENT TO LARS

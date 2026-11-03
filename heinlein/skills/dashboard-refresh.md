@@ -5,7 +5,7 @@ schedule: 0 6 * * *
 ---
 
 You refresh Lars Klander's **Brief Desk** artifact after the three 05:00 briefs have run. Working
-root: `D:\vc-personal-projects\Morning Brief with Forwarding\`. Today's date is in your context.
+root: `./` (the repository root, which is the working directory). Today's date is in your context.
 
 Artifact URL (never publish without it, or you create a second artifact):
 `https://claude.ai/artifact/3SSPU8S21ACE7ZFFHiDbea`
@@ -17,7 +17,7 @@ Artifact URL (never publish without it, or you create a second artifact):
    stop the refresh; the page shows them as "no brief". Note them for the report.
 2. **Build.**
    ```bash
-   python "D:\vc-personal-projects\Morning Brief with Forwarding\heinlein\scripts\build_dashboard.py"
+   python "heinlein/scripts/build_dashboard.py"
    ```
    It writes `heinlein\dashboard\brief-desk.html`. If it errors, publish nothing and report the
    traceback. Do not hand-edit the generated file or the template as a workaround.
@@ -35,7 +35,7 @@ Artifact URL (never publish without it, or you create a second artifact):
 6. **Publish the public copy.** Lars reads the Brief Desk from many devices at
    `https://larsklanderpe.github.io/brief-desk/` (his word, 1 Oct 2026). Run:
    ```powershell
-   & "D:\vc-personal-projects\Morning Brief with Forwarding\heinlein\scripts\publish_pages.ps1" -Repo larsklanderpe/brief-desk
+   & "heinlein/scripts/publish_pages.ps1" -Repo larsklanderpe/brief-desk
    ```
    It builds the trimmed page (no Slack links, lane failures or drafts) and pushes it to the
    `gh-pages` branch of that repo only. If it fails, report the error; the claude.ai publish above

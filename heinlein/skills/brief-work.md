@@ -29,10 +29,10 @@ interpret the day's signal.
 
 ## STEP 0: READ THE SHARED RULES
 
-Read `D:\vc-personal-projects\Morning Brief with Forwarding\heinlein\common\brief-rules.md` and
+Read `heinlein/common/brief-rules.md` and
 apply it.
 
-Workspace root: `D:\vc-personal-projects\Morning Brief with Forwarding\`
+Workspace root: `./` (the repository root, which is the working directory)
 - `AI Briefs\` : the brief, `work_brief_YYYY-MM-DD.md`
 - `Substack Drafts\` : only written when Lars flags items
 
@@ -142,7 +142,7 @@ Do not pad.
 
 ## STEP 3: POST TO SLACK
 
-Follow `D:\vc-personal-projects\Morning Brief with Forwarding\heinlein\common\post-brief-to-slack.md`
+Follow `heinlein/common/post-brief-to-slack.md`
 for the file you wrote in STEP 2.
 
 ## STEP 4: PRESENT TO LARS

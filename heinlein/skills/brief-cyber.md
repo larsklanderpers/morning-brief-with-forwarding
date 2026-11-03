@@ -11,10 +11,10 @@ LinkedIn post, post the brief to Slack.
 
 ## STEP 0: READ THE SHARED RULES
 
-Read `D:\vc-personal-projects\Morning Brief with Forwarding\heinlein\common\brief-rules.md` and
+Read `heinlein/common/brief-rules.md` and
 apply it. It carries the item shape, the accuracy rules, the killed-claims check and the voice.
 
-Workspace root: `D:\vc-personal-projects\Morning Brief with Forwarding\`
+Workspace root: `./` (the repository root, which is the working directory)
 - `Daily Briefs\` : the brief markdown
 - `LinkedIn Posts\` : the LinkedIn draft
 - `Substack Drafts\` : only written when Lars flags items
@@ -100,7 +100,7 @@ Klander, cybersecurity thought leader:
 
 ## STEP 4: POST TO SLACK
 
-Follow `D:\vc-personal-projects\Morning Brief with Forwarding\heinlein\common\post-brief-to-slack.md`
+Follow `heinlein/common/post-brief-to-slack.md`
 for the file you wrote in STEP 2.
 
 ## STEP 5: PRESENT TO LARS
