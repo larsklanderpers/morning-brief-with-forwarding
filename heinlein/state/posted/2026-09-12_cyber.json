@@ -1,0 +1,79 @@
+{
+  "kind": "cyber",
+  "date_stamp": "2026-09-12",
+  "file": "Daily Briefs/brief_2026-09-12.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1789256028.291379",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1789256037.277729",
+      "title": "GitLab CVSS 10 File-Read Flaw Lands in CISA KEV Inside a Day",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/09/11/cisa-adds-one-known-exploited-vulnerability-catalog"
+    },
+    {
+      "index": 2,
+      "ts": "1789256041.724429",
+      "title": "CISA KEV: ScreenConnect and the JFrog Artifactory Pair Now Confirmed Exploited",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/09/11/cisa-adds-three-known-exploited-vulnerabilities-catalog"
+    },
+    {
+      "index": 3,
+      "ts": "1789256046.340579",
+      "title": "FinCEN Gives Banks a Scam-Centre Flag, and Names AI as the Accelerant",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.fincen.gov/system/files/2026-08/FinCEN-Alert-Scam-Centers.pdf"
+    },
+    {
+      "index": 4,
+      "ts": "1789256051.072329",
+      "title": "Cisco FMC Flaws: Talos Ties Exploitation to Qilin Affiliates and a Sandworm-Overlapping Cluster",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/cisco-fmc-flaws-exploited-by-ransomware-gang-state-sponsored-hackers/"
+    },
+    {
+      "index": 5,
+      "ts": "1789256074.185469",
+      "title": "IDScan.net Confirms Breach as a Seller Claims 153 Million Scanned Driver's Licences",
+      "section": "📰 Top Security News",
+      "url": "https://www.helpnetsecurity.com/2026/09/11/idscan-net-data-breach-153-million-drivers-licenses/"
+    },
+    {
+      "index": 6,
+      "ts": "1789256076.797509",
+      "title": "BlueMoon Exploit Kit Chains This Month's Chrome and Windows Zero-Days, and It Is Spreading",
+      "section": "📰 Top Security News",
+      "url": "https://www.securityweek.com/bluemoon-exploit-kit-chains-recent-chrome-windows-zero-days/"
+    },
+    {
+      "index": 7,
+      "ts": "1789256079.223689",
+      "title": "Check Point Patches Two 9.8 VPN Certificate Flaws Before Anyone Uses Them",
+      "section": "📰 Top Security News",
+      "url": "https://thehackernews.com/2026/09/check-point-discloses-two-98-rated-vpn.html"
+    },
+    {
+      "index": 8,
+      "ts": "1789256082.176629",
+      "title": "Brevo Breach Turns a Marketing Platform Into a Phishing Cannon Aimed at 347,000 Trezor Users",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/trezor-347-000-users-targeted-in-phishing-attacks-after-brevo-breach/"
+    },
+    {
+      "index": 9,
+      "ts": "1789256084.483849",
+      "title": "PaperCut Campaign: One Crew, Hundreds of AI Agents, 395 Organisations",
+      "section": "🤖 AI & Security",
+      "url": "https://thehackernews.com/2026/09/papercut-attacker-uses-hundreds-of-ai.html"
+    },
+    {
+      "index": 10,
+      "ts": "1789256087.135009",
+      "title": "OpenAI's Agents Linked to a Second Campaign as Hawley Demands the Hugging Face Files",
+      "section": "🤖 AI & Security",
+      "url": "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html"
+    }
+  ]
+}

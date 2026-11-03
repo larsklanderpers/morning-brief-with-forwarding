@@ -1,0 +1,128 @@
+{
+  "kind": "ai",
+  "date_stamp": "2026-10-12",
+  "file": "AI Briefs/ai_brief_2026-10-12.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1791806584.505459",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1791806591.739149",
+      "title": "White House reverses its freeze on sharing pre-release models with the UK AI Security Institute",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.telegraph.co.uk/news/2026/10/11/britain-get-first-look-ai-systems-after-white-house-u-turn/"
+    },
+    {
+      "index": 2,
+      "ts": "1791806595.222629",
+      "title": "Brad Smith: AI is less regulated than milk, and incident reporting should be a legal duty",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.bbc.co.uk/news/articles/c6rmy7zmvx3lo"
+    },
+    {
+      "index": 3,
+      "ts": "1791806598.675799",
+      "title": "SemiAnalysis: Chinese labs published safety evaluations for 3.6% of model releases",
+      "section": "🔬 Frontier Labs",
+      "url": "https://indianexpress.com/article/technology/artificial-intelligence/china-ai-developers-publish-safety-tests-for-just-3-6-of-model-releases-report-finds-10916263/"
+    },
+    {
+      "index": 4,
+      "ts": "1791806601.993889",
+      "title": "Vercel's CLI now lets a coding agent search, price and buy a domain",
+      "section": "🚀 Shipping with AI",
+      "url": "https://theanthropicstack.substack.com/p/your-coding-agent-can-now-buy-the"
+    },
+    {
+      "index": 5,
+      "ts": "1791806605.214759",
+      "title": "Revolut to test AIR, a shopping agent that pays with its own card and banking licence, in the UK in December",
+      "section": "🚀 Shipping with AI",
+      "url": "https://linas.substack.com/p/fintechpulse1137"
+    },
+    {
+      "index": 6,
+      "ts": "1791806608.582209",
+      "title": "Nvidia reportedly in early talks to acquire Reflection AI, maker of the open-weight Beam",
+      "section": "🏠 Local Models",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/nvidia-looks-to-purchase-open-weight-ai-firm-reflection/"
+    },
+    {
+      "index": 7,
+      "ts": "1791806611.627499",
+      "title": "StepFun's Step-5 is live on third-party servers with no published licence, three days before its open-weights date",
+      "section": "🏠 Local Models",
+      "url": "https://forkast.news/step-5-ships-in-four-days-and-its-license-is-still-missing/"
+    },
+    {
+      "index": 8,
+      "ts": "1791806615.303529",
+      "title": "Information Commissioner flags AI information-rights guidance; Privacy Act ADM duties start 10 December",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://www.mlex.com/mlex/artificial-intelligence/articles/2536667/australia-s-information-watchdog-flags-ai-guidance-urges-greater-transparency"
+    },
+    {
+      "index": 9,
+      "ts": "1791806618.828719",
+      "title": "Australia drafting laws that would make frontier developers prove their safety systems work",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://au.finance.yahoo.com/news/tech-bytes-australia-plans-tougher-032900804.html"
+    },
+    {
+      "index": 10,
+      "ts": "1791806622.185609",
+      "title": "EU tech chief Virkkunen says the AI Act can contain rogue agents",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/eu-tech-chief-says-ai-act-can-contain-rogue-agents/"
+    },
+    {
+      "index": 11,
+      "ts": "1791806625.656409",
+      "title": "AI Supremacy (guest: Ayesha Tariq, CFA) - \"Borrowed Time: How Rising Rates Reach the AI Build-Out\"",
+      "section": "📬 From the Substacks",
+      "url": "https://www.ai-supremacy.com/p/how-rising-rates-reach-the-ai-infra-buildout-2026-october"
+    },
+    {
+      "index": 12,
+      "ts": "1791806627.608259",
+      "title": "Fintech Business Weekly - \"Revolut is building its own Meta Muse & Grok Bot\"",
+      "section": "📬 From the Substacks",
+      "url": "https://linas.substack.com/p/fintechpulse1137"
+    },
+    {
+      "index": 13,
+      "ts": "1791806630.016129",
+      "title": "The Anthropic Stack - \"Your Coding Agent Can Now Buy the Domain\"",
+      "section": "📬 From the Substacks",
+      "url": "https://theanthropicstack.substack.com/p/your-coding-agent-can-now-buy-the"
+    },
+    {
+      "index": 14,
+      "ts": "1791806632.811419",
+      "title": "AJ Lewis - \"Do we really need to invest in 1000X more compute to build agent swarms?\"",
+      "section": "📬 From the Substacks",
+      "url": "https://ajlewis90.substack.com/p/do-we-really-need-to-invest-in-1000x"
+    },
+    {
+      "index": 15,
+      "ts": "1791806634.767659",
+      "title": "[X] @colitco",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    },
+    {
+      "index": 16,
+      "ts": "1791806636.903319",
+      "title": "[X] @AIInspoWorld",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    },
+    {
+      "index": 17,
+      "ts": "1791806638.597449",
+      "title": "[X] @ArnoldKuepo",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    }
+  ]
+}

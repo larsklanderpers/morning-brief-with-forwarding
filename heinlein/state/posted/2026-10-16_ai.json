@@ -1,0 +1,142 @@
+{
+  "kind": "ai",
+  "date_stamp": "2026-10-16",
+  "file": "AI Briefs/ai_brief_2026-10-16.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1792152176.460069",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1792152183.832329",
+      "title": "The FTC sends civil investigative demands to OpenAI and Anthropic over safety incidents and privacy policies",
+      "section": "🔬 Frontier Labs",
+      "url": "https://gizmodo.com/ftc-subpoenas-openai-and-anthropic-over-ai-safety-concerns-2000826413"
+    },
+    {
+      "index": 2,
+      "ts": "1792152186.849979",
+      "title": "Anthropic embeds six METR evaluators with employee-level access and lets them publish without sign-off",
+      "section": "🔬 Frontier Labs",
+      "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/"
+    },
+    {
+      "index": 3,
+      "ts": "1792152189.964359",
+      "title": "OpenAI's alleged office spy used an AI model to plan the bug, per DOJ",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.transformernews.ai/p/openai-spy-exposes-wider-security-problem"
+    },
+    {
+      "index": 4,
+      "ts": "1792152192.770899",
+      "title": "xAI ships Grok Voice 3.0 at $0.08 a minute, claiming 70% of Starlink support calls close without a human",
+      "section": "🔬 Frontier Labs",
+      "url": "https://x.ai/news/grok-voice-3"
+    },
+    {
+      "index": 5,
+      "ts": "1792152195.844369",
+      "title": "Google DeepMind and GovTech Singapore build a scam detector that reads chats on the phone and never sends them out",
+      "section": "🚀 Shipping with AI",
+      "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/"
+    },
+    {
+      "index": 6,
+      "ts": "1792152198.254419",
+      "title": "Mistral releases Timestral, a family of small time-series forecasting models",
+      "section": "🚀 Shipping with AI",
+      "url": "https://llmgateway.io/timeline"
+    },
+    {
+      "index": 7,
+      "ts": "1792152202.047129",
+      "title": "Meta releases Muse Spark Open: 816B parameters, open weights, and Meta says it runs on two Mac Studios",
+      "section": "🏠 Local Models",
+      "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/"
+    },
+    {
+      "index": 8,
+      "ts": "1792152203.646639",
+      "title": "Mistral Large 4 weights still promised by end of October",
+      "section": "🏠 Local Models",
+      "url": "https://www.layer3labs.io/guides/mistral-ai-explained"
+    },
+    {
+      "index": 9,
+      "ts": "1792152206.641099",
+      "title": "⚠️ FTC demands reach into OpenAI's and Anthropic's privacy policies, not just their safety records",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://www.techrepublic.com/article/news-ftc-subpoenas-openai-anthropic-ai-safety/"
+    },
+    {
+      "index": 10,
+      "ts": "1792152208.744799",
+      "title": "Australia's automated-decision transparency duties start 10 December; OAIC guidance status unclear",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://www.gtlaw.com.au/insights/automated-decision-making-transparency-under-the-privacy-act"
+    },
+    {
+      "index": 11,
+      "ts": "1792152215.073709",
+      "title": "Anthropic opens a Singapore office and signs an MOU with the Singapore Government",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "index": 12,
+      "ts": "1792152217.450029",
+      "title": "EU AI Office's first enforcement step is information requests, not fines",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://www.technology.org/2026/10/15/eu-ai-act-first-enforcement-openai-anthropic-ai-office/"
+    },
+    {
+      "index": 13,
+      "ts": "1792152219.904929",
+      "title": "Hassabis calls agent hacks \"early warning shots\" and warns of major incidents within two years",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://www.gmanetwork.com/news/scitech/technology/1005925/google-deepmind-s-hassabis-calls-ai-hacks-early-warning-shots/story/"
+    },
+    {
+      "index": 14,
+      "ts": "1792152222.354619",
+      "title": "Transformer - \"OpenAI's spy shows it needs to grow up, fast\"",
+      "section": "📬 From the Substacks",
+      "url": "https://www.transformernews.ai/p/openai-spy-exposes-wider-security-problem"
+    },
+    {
+      "index": 15,
+      "ts": "1792152224.669699",
+      "title": "Nobody Has to Listen to You - \"AI Governance Isn't New\"",
+      "section": "📬 From the Substacks",
+      "url": "https://nobodyhastolistentoyou.substack.com/p/ai-governance-isnt-new"
+    },
+    {
+      "index": 16,
+      "ts": "1792152227.074469",
+      "title": "AI Wide Open - \"Your AI Agent Says the Task Is Done. How Do You Know?\"",
+      "section": "📬 From the Substacks",
+      "url": "https://aiwideopen.substack.com/p/your-ai-agent-says-the-task-is-done"
+    },
+    {
+      "index": 17,
+      "ts": "1792152229.521569",
+      "title": "Monitoring the Situation - \"10/15: Neural Networks Are Already Clean?\"",
+      "section": "📬 From the Substacks",
+      "url": "https://mtslive.substack.com/p/1015-neural-networks-are-already"
+    },
+    {
+      "index": 18,
+      "ts": "1792152231.229269",
+      "title": "[X] @BIGBULLapp (Big Bull, commentary account)",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    },
+    {
+      "index": 19,
+      "ts": "1792152233.432109",
+      "title": "[X] @LiuTina555 (Tina Liu)",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    }
+  ]
+}

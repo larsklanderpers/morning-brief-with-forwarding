@@ -26,3 +26,4 @@ Sub-thread. What people building with these tools actually report, as against wh
 ## Signals
 
 Linked signal notes appear in **Backlinks** below. Promote the load-bearing ones into *State of play* on the Sunday pass.
+- [[Dynamic context runs before the defenses do]] — a malicious skill's dynamic context executes BEFORE model-level injection defenses can intervene, so the refusal never gets a turn. Marketplace poisoning is exploited (ClawHavoc, Jan-Feb 2026, real victims); repo-resident is PoC only. Keep those two facts separate.

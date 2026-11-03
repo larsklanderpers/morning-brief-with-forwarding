@@ -919,3 +919,196 @@ Compile requirements & carry-forward notes:
 - **The refinement:** the aside is a TWO-beat, not one. Beat one asks the reader's patience; beat two immediately rewards them for granting it and resets the tone to pleasure rather than obligation. Without beat two the aside ends on the reader's cost; with it, the aside ends on the reader's side. Same shape as the Saturday rule -- one beat of the negative, then pivot up -- applied to the reader relationship rather than to fear or to the skeptic.
 - **Register note:** "Enjoy the ride!" is warmer and more exclamatory than his body voice. He is willing to break register briefly for a direct address to the reader. Do not sand this to match the surrounding prose; the tonal jump is what marks it as him talking rather than the piece talking.
 - **Workflow note -- CORRECTED SAME DAY, do not read this as a preference:** he deleted the whole `**Status: ...**` / Series / Thread / Builds on / Source spark header block in rv8, and I initially logged that as a standing preference. It is not one. His words: "you can put the header back for sure, its a habit when i am viewing the markdown as presentation." He strips it to read the piece clean, then it goes back. Keep writing the header block, and restore it on any revision built from a copy he has stripped. General lesson: one observed edit is not a preference -- when a change could plausibly be housekeeping rather than intent, ask before writing it into the canon as a rule.
+
+### 2026-08-01 ("The Rung" edit pass) — [YOUR TAKE] pays off as lived authority; insider-"we" that moves the thesis; owning a refrain by doubling it. HIS FLAG: mindset/flavor, not wording.
+- Context: a panel-cleared Saturday draft, then his own rv2 edit pass. Green-lighting this log he cautioned: *"don't over play them like the news cycle from before -- they go to mindset and flavor, not overly repetitive wording."* Record as dispositions to recognize and PROTECT when HE deploys them, never as templates the panel/drafter reinserts (same failure mode as the news-cycle close).
+- **[YOUR TAKE] -> lived senior-exec authority.** He filled a `[YOUR TAKE]` marker with his real executive experience (the juniors "don't understand the shapes of problems well enough to solve them when they get really twisty" beat; "we can only train them so fast"), in stacked rolling sentences. The marker works as designed: leave it at the emotional-core spot, never fabricate it, tidy grammar only, do not compress.
+- **Insider "we" that carries the argument, not just colors it.** His added paragraph -- "everybody in the tech side already knows... we are eating our young... they can't find anyone to hire... the coming jobpocalypse is not the loss of these roles but the inability to fill them in 36 months" -- used the insider vantage to land a fresh, contrarian reframe drawn from his own conversations. Give him the slot to do this.
+- **Owning a flagged refrain by doubling it.** Panel flagged "on purpose" as possibly over-repeated; his fix was "On purpose. With purpose." -- make the repetition deliberate wordplay rather than cut it (his doubled-sentence peak-feeling tell, used as a device). The fix for a flagged repetition can be to make it MORE intentional, not to remove it. Still ration it.
+- **Length-aside** re-deployed in a lighter Saturday register ("Also because it's a Saturday, it's probably going to take me a few thousand words to get there") -- confirms the 2026-07-25 device; keep it fresh-worded, never a slot.
+
+### 2026-07-29 ("Guardrails Are How You Give It Away" -- Aug 9 capstone) — three beats from the control-as-freedom capstone. HIS FLAG carried forward: mindset/flavor, not wording.
+- Context: interview + drafting + panel of the Sunday capstone that inverts Altman's "AI authoritarianism or liberty" into "the right fence is what lets you say yes." Per his 2026-08-01 caution, log these as dispositions to RECOGNIZE and PROTECT when HE reaches for them, never as phrasings the drafter or panel reinserts. Log the move; let him deploy the words.
+- **The disqualifying-feature test ("if it ships with an off switch, it was never a guardrail").** His move: take a control that carries a documented bypass and turn the bypass's mere existence into the indictment -- a guardrail you can switch off was always only a suggestion. Instance: "If it ships with a YOLO mode, it was never a guardrail." Recognize the move; do not template the line.
+- **Culpability-by-perimeter, through a concrete house/intruder analogy (the termites).** His move: put the fault on whoever controls the boundary that was crossed, not on the toolmaker, via a colloquial, slightly-irreverent image. Instance: a guest who brings a pocket of termites into your house and lets them loose is your fault for who you let in, not the framer's for failing to build against termites released from the inside. Cousin instance the same piece: "blaming Ford because someone drove a car through your living room." His analogy kit; his to reach for.
+- **Transform-the-collision, don't dodge it (drainage -> irrigation).** A taste PRINCIPLE as much as a line: when an image risks repeating from a recent piece, the fix can be to REPOINT it into a new forward claim rather than cut it. Instance: the prior Sunday capstone's "the drainage is real; you have to plug it" became, one week later and deliberately bookended, "turn your drainage into irrigation -- the same flow, pointed at something that grows -- and you're getting ahead." He chose this over swapping the metaphor out, and the evolved callback cleared the panel's cross-piece slop flag. Generalizes: the cure for a repeated device can be evolution, not retirement -- but it is his choice and his words.
+
+### 2026-08-10 -- accretions from the Wed 12 Aug piece ("Which Agents Are Actually Running?")
+
+**Generosity as an argumentative move, not just a manner.** Claude began building a case about a
+source's motives -- the four questions came from a KnowBe4 employee, KnowBe4 sells an agent-governance
+product, therefore treat the framing as vendor marketing. Lars stopped it flat: *"he's just an ordinary
+guy"*, then *"an account executive. which is fine. if he can see it, then we all should."* The evidence
+did not even support the suspicion (the product launched four months before the post). Two things to
+carry forward. First, this is the north-star guardrail from the profile firing in live work: never
+convert difference of vantage into distrust. Second, and more useful, **the generous reading was the
+stronger argument** -- an account executive selling to SMBs, the customers least likely to have a
+security team, seeing the problem clearly is a better opening than any authority claim would have been.
+When tempted to discount a source, check whether taking them at face value makes the piece better. It
+usually does.
+
+**Widen the frame, don't defend the analogy.** When an analogy has an obvious escape hatch, the instinct
+is to defend it or hedge it. Lars did neither. The gaming-floor open was vulnerable to one line -- *those
+are money machines, agents aren't* -- so instead of arguing the point he widened the venue until the
+hatch closed: membership software, the ATM registry, help-desk contractors and consultants and
+salespeople, the paging system, the free coffees. *"Any of these historic systems... are all part of the
+regulated list."* The analogy stopped being about money machines and became about everything touching the
+regulated activity, which is the actual parallel. **Technique to reuse: when a reader can escape an
+analogy through a gap, enlarge the analogy rather than patching it.**
+
+**He will break his own framing if the truth is more interesting.** The draft asserted that vendors would
+answer if asked and mostly nobody asks. His filled-in passage says the opposite is true in regulated
+gaming -- someone *always* asks, annually, in advance, in perpetuity -- and then turns the aggravation
+into an advantage ("front-side of the kind of governance concerns that almost every entity in the world
+will fight"). He did not soften the earlier claim to fit; he let the counter-example stand and the piece
+got better. Leave room for him to contradict the setup.
+
+**"Reliance rather than ownership"** landed hard with him (*"i really like that"*). Filed as a phrasing
+that works, not a phrase to reuse -- the underlying move is naming the axis a decision actually turns on,
+in four words, after several paragraphs of building to it.
+
+### 2026-08-12 -- the standing thank-you footer
+
+Lars, on the Fri 14 Aug piece: *"I would like to add somewhere in my signature block... 'Thanks for reading. I
+appreciate your taking the time.' or something. These things are thick. People who stick it out should be
+appreciated."*
+
+Settled wording: **"Thanks for reading. I know these run long and land dense, and I appreciate you taking the
+time with them."** Placed above the bio block, on every piece.
+
+**Why the wording matters.** The first draft instinct is to apologise for the length. He does not want that and
+should not: the pieces run 2,700 to 3,900 words *by his own repeated decision*, and an apologetic sign-off
+retroactively undercuts the thing the reader just finished. So the line acknowledges the density and thanks the
+reader for spending on it, without conceding it was too much. **Generalises to: thank the reader for the cost
+they paid, never apologise for the thing you chose to make.**
+
+Open: he is considering a lighter variant for the Saturday Diversions, which run a different register. Not yet
+settled -- do not invent one.
+
+### 2026-08-12 -- lightness is a state of being, not a length metric
+
+**His words, on the Sat 15 Aug Diversion:** *"lightness to me is a state of being, not a length metric. the
+optimistic take on all of this is the key to that piece."*
+
+**What prompted it.** The piece was drafted at 1,760w as "the lightest of the run by design," then grew to
+~3,300w through his own rv2 additions and the research integration. At panel I flagged that it now sat only
+23 words under the week's shortest weekday, said the "deliberately light Saturday" framing no longer held,
+and asked him to decide what Saturday is before it drifted. **He corrected the test rather than the piece.**
+
+**The rule.** A Diversion is light when the reader leaves lifted -- when the constructive turn is the spine
+rather than a bolt-on, and they finish holding something they can act on. Not when it is short. A
+3,300-word Diversion that lands on agency is doing its job; a 1,500-word one that lands on dread is not,
+however quickly it got there.
+
+**Why this is the more useful half of the Saturday rule.** The existing calibration (2026-07-10) is entirely
+*negative* -- strip weekday-doom vocabulary, fear gets one beat then pivot up, cut the wonky passages. It
+tells you what to remove and never names the positive condition. This is the positive condition. It also
+means the editor panel's Saturday register check must stop borrowing word count as a proxy for it; Seat 2's
+house-norm length check stands on its own and says nothing about register.
+
+**The general move, which is the part worth keeping:** he defines his own categories by their effect on the
+recipient, not by their measurable properties. When a named thing has an obvious metric attached, that
+metric is almost never what he means. Ask what the reader is supposed to walk away holding.
+
+---
+
+### ACCRETION — 2026-08-16 · "Write the Brief. Then Write the Check" (Tue 18 Aug), rv3→rv7 + sign-off
+
+Three beats, logged append-and-flag. Lars can veto any of them.
+
+**1. UNEARNED ABSOLUTES ARE OVERCONFIDENCE — and the fix is specificity, not hedging.** He struck his own
+line and named the mechanism: *"I might change that line and its absolute surety -- which is the root of my
+problem with it, overconfidence, because 'nobody' is complete bs in that statement."* Then the instruction
+that matters: *"'The second half is the one that MBA schools teach and no consultant ever explains' or
+something of the kind. Its secret sauce. Introduce it as such, not as a system-wide failure, which is just
+flat out isn't."* **Frame a gap as valuable and under-explained, never as universal incompetence.** Shipped
+as "the part business school teaches, consultants resell, and hardly anyone ever actually explains" — three
+named populations, one soft quantifier. The claim got *more specific*, not weaker.
+
+Note this was a genuine gap in the compiled profile: the existing `<never>` law covers **aesthetic**
+certainty ("I reject the stance that I know better than everyone; taste is developmental") and says nothing
+about empirical over-assertion. Full rule now in project memory as `lars-absolutes-and-overconfidence`.
+Guard against over-firing: "specific-number hyperbole; 17 and 37 recur" stays in the phrase bank, and
+bounded absolutes ("nobody in that study was lazy") are true and stay.
+
+**2. THE ONE-LANDING RULE CLAIMED A SECOND VICTIM — it generalises.** Established 2026-08-04 when he moved
+"But it starts today." out of a body paragraph into the final sentence. It fired again here, unprompted by
+him: "and you should try it, at a minimum, just to find out whether I am right" sat directly above a section
+called "Twenty minutes tonight", pre-empting the action beat it introduced. Fixed to "that is an evening's
+work, not a project," which *hands into* the section instead of competing with it. **The tell to watch for:
+an action beat in the last sentence of a section immediately preceding the action section.** Two independent
+occurrences three weeks apart means this is a standing craft rule, not a one-off note.
+
+**3. NEW MOVE — DECLARED CALLBACK AS ESCALATION, when a term has already run.** The draft introduced "loop
+engineering" as a term of art the reader was meeting for the first time. Corpus check found he had already
+run it on **Tue 4 Aug** ("tooling-up"), with a *sharper* line — *"loop engineering is really the art of
+getting the human out of the loop... You are not in the loop anymore. You are the one who drew it"* — which
+had already hung the term on "what 'done' means", i.e. the 18 Aug thesis, a fortnight early. Fourteen days
+out, so outside Seat 5's seven-day window and not a categorical fail.
+
+**The fix was not to cut or to re-explain. It was to declare the return, quote his own better line, and
+attach the condition he had skipped:** *"I gave this a half-sentence a fortnight ago and it deserved
+considerably more than that... What I skipped is the condition attached to it, and the condition is the whole
+of today's piece."* Repetition became escalation, and the paragraph ended up stronger than either version
+alone. **Generalises to: when a term or image is already spent in the corpus and the new piece needs it,
+declaring the return and adding the missing condition beats both re-introducing it and avoiding it.** This
+is the same family as the self-correction move he already owns, pointed at his own earlier aphorism rather
+than at an error.
+
+*Panel note from the same run, for the record:* the negate-then-correct frame ("It is not X. It is Y.") ran
+~7 times against a charter tic-threshold of three. It was NOT resolved against him — it is his voice at
+volume (Fri 14 closes on a tricolon of it; Sun 16 pivots on it; both scored 9.3), so the panel varied only
+the two instances it had introduced itself and left every one of his. Surfaced for his ruling instead of
+sanded. Precedent he should know: the Sat 15 panel took his count from 4 to 2.
+
+---
+
+### 2026-09-05 — CONTRITION IS IN HIS REGISTER. My "his voice does not do that" was wrong.
+
+**Correction from him, verbatim:** *"my voice absolutely does contrition but not in this case. I will fix
+it when we work the draft."*
+
+**What triggered it.** Drafting the handling notes for the Tue 15 Sep piece (the AI policy that exempts
+its author, where the [YOUR TAKE] is that his own company's acceptable-use policy fails the test), I wrote
+that the piece "must not perform contrition; his voice does not do that and it would read as false." The
+first clause was a defensible call about this piece. **The second clause was an absolute about his voice
+that I invented — it is nowhere in `lars-about-me.md`, nowhere in this transcript, and it is not true.**
+
+**Two separate lessons, and the second is the durable one.**
+
+1. **The narrow fact:** contrition is available in his kit. It sits alongside the wry self-deprecation
+   already logged (the length-aside, the footer register, "existential despair"), but it is not the same
+   thing — self-deprecation is a lightening move and contrition is a weight-bearing one. He owns both.
+   For this particular piece he has ruled it **off**, because the finding is structural (he wrote a policy
+   that does what almost every policy does) and a confessional register would shrink a systemic point into
+   a personal lapse. **His ruling, his reason, and he sets the level himself at draft time.**
+
+2. ★ **The general one: I asserted an absolute about his voice from a single inference, in exactly the
+   failure mode the corpus already has a note about.** `feedback_lars_absolutes` says his own writing
+   fails when it over-asserts ("nobody writes this down") and that the fix is specificity, not hedging.
+   The same defect in *my* notes is worse, because a wrong absolute in a handling note gets inherited by
+   every drafter and panel that reads the file and nobody re-tests it — the killed-claim false-positive
+   pattern, pointed at his voice instead of at a fact. **Rule: a claim about what his voice does or does
+   not do is only writable if it is sourced to `lars-about-me.md`, to this transcript, or to a dated edit
+   of his. Otherwise write the call about the piece and leave his voice out of the justification** —
+   "contrition is off here because the finding is structural" needed no claim about him at all, and would
+   have been right.
+
+**How to apply:** when a handling note wants to say "his voice doesn't do X," check the canon; if X is not
+there, say why the *piece* needs what it needs instead. Register calls that belong to him stay flagged for
+him rather than settled in a note.
+
+---
+
+### 2026-09-25 -- Voice recalibration from three months of edit passes (FLAGGED FOR HIS VETO)
+
+**Source:** 38 pieces published 12 Aug - 22 Sep plus the adoption-speed rv16 -> rv17 rewrite; drafter-only file vs his edit-pass file; a pattern needed 3+ pieces. He ruled each item on 25 Sep. Full rules: `Writing Flow\feedback_lars_writing_voice.md` (25 Sep section); evidence: `References\voice-recal_findings\`. Logged here as beats and phrasings the work kept proving out, with his words where he gave them.
+
+- **He edits by adding.** The tail-extension (a judgement or consequence appended to a drafter sentence) is his dominant move; he almost never cuts a drafter fact. Consistent with the layering-toward-irrefutable build already in the profile.
+- **Contractions are his typing voice, in every register (38/38 passes).** Ruling "c": the drafter keeps exposition contraction-free; nobody expands one he wrote.
+- **Stance markers are his, not hedging.** "I think", "in my opinion", "pretty sure", "Perhaps.", "arguably" as a judgement. Consistent with Q8 (he neither dismisses nor overclaims) and the decision rule "I would rather under-claim": the stance marker is how he owns a claim without making it a census.
+- **Sharpness when the logic holds.** His words: *"if the logic is tight and the result is sharp, then the result should be sharp."*
+- **Nicknames are deliberate.** His words: *"usually when I use a nickname there is a reason. the panel should call them out if they have a direct problem, but summary removal seems wrong."*
+- **[YOUR TAKE] as debt and as decision.** His words: *"you can treat it as something I owe -- because sometimes I miss them when I am editing -- but if I have deleted it its because I don't feel i have a thought that matches the drafters intent, so that should just be respected."*
+- **Two countries, two readerships.** His words: *"given that I go back and forth between the countries, and my readers are based in the two different countries, I think that's ok"* -- on US/Australia locating glosses.
+- **Recurring phrasings from his passes:** "to be clear", "for *reasons*", "Not even close.", "At any price.", "our good friends over at...", "Suffice to say", "belt and braces", "needless to say", "much of a muchness", "a doozy". Single-word italics, the occasional ALL-CAPS word, spoken paragraph lead-ins ("Now,", "So,", "Just so I don't give you the impression..."), parenthetical jokes and self-qualifications ("(I didn't)", "(no pun intended)").

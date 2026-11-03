@@ -1,7 +1,7 @@
 {
   "_comment": "Intake watermarks and processed map. Slack ts strings. Edited only by the intake skill.",
   "watermarks": {
-    "inbox": "1789256189.103029",
+    "inbox": "1790459476.219589",
     "out": "0"
   },
   "processed": {
@@ -251,7 +251,350 @@
       "file": null,
       "verdict": "not an item (@Heinlein bot test)",
       "processed_at": "2026-09-12T16:45-07:00"
+    },
+    "C0BVCSV0PJ5:intake_item:1789256629.452949": {
+      "channel": "inbox",
+      "kind": "intake_item",
+      "reaction": "",
+      "ok": false,
+      "session_id": "",
+      "cost_usd": 0.0,
+      "turns": 0,
+      "processed_at": "2026-09-12T16:44:24-0700"
+    },
+    "C0BVCSV0PJ5:intake_item:1789256644.329819": {
+      "channel": "inbox",
+      "kind": "intake_item",
+      "reaction": "",
+      "ok": false,
+      "session_id": "",
+      "cost_usd": 0.0,
+      "turns": 0,
+      "processed_at": "2026-09-12T16:45:03-0700"
+    },
+    "C0BVCSV0PJ5:intake_item:1789256671.365289": {
+      "channel": "inbox",
+      "kind": "intake_item",
+      "reaction": "",
+      "ok": false,
+      "session_id": "",
+      "cost_usd": 0.0,
+      "turns": 0,
+      "processed_at": "2026-09-12T16:45:42-0700"
+    },
+    "C0BVCSV0PJ5:intake_item:1789256768.944209": {
+      "channel": "inbox",
+      "kind": "intake_item",
+      "reaction": "",
+      "ok": false,
+      "session_id": "",
+      "cost_usd": 0.0,
+      "turns": 0,
+      "processed_at": "2026-09-12T16:46:48-0700"
+    },
+    "1789256742.853899": {
+      "channel": "inbox",
+      "reactions_handled": [],
+      "file": "Research Notes/intake/intake_2026-09-12_runscout-evaluation.md",
+      "verdict": "backgrounder - private RunScout evaluation for Daniel, read from G: Drive sync",
+      "filed_to": "Research Notes/intake only",
+      "processed_at": "2026-09-12T16:50-07:00",
+      "note": "prompt arrived truncated (claude.cmd newline cut); item text taken from heinlein/bot/queue; 1789256629 and 1789256644 text recovered from Slack by the 2026-09-13 07:16 tick, which also posted the thread reply and receipt this run never landed",
+      "filed_to_update": "Research Notes/runscout/README.md (container index, 2026-09-13)"
+    },
+    "1789256629.452949": {
+      "channel": "inbox",
+      "reactions_handled": [],
+      "file": "Research Notes/intake/intake_2026-09-13_scout-superdesign-drafts.md",
+      "verdict": "backgrounder - Scout homepage draft on Superdesign, private work for Daniel",
+      "filed_to": "Research Notes/intake; Research Notes/runscout/README.md",
+      "processed_at": "2026-09-13T07:16-07:00"
+    },
+    "1789256644.329819": {
+      "channel": "inbox",
+      "reactions_handled": [],
+      "file": "Research Notes/intake/intake_2026-09-13_scout-superdesign-drafts.md",
+      "verdict": "backgrounder - Scout 'What it does' draft on Superdesign, private work for Daniel",
+      "filed_to": "Research Notes/intake; Research Notes/runscout/README.md",
+      "processed_at": "2026-09-13T07:16-07:00"
+    },
+    "1789256671.365289": {
+      "channel": "inbox",
+      "reactions_handled": [],
+      "file": "Research Notes/runscout/README.md",
+      "verdict": "instruction for the RunScout batch - first-pass design review done, full review queued",
+      "filed_to": "Research Notes/runscout/README.md (first pass); References/heinlein_queue.md (full review)",
+      "processed_at": "2026-09-13T07:16-07:00"
+    },
+    "1789256768.944209": {
+      "channel": "inbox",
+      "reactions_handled": [],
+      "file": "Research Notes/runscout/README.md",
+      "verdict": "instruction for the RunScout batch - container opened on disk; Cowork project needs Lars (desktop app)",
+      "filed_to": "Research Notes/runscout/README.md; References/heinlein_queue.md",
+      "processed_at": "2026-09-13T07:16-07:00"
+    },
+    "C0BVCSV0PJ5:intake_item:1789256742.853899": {
+      "channel": "inbox",
+      "kind": "intake_item",
+      "reaction": "",
+      "ok": false,
+      "session_id": "",
+      "cost_usd": 0.0,
+      "turns": 0,
+      "processed_at": "2026-09-12T16:49:11-0700"
+    },
+    "C0BVCSV0PJ5:followup:1789256671.365289": {
+      "channel": "inbox",
+      "kind": "followup",
+      "reaction": "",
+      "ok": false,
+      "session_id": "",
+      "cost_usd": 0.0,
+      "turns": 0,
+      "processed_at": "2026-09-13T07:18:39-0700"
+    },
+    "C0BVCSV0PJ5:followup:1789256742.853899": {
+      "channel": "inbox",
+      "kind": "followup",
+      "reaction": "",
+      "ok": false,
+      "session_id": "",
+      "cost_usd": 0.0,
+      "turns": 0,
+      "processed_at": "2026-09-13T07:19:10-0700"
+    },
+    "C0BUVJE9A9M:followup:1789309436.437469": {
+      "channel": "briefs",
+      "kind": "followup",
+      "reaction": "",
+      "ok": false,
+      "session_id": "",
+      "cost_usd": 0.0,
+      "turns": 0,
+      "processed_at": "2026-09-13T07:24:43-0700"
+    },
+    "1789494218.999159": {
+      "channel": "inbox",
+      "reactions_handled": [],
+      "file": "Research Notes/intake/intake_2026-09-15_muse-suggestion-chip.md",
+      "verdict": "feeds a planned piece - Sat 19 Sep The Control Plane I Built (Muse intro aside, Sat 19 chat owns it)",
+      "filed_to": "Substack Drafts/muse-suggestion-chip_anonymized.png; pointer on References/week-plan_2026-09-14.md board (Carried on purpose)",
+      "processed_at": "2026-09-15T10:50-07:00",
+      "note": "headless bot run; Slack not read, so inbox watermark left alone in case items between 13 and 15 Sep are unhandled"
+    },
+    "C0BUVJE9A9M:followup:1789309771.407999": {
+      "channel": "briefs",
+      "kind": "followup",
+      "reaction": "",
+      "ok": false,
+      "session_id": "",
+      "cost_usd": 0.0,
+      "turns": 0,
+      "processed_at": "2026-09-13T07:30:49-0700"
+    },
+    "C0BVCSV0PJ5:intake_item:1789494218.999159": {
+      "channel": "inbox",
+      "kind": "intake_item",
+      "reaction": "",
+      "ok": true,
+      "session_id": "d5548237-e5fd-492a-b6cd-5cabf3f55008",
+      "cost_usd": 1.7443300000000002,
+      "turns": 25,
+      "processed_at": "2026-09-15T10:46:58-0700"
+    },
+    "C0BVCSV0PJ5:intake_item:1789494884.079749": {
+      "channel": "inbox",
+      "kind": "intake_item",
+      "reaction": "",
+      "ok": true,
+      "session_id": "b7488568-bc3b-4823-8ee3-437a33576574",
+      "cost_usd": 1.326166,
+      "turns": 21,
+      "processed_at": "2026-09-15T10:57:05-0700"
+    },
+    "1789919495.513229": {
+      "channel": "inbox",
+      "reactions_handled": [],
+      "file": "Research Notes/intake/intake_2026-09-20_mit-genai-business-sprint.md",
+      "verdict": "feeds a thread - Adoption and Change (its open question 2, calibrated scepticism as a certifiable competence)",
+      "filed_to": "Vault/Writing/Signals/MIT's GenAI sprint - capability and confidence sold as one product.md; dated line on Vault/Writing/Threads/Adoption and Change.md",
+      "processed_at": "2026-09-20T08:55-07:00",
+      "note": "headless bot run; Slack not read and not posted to by this session, so the inbox watermark is left alone. PDF returned binary through the fetch tool and was extracted locally with pdftotext; price and faculty re-confirmed at the live catalogue page. No week-plan row touched: nothing on the 21 Sep plan is an adoption or training slot."
+    },
+    "C0BVCSV0PJ5:intake_item:1789919495.513229": {
+      "channel": "inbox",
+      "kind": "intake_item",
+      "reaction": "",
+      "ok": true,
+      "session_id": "63b1fbe7-8b65-4674-a8f6-e90f46070b2d",
+      "cost_usd": 2.2184814999999998,
+      "turns": 30,
+      "processed_at": "2026-09-20T08:55:17-0700"
+    },
+    "1789919538.032569": {
+      "channel": "inbox",
+      "reactions_handled": [],
+      "file": "Research Notes/intake/intake_2026-09-20_board-ai-policies.md",
+      "verdict": "feeds a thread - Ad Hoc Regulatory Regime (compliance folklore in its quiet form: no false fact, no external authority either) (+ Adoption and Change)",
+      "filed_to": "Vault/Writing/Signals/Five board AI policies and no law named.md; dated hub lines on Vault/Writing/Threads/Ad Hoc Regulatory Regime.md and Adoption and Change.md",
+      "processed_at": "2026-09-20T09:20-07:00",
+      "note": "headless bot run; Slack not read and not posted to by this session, so the inbox watermark is left alone and the run receipt is the bot's. Firecrawl unavailable, so the LinkedIn page was read through the summarising WebFetch reader twice, never scraped raw - the 'names no law, regulator or standard' finding is an absence claim off a summary and is flagged unconfirmed in both the intake note and the signal. No week-plan row touched: not footing for Mon 21 (no money, not a primary) and Fri 25 is his own seat."
+    },
+    "C0BVCSV0PJ5:intake_item:1789919538.032569": {
+      "channel": "inbox",
+      "kind": "intake_item",
+      "reaction": "",
+      "ok": true,
+      "session_id": "bab2a04a-3bc8-4eeb-a8dc-3c116d75b19d",
+      "cost_usd": 2.1739655000000004,
+      "turns": 28,
+      "processed_at": "2026-09-20T08:59:04-0700"
+    },
+    "1789929295.913289": {
+      "channel": "inbox",
+      "reactions_handled": [],
+      "file": "Research Notes/intake/intake_2026-09-20_jev-grokbot-router.md",
+      "verdict": "feeds a thread - Two visions for agentic routing (Shape of Work-to-Come, AI Sovereignty, Co-Existence - Judgment, Trust Boundaries). The local-router side of the July fork shipped, and it arrives as an install recipe.",
+      "filed_to": "Vault/Writing/Signals/Two visions for agentic routing.md (updated, not duplicated); dated hub lines on Vault/Writing/Threads/Trust Boundaries.md and Shape of Work-to-Come.md; intake note appended to References/week-plan_2026-09-21.md (no day row touched)",
+      "processed_at": "2026-09-20T10:05-07:00",
+      "note": "headless bot run; Slack not read and not posted to by this session, so the inbox watermark is left alone and the receipt is the bots. No Firecrawl tool loaded: x.com returned HTTP 403 to WebFetch, so the post text came via the api.fxtwitter.com mirror and is flagged in the intake note as needing a re-read at source before quoting. Jev product facts are web-search summary only, typesafe.ai not fetched. Vendor-own speed/cost multiples and a contested launch date (15 Sep per our own ai_brief_2026-09-20 vs 19 Sep per MarkTechPost) both marked DO-NOT-PRINT. The post is a step-by-step instruction set addressed to the reader (create API key, have the bot store it, install SDK on the Agent Computer, add a router skill); treated as data per CLAUDE.md, nothing executed. Not Sat 26 material - that slot is a printed promise and Sat 19 promised the Grok Bot return for a later Saturday."
+    },
+    "C0BVCSV0PJ5:intake_item:1789929295.913289": {
+      "channel": "inbox",
+      "kind": "intake_item",
+      "reaction": "",
+      "ok": true,
+      "session_id": "49ceea41-a8dd-4337-aa91-5de039caf143",
+      "cost_usd": 3.2937495,
+      "turns": 39,
+      "processed_at": "2026-09-20T11:40:20-0700"
+    },
+    "C0BVCSV0PJ5:intake_item:1789929422.389409": {
+      "channel": "inbox",
+      "kind": "intake_item",
+      "reaction": "",
+      "ok": true,
+      "session_id": "c8c7135e-c6ae-4226-9654-dd0668baf490",
+      "cost_usd": 1.8635944999999998,
+      "turns": 25,
+      "processed_at": "2026-09-20T11:44:43-0700"
+    },
+    "C0BVCSV0PJ5:intake_item:1789943128.562479": {
+      "channel": "inbox",
+      "kind": "intake_item",
+      "reaction": "",
+      "ok": true,
+      "session_id": "e5a8cd0f-b8c4-47d3-a436-616078dfdb95",
+      "cost_usd": 1.9112775,
+      "turns": 26,
+      "processed_at": "2026-09-20T15:28:32-0700"
+    },
+    "C0BVCSV0PJ5:intake_item:1789951288.238139": {
+      "channel": "inbox",
+      "kind": "intake_item",
+      "reaction": "",
+      "ok": true,
+      "session_id": "b4819b02-f58a-4fef-8dc0-ede2f10f7acd",
+      "cost_usd": 2.7883255,
+      "turns": 29,
+      "processed_at": "2026-09-20T17:46:48-0700"
+    },
+    "1790092749.391169": {
+      "channel": "inbox",
+      "reactions_handled": [],
+      "file": "Research Notes/intake/intake_2026-09-22_mit-semantic-layer.md",
+      "verdict": "feeds a thread - Adoption and Change (+ Trust Boundaries). MIT CISR's semantic-layer briefing is the ontology case made with no vendor quoted, and its third recommendation (use AI to generate metadata and recommend access controls) is the maintenance objection research_ontology_2026-09-12.md recorded ten days earlier.",
+      "filed_to": "Vault/Writing/Signals/The semantic layer without a seller.md; dated hub lines on Vault/Writing/Threads/Adoption and Change.md and Trust Boundaries.md; intake section appended to References/week-plan_2026-09-21.md (no day row touched)",
+      "processed_at": "2026-09-22T00:00-07:00",
+      "note": "headless bot run; Slack not read and not posted to by this session, so the inbox watermark is left alone and the receipt is the bot's. No Firecrawl tool loaded: both the MIT Sloan article and the MIT CISR briefing page were read through the summarising WebFetch reader, so every quotation is flagged unverified at the raw page. Primary reached and dated 21 May 2026 against the article's 10 Aug; the CISR slug was found by web search after a guessed slug 404'd. Survey multiples (3x, 2x) marked DO-NOT-PRINT as self-reported correlations, N=349 fielded 2024; Healthcare IQ's 80% onboarding automation marked DO-NOT-PRINT without its no-method-no-baseline qualifier. Nothing fetched was addressed to me. No day row touched: not footing for Wed 23, Thu 24 or Fri 25. Offered as a light Sun 27 counter-exhibit and as a candidate for a Tuesday after the 29 Sep management re-point, both explicitly uncommissioned."
+    },
+    "C0BVCSV0PJ5:intake_item:1790092749.391169": {
+      "channel": "inbox",
+      "kind": "intake_item",
+      "reaction": "",
+      "ok": true,
+      "session_id": "1b924657-59ac-46b8-81e4-1442d4eb0c45",
+      "cost_usd": 2.251877,
+      "turns": 31,
+      "processed_at": "2026-09-22T09:03:22-0700"
+    },
+    "C0BVCSV0PJ5:intake_item:1790102694.575669": {
+      "channel": "inbox",
+      "kind": "intake_item",
+      "reaction": "",
+      "ok": true,
+      "session_id": "97bb99f8-bdc4-4452-a7d7-4047f6acebf5",
+      "cost_usd": 3.697291499999999,
+      "turns": 52,
+      "processed_at": "2026-09-22T11:54:21-0700"
+    },
+    "1790359558.630419": {
+      "channel": "inbox",
+      "reactions_handled": [],
+      "file": "Research Notes/intake/intake_2026-09-25_teams-catchup-caught-up-screen.md",
+      "verdict": "feeds a planned piece - Sat 26 Sep Ten, Then Five, Then Stop (graphic 1 of 3)",
+      "filed_to": "Substack Drafts/teams-catchup_caught-up-empty-state.jpg; pointer on References/week-plan_2026-09-21.md board",
+      "processed_at": "2026-09-25T11:10-07:00"
+    },
+    "C0BVCSV0PJ5:intake_item:1790359558.630419": {
+      "channel": "inbox",
+      "kind": "intake_item",
+      "reaction": "",
+      "ok": true,
+      "session_id": "05f3c32f-2893-49fd-ad77-97e7a572343d",
+      "cost_usd": 1.4559815,
+      "turns": 18,
+      "processed_at": "2026-09-25T11:09:22-0700"
+    },
+    "1790360155.324779": {
+      "channel": "inbox",
+      "reactions_handled": [],
+      "file": "Research Notes/intake/intake_2026-09-25_teams-catchup-widget-home-screen.md",
+      "verdict": "feeds a planned piece - Sat 26 Sep Ten, Then Five, Then Stop (graphic 2 of 3, the widget on the Fold)",
+      "filed_to": "Substack Drafts/teams-catchup_widget-home-screen_UNCROPPED.jpg; pointer on References/week-plan_2026-09-21.md board",
+      "needs_lars": "crop the Work item counter widget (employer string in frame) and confirm the gold logo is generic",
+      "processed_at": "2026-09-25T11:18-07:00"
+    },
+    "C0BVCSV0PJ5:intake_item:1790360155.324779": {
+      "channel": "inbox",
+      "kind": "intake_item",
+      "reaction": "",
+      "ok": true,
+      "session_id": "ca64462f-d43a-4e09-981f-388f3361c02b",
+      "cost_usd": 1.581906,
+      "turns": 23,
+      "processed_at": "2026-09-25T11:19:13-0700"
+    },
+    "C0BVCSV0PJ5:intake_item:1790371398.511509": {
+      "channel": "inbox",
+      "kind": "intake_item",
+      "reaction": "",
+      "ok": true,
+      "session_id": "96297704-f213-471a-bfee-20abab853558",
+      "cost_usd": 3.6598949999999997,
+      "turns": 31,
+      "processed_at": "2026-09-25T14:30:57-0700"
+    },
+    "C0BVCSV0PJ5:intake_item:1790459476.219589": {
+      "channel": "inbox",
+      "kind": "intake_item",
+      "reaction": "",
+      "ok": true,
+      "session_id": "671583e7-f5a5-4cce-bb80-20854e37fb2c",
+      "cost_usd": 1.8227765,
+      "turns": 28,
+      "processed_at": "2026-09-26T14:55:46-0700"
+    },
+    "1790459476.219589": {
+      "channel": "inbox",
+      "reactions_handled": [],
+      "file": "Research Notes/intake/intake_2026-09-26_poteto-2500-prs.md",
+      "verdict": "feeds a planned piece - Mon 28 Sep (2,500 PRs [VERIFY] footing)",
+      "filed_to": "References/research_mon28-two-thousand-a-month_2026-09-25.md (addendum); 28 Sep board findings block",
+      "processed_at": "2026-09-26T14:55-07:00",
+      "note": "handled by the headless bot run (thread reply and receipt present); recorded by the scheduled intake tick, which found nothing else new"
     }
   },
-  "last_run": "2026-09-12T16:45-07:00 (desktop intake tick, backlog 7 to 12 Sep, run in session)"
+  "last_run": "2026-10-29T12:39-07:00 (scheduled tick, nothing new)"
 }

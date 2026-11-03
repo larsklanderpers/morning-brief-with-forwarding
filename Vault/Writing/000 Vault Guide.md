@@ -42,3 +42,22 @@ write, you open the hub, not eleven brief files.
 
 Brief tasks and the research-assistant skill should search `Signals/` and
 `Threads/` before fanning out to the web. Local signal first — that is the point.
+
+## Added 2026-08-16 — a fourth note type
+
+**Reference** (`Reference/`) — a body of source material too large to be a signal and too
+foundational to be a piece. One note per corpus, not per source. Created for the AI-adoption
+reading list, which was 35 sources at once: promoting each one to `Signals/` would have broken
+rule 1 inside a single afternoon, and leaving them out would have lost the work.
+
+Rules that keep it from becoming a dumping ground:
+
+1. **A Reference note is graded, not listed.** Every source carries a provenance grade and the
+   caveat that has to travel with it. A bare bibliography is a bookmark folder.
+2. **It still links to a thread.** Same as rule 3 above.
+3. **When one source inside it becomes load-bearing, promote it to `Signals/`** and leave the
+   Reference note as the place the corpus lives. That is what happened with the six adoption
+   signals filed 2026-08-16.
+
+Current contents: `Foundational research — AI adoption and change management`,
+`ADKAR and Kotter — a provenance file`. Both feed `Threads/Adoption and Change`.

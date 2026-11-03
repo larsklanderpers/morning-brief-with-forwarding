@@ -1,0 +1,58 @@
+{
+  "kind": "cyber",
+  "date_stamp": "2026-09-13",
+  "file": "Daily Briefs/brief_2026-09-13.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1789309436.437469",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1789309444.925209",
+      "title": "EU Cyber Resilience Act Reporting Went Live Friday: 24 Hours to Flag an Exploited Flaw",
+      "section": "🚨 Government Advisories",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/cra-reporting"
+    },
+    {
+      "index": 2,
+      "ts": "1789309460.957289",
+      "title": "Dutch NCSC Expects Large-Scale Exploitation of the Check Point VPN Flaws",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.ncsc.nl/alerts/kritieke-kwetsbaarheden-in-check-point-vpn-producten-met-actief-misbruik-verwacht-update-nu"
+    },
+    {
+      "index": 3,
+      "ts": "1789309463.807219",
+      "title": "Revolut Hands KYC Files to a Fake Government Request Sent From a Real Government Domain",
+      "section": "📰 Top Security News",
+      "url": "https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/"
+    },
+    {
+      "index": 4,
+      "ts": "1789309466.563529",
+      "title": "Microsoft: Passkey Lures Are the Pretext, Your Microsoft 365 Identity Is the Target",
+      "section": "📰 Top Security News",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/09/09/passkey-themed-social-engineering-leads-identity-cloud-compromise/"
+    },
+    {
+      "index": 5,
+      "ts": "1789309468.936139",
+      "title": "Florida Traces DMV Database Breach to One Police Officer's Login on a Personal Device",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/florida-confirms-dmv-database-breached-via-stolen-police-account/"
+    },
+    {
+      "index": 6,
+      "ts": "1789309471.433889",
+      "title": "Microsoft Finds AI Fingerprints on a Million-Email CEO Invoice Scam, and Says It Cannot Measure Them",
+      "section": "🤖 AI & Security",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/09/10/protecting-organizations-ai-assisted-executive-impersonation-invoice-fraud/"
+    },
+    {
+      "index": 7,
+      "ts": "1789309473.727419",
+      "title": "Intezer: AI Alerts Are 0.43% of the SOC Queue, and the Fastest-Growing Slice",
+      "section": "🤖 AI & Security",
+      "url": "https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html"
+    }
+  ]
+}

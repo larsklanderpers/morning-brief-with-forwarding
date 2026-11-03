@@ -1,0 +1,163 @@
+{
+  "kind": "ai",
+  "date_stamp": "2026-10-10",
+  "file": "AI Briefs/ai_brief_2026-10-10.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1791673917.393779",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1791673923.801769",
+      "title": "Anthropic pulls live internet access from its own evaluations",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.anthropic.com/research/investigating-unintended-model-actions"
+    },
+    {
+      "index": 2,
+      "ts": "1791673926.643329",
+      "title": "OpenAI's run-rate is about $50B, not the $68B everyone repeated",
+      "section": "🔬 Frontier Labs",
+      "url": "https://aidailybrief.ai/e/2026-10-09"
+    },
+    {
+      "index": 3,
+      "ts": "1791673929.713779",
+      "title": "White House \"Super Intelligence Force\" starts work as labs plan for the incident they expect",
+      "section": "🔬 Frontier Labs",
+      "url": "https://mtslive.substack.com/p/109-softbank-seeks-100-bilion-for"
+    },
+    {
+      "index": 4,
+      "ts": "1791673932.635729",
+      "title": "Claude now edits inside Google Docs, Sheets and Slides",
+      "section": "🚀 Shipping with AI",
+      "url": "https://thecreatorsai.com/p/chatgpt-gets-interactive-mistrals"
+    },
+    {
+      "index": 5,
+      "ts": "1791673935.427329",
+      "title": "Meta's Muse for Small Business plugs an agent into Shopify, QuickBooks and Stripe",
+      "section": "🚀 Shipping with AI",
+      "url": "https://opinionai.substack.com/p/meta-muse-vs-openai-dots-vs-grok"
+    },
+    {
+      "index": 6,
+      "ts": "1791673938.072489",
+      "title": "Manus raises $500M after Beijing blocked its sale to Meta",
+      "section": "🚀 Shipping with AI",
+      "url": "https://thecreatorsai.com/p/chatgpt-gets-interactive-mistrals"
+    },
+    {
+      "index": 7,
+      "ts": "1791673940.571859",
+      "title": "Perplexity open-sources pplx-embed-v2: index at 9B, query on-device at 0.6B",
+      "section": "🏠 Local Models",
+      "url": "https://thecreatorsai.com/p/chatgpt-gets-interactive-mistrals"
+    },
+    {
+      "index": 8,
+      "ts": "1791673942.987679",
+      "title": "Open weights are mainstream; Chinese open weights are not",
+      "section": "🏠 Local Models",
+      "url": "https://aidailybrief.ai/e/2026-10-09"
+    },
+    {
+      "index": 9,
+      "ts": "1791673946.349649",
+      "title": "OAIC's final ADM guidance is out; disclosure duty starts 10 December",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://www.allens.com.au/insights-news/insights/2026/10/mandatory-automated-decision-making-disclosure-requirements-are-coming-key-takeaways-from-the-oaic-guidance/"
+    },
+    {
+      "index": 10,
+      "ts": "1791673949.710979",
+      "title": "⚠️ An AI assistant helped re-identify the order of 1.5M Georgia ballots",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://blog.citp.princeton.edu/2026/08/03/an-algorithmic-failure-beneath-the-secret-ballot/"
+    },
+    {
+      "index": 11,
+      "ts": "1791673952.455949",
+      "title": "Mistral Large 4: trained in its own EU data centres, licence still unpublished",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://thecreatorsai.com/p/chatgpt-gets-interactive-mistrals"
+    },
+    {
+      "index": 12,
+      "ts": "1791673954.859859",
+      "title": "Apple's Siri AI expands to five languages in October, but not in the EU",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://letsdatascience.com/news/apple-expands-siri-ai-to-five-languages-c6b6a177"
+    },
+    {
+      "index": 13,
+      "ts": "1791673957.488289",
+      "title": "Monitoring the Situation - \"10/9: SoftBank Seeks $100 Billion for AI\"",
+      "section": "📬 From the Substacks",
+      "url": "https://mtslive.substack.com/p/109-softbank-seeks-100-bilion-for"
+    },
+    {
+      "index": 14,
+      "ts": "1791673959.691009",
+      "title": "The AI Standard - \"We're About to Enter the Age of Synthetic Consensus\"",
+      "section": "📬 From the Substacks",
+      "url": "https://theaistandard.substack.com/p/were-about-to-enter-the-age-of-synthetic"
+    },
+    {
+      "index": 15,
+      "ts": "1791673962.219159",
+      "title": "Opinion AI - \"Meta Muse vs OpenAI Dots vs Grok Bot\"",
+      "section": "📬 From the Substacks",
+      "url": "https://opinionai.substack.com/p/meta-muse-vs-openai-dots-vs-grok"
+    },
+    {
+      "index": 16,
+      "ts": "1791673964.527609",
+      "title": "Creators AI - \"ChatGPT Gets Interactive, Mistral's European Giant, Manus Bounces Back\"",
+      "section": "📬 From the Substacks",
+      "url": "https://thecreatorsai.com/p/chatgpt-gets-interactive-mistrals"
+    },
+    {
+      "index": 17,
+      "ts": "1791673966.557729",
+      "title": "[X] @colitco",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    },
+    {
+      "index": 18,
+      "ts": "1791673968.190519",
+      "title": "[X] @MikeyJNicholls (Michael Nicholls)",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    },
+    {
+      "index": 19,
+      "ts": "1791673970.129799",
+      "title": "[X] @Satyarth (Satyarth Priyedarshi)",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    },
+    {
+      "index": 20,
+      "ts": "1791673972.007149",
+      "title": "[X] @EUPerspectives",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    },
+    {
+      "index": 21,
+      "ts": "1791673973.392639",
+      "title": "[X] @stevesi (Steven Sinofsky)",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    },
+    {
+      "index": 22,
+      "ts": "1791673976.066429",
+      "title": "🎙️ AI Daily Brief - What Happens When AI Solves Your Life's Work (9 Oct; no 10 Oct episode found)",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    }
+  ]
+}

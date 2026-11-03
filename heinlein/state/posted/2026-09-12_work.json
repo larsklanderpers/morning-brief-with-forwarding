@@ -1,0 +1,100 @@
+{
+ "kind": "work",
+ "date_stamp": "2026-09-12",
+ "file": "AI Briefs/work_brief_2026-09-12.md",
+ "channel": "C0BUVJE9A9M",
+ "parent_ts": "1789256232.048269",
+ "items": [
+  {
+   "index": 1,
+   "ts": "1789256240.629489",
+   "title": "\"Why The Harness Matters More Than The Model\"",
+   "section": "🎥 What Creators Are Saying (YouTube)",
+   "url": "https://www.youtube.com/watch?v=n9xKblqyQ28"
+  },
+  {
+   "index": 2,
+   "ts": "1789256244.405609",
+   "title": "\"GPT-6 Astra Just Made AI Software Factories Real (Here's How to Run One)\"",
+   "section": "🎥 What Creators Are Saying (YouTube)",
+   "url": "https://www.youtube.com/watch?v=joKb_QMmglM"
+  },
+  {
+   "index": 3,
+   "ts": "1789256247.861179",
+   "title": "\"How to Actually Choose the Right AI Agent\"",
+   "section": "🎥 What Creators Are Saying (YouTube)",
+   "url": "https://www.youtube.com/watch?v=6LNlCpQPYFc"
+  },
+  {
+   "index": 4,
+   "ts": "1789256251.388219",
+   "title": "\"These 5 FREE AI Tools Made Me $1M With Zero Employees\"",
+   "section": "🎥 What Creators Are Saying (YouTube)",
+   "url": "https://www.youtube.com/watch?v=75tja_RxKn4"
+  },
+  {
+   "index": 5,
+   "ts": "1789256254.588649",
+   "title": "@emollick (Ethan Mollick)",
+   "section": "🐦 The Conversation on X",
+   "url": "https://x.com/emollick/status/2098878488853795316"
+  },
+  {
+   "index": 6,
+   "ts": "1789256257.828619",
+   "title": "@emollick (Ethan Mollick)",
+   "section": "🐦 The Conversation on X",
+   "url": "https://x.com/emollick/status/2098902602758996040"
+  },
+  {
+   "index": 7,
+   "ts": "1789256261.975489",
+   "title": "@ajkrish95 (Ajay Krishna Amudan)",
+   "section": "🐦 The Conversation on X",
+   "url": "https://x.com/ajkrish95/status/2097482900597870848"
+  },
+  {
+   "index": 8,
+   "ts": "1789256269.710049",
+   "title": "r/cscareerquestions",
+   "section": "🧑‍💻 Practitioner Ground Truth (Reddit)",
+   "url": "https://www.reddit.com/r/cscareerquestions/comments/1wdwx58/"
+  },
+  {
+   "index": 9,
+   "ts": "1789256272.764209",
+   "title": "r/ExperiencedDevs",
+   "section": "🧑‍💻 Practitioner Ground Truth (Reddit)",
+   "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1wcnd20/"
+  },
+  {
+   "index": 10,
+   "ts": "1789256276.489139",
+   "title": "r/ExperiencedDevs",
+   "section": "🧑‍💻 Practitioner Ground Truth (Reddit)",
+   "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1wepvw6/"
+  },
+  {
+   "index": 11,
+   "ts": "1789256281.008779",
+   "title": "\"What to Use the Latest AI Tools For\"",
+   "section": "🎙️ Podcasts & Newsletters",
+   "url": "https://aidailybrief.ai/e/2026-09-11"
+  },
+  {
+   "index": 12,
+   "ts": "1789256284.816369",
+   "title": "The embedded external evaluator",
+   "section": "🆕 New Roles & Archetypes Watch",
+   "url": "https://darioamodei.com/post/we-must-pace-the-frontier"
+  },
+  {
+   "index": 13,
+   "ts": "1789256288.879609",
+   "title": "The engineer who manages a bunch of agents",
+   "section": "🆕 New Roles & Archetypes Watch",
+   "url": "https://finance.yahoo.com/technology/ai/articles/wipros-ai-push-frees-capacity-093712974.html"
+  }
+ ]
+}

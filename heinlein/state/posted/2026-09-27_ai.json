@@ -1,0 +1,114 @@
+{
+  "kind": "ai",
+  "date_stamp": "2026-09-27",
+  "file": "AI Briefs/ai_brief_2026-09-27.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1790539273.831899",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1790539285.758559",
+      "title": "OpenAI halts tool-use training and inference on its most capable models after a DNS sandbox escape",
+      "section": "🔬 Frontier Labs",
+      "url": "https://fortune.com/2026/09/26/openai-ai-agents-secure-sandbox-escape-training-pause-second-time-hugging-face-hack/"
+    },
+    {
+      "index": 2,
+      "ts": "1790539289.184629",
+      "title": "OpenAI widens its review of agent behaviour and keeps notifying third parties",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.cnbc.com/2026/09/26/openai-agent-model-behavior-review.html"
+    },
+    {
+      "index": 3,
+      "ts": "1790539291.700349",
+      "title": "Washington and Beijing open a \"Super Intelligence Dialogue\" and an AI incident channel",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.axios.com/2026/09/26/us-china-ai-si-deal"
+    },
+    {
+      "index": 4,
+      "ts": "1790539294.547989",
+      "title": "Ando launches a team chat app where AI agents are members with their own identities and inboxes",
+      "section": "🚀 Shipping with AI",
+      "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-this-weekend-september-26-27-2026/"
+    },
+    {
+      "index": 5,
+      "ts": "1790539297.032749",
+      "title": "Alibaba open-sources Qwen-Image-2.1 for compact image creation and editing",
+      "section": "🏠 Local Models",
+      "url": "https://www.whytryai.com/p/sunday-rundown-158-flaship-models"
+    },
+    {
+      "index": 6,
+      "ts": "1790539300.559469",
+      "title": "NYC Council tables AI bills requiring kill switches, third-party validation and paid whistleblowers",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://council.nyc.gov/press/2026/09/25/3252/"
+    },
+    {
+      "index": 7,
+      "ts": "1790539303.922709",
+      "title": "Canberra's AI infrastructure consultation closes 9 October",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://www.pmc.gov.au/resources/getting-it-right-building-ai-infrastructure-works-australia"
+    },
+    {
+      "index": 8,
+      "ts": "1790539306.113829",
+      "title": "Linas's Newsletter - \"Amazon blocked Meta's Muse AI Agent to protect $76B in ad revenue\"",
+      "section": "📬 From the Substacks",
+      "url": "https://linas.substack.com/p/weeklyfintechpulse417"
+    },
+    {
+      "index": 9,
+      "ts": "1790539311.149429",
+      "title": "Jurgen Gravestein - \"Kawaii Superintelligence\"",
+      "section": "📬 From the Substacks",
+      "url": "https://jurgengravestein.substack.com/p/kawaii-superintelligence"
+    },
+    {
+      "index": 10,
+      "ts": "1790539313.449399",
+      "title": "Nate's Newsletter - \"Executive Briefing: You Bought Better Tools and Your Finished Work Still Waits\"",
+      "section": "📬 From the Substacks",
+      "url": "https://natesnewsletter.substack.com/p/scale-ai-developer-productivity"
+    },
+    {
+      "index": 11,
+      "ts": "1790539315.537899",
+      "title": "Why Try AI - \"Sunday Rundown #158: Flaship Models & Misplaced Hugs\"",
+      "section": "📬 From the Substacks",
+      "url": "https://www.whytryai.com/p/sunday-rundown-158-flaship-models"
+    },
+    {
+      "index": 12,
+      "ts": "1790539317.460009",
+      "title": "[X] @MercuryNews26",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    },
+    {
+      "index": 13,
+      "ts": "1790539319.312669",
+      "title": "[X] @AnotherCodingX",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    },
+    {
+      "index": 14,
+      "ts": "1790539320.788899",
+      "title": "[X] @saikirankannan",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    },
+    {
+      "index": 15,
+      "ts": "1790539322.177789",
+      "title": "[X] @DECAustralia",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "kind": "ai",
+  "date_stamp": "2026-10-13",
+  "file": "AI Briefs/ai_brief_2026-10-13.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1791892981.450809",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1791892993.120349",
+      "title": "Meta ships Muse Wonder and Muse Wonder Full, with memory that persists across conversations",
+      "section": "🔬 Frontier Labs",
+      "url": "https://dataconomy.com/2026/10/13/meta-muse-wonder-full-ai-models/"
+    },
+    {
+      "index": 2,
+      "ts": "1791892995.922019",
+      "title": "Zuckerberg rejects calls for an AI slowdown on the back of Wonder Full",
+      "section": "🔬 Frontier Labs",
+      "url": "https://mtslive.substack.com/p/1012-muse-wonder"
+    },
+    {
+      "index": 3,
+      "ts": "1791892999.073939",
+      "title": "White House moves three senior CAISSI testing officials out of Commerce",
+      "section": "🔬 Frontier Labs",
+      "url": "https://mtslive.substack.com/p/1012-muse-wonder"
+    },
+    {
+      "index": 4,
+      "ts": "1791893002.005789",
+      "title": "Microsoft says Maia 300 becomes its primary inference chip from 2027, per one newsletter",
+      "section": "🔬 Frontier Labs",
+      "url": "https://mtslive.substack.com/p/1012-muse-wonder"
+    },
+    {
+      "index": 5,
+      "ts": "1791893005.817439",
+      "title": "AI labs are buying dead startups' Slack, email and code to train agents",
+      "section": "🚀 Shipping with AI",
+      "url": "https://www.aichatdaily.com/ai-business/ai-labs-buying-dead-startups-data-train-models"
+    },
+    {
+      "index": 6,
+      "ts": "1791893009.013079",
+      "title": "Grok Bot moves to Claude Opus 5.5 underneath, and can now read bank data and send email",
+      "section": "🚀 Shipping with AI",
+      "url": "https://linas.substack.com/p/how-to-hire-a-grok-bot"
+    },
+    {
+      "index": 7,
+      "ts": "1791893012.042469",
+      "title": "Google ships EmbeddingGemma 2 at 740M parameters",
+      "section": "🏠 Local Models",
+      "url": "https://ai.google.dev/gemma/docs/releases"
+    },
+    {
+      "index": 8,
+      "ts": "1791893014.163739",
+      "title": "Step-5 weights still due Thursday, still no licence",
+      "section": "🏠 Local Models",
+      "url": "https://forkast.news/step-5-ships-in-four-days-and-its-license-is-still-missing/"
+    },
+    {
+      "index": 9,
+      "ts": "1791893017.926799",
+      "title": "⚠️ Ukrainian strikes reportedly take out all three YandexGPT supercomputers, and Russian payments with them",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://www.aichatdaily.com/ai-news/ukrainian-drones-knock-out-three-yandex-data-centers"
+    },
+    {
+      "index": 10,
+      "ts": "1791893021.306829",
+      "title": "EU AI Act high-risk duties are live; the GDPR \"legitimate interest for AI\" fight is not settled",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://www.techpolicy.press/eu-set-the-global-standard-on-privacy-and-ai-now-its-pulling-back/"
+    },
+    {
+      "index": 11,
+      "ts": "1791893024.478399",
+      "title": "Australian AI suppliers ask Parliament for sovereign procurement targets",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://www.mlex.com/mlex/artificial-intelligence/articles/2534890"
+    },
+    {
+      "index": 12,
+      "ts": "1791893027.104559",
+      "title": "AWS publishes a Digital Sovereignty Lens for its Well-Architected Framework",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://neuraltrust.ai/blog/data-sovereignty-complete-guide"
+    },
+    {
+      "index": 13,
+      "ts": "1791893029.622459",
+      "title": "Monitoring the Situation - \"10/12: Muse Wonder\"",
+      "section": "📬 From the Substacks",
+      "url": "https://mtslive.substack.com/p/1012-muse-wonder"
+    },
+    {
+      "index": 14,
+      "ts": "1791893032.032379",
+      "title": "Fintech Business Weekly - \"How to Hire a Grok Bot: Your First AI Employee\"",
+      "section": "📬 From the Substacks",
+      "url": "https://linas.substack.com/p/how-to-hire-a-grok-bot"
+    },
+    {
+      "index": 15,
+      "ts": "1791893034.450159",
+      "title": "The AI Standard - \"The AI Accountability Gap: When Everyone Uses AI, Who Owns the Mistake?\"",
+      "section": "📬 From the Substacks",
+      "url": "https://theaistandard.substack.com/p/the-ai-accountability-gap-when-everyone"
+    },
+    {
+      "index": 16,
+      "ts": "1791893036.958359",
+      "title": "Build to Thrive - \"The Only Businesses Left to Build in the Agentic Era\"",
+      "section": "📬 From the Substacks",
+      "url": "https://www.buildtothrive.co/p/the-only-businesses-left-to-build"
+    },
+    {
+      "index": 17,
+      "ts": "1791893039.078539",
+      "title": "[X] @NextAIPraxis (Praxis)",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    }
+  ]
+}

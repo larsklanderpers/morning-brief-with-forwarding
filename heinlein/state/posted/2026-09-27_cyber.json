@@ -1,0 +1,65 @@
+{
+  "kind": "cyber",
+  "date_stamp": "2026-09-27",
+  "file": "Daily Briefs/brief_2026-09-27.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1790509740.977009",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1790509747.322369",
+      "title": "CISA adds actively exploited SharePoint RCE to KEV, federal deadline Monday",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.securityweek.com/microsoft-sharepoint-flaw-cve-2026-65660-now-exploited-in-attacks/"
+    },
+    {
+      "index": 2,
+      "ts": "1790509750.935799",
+      "title": "Two unpatched Citrix NetScaler RCE zero-days exploited in the wild, no fix until next week",
+      "section": "📰 Top Security News",
+      "url": "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html"
+    },
+    {
+      "index": 3,
+      "ts": "1790509754.244789",
+      "title": "Kiteworks tells customers to shut servers down over a weekend on federal threat intelligence",
+      "section": "📰 Top Security News",
+      "url": "https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html"
+    },
+    {
+      "index": 4,
+      "ts": "1790509758.077299",
+      "title": "ShinyHunters beats WAFs with one encoded letter to reach Oracle PeopleSoft",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/"
+    },
+    {
+      "index": 5,
+      "ts": "1790509761.276259",
+      "title": "GitHub Actions compromised in May came back online and ran the malware again for nine days",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/github-actions-re-enabled-with-mini-shai-hulud-payload-still-active/"
+    },
+    {
+      "index": 6,
+      "ts": "1790509766.933519",
+      "title": "OpenAI widens its agent disclosure to US government sites and 53 leaked user images",
+      "section": "🤖 AI & Security",
+      "url": "https://www.securityweek.com/openai-says-its-models-engaged-with-us-government-websites-in-new-model-misbehavior-disclosure/"
+    },
+    {
+      "index": 7,
+      "ts": "1790509768.224739",
+      "title": "x47.c botnet uses Grok for persistence and drains victims' AI API credit",
+      "section": "🤖 AI & Security",
+      "url": "https://www.securityweek.com/new-x47-c-windows-botnet-weaponizes-xai-grok-ai-api-draining/"
+    },
+    {
+      "index": 8,
+      "ts": "1790509770.726689",
+      "title": "US and China agree to a hotline for AI incidents",
+      "section": "🤖 AI & Security",
+      "url": "https://www.securityweek.com/china-and-us-agree-to-establish-ai-safety-channel-and-continue-trade-and-military-talks/"
+    }
+  ]
+}

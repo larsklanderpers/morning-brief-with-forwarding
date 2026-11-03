@@ -1,0 +1,67 @@
+# Control You Can Locate
+
+**Status: Draft rv1 -- first draft from `outline_wed_2026-08-05.md` + `research_wed-control-you-can-locate_2026-08-01.md` (France Avis 26-A-05 primary; Altman Relentless quote primary; OpenWorker from corpus) + the harness five-paradigm research. NOT yet panel-run. Em-dash-free. Tributary 1, the ANSWER half. Pays off Monday's "control you can actually locate, close enough to touch and hard to switch off" and Tuesday's "where control lives when it is not routing through a vendor you do not control." First bite of the Altman foil -- bulk saved for Fri/capstone. Target Wednesday, 5 August 2026.**
+**Series: Weekday feed**
+**Thread: AI Sovereignty / Ad Hoc Regulatory Regime (Tributary 1, the answer half)**
+**Builds on: "Nothing Held" (Mon 3 Aug); "Tooling People Up, Properly" (Tue 4 Aug); "Who Controls the Model Controls Everything" (30 Jul); "Bring the Model Home" (24 Jul). Sets up Friday (the mood flipped) and the Sunday 9 Aug capstone, "Guardrails Are How You Give It Away."**
+**Source spark: Autorité de la concurrence Avis 26-A-05 (17 Jul 2026 -- 84% of the AI agents market); Sam Altman on the Relentless podcast (late Jul); Andrew Ng + Rohit Prasad, OpenWorker (MIT, local-first, 23 Jul); Lawfare "Knives Are Out for Open-Weight AI Models" (24 Jul); APRA 30 Apr 2026 concentration-risk letter.**
+
+---
+
+Castle builders knew the outer wall would fall someday. So they built a second thing inside it and called it the keep.
+
+The keep is the plain stone tower at the middle of the castle. It is not the tallest wall or the widest gate. It is smaller than the fortifications around it, and less impressive, and it is the part that is actually yours: the place you fall back to when the curtain wall is breached, the one door whose key never leaves your belt. A siege is not lost when the outer wall comes down. It is lost when someone else holds the keep.
+
+On Monday I told you that every outer wall we built around AI came down in the same stretch of days. The sandbox leaked, the supply chain had holes, the model's own identity dissolved, and the last human gate turned out to have a switch on it that somebody flipped off. Nothing held. And the reflex, when you have just watched every wall fall, is to build a taller one and announce it from a podium. I want to spend today arguing that the taller wall is the wrong answer, and that the right one is older and quieter. Not a bigger wall. A keep. Control you can locate: a barrier that sits in a building you own, with a key in your own pocket, that no memo from anyone's head office can open. Proper security, not security theatre.
+
+## Both answers on offer are someone else's hand on the switch
+
+Here is the thing about the public debate on how to control AI. It looks like two opposed camps, and it is actually one camp with two costumes, because both answers put the switch in someone else's hand.
+
+The first answer is more fence. When an American model broke out of its sandbox and attacked a company last month, two members of Congress introduced a bill to build a literal kill switch -- covered developers would have to keep the technical means to throttle or shut down their own models, and a cabinet secretary could order them to pull it. I wrote about that bill last week. Set aside whether it is wise. Notice only where the switch lives: in Washington, in a hand that is not yours, reachable by a government you do not control and, if you are one of my readers outside the United States, do not even vote for.
+
+The second answer is the one making all the noise this week, and it wears the opposite costume. Sam Altman went on a podcast and framed the whole moment as a choice: "the fight of the current moment," he said, "is: are we going to head to a world of AI authoritarianism or liberty?" And I want to take that seriously, because he is not wrong about the danger. His fear, in his own words, is that "a small number of companies or countries" end up controlling AI -- "weird power concentration," he called it, "and kind of a new authoritarianism." He is right. That is the danger. Concentrate the thing everyone now runs their business on into a few hands, and you have built a new kind of chokepoint whether or not anyone meant to.
+
+So far, so good. And then you look at who is talking.
+
+## The regulator did the math
+
+Three weeks ago, on the seventeenth of July, the French competition regulator -- the Autorite de la concurrence, which is not a body given to hyperbole -- published a formal opinion, number 26-A-05, on the market for AI agents. Its finding, in its own words: OpenAI, Google and Anthropic together hold "more than 84% of the market." Not of some corner of it. More than 84% of the agents market, the exact layer of AI that is about to start doing the actual work inside companies, held by three firms.
+
+Read Altman's quote again against that number. He warns you, sincerely, about a small number of companies controlling AI and calling it a new authoritarianism. His company is one of three holding 84% of the market he is warning you about. And OpenAI, the whole time, keeps its models closed -- you cannot run them yourself, you cannot hold them, you rent access to them on terms it sets and can change. He has named the disease precisely. I am not disputing that at all. However, unfortunately, he is selling you the *symptom*, not the *cure*.
+
+I am not interested in dunking on Sam Altman, who is smarter than me (and certainly richer than me) and has thought about this far longer than I have. I am interested in what it means that the clearest description of the danger and the largest instance of the danger are the same person. It means the binary he is offering you -- authoritarianism or liberty -- is real, but the sides are not where he has drawn them. Liberty is not the absence of a fence. If it were, the 84% would be liberty, and it is plainly not. Liberty is holding the key to your own.
+
+## The answer Monday was pointing at
+
+That is the keep. And it is not a metaphor I am reaching for to sound clever; it is a specific, buildable thing, and the people who build agents already have a name for the load-bearing piece of it.
+
+They call it the harness. The harness is the layer that sits outside the model and actually enforces the rules -- the part that checks what the agent is about to do and says no before it can act, the tool permissions, the sandbox, the approval that cannot simply be prompted away. On Monday I told you the wall that failed was never inside the model; a model can talk its way around its own instructions, but it cannot talk its way around a barrier that lives outside it and holds. The harness is that barrier. It is the wall that holds. And the whole argument of today is one sentence: the wall that holds only protects you if you are the one holding it.
+
+Which is why open weights and local inference stopped being a hobbyist's concern and became the actual answer to Monday. When you can run a capable model on hardware you own, inside a jurisdiction you answer to, the harness around it is yours. The permission gate is yours. The switch, if there is one, is in your pocket and not on someone else's desk in a country you do not vote in. You are no longer trusting a vendor not to change the terms, not to get told by its government to cut you off, not to quietly serve you a cheaper model than the one you paid for. You have located your control. It is in the building.
+
+And this is real now, today, not in some sovereign-compute future. Last month Andrew Ng -- who taught a sizable fraction of the working world its machine learning -- and Rohit Prasad released a thing called OpenWorker. It is MIT-licensed, which means you can actually have it. It runs local-first, on your own machine. It hands you finished work -- a document, an analysis, the code -- instead of a chat you have to babysit. And your data stays on the box unless you deliberately choose to send it somewhere. It is the first mass-market product I have seen that treats "your data never leaves" as the headline feature instead of a footnote in the security appendix. That is the shape of the keep, productised.
+
+## What "open" honestly buys you, and what it does not
+
+I have to be straight about the cost, because the sovereignty pitch sometimes gets oversold (sometimes I feel like I am overselling it) and it runs into severe problems in certain specific situations, including but not limited to, ironically, highly-regulated environments under certain conditions.
+
+Open weights are not the same as open source, and anyone who tells you otherwise is selling something. Open weights mean you can download the model and run it yourself; they do not mean you can see how it was trained or reproduce it or fully audit it. What open weights buy you is specific and real: the model runs on your hardware, no vendor can switch it off, and your data does not leave. What they do not buy you is total transparency. Know which one you are getting.
+
+And none of it is free. A frontier open model is still well over a terabyte of file that needs real hardware to serve at any useful speed, and if someone promises you the biggest models running on your laptop, check their arithmetic. But that is the top of the ladder, and you do not have to start there. The bottom of the ladder is cheap and genuinely good now: a smaller open model on a normal machine, an aggregator where you at least pin the exact model and keep your data under a zero-retention agreement, a tool like OpenWorker keeping the whole loop on your desk. Control you can locate is a ladder, not a switch. You climb it as far as your situation actually requires, and you climb it on purpose.
+
+## This is not a fringe position
+
+If this still sounds like something for the paranoid fringe, look at who is already saying it in the language of enforcement.
+
+Those of us who work in regulated industries got the letter months ago. In April, APRA -- Australia's prudential regulator, the one that governs every bank, insurer and super fund in the country -- told regulated entities plainly that leaning your core operations on a single offshore AI provider is a concentration risk it now considers unacceptable, and that it will pursue the ones that cannot show a tested way out. That is a prudential regulator on one side of the planet and a competition regulator on the other (in France), arriving at the same finding from opposite directions: too much of this now runs through too few hands, and depending on a switch you do not hold is no longer a defensible position. When the money regulator and the competition regulator agree, it has stopped being a philosophy. It is becoming an audit question -- and audits carry risk, and penalties, and a great deal more. The question has stopped being one of preference (or old men shaking their fists at the moon) and started become one of cost, of the specifics of the risk register, and of where the scalability sits and is defensible when the investigator shows up at your door.
+
+## So, Wednesday
+
+Monday ended on a bleak note, and a very depressing take of the current state of things: every wall we inherited failed at once, and nobody was coming with a memo to fix it. The answer is not to wait for the taller wall, because the taller wall, wherever it gets announced, will have its key on someone else's belt. The answer is the keep. Build the part of your control that lives in your own building, that runs on hardware you hold, that keeps your data on your side of the door, and that no jurisdiction you cannot vote in can reach in and switch off. You will not put all of it there, and you do not need to. You need to know where your control actually lives, and you need at least the core of it to be somewhere you can walk to and touch.
+
+Altman is right that the fight is authoritarianism or liberty. He just drew the line in the wrong place. Liberty was never the absence of a fence -- the 84% is the absence of a fence, and it is nobody's idea of freedom. Liberty is the fence you built, in your own ground, holding the only key. Locate your control while it is still cheap to locate. The people who get hurt by the next memo will not be the ones who chose wrong. They will be the ones who never knew where their control was until the day somebody else moved it.
+
+---
+
+*Lars Klander writes about cybersecurity strategy, AI governance, and technology risk. Today's argument is that the answer to a week of failed walls is not a taller wall announced from a podium but a keep you hold yourself -- open weights, local inference, and a control surface that lives in a building you own.*

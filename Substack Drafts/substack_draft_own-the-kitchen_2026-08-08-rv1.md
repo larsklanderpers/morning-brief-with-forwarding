@@ -1,0 +1,79 @@
+# Own the Kitchen
+
+**Status: Draft rv1 -- Saturday Diversion (lighter/hands-on/doom-relief), from `References/research_inference-onramp-ladder_2026-07-29.md` + week-plan Sat slot + the gpt-oss open-weights news (ai_brief_2026-08-02). The thesis at human scale: taking back control of your inference is a LADDER of on-ramps, cheapest first -- cost of curiosity ~0, cost of tooling not 0, be prudent, leverage what's already there. Register calibrated to Saturday: fear gets ONE beat (the Hermes --yolo caution) then pivot up; upside-framed close. Pays off Wed (open/local = the hedge) + Thu (build your own ladder); the reader does it with their hands. Sets up the Sun 9 Aug capstone lightly. Em-dash-free. Pricing kept honest ($20/mo rung 0; OpenRouter pay-per-token cents-few$; local $0 marginal; workstation $1-2k+). Kimi frontier tier kept visibly separate from the laptop tier. AI Adventure/Nufar Gaspar recommended + credited, freemium + personal-learning-license caveats stated. NOT yet panel-run. ~2,500w. Target Saturday, 8 August 2026.**
+**Series: Saturday Diversions (lighter, operational, uplifting)**
+**Thread: AI Sovereignty (Model Sovereignty) · Practitioner / hands-on**
+**Builds on: "Control You Can Locate" (Wed 5 Aug -- open/local is the hedge); "The Archetypes, Honestly" (Thu 6 Aug -- build your own ladder); "The Mood Flipped" (Fri 7 Aug -- a control you can locate). Sets up the Sunday 9 Aug capstone, "Guardrails Are How You Give It Away."**
+**Source spark: the on-ramp ladder (OpenRouter ZDR; Mac local via Ollama/LM Studio -- InsiderLLM/Willison benchmarks; MarkTechPost 24GB tier); OpenAI's gpt-oss open weights (2 Aug); the Hermes/Nous --yolo dual-use bridge (The Hacker News / BleepingComputer, 24 Jul); AIDB x Superintelligent "AI Adventure" (Nufar Gaspar).**
+
+---
+
+You do not need a restaurant to make dinner. You need a stove, a couple of pans, and the willingness to start.
+
+For about two years now, using AI has mostly meant eating out every single night. You place an order with a vendor, they cook it somewhere you never see, and they hand back whatever they have decided to plate. It is convenient and often very good, and I am not going to tell you to stop. But be clear about the deal: they pick the ingredients, they read every order you send in, and they can change the menu tomorrow without asking you. All week I have been making the colder version of the argument for why you might want some control you can actually locate. Today, because it is a Saturday and the week got heavy, I want to do the fun part: show you how you start owning the kitchen. This weekend. For roughly nothing.
+
+And I will tell you up front where this lands, because it is a Saturday and you deserve to know it ends somewhere good: you almost certainly already own a rung on this ladder and do not know it, the first real step costs about an hour and no money, and the whole thing is a lot more approachable than the people selling you fear on either side would like you to believe.
+
+## It is a ladder, not a switch
+
+Here is the mistake almost everyone makes, in both directions. One camp says sovereignty means running a frontier model on your own metal, and then does the math on what that actually costs and concludes the whole idea is a fantasy for the paranoid. The other camp says it is trivial, download a thing and you are free. They are both wrong in the same way: they think it is a switch. It is a ladder.
+
+The rungs go from "the subscription you already pay for" at the bottom to "a real box humming in the corner" at the top, and the honest news is that the value is not at the top. The cost of *curiosity* -- finding out what you can and cannot do yourself -- has fallen to essentially zero. The cost of *tooling* -- actually building the thing once you know -- has not. So you climb on purpose, cheapest rung first, and you only reach for the next one when the last one has genuinely run out of room. Nobody needs to open a restaurant. Most people just need to be able to cook.
+
+Let me walk you up the rungs.
+
+## Rung zero: the kitchen you are already renting
+
+Start by noticing that you are already on the ladder. If you pay twenty dollars a month for ChatGPT Plus or Claude Pro, that is rung zero, and it is completely fine. Do not let anyone shame you off it. For a great many people and a great many tasks, the sane, prudent, leverage-what-you-have answer is to stay right here and get good at it.
+
+What rung zero does not give you is any say over the kitchen. You get the vendor's model, routed the vendor's way, on the vendor's terms, and if they quietly serve you a lighter version of the dish on a busy night, you mostly cannot tell. That is the thing the rest of the ladder buys back, a little at a time.
+
+## Rung one: a menu you can actually read
+
+The first real step up is an aggregator -- OpenRouter is the one most people land on -- and it is the highest-leverage hour you will spend on any of this. Instead of one vendor's kitchen, you get a single doorway to most of the models on the market, and, crucially, you get to *specify the order*. You can pin the exact model you want, so you know precisely what is cooking. You can turn on Zero Data Retention, which means the provider is contractually not keeping your data around after it answers.
+
+This is the direct fix for the thing I complained about on Monday -- the quiet substitution, the "you did not get the model you paid for." Here you get to name the model and hold them to it. It costs pennies to a few dollars a month for normal personal use, because you pay per use instead of a flat subscription, and it takes about an hour to wire up.
+
+One honest caveat, because I promised you the real version and not the brochure. Zero Data Retention means the provider does not *keep* your data. It does not mean they never *see* it -- they still have to receive your order to cook it. So rung one buys you visibility and control over which kitchen and what happens to the leftovers. It does not yet mean the food never leaves your house. That is a real distinction, and it is exactly where the next rung comes in.
+
+## Rung three: your own stove (yes, you can skip a number)
+
+I am skipping past rung two -- letting someone host an open model for you, a fine middle option -- because the rung that surprises people is this one: running a model on a computer you already own.
+
+If you have a Mac from the last few years, you have a more capable kitchen than you think, because Apple's chips share memory in a way that lets them punch well above a normal laptop. A sixteen-gigabyte MacBook -- an ordinary one, the kind a lot of people already have on the desk -- will comfortably run a small but genuinely useful model like Qwen 9B at reading speed or better, entirely offline, using a free app like Ollama or LM Studio. A machine with a bit more memory will run flagship-class coding help on its own; Simon Willison, who benchmarks this stuff carefully, clocked a 27-billion-parameter model at a perfectly usable clip on a 24-gigabyte Mac.
+
+The point is not the numbers. The point is that at this rung, the food never leaves the house. No per-token cost, no vendor reading the order, no menu that changes overnight. A friend of mine runs exactly this kind of setup on a MacBook to power a private little assistant for his golf coaching -- drills, notes, questions -- and it costs him nothing per month and answers only to him. That is the whole idea in one homely example: not a supercomputer, a bounded, private, always-on kitchen that happens to already be sitting in your bag.
+
+And the timing has never been better, because the ingredients just got a lot easier to buy. This month OpenAI -- the company that basically invented the phrase "closed frontier model" -- released two open-weight models it calls gpt-oss, under a genuinely permissive license, and they run in the same free local apps as everything else. The firm most associated with keeping the kitchen locked just handed a lot of people the recipe. For anyone who wanted the familiar brand but on their own hardware, that was the last excuse gone.
+
+## Rung four: the serious box, when you have earned it
+
+Above the laptop sits the real hardware -- a workstation with a proper graphics card, the kind of thing that will run bigger models and drive genuinely autonomous agents on-premises. It is a thousand to a couple of thousand dollars and some ongoing fuss, and it is a wonderful rung. It is also one you should climb only when the rungs below have run out of room, because this is where the cost of tooling stops being your afternoon and starts being your credit card. Be prudent. Leverage what is already there first.
+
+And to keep me honest about the ceiling: no, you are not running the true frontier at home. The very biggest open models -- the kind that made headlines for matching the closed labs -- are datacenter animals, well over a terabyte, and putting one "on your laptop" is a fantasy no matter what the thread promised you. But that is the restaurant, and you do not need to own a restaurant to cook a good dinner. Owning the kitchen was never about running the biggest possible thing. It was about being able to make *something* yourself, on your own terms, in a space you control.
+
+## Where to actually go learn this
+
+If reading about it is one thing and you would rather just do it with your hands -- which is the entire spirit of a Saturday -- there is a genuinely good, genuinely free place to start, and I want to point you at it by name.
+
+It is called the AI Adventure, from AIDB and Superintelligent, put together by Nufar Gaspar. It is self-paced, it is free, and it is built as a set of hands-on "destinations" -- little projects, each of which has you actually build a working thing rather than watch a video about building one. New ones are dropping weekly through August. A few of them map almost eerily onto this exact week: there is one where you stand up a tiny AI-run business, which is Thursday's "build your own ladder" made literal; one where you vibe-code your first little app, which is the entry rung you make for yourself; and one where you put several models head to head and write yourself a routing card, which is Monday's "did you actually get the model you paid for" turned into a Saturday project.
+
+Two honest notes, because I always try to give you the real version of the deal. It is a true freemium: the adventure itself is free and complete, but there is a paid cohort they will offer you, and you should know that going in and take it or leave it on its merits. And the content is licensed for your own learning, so I am pointing you at their door, not reprinting their recipes here. Go, credit Nufar, have fun with it.
+
+## The one sharp knife in the drawer
+
+I owe you a single note of caution, and then we go back to the good part.
+
+At the sovereign top of this ladder, the tool a lot of people will eventually reach for is a local, open-source agent -- one that does not just chat but actually goes and does things, reads your mail, runs your errands, takes instructions and acts on them. The best-known of these is an agent from Nous Research, and it is a genuinely useful piece of software. It is also, and I am not being dramatic here, the exact same tool an attacker ran unattended inside a national finance ministry a couple of weeks ago, which I wrote about on Monday.
+
+Nothing was wrong with the tool. What the attacker did was flip one setting -- a documented flag, `--yolo`, which turns off the little moments where the agent stops and asks a human before it does something irreversible -- and then let it loose to work the network alone. And that, right there, is the whole point of the serious version of this argument, rendered as one line in a config file. The approval prompt is the guardrail. The flag that turns it off is how you give the kitchen away. So by all means climb toward running your own agents -- but treat that particular rung as the sharp knife in the drawer: enormously useful, worth owning, and not the first thing you hand a beginner. Keep the prompts on. Cook with the guard up.
+
+## So, go cook
+
+That is the ladder. Rung zero is the subscription you already have and there is no shame in it. Rung one is an hour and a few dollars and it hands you back a menu you can read. Rung three is very possibly already sitting in your bag, cooking privately for free. And the top rungs are there when you have earned them, sharp knives and all.
+
+You do not have to climb the whole thing. You do not have to climb it today. But the cost of finding out what you can do in your own kitchen has fallen to about zero, and the ingredients have never been easier to get, and there is a free, friendly, hands-on place to start that is open right now. So this weekend, before the week gets heavy again tomorrow, go make something small and entirely yours. Worst case, you learn where your own walls are. Best case, you never quite look at eating out the same way again.
+
+---
+
+*Lars Klander writes about cybersecurity strategy, AI governance, and technology risk. Today's argument is the hopeful, hands-on half of the week: taking back control of your inference is a ladder of cheap on-ramps, not an all-or-nothing leap, and the first genuinely private rung is very likely already sitting on your desk. Own a little of the kitchen this weekend -- and keep the approval prompts on when you do.*

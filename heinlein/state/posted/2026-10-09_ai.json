@@ -1,0 +1,142 @@
+{
+  "kind": "ai",
+  "date_stamp": "2026-10-09",
+  "file": "AI Briefs/ai_brief_2026-10-09.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1791547401.816269",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1791547407.848849",
+      "title": "Anthropic ships Claude Haiku 5.5 at $0.10 per million input tokens",
+      "section": "🔬 Frontier Labs",
+      "url": "https://aiweekly.co/alerts/introducing-claude-haiku-55"
+    },
+    {
+      "index": 2,
+      "ts": "1791547410.834429",
+      "title": "OpenAI publishes 719 math manuscripts from a model nobody outside can use",
+      "section": "🔬 Frontier Labs",
+      "url": "https://winbuzzer.com/2026/10/09/openai-shares-hundreds-of-math-results-from-an-unreleased-ai-xcxwbn"
+    },
+    {
+      "index": 3,
+      "ts": "1791547413.971269",
+      "title": "Two more safety exits, and Bengio tells lab staff to leave",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.transformernews.ai/p/yoshua-bengio-if-you-prioritize-safety-leave-frontier-ai-companies"
+    },
+    {
+      "index": 4,
+      "ts": "1791547416.680529",
+      "title": "ChatGPT's Intelligent UI turns answers into charts, forms and calculators",
+      "section": "🚀 Shipping with AI",
+      "url": "https://aichatdaily.com/ai-tools/openai-adds-intelligent-ui-chatgpt-letting-gpt-6-render"
+    },
+    {
+      "index": 5,
+      "ts": "1791547419.036969",
+      "title": "HPE argues enterprises should own their AI capacity",
+      "section": "🚀 Shipping with AI",
+      "url": "https://aichatdaily.com/ai-business/hpe-argues-enterprises-own-ai-capacity-production-workloads"
+    },
+    {
+      "index": 6,
+      "ts": "1791547421.523439",
+      "title": "Blue Cross Blue Shield blames AI hospital coding for $942M in added costs",
+      "section": "🚀 Shipping with AI",
+      "url": "https://aichatdaily.com/ai-business/blue-cross-blue-shield-says-ai-hospital-coding"
+    },
+    {
+      "index": 7,
+      "ts": "1791547424.336899",
+      "title": "Mistral previews Large 4, \"Le Chonk\", a 1-trillion-parameter open-weight model",
+      "section": "🏠 Local Models",
+      "url": "https://www.itpro.com/technology/artificial-intelligence/meet-le-chonk-everything-you-need-to-know-about-mistrals-new-open-weight-ai-model"
+    },
+    {
+      "index": 8,
+      "ts": "1791547427.037769",
+      "title": "Reflection AI's Beam: 501B parameters, 23B active, weights promised under Apache 2.0",
+      "section": "🏠 Local Models",
+      "url": "https://www.vktr.com/ai-platforms/reflection-ai-unveils-beam-a-501b-open-weight-model/"
+    },
+    {
+      "index": 9,
+      "ts": "1791547429.029859",
+      "title": "Google releases EmbeddingGemma 2, a 740M multimodal embedding model for devices",
+      "section": "🏠 Local Models",
+      "url": "https://lastweekin.ai/p/last-week-in-ai-346-719-math-manuscripts"
+    },
+    {
+      "index": 10,
+      "ts": "1791547431.849509",
+      "title": "OAIC opens an investigation into the maker of the HeyCyan smart-glasses app",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://www.oaic.gov.au/news/media-centre/oaic-opens-investigation-into-maker-of-heycyan-smart-glasses-phone-app"
+    },
+    {
+      "index": 11,
+      "ts": "1791547437.825659",
+      "title": "OpenAI will watermark ChatGPT and Codex text in the EU",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://gizmodo.com/openai-is-adding-text-watermarks-in-the-eu-because-regulation-works-2000821852"
+    },
+    {
+      "index": 12,
+      "ts": "1791547440.187629",
+      "title": "Google opens SynthID Detector to the public",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://lastweekin.ai/p/last-week-in-ai-346-719-math-manuscripts"
+    },
+    {
+      "index": 13,
+      "ts": "1791547443.338469",
+      "title": "OpenAI apologises to Parliament for the Medicare breach and its slow disclosure",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://www.thestar.com.my/tech/tech-news/2026/10/06/openai-apologises-for-australia-medicare-hack"
+    },
+    {
+      "index": 14,
+      "ts": "1791547445.911439",
+      "title": "OpenAI and Anthropic executives in Sydney, pressing Canberra on copyright",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://www.digitimes.com/news/a20261008PD204/openai-anthropic-australia-government-copyright.html"
+    },
+    {
+      "index": 15,
+      "ts": "1791547448.273069",
+      "title": "Nate's Newsletter - \"Google bid $10 million for an airline's old work emails to train AI\"",
+      "section": "📬 From the Substacks",
+      "url": "https://natesnewsletter.substack.com/p/google-spirit-airlines-ai-training-data"
+    },
+    {
+      "index": 16,
+      "ts": "1791547450.385079",
+      "title": "Transformer - \"Bengio: If you prioritize safety, leave frontier AI companies\"",
+      "section": "📬 From the Substacks",
+      "url": "https://www.transformernews.ai/p/yoshua-bengio-if-you-prioritize-safety-leave-frontier-ai-companies"
+    },
+    {
+      "index": 17,
+      "ts": "1791547452.913709",
+      "title": "Sparse Vector - \"GitHub is Rebuilding Git for Agent Scale Development\"",
+      "section": "📬 From the Substacks",
+      "url": "https://www.sparsevector.ai/p/github-git-infrastructure-agent-scale"
+    },
+    {
+      "index": 18,
+      "ts": "1791547454.975399",
+      "title": "Product with Attitude (Karo Zieminski) - \"OpenAI Just Turned AI Answers Into Tools\"",
+      "section": "📬 From the Substacks",
+      "url": "https://karozieminski.substack.com/p/chatgpt-intelligent-ui-publisher-traffic"
+    },
+    {
+      "index": 19,
+      "ts": "1791547456.906079",
+      "title": "Build with AI (Packt) - \"The Agent Safety Playbook, Part 1\"",
+      "section": "📬 From the Substacks",
+      "url": "https://packtbuildwithai.substack.com/p/the-agent-safety-playbook-part-1"
+    }
+  ]
+}

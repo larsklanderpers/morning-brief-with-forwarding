@@ -1,0 +1,121 @@
+{
+  "kind": "ai",
+  "date_stamp": "2026-09-26",
+  "file": "AI Briefs/ai_brief_2026-09-26.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1790458694.568399",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1790458722.631729",
+      "title": "DC Circuit upholds the Pentagon's supply-chain-risk label on Anthropic, 2-1",
+      "section": "🔬 Frontier Labs",
+      "url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html"
+    },
+    {
+      "index": 2,
+      "ts": "1790458724.084689",
+      "title": "Altman, Amodei, Bengio and Delangue brief the UN Security Council on AI risk",
+      "section": "🔬 Frontier Labs",
+      "url": "https://news.un.org/en/story/2026/09/1168414"
+    },
+    {
+      "index": 3,
+      "ts": "1790458725.508669",
+      "title": "Anthropic founders reportedly seek 50.1% voting control ahead of IPO",
+      "section": "🔬 Frontier Labs",
+      "url": "https://aichatdaily.com/ai-business/anthropic-founders-seek-50-1-voting-control-ahead"
+    },
+    {
+      "index": 4,
+      "ts": "1790458726.908239",
+      "title": "OpenAI discloses its agents leaked 53 ChatGPT user images to image hosts",
+      "section": "🚀 Shipping with AI",
+      "url": "https://www.axios.com/2026/09/25/openai-models-posted-user-images-online-in-latest-security-episode"
+    },
+    {
+      "index": 5,
+      "ts": "1790458728.282409",
+      "title": "Microsoft folds Copilot into a three-tab app with usage-billed agents",
+      "section": "🚀 Shipping with AI",
+      "url": "https://aichatdaily.com/ai-business/microsoft-unifies-copilot-into-three-tab-super-app-rival"
+    },
+    {
+      "index": 6,
+      "ts": "1790458729.628789",
+      "title": "Qualcomm's Snapdragon 8 Elite Extreme Gen 6 runs 30B-parameter MoE models on the phone",
+      "section": "🏠 Local Models",
+      "url": "https://9to5google.com/2026/09/22/snapdragon-8-elite-gen-6/"
+    },
+    {
+      "index": 7,
+      "ts": "1790458730.958829",
+      "title": "An OpenAI agent breached Australia's Medicare statistics portal; Canberra calls it \"unacceptable\"",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://www.abc.net.au/news/2026-09-25/openai-breach-builds-case-for-tough-ai-rules/107192992"
+    },
+    {
+      "index": 8,
+      "ts": "1790458732.313349",
+      "title": "Transluce: OpenAI agent swarms probed data providers, including Australia's AIHW, when downloads were blocked",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://techcrunch.com/2026/09/25/for-months-openais-agent-swarms-have-been-attacking-online-databases-to-find-obscure-facts/"
+    },
+    {
+      "index": 9,
+      "ts": "1790458758.853459",
+      "title": "UpGuard: 16,326 Supabase databases expose readable tables, over half with PII signals",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://techcrunch.com/2026/09/25/some-supabase-customers-are-publicly-exposing-reams-of-peoples-data-to-the-web/"
+    },
+    {
+      "index": 10,
+      "ts": "1790458760.250159",
+      "title": "Medicare breach becomes Canberra's case for mandatory AI rules and incident reporting",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://www.abc.net.au/news/2026-09-25/openai-breach-builds-case-for-tough-ai-rules/107192992"
+    },
+    {
+      "index": 11,
+      "ts": "1790458761.688109",
+      "title": "Anthropic signs for capacity at a A$32B Western Downs data centre as Canberra courts the labs",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://www.abc.net.au/news/2026-09-16/queensland-data-centre-anthropic-dalby/107160640"
+    },
+    {
+      "index": 12,
+      "ts": "1790458763.080019",
+      "title": "EU AI Office moves from rules to inspections",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://cdt.org/insights/cdt-europes-ai-bulletin-september-2026/"
+    },
+    {
+      "index": 13,
+      "ts": "1790458764.442399",
+      "title": "Mistral's €3B Series D, led by Samsung, funds a 1 GW European compute goal",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/"
+    },
+    {
+      "index": 14,
+      "ts": "1790458765.896219",
+      "title": "Monitoring the Situation - \"9/25: Anthropic Is Still A Supply Chain Risk\"",
+      "section": "📬 From the Substacks",
+      "url": "https://mtslive.substack.com/p/925-anthropic-is-still-a-supply-chain"
+    },
+    {
+      "index": 15,
+      "ts": "1790458767.601969",
+      "title": "The AI Corner - \"Shorter Prompts Are Making Your AI Agents More Expensive\"",
+      "section": "📬 From the Substacks",
+      "url": "https://www.the-ai-corner.com/p/cut-ai-agent-costs-without-losing-performance"
+    },
+    {
+      "index": 16,
+      "ts": "1790458768.933189",
+      "title": "Neha Kabra - \"When Models Make Decisions, What Must the Enterprise Decide?\"",
+      "section": "📬 From the Substacks",
+      "url": "https://nehakabra1.substack.com/p/when-models-make-decisions-what-must"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "kind": "cyber",
+  "date_stamp": "2026-10-12",
+  "file": "Daily Briefs/brief_2026-10-12.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1791805712.000759",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1791805718.430199",
+      "title": "No new CISA joint advisory or ACSC alert since Friday's Integrity Technology Group advisory",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.cyber.gov.au/alerts-and-advisories"
+    },
+    {
+      "index": 2,
+      "ts": "1791805721.142849",
+      "title": "ENISA's Threat Landscape 2026 is in its promotion week, and its headline is that most incidents hit essential services",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.enisa.europa.eu/publications/enisa-threat-landscape-2026"
+    },
+    {
+      "index": 3,
+      "ts": "1791805724.873019",
+      "title": "Japan's digital minister declares a \"state of emergency in cyberspace\" as the breach wave spreads into banking ID checks",
+      "section": "📰 Top Security News",
+      "url": "https://www.ft.com/content/2d4333d1-8119-44a4-a5a5-2ee9ef2544fa"
+    },
+    {
+      "index": 4,
+      "ts": "1791805727.806029",
+      "title": "Nippon Columbia malware infection exposes 8.6 million Big Echo karaoke customer records",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/"
+    },
+    {
+      "index": 5,
+      "ts": "1791805731.944569",
+      "title": "Warlock ransomware crew is still walking through SharePoint flaws patched over a year ago, now into water and telecom",
+      "section": "📰 Top Security News",
+      "url": "https://www.security.com/threat-intelligence/warlock-ransomware-critical-infrastructure"
+    },
+    {
+      "index": 6,
+      "ts": "1791805733.596509",
+      "title": "The Gentlemen ransomware gang claims MoneyGram, days after listing KFC",
+      "section": "📰 Top Security News",
+      "url": "https://cybernews.com/security/moneygram-data-breach-ransomware-claim/"
+    },
+    {
+      "index": 7,
+      "ts": "1791805736.530629",
+      "title": "US indictment says MonsterCloud's \"miracle\" ransomware recovery was just paying the attackers",
+      "section": "📰 Top Security News",
+      "url": "https://gizmodo.com/feds-say-ransomware-experts-miracle-cure-was-just-paying-the-hackers-2000824220"
+    },
+    {
+      "index": 8,
+      "ts": "1791805739.394179",
+      "title": "\"Attack-ready in 30 minutes\": The Economy ties the Japan and Korea breach wave to AI-assisted tooling and missing basic controls",
+      "section": "🤖 AI & Security",
+      "url": "https://economy.ac/news/2026/10/202610295828"
+    },
+    {
+      "index": 9,
+      "ts": "1791805742.286579",
+      "title": "Decepticon: an open-source autonomous red-team agent that plugs into Claude Code and Codex",
+      "section": "🤖 AI & Security",
+      "url": "https://cybersecuritynews.com/decepticon-ai-red-team-tool/"
+    },
+    {
+      "index": 10,
+      "ts": "1791805744.731159",
+      "title": "r/netsec",
+      "section": "🗣️ Community Pulse",
+      "url": "https://www.reddit.com/r/netsec/comments/1x3r3u8/telegram_desktop_vulnerability_allowed_any_user/"
+    },
+    {
+      "index": 11,
+      "ts": "1791805746.797229",
+      "title": "r/cybersecurity",
+      "section": "🗣️ Community Pulse",
+      "url": "https://www.reddit.com/r/cybersecurity/comments/1x3sy39/why_are_we_just_accepting_what_anthropic_is_doing/"
+    },
+    {
+      "index": 12,
+      "ts": "1791805748.904259",
+      "title": "r/cybersecurity",
+      "section": "🗣️ Community Pulse",
+      "url": "https://www.reddit.com/r/cybersecurity/comments/1x3d6si/online_bank_attack_usa_today/"
+    },
+    {
+      "index": 13,
+      "ts": "1791805750.490299",
+      "title": "r/cybersecurity",
+      "section": "🗣️ Community Pulse",
+      "url": "https://www.reddit.com/r/cybersecurity/comments/1x3l0yy/mfa_just_plain_broken/"
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+ "kind": "ai",
+ "date_stamp": "2026-09-12",
+ "file": "AI Briefs/ai_brief_2026-09-12.md",
+ "channel": "C0BUVJE9A9M",
+ "parent_ts": "1789256388.737989",
+ "items": [
+  {
+   "index": 1,
+   "ts": "1789256398.178559",
+   "title": "Amodei publishes \"We Must Pace the Frontier\"; Altman says OpenAI will match the embedded-evaluator pledge",
+   "section": "🔬 Frontier Labs",
+   "url": "https://darioamodei.com/post/we-must-pace-the-frontier"
+  },
+  {
+   "index": 2,
+   "ts": "1789256402.521879",
+   "title": "Senate frontier-AI bill stalls: a court-reviewable block, not pre-approval",
+   "section": "🔬 Frontier Labs",
+   "url": "https://punchbowl.news/article/tech/thune-anthropic/"
+  },
+  {
+   "index": 3,
+   "ts": "1789256406.116499",
+   "title": "Altman: no OpenAI IPO in 2026, \"ill-advised\" given safety",
+   "section": "🔬 Frontier Labs",
+   "url": "https://fortune.com/2026/09/12/sam-altman-openai-ipo-delay-ill-advised-moment-safety-concerns/"
+  },
+  {
+   "index": 4,
+   "ts": "1789256410.471019",
+   "title": "Anthropic alleges Moonshot quietly routed about 300,000 Kimi user requests to Claude",
+   "section": "🔬 Frontier Labs",
+   "url": "https://www.anthropic.com/threat-intelligence-report-september-2026"
+  },
+  {
+   "index": 5,
+   "ts": "1789256415.062369",
+   "title": "Researchers say OpenAI agents pushed 2,000+ malicious packages to RubyGems in May",
+   "section": "🔬 Frontier Labs",
+   "url": "https://cyberscoop.com/openai-agents-malicious-rubygems-packages/"
+  },
+  {
+   "index": 6,
+   "ts": "1789256419.155819",
+   "title": "OpenAI puts GPT-Live-1 full-duplex voice in the API at $0.05 a minute",
+   "section": "🚀 Shipping with AI",
+   "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api/"
+  },
+  {
+   "index": 7,
+   "ts": "1789256422.846389",
+   "title": "Salesforce ships a \"Trusted Enterprise AI Harness\" that governs third-party agents, including Claude",
+   "section": "🚀 Shipping with AI",
+   "url": "https://www.salesforce.com/news/stories/enterprise-ai-harness/"
+  },
+  {
+   "index": 8,
+   "ts": "1789256425.806119",
+   "title": "Sakana's Fugu orchestrators hide which models answer you \"by design,\" and skip the EU",
+   "section": "🚀 Shipping with AI",
+   "url": "https://sakana.ai/fugu-max-release/"
+  },
+  {
+   "index": 9,
+   "ts": "1789256433.858849",
+   "title": "\"Agentic flooding\": AI-drafted complaints swamp ombudsmen and regulators",
+   "section": "🚀 Shipping with AI",
+   "url": "https://techcrunch.com/2026/09/10/ai-agents-are-flooding-public-services-with-new-requests/"
+  },
+  {
+   "index": 10,
+   "ts": "1789256437.764449",
+   "title": "CISA, NSA and FBI name six Chinese labs behind \"industrial-scale\" distillation",
+   "section": "🏠 Local Models",
+   "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a"
+  },
+  {
+   "index": 11,
+   "ts": "1789256441.746899",
+   "title": "DeepSeek V4.1-Flash is MIT-licensed but not yet runnable on upstream llama.cpp",
+   "section": "🏠 Local Models",
+   "url": "https://huggingface.co/vcruz305/DeepSeek-V4.1-Flash-GGUF"
+  },
+  {
+   "index": 12,
+   "ts": "1789256445.634949",
+   "title": "⚠️ Gemini desktop app lands on Windows, on by default for Workspace, with no user off switch",
+   "section": "🔒 Privacy, PII & Data Sovereignty",
+   "url": "https://workspaceupdates.googleblog.com/2026/09/the-gemini-desktop-app-is-now-available-for-Windows.html"
+  },
+  {
+   "index": 13,
+   "ts": "1789256449.609969",
+   "title": "⚠️ Meta AI surfaced a mother's children's names, location and an allegedly deleted photo",
+   "section": "🔒 Privacy, PII & Data Sovereignty",
+   "url": "https://www.dexerto.com/entertainment/meta-changes-ai-prompts-after-chatbot-asked-mother-to-identify-her-child-3408508/"
+  },
+  {
+   "index": 14,
+   "ts": "1789256453.658269",
+   "title": "⚠️ Anthropic's misuse report: AI-assisted theft of national IDs, card data and passenger records",
+   "section": "🔒 Privacy, PII & Data Sovereignty",
+   "url": "https://www.anthropic.com/threat-intelligence-report-september-2026"
+  },
+  {
+   "index": 15,
+   "ts": "1789256458.381449",
+   "title": "Correction: EU AI Act high-risk (Annex III) rules now start 2 Dec 2027, not 2 Aug 2026",
+   "section": "🔒 Privacy, PII & Data Sovereignty",
+   "url": "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force"
+  },
+  {
+   "index": 16,
+   "ts": "1789256462.278769",
+   "title": "Correction: Australia's 10 Dec automated-decision disclosure comes from the 2024 Act; OAIC guidance is late",
+   "section": "🔒 Privacy, PII & Data Sovereignty",
+   "url": "https://www.oaic.gov.au/engage-with-us/consultations/consultation-on-guidance-for-transparency-in-automated-decision-making"
+  },
+  {
+   "index": 17,
+   "ts": "1789256476.933879",
+   "title": "Privacy Act Tranche 2 exposure draft: submissions close 18 Sep",
+   "section": "🔒 Privacy, PII & Data Sovereignty",
+   "url": "https://consultations.ag.gov.au/rights-and-protections/privacy-reform/"
+  },
+  {
+   "index": 18,
+   "ts": "1789256480.762419",
+   "title": "Correction: the AU-US CLOUD Act Agreement has been in force since 31 Jan 2024, not 2026",
+   "section": "🔒 Privacy, PII & Data Sovereignty",
+   "url": "https://www.justice.gov/archives/opa/pr/united-states-and-australia-enter-cloud-act-agreement-facilitate-investigations-serious-crime"
+  },
+  {
+   "index": 19,
+   "ts": "1789256484.819609",
+   "title": "Joint Select Committee on AI submissions close Monday; National Cabinet backs AI standards in early 2027",
+   "section": "🌏 AU/EU AI Ecosystem",
+   "url": "https://www.pm.gov.au/media/meeting-national-cabinet-26-august-26"
+  },
+  {
+   "index": 20,
+   "ts": "1789256487.711629",
+   "title": "Draft Digital Duty of Care explicitly covers AI chatbots, fines to A$109.2m",
+   "section": "🌏 AU/EU AI Ecosystem",
+   "url": "https://www.pm.gov.au/media/my-feed-my-way"
+  },
+  {
+   "index": 21,
+   "ts": "1789256491.626999",
+   "title": "Nvidia and eight Australian operators target up to 2GW of \"AI factory\" capacity by 2027",
+   "section": "🌏 AU/EU AI Ecosystem",
+   "url": "https://nvidianews.nvidia.com/news/nvidia-expands-ai-infrastructure-capacity-in-partnership-with-australias-data-center-ecosystem"
+  },
+  {
+   "index": 22,
+   "ts": "1789256495.044599",
+   "title": "Adelaide's Metacognition raises A$10m pre-seed for an inspectable-reasoning layer",
+   "section": "🌏 AU/EU AI Ecosystem",
+   "url": "https://www.forbes.com.au/news/entrepreneurs/australian-ai-lab-metacognition-caps-record-pre-seed-raise/"
+  },
+  {
+   "index": 23,
+   "ts": "1789256498.579249",
+   "title": "Mistral's free-tier coding agent trains on your prompts by default",
+   "section": "🌏 AU/EU AI Ecosystem",
+   "url": "https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training"
+  },
+  {
+   "index": 24,
+   "ts": "1789256501.498319",
+   "title": "Ken Huang - \"Agentic AI: What Caught My Attention This Week\"",
+   "section": "📬 From the Substacks",
+   "url": "https://kenhuangus.substack.com/p/agentic-ai-what-caught-my-attention"
+  },
+  {
+   "index": 25,
+   "ts": "1789256509.075889",
+   "title": "The Monitor (mtslive) - \"9/11: OpenAI Considers Slowing AI Development\"",
+   "section": "📬 From the Substacks",
+   "url": "https://mtslive.substack.com/p/911-openai-considers-slowing-ai-development"
+  },
+  {
+   "index": 26,
+   "ts": "1789256524.668999",
+   "title": "The AI Powered Designer - \"Started rebuilding my design portfolio and turned it into a repeatable AI-readable Claude skill\"",
+   "section": "📬 From the Substacks",
+   "url": "https://theaipowereddesigner.com/p/framer-to-figma-design-system"
+  },
+  {
+   "index": 27,
+   "ts": "1789256527.321489",
+   "title": "[X] @EMostaque (Emad Mostaque)",
+   "section": "📡 Social Intelligence",
+   "url": ""
+  },
+  {
+   "index": 28,
+   "ts": "1789256529.833449",
+   "title": "[LinkedIn] Brad A. (Cyber and AI/ML GRC)",
+   "section": "📡 Social Intelligence",
+   "url": ""
+  },
+  {
+   "index": 29,
+   "ts": "1789256532.248559",
+   "title": "[LinkedIn] Muhammad Amirrul Alhafiz M. (InfoSec)",
+   "section": "📡 Social Intelligence",
+   "url": ""
+  },
+  {
+   "index": 30,
+   "ts": "1789256534.770909",
+   "title": "[LinkedIn] Scott Hill (ABBYY)",
+   "section": "📡 Social Intelligence",
+   "url": ""
+  },
+  {
+   "index": 31,
+   "ts": "1789256537.168629",
+   "title": "🎙️ AI Daily Brief - What to Use the Latest AI Tools For (Fri 11 Sep)",
+   "section": "📡 Social Intelligence",
+   "url": "https://aidailybrief.ai/e/2026-09-11"
+  }
+ ]
+}

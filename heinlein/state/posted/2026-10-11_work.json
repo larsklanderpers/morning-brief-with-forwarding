@@ -1,0 +1,65 @@
+{
+  "kind": "work",
+  "date_stamp": "2026-10-11",
+  "file": "AI Briefs/work_brief_2026-10-11.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1791720959.196519",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1791720965.604779",
+      "title": "\"Mathematics Has a Move 37 Moment\" - The AI Daily Brief (1h, 505 views)",
+      "section": "🎥 What Creators Are Saying (YouTube)",
+      "url": "https://www.youtube.com/watch?v=GoTIt8aPG0Y"
+    },
+    {
+      "index": 2,
+      "ts": "1791720967.313869",
+      "title": "\"Everything has been solved\" - Matthew Berman (17h, 155K views)",
+      "section": "🎥 What Creators Are Saying (YouTube)",
+      "url": "https://www.youtube.com/watch?v=cX2kD2yQf88"
+    },
+    {
+      "index": 3,
+      "ts": "1791720969.698899",
+      "title": "@emollick (Ethan Mollick) - \"De-skilling myself on doing CAPTCHAS and navigating dark patterns in customer service\" (10 Oct)",
+      "section": "🐦 The Conversation on X",
+      "url": "https://x.com/emollick/status/2108941060206633193"
+    },
+    {
+      "index": 4,
+      "ts": "1791720972.337279",
+      "title": "AI Daily Brief - \"Mathematics Has a Move 37 Moment\" (11 Oct)",
+      "section": "🎙️ Podcasts & Newsletters",
+      "url": "https://www.youtube.com/watch?v=GoTIt8aPG0Y"
+    },
+    {
+      "index": 5,
+      "ts": "1791720974.545259",
+      "title": "Ethan Mollick - One Useful Thing",
+      "section": "🎙️ Podcasts & Newsletters",
+      "url": "https://www.oneusefulthing.org/archive"
+    },
+    {
+      "index": 6,
+      "ts": "1791720977.588979",
+      "title": "The adjudicator: verification is cheap, judgment is not",
+      "section": "🆕 New Roles & Archetypes Watch",
+      "url": "https://arxiv.org/abs/2608.28997"
+    },
+    {
+      "index": 7,
+      "ts": "1791720980.448859",
+      "title": "The checker who catches the sign error",
+      "section": "🆕 New Roles & Archetypes Watch",
+      "url": "https://www.implicator.ai/openai-posts-372-ai-math-results-then-withdraws-three-papers-over-a-sign-error/"
+    },
+    {
+      "index": 8,
+      "ts": "1791720982.997659",
+      "title": "The math drop splits the field, along capacity lines",
+      "section": "⚖️ The Debate (kept honest, kept brief)",
+      "url": "https://www.implicator.ai/openai-372-math-results-mathematicians-race-to-read/"
+    }
+  ]
+}

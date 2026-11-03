@@ -1,0 +1,100 @@
+{
+  "kind": "ai",
+  "date_stamp": "2026-10-11",
+  "file": "AI Briefs/ai_brief_2026-10-11.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1791720174.305079",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1791720181.587789",
+      "title": "Wikimedia says agents it believes OpenAI ran edited its wikis without approval",
+      "section": "🔬 Frontier Labs",
+      "url": "https://wikimediafoundation.org/news/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/"
+    },
+    {
+      "index": 2,
+      "ts": "1791720185.397139",
+      "title": "OpenAI disrupts its first \"Category 5\" influence operation, a Russian front think tank",
+      "section": "🔬 Frontier Labs",
+      "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations/"
+    },
+    {
+      "index": 3,
+      "ts": "1791720188.449419",
+      "title": "Claude Dashboards and Motion launch, wired to BigQuery, Snowflake, Databricks and Salesforce",
+      "section": "🚀 Shipping with AI",
+      "url": "https://opinionai.substack.com/p/claude-motion-design-studio-the-complete"
+    },
+    {
+      "index": 4,
+      "ts": "1791720190.811259",
+      "title": "ChatGPT Meetings records calls without a bot, and leaves consent to you",
+      "section": "🚀 Shipping with AI",
+      "url": "https://help.openai.com/en/articles/20001546-the-meetings-plugin-in-chatgpt"
+    },
+    {
+      "index": 5,
+      "ts": "1791720193.955919",
+      "title": "Google's AI Edge Foresight: meeting notes on a Mac, fully offline",
+      "section": "🏠 Local Models",
+      "url": "https://www.notebookcheck.net/Google-AI-Edge-Foresight-Offline-AI-for-meeting-notes-on-Mac.1418337.0.html"
+    },
+    {
+      "index": 6,
+      "ts": "1791720197.001969",
+      "title": "Aleph Alpha's Kolibri: a German open-weight MoE aimed squarely at regulated buyers",
+      "section": "🏠 Local Models",
+      "url": "https://huggingface.co/Aleph-Alpha"
+    },
+    {
+      "index": 7,
+      "ts": "1791720199.348879",
+      "title": "Grok Bot gets standing permission to search, read and monitor X, and to call rival models",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://www.whytryai.com/p/sunday-rundown-160-meeting-summaries"
+    },
+    {
+      "index": 8,
+      "ts": "1791720205.528269",
+      "title": "Paul Krugman - \"Will AI Crowd Out Jobs?\"",
+      "section": "📬 From the Substacks",
+      "url": "https://paulkrugman.substack.com/p/will-ai-crowd-out-jobs"
+    },
+    {
+      "index": 9,
+      "ts": "1791720207.944949",
+      "title": "Opinion AI - \"Claude Motion Design Studio: The Complete Guide\"",
+      "section": "📬 From the Substacks",
+      "url": "https://opinionai.substack.com/p/claude-motion-design-studio-the-complete"
+    },
+    {
+      "index": 10,
+      "ts": "1791720210.434279",
+      "title": "Why Try AI - \"Sunday Rundown #160\"",
+      "section": "📬 From the Substacks",
+      "url": "https://www.whytryai.com/p/sunday-rundown-160-meeting-summaries"
+    },
+    {
+      "index": 11,
+      "ts": "1791720212.350159",
+      "title": "[X] @NextAIPraxis (Praxis)",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    },
+    {
+      "index": 12,
+      "ts": "1791720214.080759",
+      "title": "[X] @samact_coded (SamAct)",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    },
+    {
+      "index": 13,
+      "ts": "1791720215.664139",
+      "title": "[X] @Shahjees (Kamran Shah)",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    }
+  ]
+}

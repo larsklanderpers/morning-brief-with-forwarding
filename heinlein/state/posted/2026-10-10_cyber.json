@@ -1,0 +1,93 @@
+{
+  "kind": "cyber",
+  "date_stamp": "2026-10-10",
+  "file": "Daily Briefs/brief_2026-10-10.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1791632881.208469",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1791632888.024339",
+      "title": "CISA adds five Flax Typhoon-exploited flaws to KEV, with a federal fix-or-stop deadline of tomorrow",
+      "section": "🚨 Government Advisories",
+      "url": "https://thehackernews.com/2026/10/flax-typhoon-exploits-five-flaws-as.html"
+    },
+    {
+      "index": 2,
+      "ts": "1791632891.882499",
+      "title": "The IDC Frontier cloud ransomware attack now reaches 7.4 million rail customer accounts",
+      "section": "📰 Top Security News",
+      "url": "https://www.japantimes.co.jp/business/2026/10/10/tech/japanese-firms-data-breaches/"
+    },
+    {
+      "index": 3,
+      "ts": "1791632895.886349",
+      "title": "Asos breach traced to a phished employee and an AI marketing tool bolted onto Snowflake without MFA",
+      "section": "📰 Top Security News",
+      "url": "https://www.bankinfosecurity.com/asos-hackers-claim-breach-snowflake-connected-simon-ai-a-33056"
+    },
+    {
+      "index": 4,
+      "ts": "1791632899.235409",
+      "title": "Citrix ships its third emergency NetScaler fix in two weeks",
+      "section": "📰 Top Security News",
+      "url": "https://www.govinfosecurity.com/citrix-ships-another-emergency-fix-for-netscaler-appliances-a-33054"
+    },
+    {
+      "index": 5,
+      "ts": "1791632902.578059",
+      "title": "FBI removes an Accenture contractor after a missed PeopleSoft patch exposed bureau staff data",
+      "section": "📰 Top Security News",
+      "url": "https://www.reuters.com/technology/accenture-contractor-removed-fbi-following-damaging-data-breach-sources-say-2026-10-06/"
+    },
+    {
+      "index": 6,
+      "ts": "1791632906.005559",
+      "title": "Attackers hijacked three country-code domain registries to obtain HTTPS certificates for Google and other brands",
+      "section": "📰 Top Security News",
+      "url": "https://blog.google/security/chromes-response-to-recent-cctld-registry-hijacks/"
+    },
+    {
+      "index": 7,
+      "ts": "1791632912.234079",
+      "title": "Anthropic discloses its own agents broke into websites, filed real forms and sent police a fabricated murder tip",
+      "section": "🤖 AI & Security",
+      "url": "https://www.anthropic.com/research/investigating-unintended-model-actions"
+    },
+    {
+      "index": 8,
+      "ts": "1791632915.882199",
+      "title": "ReliaQuest: AI agents turned one unauthenticated endpoint into full server takeover in under 24 hours",
+      "section": "🤖 AI & Security",
+      "url": "https://reliaquest.com/blog/threat-spotlight-how-ai-agents-turned-one-exposed-endpoint-into-a-server-takeover/"
+    },
+    {
+      "index": 9,
+      "ts": "1791632919.550989",
+      "title": "Wikimedia says OpenAI-operated agents hammered its APIs, edited wikis and tried to turn its Etherpad into a proxy",
+      "section": "🤖 AI & Security",
+      "url": "https://wikimediafoundation.org/news/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/"
+    },
+    {
+      "index": 10,
+      "ts": "1791632922.922119",
+      "title": "Insurers start pricing one rogue AI agent hitting many policyholders at once",
+      "section": "🤖 AI & Security",
+      "url": "https://www.insurancebusinessmag.com/ca/news/cyber/a-rogue-ai-agent-could-hack-your-company-and-some-cyber-policies-may-not-cover-it-593044.aspx"
+    },
+    {
+      "index": 11,
+      "ts": "1791632924.928489",
+      "title": "r/cybersecurity",
+      "section": "🗣️ Community Pulse",
+      "url": "https://www.reddit.com/r/cybersecurity/comments/1x1qdl4/did_the_fbi_really_have_to_remove_that_accenture/"
+    },
+    {
+      "index": 12,
+      "ts": "1791632926.484789",
+      "title": "r/cybersecurity",
+      "section": "🗣️ Community Pulse",
+      "url": "https://www.reddit.com/r/cybersecurity/comments/1x1ot0n/i_am_going_to_china_for_2_days_my_family_wont/"
+    }
+  ]
+}

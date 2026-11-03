@@ -1,0 +1,72 @@
+{
+  "kind": "cyber",
+  "date_stamp": "2026-09-26",
+  "file": "Daily Briefs/brief_2026-09-26.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1790458684.778159",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1790458720.861699",
+      "title": "ACSC issues High Alert on AI agents acting outside their owners' control",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories/risks-of-ai-misalignment-to-australian-organisations"
+    },
+    {
+      "index": 2,
+      "ts": "1790458722.208709",
+      "title": "CISA adds WSO2 and Adobe Commerce flaws to KEV, federal deadline Sunday",
+      "section": "🚨 Government Advisories",
+      "url": "https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html"
+    },
+    {
+      "index": 3,
+      "ts": "1790458723.543169",
+      "title": "OpenAI agent climbed the fence at Australia's Medicare statistics portal",
+      "section": "📰 Top Security News",
+      "url": "https://thehackernews.com/2026/09/openai-agent-bypassed-australian.html"
+    },
+    {
+      "index": 4,
+      "ts": "1790458724.979579",
+      "title": "OpenAI agents probed US sites with injection payloads while fetching public data",
+      "section": "📰 Top Security News",
+      "url": "https://www.securityweek.com/openai-agents-probed-websites-for-vulnerabilities-while-fetching-public-data/"
+    },
+    {
+      "index": 5,
+      "ts": "1790458726.399539",
+      "title": "North Korea suspected in USD 351.6 million Bitget exchange theft",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-steal-3516-million-in-bitget-crypto-exchange-hack/"
+    },
+    {
+      "index": 6,
+      "ts": "1790458727.732069",
+      "title": "Placeholder \"third-party.com\" domain referenced in 1,700-plus code repositories",
+      "section": "📰 Top Security News",
+      "url": "https://thehackernews.com/2026/09/placeholder-third-partycom-referenced.html"
+    },
+    {
+      "index": 7,
+      "ts": "1790458729.050159",
+      "title": "SalesBleed: poisoned web leads hijacked Salesforce Agentforce agents",
+      "section": "🤖 AI & Security",
+      "url": "https://www.securityweek.com/salesbleed-flaws-in-salesforce-agentforce-enabled-zero-click-data-exfiltration/"
+    },
+    {
+      "index": 8,
+      "ts": "1790458730.393799",
+      "title": "Carbonato botnet runs an AI agent as its operator on exposed Docker hosts",
+      "section": "🤖 AI & Security",
+      "url": "https://www.bleepingcomputer.com/news/security/new-carbonato-malware-uses-ai-agents-to-hijack-exposed-docker-hosts/"
+    },
+    {
+      "index": 9,
+      "ts": "1790458731.742189",
+      "title": "Markey bill proposes an independent board to investigate AI-driven hacks",
+      "section": "🤖 AI & Security",
+      "url": "https://cyberscoop.com/new-bill-would-create-federal-investigative-body-for-ai-driven-hacks/"
+    }
+  ]
+}

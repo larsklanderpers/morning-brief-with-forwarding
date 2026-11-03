@@ -1,0 +1,142 @@
+{
+  "kind": "ai",
+  "date_stamp": "2026-10-15",
+  "file": "AI Briefs/ai_brief_2026-10-15.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1792065804.406809",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1792065812.009839",
+      "title": "Anthropic reportedly tells investors Q3 revenue hit $16.8B and it was profitable on an adjusted basis",
+      "section": "🔬 Frontier Labs",
+      "url": "https://mtslive.substack.com/p/1014-anthropics-revenue-isnt-pacing"
+    },
+    {
+      "index": 2,
+      "ts": "1792065815.394879",
+      "title": "Eight US states reportedly sue OpenAI over ChatGPT harms and seek a ban on self-improving models",
+      "section": "🔬 Frontier Labs",
+      "url": "https://mtslive.substack.com/p/1014-anthropics-revenue-isnt-pacing"
+    },
+    {
+      "index": 3,
+      "ts": "1792065817.989909",
+      "title": "Gemini 4 Argon now in the Gemini app on Pro and Ultra plans, per one newsletter",
+      "section": "🔬 Frontier Labs",
+      "url": "https://excellentprompts.substack.com/"
+    },
+    {
+      "index": 4,
+      "ts": "1792065820.867949",
+      "title": "Modal passes $1B annualised revenue; its agent Sandboxes alone run at $300M",
+      "section": "🚀 Shipping with AI",
+      "url": "https://mtslive.substack.com/p/1014-anthropics-revenue-isnt-pacing"
+    },
+    {
+      "index": 5,
+      "ts": "1792065823.768939",
+      "title": "Researchers say a fleet of agents from Tencent Cloud probed Alibaba's Amap more than 2,800 times",
+      "section": "🚀 Shipping with AI",
+      "url": "https://mtslive.substack.com/p/1014-anthropics-revenue-isnt-pacing"
+    },
+    {
+      "index": 6,
+      "ts": "1792065827.424559",
+      "title": "StepFun's Step-5 weights land on its official Hugging Face org, with a named licence",
+      "section": "🏠 Local Models",
+      "url": "https://huggingface.co/stepfun-ai/Step-5-Preview-BF16"
+    },
+    {
+      "index": 7,
+      "ts": "1792065830.411649",
+      "title": "Ollama 0.40.4 runs \"decision models\" locally: yes/no, classify and score from the command line",
+      "section": "🏠 Local Models",
+      "url": "https://freedom.tech/posts/2026-10-12-ollama-0-40-4/"
+    },
+    {
+      "index": 8,
+      "ts": "1792065833.927699",
+      "title": "⚠️ Starling's \"sovereign\" banking model routes customer data through Google Cloud before it reaches the UK-owned cloud",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://linas.substack.com/p/fintechpulse1139"
+    },
+    {
+      "index": 9,
+      "ts": "1792065836.722919",
+      "title": "NVIDIA commits $250M in compute to UK AI safety research, including open-model security",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://mtslive.substack.com/p/1014-anthropics-revenue-isnt-pacing"
+    },
+    {
+      "index": 10,
+      "ts": "1792065839.550839",
+      "title": "The EU's AI Act fight narrows to one argument: an escaped agent is no longer \"research\"",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://mtslive.substack.com/p/1014-anthropics-revenue-isnt-pacing"
+    },
+    {
+      "index": 11,
+      "ts": "1792065846.835929",
+      "title": "Australia: no fresh primary in the last 24h",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://www.oaic.gov.au/news/media-centre/new-resources-on-transparency-for-use-of-ai-and-automated-decision-making"
+    },
+    {
+      "index": 12,
+      "ts": "1792065849.351379",
+      "title": "Thinking Freely with Nita Farahany - \"Governing AI Manipulation (Inside my AI Law & Policy Class #14)\"",
+      "section": "📬 From the Substacks",
+      "url": "https://nitafarahany.substack.com/p/governing-ai-manipulation-inside"
+    },
+    {
+      "index": 13,
+      "ts": "1792065852.479619",
+      "title": "ByteByteGo - \"The Terminator Problem: How Teaching an LLM One Bad Habit Can Change Its Behavior\"",
+      "section": "📬 From the Substacks",
+      "url": "https://blog.bytebytego.com/p/the-terminator-problem-how-teaching"
+    },
+    {
+      "index": 14,
+      "ts": "1792065854.849909",
+      "title": "The Pragmatic Engineer - \"Uber's AI infra, from the inside\"",
+      "section": "📬 From the Substacks",
+      "url": "https://newsletter.pragmaticengineer.com/p/ubers-ai-infra"
+    },
+    {
+      "index": 15,
+      "ts": "1792065859.692419",
+      "title": "Ken Huang - \"Zuckerberg and Meta on Recursive Self Improvement\"",
+      "section": "📬 From the Substacks",
+      "url": "https://kenhuangus.substack.com/"
+    },
+    {
+      "index": 16,
+      "ts": "1792065861.435289",
+      "title": "[X] @aPeaceOfAdam (Adam Norman Jenkins)",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    },
+    {
+      "index": 17,
+      "ts": "1792065862.923359",
+      "title": "[X] @drsamantha_p (Dr Samantha Pillay OAM)",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    },
+    {
+      "index": 18,
+      "ts": "1792065864.265649",
+      "title": "[X] @LexisNexisAUS",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    },
+    {
+      "index": 19,
+      "ts": "1792065865.841369",
+      "title": "[X] @bamitav",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    }
+  ]
+}

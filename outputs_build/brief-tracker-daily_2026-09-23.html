@@ -1,0 +1,1598 @@
+<!DOCTYPE html><script type="application/json" id="cowork-artifact-meta">
+{
+  "name": "Brief Tracker Daily",
+  "schemaVersion": 1,
+  "description": "Daily reading tracker for the Cybersecurity, AI, and AI Work morning briefs. Rebuilt each morning by the brief-tracker-rebuild scheduled task from the day's brief files. Click an item's body to mark it read; click the star zone on its right edge to flag it as a story candidate. Read state, flags, and progress persist per day in localStorage."
+}
+</script>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brief Tracker — August 5, 2026</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f4f5f7;
+      --surface: #ffffff;
+      --border: #e2e8f0;
+      --text: #1a202c;
+      --text-muted: #718096;
+      --green: #276749;
+      --progress-bg: #e2e8f0;
+      --read-opacity: 0.42;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    /* HEADER */
+    .header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 14px 18px;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    .header-top {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+    .date-label {
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: var(--text-muted);
+      margin-bottom: 2px;
+    }
+    h1 { font-size: 16px; font-weight: 700; }
+    .header-actions { display: flex; gap: 6px; align-items: center; }
+    .btn-sm {
+      font-size: 11px;
+      font-weight: 600;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--text-muted);
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    .btn-sm:hover { background: #f0f0f0; }
+    .btn-sm.reset { color: #e53e3e; border-color: #fed7d7; }
+    .btn-sm.reset:hover { background: #fff5f5; }
+    .btn-sm.flagcount { color: #b7791f; border-color: #f6e05e; }
+    .btn-sm.flagcount:hover { background: #fffaf0; }
+    .btn-sm.flagcount.none { color: var(--text-muted); border-color: var(--border); }
+
+    /* PROGRESS */
+    .progress-row { display: flex; gap: 12px; flex-wrap: wrap; }
+    .prog { flex: 1; min-width: 120px; }
+    .prog-label {
+      display: flex;
+      justify-content: space-between;
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      margin-bottom: 4px;
+    }
+    .prog-label .done { color: var(--green); }
+    .prog-bar {
+      height: 5px;
+      background: var(--progress-bg);
+      border-radius: 3px;
+      overflow: hidden;
+    }
+    .prog-fill {
+      height: 100%;
+      border-radius: 3px;
+      transition: width 0.35s cubic-bezier(.4,0,.2,1);
+    }
+
+    /* TABS */
+    .tabs {
+      display: flex;
+      background: var(--surface);
+      border-bottom: 2px solid var(--border);
+      padding: 0 18px;
+      flex-wrap: wrap;
+    }
+    .tab {
+      padding: 9px 14px;
+      font-size: 12px;
+      font-weight: 700;
+      cursor: pointer;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -2px;
+      color: var(--text-muted);
+      transition: color 0.15s;
+      user-select: none;
+    }
+    .tab:hover:not(.active) { color: var(--text); }
+
+    /* PANEL */
+    .panel { display: none; padding: 14px 18px 32px; }
+    .panel.active { display: block; }
+    .empty-note {
+      text-align: center;
+      padding: 28px 20px;
+      color: var(--text-muted);
+      font-size: 12px;
+      background: var(--surface);
+      border: 1px dashed var(--border);
+      border-radius: 8px;
+    }
+
+    /* SECTION */
+    .section { margin-bottom: 18px; }
+    .section-hdr {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 0;
+      cursor: pointer;
+      user-select: none;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 8px;
+    }
+    .section-hdr:hover .section-title { color: var(--text); }
+    .section-title {
+      font-size: 10px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-muted);
+      flex: 1;
+      transition: color 0.15s;
+    }
+    .section-meta {
+      font-size: 10px;
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+    .section-meta.done { color: var(--green); }
+    .chevron {
+      font-size: 9px;
+      color: var(--text-muted);
+      transition: transform 0.2s;
+      flex-shrink: 0;
+    }
+    .section.collapsed .chevron { transform: rotate(-90deg); }
+    .section.collapsed .items { display: none; }
+    .items { display: flex; flex-direction: column; gap: 6px; }
+
+    /* ITEM */
+    .item {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 10px 12px;
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      cursor: pointer;
+      transition: border-color 0.15s, opacity 0.25s;
+    }
+    .item:hover { border-color: #a0aec0; }
+    .item.read { opacity: var(--read-opacity); }
+    .item.read .item-title { text-decoration: line-through; text-decoration-color: #a0aec0; }
+
+    /* CANDIDATE FLAG ZONE (right edge) */
+    .flag-zone {
+      flex-shrink: 0;
+      width: 36px;
+      align-self: stretch;
+      margin: -10px -12px -10px 0;
+      border-left: 1px dashed var(--border);
+      border-radius: 0 8px 8px 0;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 15px;
+      line-height: 1;
+      color: #cbd5e0;
+      transition: background 0.15s, color 0.15s;
+    }
+    .flag-zone:hover { background: #fffaf0; color: #d69e2e; }
+    .item.flagged { border-color: #f6c667; background: #fffdf7; }
+    .item.flagged .flag-zone { color: #d69e2e; border-left-color: #f6c667; }
+    .item.read.flagged { opacity: 0.72; }
+
+    /* CHECKBOX */
+    .cb {
+      width: 15px; height: 15px;
+      border: 1.5px solid #cbd5e0;
+      border-radius: 4px;
+      flex-shrink: 0;
+      margin-top: 2px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 9px;
+      transition: all 0.15s;
+      background: var(--surface);
+      color: transparent;
+    }
+    .item.read .cb {
+      background: #48bb78;
+      border-color: #48bb78;
+      color: white;
+    }
+
+    /* ITEM CONTENT */
+    .item-body { flex: 1; min-width: 0; }
+    .item-meta-row {
+      display: flex; align-items: center; gap: 5px; margin-bottom: 2px; flex-wrap: wrap;
+    }
+    .tag {
+      font-size: 9px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 0.05em;
+      padding: 1px 5px; border-radius: 3px;
+      white-space: nowrap;
+    }
+    .tag-default  { background: #edf2f7; color: #4a5568; }
+    .tag-gov      { background: #fff5f5; color: #c53030; }
+    .tag-cve      { background: #fffaf0; color: #c05621; }
+    .tag-breach   { background: #fff5f5; color: #9b2c2c; }
+    .tag-ai       { background: #ebf8ff; color: #2b6cb0; }
+    .tag-signal   { background: #f0fff4; color: #276749; }
+    .tag-community{ background: #faf5ff; color: #6b46c1; }
+    .tag-frontier { background: #ebf8ff; color: #2c5282; }
+    .tag-privacy  { background: #fff5f5; color: #9b2c2c; }
+    .tag-local    { background: #f0fff4; color: #276749; }
+    .tag-ecosystem{ background: #faf5ff; color: #553c9a; }
+    .tag-shipping { background: #fffff0; color: #975a16; }
+    .tag-pii      { background: #fed7d7; color: #9b2c2c; }
+    .tag-role     { background: #ebf8ff; color: #2c5282; }
+    .tag-youtube  { background: #fff5f5; color: #c53030; }
+    .tag-debate   { background: #edf2f7; color: #4a5568; }
+
+    .item-source { font-size: 10px; color: var(--text-muted); }
+    .item-title { font-size: 12px; font-weight: 700; line-height: 1.35; margin-bottom: 2px; color: var(--text); }
+    .item-summary { font-size: 11px; color: var(--text-muted); line-height: 1.4; }
+
+    /* ALL DONE BANNER */
+    .all-done-banner {
+      display: none;
+      text-align: center;
+      padding: 20px;
+      background: #f0fff4;
+      border: 1px solid #9ae6b4;
+      border-radius: 8px;
+      margin-bottom: 14px;
+      font-size: 13px;
+      font-weight: 600;
+      color: #276749;
+    }
+    .all-done-banner.show { display: block; }
+
+    /* FLAGGED EXPORT PANEL */
+    .overlay {
+      display: none;
+      position: fixed; inset: 0;
+      background: rgba(26,32,44,0.55);
+      z-index: 50;
+      padding: 24px 16px;
+      overflow-y: auto;
+    }
+    .overlay.show { display: block; }
+    .sheet {
+      background: var(--surface);
+      border-radius: 10px;
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 16px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.25);
+    }
+    .sheet-hdr {
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 10px; margin-bottom: 4px;
+    }
+    .sheet-hdr h2 { font-size: 14px; font-weight: 800; }
+    .sheet-hint { font-size: 11px; color: var(--text-muted); margin-bottom: 8px; }
+    .sheet textarea {
+      width: 100%;
+      height: 46vh;
+      min-height: 220px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 11px;
+      line-height: 1.5;
+      padding: 10px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      resize: vertical;
+      background: #fbfcfd;
+      color: var(--text);
+    }
+    .sheet-actions { display: flex; gap: 6px; margin-top: 10px; align-items: center; }
+    .sheet-status { font-size: 11px; color: var(--green); font-weight: 600; }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-top">
+    <div>
+      <div class="date-label" id="date-label"></div>
+      <h1>🛡️ Morning Briefs</h1>
+    </div>
+    <div class="header-actions">
+      <button class="btn-sm flagcount none" id="flag-btn" onclick="copyFlagged()">☆ 0 flagged</button>
+      <button class="btn-sm" onclick="markAllRead()">Mark all read</button>
+      <button class="btn-sm reset" onclick="resetAll()">Reset read</button>
+    </div>
+  </div>
+  <div class="progress-row" id="progress-row"></div>
+</div>
+
+<div class="tabs" id="tabs"></div>
+<div id="panels"></div>
+
+<div class="overlay" id="export-overlay">
+  <div class="sheet">
+    <div class="sheet-hdr">
+      <h2 id="export-title">Flagged story candidates</h2>
+      <button class="btn-sm" onclick="closeExport()">Close</button>
+    </div>
+    <div class="sheet-hint">Select all and copy (Ctrl/Cmd+A then Ctrl/Cmd+C), then paste into chat.</div>
+    <textarea id="export-text" spellcheck="false" readonly></textarea>
+    <div class="sheet-actions">
+      <button class="btn-sm" onclick="selectExport()">Select all</button>
+      <button class="btn-sm" onclick="tryCopyExport()">Try copy</button>
+      <span class="sheet-status" id="export-status"></span>
+    </div>
+  </div>
+</div>
+
+<script id="brief-data-block">
+  // ====================================================================
+  // BRIEF_DATA — regenerated each morning by the brief-tracker-rebuild task.
+  // Everything above (styles/markup) and the render engine below are the
+  // template and must not be edited by the rebuild; only this object changes.
+  // ====================================================================
+
+const BRIEF_DATA = {
+  "dateLabel": "Wednesday, September 23, 2026",
+  "dateStamp": "2026-09-23",
+  "tabs": [
+    {
+      "id": "cyber",
+      "label": "🛡️ Cyber Brief",
+      "color": "#c53030",
+      "sections": [
+        {
+          "title": "🚨 Government Advisories",
+          "items": [
+            {
+              "tags": [
+                {
+                  "cls": "tag-gov",
+                  "label": "CISA ED"
+                },
+                {
+                  "cls": "tag-cve",
+                  "label": "Zero-Day"
+                }
+              ],
+              "source": "CISA / BleepingComputer",
+              "title": "F5 BIG-IP APM Zero-Day (CVE-2026-94127) — Patch by Friday",
+              "summary": "CISA ordered federal agencies to patch an actively-exploited RCE zero-day in F5 BIG-IP APM (OAuth Auth Server deployments) by Friday; 14,700+ instances are publicly exposed. Treat BIG-IP APM in your access/VPN path as a board-level 'assume breach' item, not a patch-queue ticket."
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-gov",
+                  "label": "KEV"
+                },
+                {
+                  "cls": "tag-cve",
+                  "label": "Wormable"
+                }
+              ],
+              "source": "CISA",
+              "title": "KEV +7 Exploited Vulns; September Patch Tuesday Adds 972 CVEs, 20 Wormable",
+              "summary": "CISA added seven (then eight) exploited vulns to KEV; Microsoft's September cycle surfaced 972 CVEs including 20 wormable, with AI-assisted vuln discovery cited as the driver. Orgs without KEV-tied automated prioritisation are now structurally behind the patch pace."
+            }
+          ]
+        },
+        {
+          "title": "📰 Top Security News",
+          "items": [
+            {
+              "tags": [
+                {
+                  "cls": "tag-breach",
+                  "label": "Breach"
+                }
+              ],
+              "source": "BleepingComputer",
+              "title": "ShinyHunters Claims FBI Breach via Oracle PeopleSoft Zero-Day",
+              "summary": "ShinyHunters claims 2–3TB of FBI data (PII, health, HR) exfiltrated via an alleged PeopleSoft zero-day, defaced FBIjobs.gov, and says it is hitting Fortune 500s with the same flaw. Verified or not, the signal is that legacy enterprise HR platforms are now primary state-adjacent targets — audit PeopleSoft exposure now."
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-cve",
+                  "label": "Zero-Day"
+                }
+              ],
+              "source": "The Hacker News",
+              "title": "Check Point Management Server Zero-Day Exploited Since July (CVE-2026-93616)",
+              "summary": "A path-traversal flaw allowing unauthenticated script execution on Check Point's management plane was exploited from July until a Sep 22 patch. Security control planes deserve the same isolation discipline as production databases — a breached one hands over the whole estate."
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-cve",
+                  "label": "CVSS 10.0"
+                }
+              ],
+              "source": "The Hacker News",
+              "title": "VeloCloud Orchestrator CVSS 10.0 Under Active Exploitation (CVE-2026-93952)",
+              "summary": "An unauthenticated RCE (perfect 10.0) in VMware's on-prem VeloCloud Orchestrator is being exploited; patches exist for some trains. Compromising the Orchestrator turns SD-WAN into a traffic-interception platform — treat on-prem VeloCloud as an emergency this week."
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-default",
+                  "label": "Research"
+                }
+              ],
+              "source": "BleepingComputer",
+              "title": "Rogue External MFA Providers Can Intercept Credentials",
+              "summary": "Researchers show attackers with privileged network access can register malicious external MFA providers that silently capture credentials mid-auth. MFA itself is now a target: who can register MFA providers needs PAM-grade governance."
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-cve",
+                  "label": "CVSS 9.2"
+                }
+              ],
+              "source": "The Hacker News",
+              "title": "WordPress 7.1.2 Patches Critical Code Execution Flaw (CVE-2026-87902)",
+              "summary": "A CVSS 9.2 flaw lets unauthenticated attackers load external PHP and potentially run code; it reaches back to WordPress 4.7. Large or abandoned web estates are attack surface — the long tail of unpatched CMS installs is the real exposure."
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-default",
+                  "label": "Law Enforcement"
+                }
+              ],
+              "source": "BleepingComputer",
+              "title": "Ryuk Ransomware Member Sentenced to 24 Months",
+              "summary": "An Armenian national got 24 months plus supervised release for Ryuk attacks on US businesses. Cross-border attribution to named individuals is the durable deterrence signal, even as sentencing lags the damage."
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-default",
+                  "label": "OT / Maritime"
+                }
+              ],
+              "source": "Innovate Cybersecurity",
+              "title": "Cyberattacks Hit Two Texas-Bound Oil Tankers",
+              "summary": "Attacks targeted two Texas-bound oil tankers, spotlighting immature maritime OT security. Energy boards that haven't table-topped maritime exposure are carrying a visibility gap regulators will eventually close."
+            }
+          ]
+        },
+        {
+          "title": "🤖 AI & Security",
+          "items": [
+            {
+              "tags": [
+                {
+                  "cls": "tag-ai",
+                  "label": "AI Phishing"
+                }
+              ],
+              "source": "The Hacker News",
+              "title": "Microsoft Dismantles EvilTokens AI-Powered Device-Code Phishing Platform",
+              "summary": "Microsoft's DCU took down EvilTokens (phishing-as-a-service using AI, ~12,000 accounts compromised; two arrests). It packaged sophistication into a service non-technical criminals can run — respond with FIDO2 (not TOTP), conditional access, and AI-lure-aware training."
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-ai",
+                  "label": "AI Infra"
+                },
+                {
+                  "cls": "tag-cve",
+                  "label": "CVSS 9.8"
+                }
+              ],
+              "source": "The Hacker News",
+              "title": "Critical RCE in Bifrost AI Gateway (CVE-2026-90898)",
+              "summary": "An unauthenticated command-execution flaw (9.8) hits all Bifrost versions before 2.1.0, where auth is often disabled by default; Bifrost routes traffic to LLM APIs. Own the gateway and you can intercept every prompt and response — auth must not be optional."
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-ai",
+                  "label": "Research"
+                }
+              ],
+              "source": "Cloud Security Alliance",
+              "title": "CSA: 73% of Security Leaders Say AI Threats Already Have Material Impact",
+              "summary": "Of 1,500+ leaders, 73% report material AI-threat impact and 92% are upgrading defences, yet only 23% monitor AI agents for threats. The deployment-vs-visibility gap is where the next material breaches originate — agent governance is a 2026 deliverable."
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-ai",
+                  "label": "Research"
+                }
+              ],
+              "source": "BCG",
+              "title": "BCG: 89% Hit by AI-Enabled Attacks; Only 41% Have AI Governance Policies",
+              "summary": "89% of orgs saw AI-enabled attacks in the past year (35% with significant impact), but only 41% have formal AI governance and 23% monitor agents. AI security governance is a board/CFO fiduciary question, not an IT function."
+            }
+          ]
+        },
+        {
+          "title": "🗣️ Community Pulse (Reddit)",
+          "items": [
+            {
+              "tags": [
+                {
+                  "cls": "tag-community",
+                  "label": "Community"
+                }
+              ],
+              "source": "Reddit / Innovate CS",
+              "title": "Orkes Conductor RCE Actively Exploited",
+              "summary": "The open-source workflow orchestrator Orkes Conductor is under in-the-wild RCE exploitation, with PoC and SHODAN counts circulating. Orchestrators have legitimate downstream access, so a compromise fans out laterally across a microservices estate. (Reddit API blocked this run; via Innovate CS digest.)"
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-community",
+                  "label": "Community"
+                }
+              ],
+              "source": "Reddit / Innovate CS",
+              "title": "'Fire Ant' Turning Cisco Routers Into Spy Platforms",
+              "summary": "A persistent actor is embedding covert monitoring in compromised Cisco routers; defenders are sharing detection signatures. Router-level persistence survives normal IR — hardware replacement is often the only reliable fix."
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-community",
+                  "label": "Community"
+                }
+              ],
+              "source": "Reddit / Innovate CS",
+              "title": "153 Million Driver's Licenses Sold on Dark Web",
+              "summary": "The IDScan exposure of 150–153M North American licenses and passport photos keeps driving identity-pipeline risk discussion. This volume enables synthetic identity fraud and social engineering at scale for years."
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-community",
+                  "label": "Community"
+                }
+              ],
+              "source": "Reddit / Innovate CS",
+              "title": "F5 BIG-IP Memory-Resident Web Shells Resurface as Technique Indicator",
+              "summary": "Community threads keep returning to F5 BIG-IP malware hiding web shells in Apache memory; defenders are sharing YARA rules."
+            }
+          ]
+        },
+        {
+          "title": "📌 Today's Signal",
+          "items": [
+            {
+              "tags": [
+                {
+                  "cls": "tag-signal",
+                  "label": "Signal"
+                }
+              ],
+              "source": "Brief",
+              "title": "When the Attack Surface Is Your Security Stack",
+              "summary": "This week's pattern is the weaponisation of foundational controls — Check Point management, F5 access proxies, VeloCloud SD-WAN, AI gateways — components that yield policy-level or network-wide control when breached, while AI industrialises attacker capability. The question shifts from 'are we resilient?' to 'have we stress-tested the security infrastructure itself?'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "label": "🤖 AI Brief",
+      "color": "#2b6cb0",
+      "sections": [
+        {
+          "title": "🔬 Frontier Labs",
+          "items": [
+            {
+              "tags": [
+                {
+                  "cls": "tag-frontier",
+                  "label": "OpenAI"
+                }
+              ],
+              "source": "OpenAI",
+              "title": "OpenAI Ships GPT-6 Dual Release: Sol + Luna (Sep 22)",
+              "summary": "Sol targets complex reasoning/coding at $2/$10 per M tokens; Luna targets high-volume clerical work at an aggressive price — both ~50% cheaper than GPT-5.6. Sol makes advanced AI affordable for regulated-industry compliance tooling; Luna is the first credible 'ambient AI worker' play."
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-frontier",
+                  "label": "Anthropic"
+                }
+              ],
+              "source": "Anthropic",
+              "title": "Anthropic Releases Claude Opus 5.5 (Sep 22)",
+              "summary": "$4/M in, $20/M out — 40% cheaper than Opus 5 and 30% faster, positioned against GPT-6 Sol with a safety-pedigree pitch for regulated buyers. For clients weighing models, GDPR/DORA/AU-privacy positioning may matter more than benchmark rank."
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-frontier",
+                  "label": "DeepMind"
+                }
+              ],
+              "source": "Google DeepMind",
+              "title": "DeepMind AlphaGenome Predicts 9 Billion DNA Variations",
+              "summary": "The largest genomic prediction model to date (released ~Sep 18) signals DeepMind's lead in scientific AI. Health clients will field questions, and it sets the scale of 'AI-generated inferences' the AU Privacy Bill must contend with."
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-frontier",
+                  "label": "xAI"
+                }
+              ],
+              "source": "xAI",
+              "title": "xAI Grok 4.7 Ranks 7th on Intelligence Index (Sep 21)",
+              "summary": "Benchmark placement is solid but developer reception is mixed, underscoring the benchmark-to-deployment gap. Benchmark fatigue is real — the system, not the model score, is the unit of analysis."
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-frontier",
+                  "label": "Open Source"
+                }
+              ],
+              "source": "Xiaomi",
+              "title": "Xiaomi Open-Sources MiMo-V2.6 Flash & Pro (Sep 22)",
+              "summary": "Compact, efficient models aimed at on-device deployment feed the local-model momentum — relevant for clients with data-residency constraints."
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-frontier",
+                  "label": "Governance"
+                }
+              ],
+              "source": "UN",
+              "title": "First UN Security Council AI Briefing — Thursday Sep 25",
+              "summary": "France convened a UNSC session with Sam Altman, Anthropic, DeepSeek, and Moonshot AI on AI safety, frontier risk, and US–China tensions. The first-ever UNSC meeting on AI risk could shape multilateral frameworks that flow into AU/EU regulation."
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-frontier",
+                  "label": "AI Risk Culture"
+                }
+              ],
+              "source": "OpenAI / Anthropic",
+              "title": "OpenAI Fires QA Contractors; Anthropic Researcher Resigns Over Existential Risk",
+              "summary": "OpenAI dismissed contractors who used AI tools during quality-review work (data-integrity/model-collapse concerns); Anthropic's Jacob Coxon resigned citing existential AI risk in a public note. Two different signals about AI risk culture that may surface in client governance talks."
+            }
+          ]
+        },
+        {
+          "title": "🚀 Shipping with AI",
+          "items": [
+            {
+              "tags": [
+                {
+                  "cls": "tag-shipping",
+                  "label": "Agents"
+                }
+              ],
+              "source": "Meta / Shopify",
+              "title": "Meta Muse Tops US App Store; Shopify Opens Shop Pay to It",
+              "summary": "Meta's personal AI agent (shopping, subscriptions, calendar) surpassed ChatGPT's early US adoption pace, and Shopify wired Shop Pay to it — the opposite of Amazon's bet."
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-shipping",
+                  "label": "Platform vs Agent"
+                }
+              ],
+              "source": "AI Brief",
+              "title": "Amazon Blocks Meta's Muse to Protect $76B Ad Revenue",
+              "summary": "Amazon barred Muse from its retail infra — nominally TOS, really ad-inventory defence, since an agent that routes purchases skips every sponsored placement. This is the first major platform-vs-agent access conflict and the template for agentic e-commerce everywhere."
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-shipping",
+                  "label": "AI Malware"
+                }
+              ],
+              "source": "Cisco Talos",
+              "title": "Cisco Talos Discloses CLOSEDQUORUM — Autonomous Multi-Model AI Implant",
+              "summary": "The first reported fully autonomous multi-model AI C2 implant uses different models for recon, payload, evasion, and C2; Cisco shipped the CAIRN detection toolkit. Any system processing PII is now a target — the data-sovereignty and air-gap arguments just got a security basis."
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-shipping",
+                  "label": "Funding"
+                }
+              ],
+              "source": "Snorkel AI",
+              "title": "Snorkel AI Raises $350M at $3.5B; Revenue $20M → $350M in a Year",
+              "summary": "The data-labeling/fine-tuning 'pick-and-shovel' layer is growing fast enough to justify the round — a proxy for how quickly enterprise AI deployment is accelerating."
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-shipping",
+                  "label": "Compute"
+                }
+              ],
+              "source": "AMD",
+              "title": "AMD Hits $1T Market Cap on AI Data-Center Growth",
+              "summary": "Q2 data-center revenue of $6.7B (+107% YoY) on Helios AI systems makes AMD a credible NVIDIA alternative, easing supply-concentration risk in enterprise AI procurement."
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-shipping",
+                  "label": "Funding"
+                }
+              ],
+              "source": "Firecrawl",
+              "title": "Firecrawl Raises $75M Series B",
+              "summary": "Continued investment in the agentic data layer — web scraping and agent data pipelines."
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-shipping",
+                  "label": "FinTech"
+                }
+              ],
+              "source": "X",
+              "title": "X Adds 'Trade' Button to Cashtags",
+              "summary": "Stock-ticker mentions now route users straight to brokers — social platforms monetising AI-adjacent financial information flow."
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-shipping",
+                  "label": "Windows AI"
+                }
+              ],
+              "source": "The Pragmatic Engineer",
+              "title": "Microsoft Goes All-In on Local AI in Windows",
+              "summary": "WindowsML (ONNX HAL), an On-Device Agent Registry for MCP, Microsoft Execution Containers for agent isolation, and OS-provided SLMs — with Qwen demoed at ~40 tok/s on a pre-release Surface. (Detail in Local Models.)"
+            }
+          ]
+        },
+        {
+          "title": "💻 Local Models",
+          "items": [
+            {
+              "tags": [
+                {
+                  "cls": "tag-local",
+                  "label": "WindowsML"
+                }
+              ],
+              "source": "Microsoft",
+              "title": "Windows ML — ONNX HAL Replaces DirectML",
+              "summary": "A hardware-agnostic layer runs the same model across GPU/NPU/CPU without driver bottlenecks, decoupling local model performance from driver-update cycles. 'Run it on-premise' becomes a realistic enterprise answer, not a research project."
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-local",
+                  "label": "Governance"
+                }
+              ],
+              "source": "Microsoft",
+              "title": "Windows On-Device Agent Registry (ODR)",
+              "summary": "A centralized OS-level MCP registry makes Windows a proxy/inspector for all agent traffic — a choke point for shadow AI (cf. 67% shadow-AI), and a new compliance surface: what does the OS log about MCP traffic?"
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-local",
+                  "label": "Isolation"
+                }
+              ],
+              "source": "Microsoft",
+              "title": "Microsoft Execution Containers (MXC)",
+              "summary": "OS-level agent isolation limits the blast radius of a compromised agent — a direct answer to the CLOSEDQUORUM threat model."
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-local",
+                  "label": "On-Device"
+                }
+              ],
+              "source": "Microsoft / NVIDIA",
+              "title": "Qwen at ~40 tok/s on Pre-Release Surface",
+              "summary": "Microsoft's demo establishes a usable performance floor for Windows-local AI on real work, alongside Xiaomi's compact MiMo models for residency-constrained deployments."
+            }
+          ]
+        },
+        {
+          "title": "🔒 Privacy, PII & Data Sovereignty",
+          "items": [
+            {
+              "tags": [
+                {
+                  "cls": "tag-pii",
+                  "label": "⚠️ PII Flag"
+                },
+                {
+                  "cls": "tag-privacy",
+                  "label": "AU Bill"
+                }
+              ],
+              "source": "Australian Government",
+              "title": "⚠️ Australia Privacy Amendment Bill 2026 — Consultation Closed Sep 18",
+              "summary": "A world-first 'fair and reasonable' test shifts the burden from notice-and-consent to substantive reasonableness; consent must be voluntary/informed/current/specific (pre-ticked boxes invalid); AI-generated inferences are expressly personal information; 72-hour breach notice; erasure rights for platforms with 2.5M+ AU users. Clients using AI to profile AU customers are directly constrained — even for inferences they never collected."
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-privacy",
+                  "label": "EU AI Act"
+                }
+              ],
+              "source": "EU",
+              "title": "EU AI Act Digital Omnibus — Article 50 Live Now",
+              "summary": "High-risk compliance slips to Dec 2, 2027, but Article 50 has been enforceable since Aug 2, 2026: AI-interaction disclosure and synthetic-content labeling, penalties up to €35M or 7% of turnover. Clients who assumed 'the AI Act is 2027' need correcting today."
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-pii",
+                  "label": "⚠️ PII Flag"
+                },
+                {
+                  "cls": "tag-privacy",
+                  "label": "AI Malware"
+                }
+              ],
+              "source": "Cisco Talos",
+              "title": "⚠️ CLOSEDQUORUM Changes the PII Threat Model",
+              "summary": "An autonomous multi-model AI implant can exfiltrate, encrypt, or corrupt data with no human operator; CAIRN detection is available from Cisco Talos. Air-gap and residency arguments for PII systems now rest on security, not just compliance."
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-privacy",
+                  "label": "US Law"
+                }
+              ],
+              "source": "California",
+              "title": "California SB 690 Narrows CIPA Tracking Suits; CIRCIA Rules Expected",
+              "summary": "SB 690 limits the scope of CIPA website-tracking litigation, while expected California CIRCIA rules (72-hour breach notice to CISA, 24-hour ransomware-payment reporting) mirror Australia's 72-hour rule — jurisdictions are converging."
+            }
+          ]
+        },
+        {
+          "title": "🌏 AU/EU AI Ecosystem",
+          "items": [
+            {
+              "tags": [
+                {
+                  "cls": "tag-ecosystem",
+                  "label": "Australia"
+                }
+              ],
+              "source": "AU Government",
+              "title": "Australia Moves From Voluntary Guidance to Enforceable AI Regulation (~Early 2027)",
+              "summary": "PM Albanese's trajectory sets five pillars: national AI standards, copyright/creator protection, consumer 'digital duty of care', sovereign compute, and national security. The window from now to early 2027 is the engagement window for clients who want to shape the rules."
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-ecosystem",
+                  "label": "Sovereign AI"
+                }
+              ],
+              "source": "Mistral",
+              "title": "Mistral Raises €600M, Pitches European Sovereign AI",
+              "summary": "Targeting DORA/GDPR/public-sector workloads via La Plateforme with €15B EIF backing (and an ambiguous Azure partnership). For EU clients, Mistral's 'sovereign' pitch mirrors Lars's PII-protection framing — a partner or competitive reference to track."
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-ecosystem",
+                  "label": "Boards"
+                }
+              ],
+              "source": "Capgemini",
+              "title": "Capgemini: 93% of Boards Discuss Digital Sovereignty; 59% Call Full Sovereignty Unrealistic",
+              "summary": "Half have appointed or are considering a Chief Sovereignty Officer, and 54% think sovereignty and competitiveness can coexist. Board awareness is high; the operationalization gap is where the practice lives."
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-ecosystem",
+                  "label": "Governance"
+                }
+              ],
+              "source": "Chartered Governance Institute",
+              "title": "UK Report: Only 5 of 73 Orgs Have an AI Kill-Switch; 67% Have Shadow AI",
+              "summary": "Boards are named most accountable when AI fails (37%) yet lack the tools for meaningful oversight. Shadow AI is the current state, not an emerging risk."
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-ecosystem",
+                  "label": "Boards"
+                }
+              ],
+              "source": "Morgan Stanley",
+              "title": "Morgan Stanley: 68% of S&P 500 Have ≥1 AI-Skilled Director, Only 25% Have ≥3",
+              "summary": "Governance critical mass is rare; the energy sector has zero companies at the three-director threshold."
+            }
+          ]
+        },
+        {
+          "title": "📡 Social Intelligence",
+          "items": [
+            {
+              "tags": [
+                {
+                  "cls": "tag-community",
+                  "label": "Podcast"
+                }
+              ],
+              "source": "AIDB 'Agent Wars!'",
+              "title": "Social Lane Pending Login — AIDB Retrieved Direct",
+              "summary": "LinkedIn and X both require login (Lars not authenticated in Chrome), and Sep 15/21 backfill is still queued — signing in once clears all three. From AIDB's Sep 22 episode: Grok 4.7's mixed real-world reception, Treasury Secretary Bessent saying there is no liability shield for AI labs, and Amazon-blocks-Muse as the next infrastructure battleground."
+            }
+          ]
+        },
+        {
+          "title": "📬 Substack Signal",
+          "items": [
+            {
+              "tags": [
+                {
+                  "cls": "tag-default",
+                  "label": "Newsletter"
+                }
+              ],
+              "source": "Behavioral Capital",
+              "title": "The System Is the Unit of Analysis",
+              "summary": "Evaluation must cover the full sociotechnical system, not model benchmarks — cites a METR study where AI-assisted devs took 19% longer despite expecting a 24% speedup. A citable study for client conversations about AI ROI claims."
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-default",
+                  "label": "Newsletter"
+                }
+              ],
+              "source": "The Slow AI",
+              "title": "Your Own Record Will Not Save You",
+              "summary": "TikTok auto-removed an accurate video about AI threats, restored on appeal (184M removed in Q1, 96% automated; 51% of appealed EU removals reversed). AI moderation fails between noticing and deciding — the same failure mode as any flag-routing governance system in finance, health, or insurance."
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-default",
+                  "label": "Newsletter"
+                }
+              ],
+              "source": "The Pragmatic Engineer",
+              "title": "How AI Changes Operating Systems, Part 2: Windows",
+              "summary": "The definitive technical deep-dive on WindowsML, the On-Device Agent Registry, MXC containers, and embedded SLMs (Qwen at ~40 tok/s). The reference for the Windows local-AI story."
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-default",
+                  "label": "Newsletter"
+                }
+              ],
+              "source": "AI Leadership Edge",
+              "title": "Meet Jev: Why AI Governance Can Never Stand Still",
+              "summary": "Profiles fast structured-AI ('Jev') and aggregates governance metrics — Capgemini sovereignty, UK kill-switch, Morgan Stanley board skills, and a robust 36% shadow-AI figure from Thomson Reuters (404 companies, 36 countries)."
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-default",
+                  "label": "Newsletter"
+                }
+              ],
+              "source": "Transformer News",
+              "title": "How to Respond to an AI Disaster",
+              "summary": "A nuclear-energy analogy for AI incident response, calling for an IAEA equivalent and citing Coxon's resignation. With the UNSC briefing and CLOSEDQUORUM in the same week, this is the framing piece for responsible AI incident response."
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-default",
+                  "label": "Newsletter"
+                }
+              ],
+              "source": "FinTech & AI",
+              "title": "Amazon Blocked Meta's Muse to Protect $76B in Ad Revenue",
+              "summary": "The best single-source framing of the platform-vs-agent access dynamic (Amazon block, Shopify's opposite bet, X's Trade button) that will define AI deployment constraints for the next 2–3 years."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "work",
+      "label": "🧭 AI Work Brief",
+      "color": "#276749",
+      "sections": [
+        {
+          "title": "🎥 What Creators Are Saying",
+          "items": [
+            {
+              "tags": [
+                {
+                  "cls": "tag-youtube",
+                  "label": "Anchor"
+                }
+              ],
+              "source": "AI Daily Brief / NLW",
+              "title": "The Job Positions of the AI Future (22 Sep)",
+              "summary": "NLW lays out the full archetypes model — Prototyper, Builder, Sweeper, Maintainer, Scout, Editor, Grower, Evangelist, Orchestrator, Conductor, Risk Steward. The anchor episode: the opportunity isn't an 'AI department' but a Maker in every function. It replaces 'will I be replaced?' with 'which archetype am I becoming?'"
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-youtube",
+                  "label": "Reframe"
+                }
+              ],
+              "source": "AI Daily Brief / NLW",
+              "title": "The New Jobs AI Will Create",
+              "summary": "A first-principles case that better AI needn't mean less human work — cheaper services, broader access, personalization, and trust all create new demand. Abundance-creates-demand is more durable than the doom takes."
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-youtube",
+                  "label": "Readiness"
+                }
+              ],
+              "source": "Deloitte Tech Trends 2026",
+              "title": "The Agentic Reality Check",
+              "summary": "84% of companies haven't redesigned jobs for AI and only 5% call their processes agent-ready, yet two-thirds of managers expect major disruption in 2–3 years. Being early to the 'my function needs a Maker' realization is a big career advantage right now."
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-youtube",
+                  "label": "Search Scan"
+                }
+              ],
+              "source": "YouTube",
+              "title": "Fresh Search + Practitioner Channels",
+              "summary": "Vlad Tenev (TED) and Harari (Diary of a CEO) frame creation-vs-anxiety; Musk shorts are noise. Practitioner channels (Nate Herk's no-code n8n, Sabrina Ramonov, Cole Medin) had no roles-specific video but are the practitioner cohort this thread tracks."
+            }
+          ]
+        },
+        {
+          "title": "🐦 The Conversation on X",
+          "items": [
+            {
+              "tags": [
+                {
+                  "cls": "tag-default",
+                  "label": "Framing Shift"
+                }
+              ],
+              "source": "@emollick",
+              "title": "Mollick Marks the Assistant → Agent Baseline",
+              "summary": "His latest 'One Useful Thing' tool guide shifts the frame from 'which chatbot?' to 'how do you use a system that can do hours of autonomous knowledge work?' The framing shift is the signal. (X JSON APIs restricted this run; sourced via search.)"
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-role",
+                  "label": "Hiring Signal"
+                }
+              ],
+              "source": "DataForSEO",
+              "title": "'Agent Orchestrator' Search Volume +175% YoY",
+              "summary": "A 2024 LangChain niche term is now a mainstream hiring category — 'who coordinates the agents' is increasingly a hiring-manager conversation, not just a developer one."
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-default",
+                  "label": "Vocabulary"
+                }
+              ],
+              "source": "X / AIDB",
+              "title": "Archetype Vocabulary Enters Circulation",
+              "summary": "'Prototyper', 'Conductor', 'Risk Steward' are circulating as alternatives to the narrower, already-dated 'prompt engineer' framing."
+            }
+          ]
+        },
+        {
+          "title": "🧑‍💻 Practitioner Ground Truth (Reddit)",
+          "items": [
+            {
+              "tags": [
+                {
+                  "cls": "tag-community",
+                  "label": "JobLoss"
+                }
+              ],
+              "source": "Reddit / web",
+              "title": "JobLoss.ai Tracking + Selection-Bias Debate",
+              "summary": "The Alliance for Secure AI's tracker cites 125,000+ job losses with AI a contributing factor (as of June); practitioners split on 'tip of iceberg' vs 'selection bias'. (Reddit JSON blocked this run.)"
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-community",
+                  "label": "Hype Check"
+                }
+              ],
+              "source": "Reddit / web",
+              "title": "The Klarna Lesson",
+              "summary": "Klarna re-hired for customer-service roles its chatbots failed at, circulating as the AI-replacement hype check — agents are real but the transition is messier than the demos."
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-community",
+                  "label": "Mood"
+                }
+              ],
+              "source": "Reddit / web",
+              "title": "r/ExperiencedDevs: Less Panic, More 'Outcompeted'",
+              "summary": "The recurring line — 'I'm not worried my job disappears, I'm worried about being outcompeted by someone using agents better' — is the Maker framing from the bottom up."
+            }
+          ]
+        },
+        {
+          "title": "🎙️ Podcasts & Newsletters",
+          "items": [
+            {
+              "tags": [
+                {
+                  "cls": "tag-default",
+                  "label": "Anchor"
+                }
+              ],
+              "source": "AI Daily Brief",
+              "title": "The Job Positions of the AI Future (recap)",
+              "summary": "Three points: the future org is every function having a Maker, not an AI department; archetypes beat job titles; and 'orchestrating a team of agents' is becoming baseline, like email once did."
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-default",
+                  "label": "Newsletter"
+                }
+              ],
+              "source": "One Useful Thing",
+              "title": "Ethan Mollick — Summer 2026 AI Tool Guide",
+              "summary": "Marks the shift from chatbot conversation to autonomous multi-step knowledge work as the new default; the people ahead treat agents as junior collaborators, not search engines."
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-default",
+                  "label": "Report"
+                }
+              ],
+              "source": "Microsoft Work Trend Index 2026",
+              "title": "Agents, Human Agency, and Opportunity",
+              "summary": "AI is expanding agency: 58% of AI users (80% of 'Frontier Professionals') say they produce work they couldn't a year ago; the skills that matter most become QC of AI output (50%) and critical thinking (46%)."
+            }
+          ]
+        },
+        {
+          "title": "🆕 New Roles & Archetypes Watch",
+          "items": [
+            {
+              "tags": [
+                {
+                  "cls": "tag-role",
+                  "label": "Builder / Orchestrator"
+                }
+              ],
+              "source": "Plank",
+              "title": "Forward Deployed Engineer (FDE) — 982 Open Roles",
+              "summary": "The default role for making demo-AI work inside a real company; it now spans DevOps, enablement, custom solutions, data integration, and agent building — 'Builder + Orchestrator' as companies actually hire for it."
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-role",
+                  "label": "Risk Steward"
+                }
+              ],
+              "source": "Job boards",
+              "title": "Algorithm Auditor — Fastest-Growing AI-Ethics Job",
+              "summary": "QC for AI decisions: drift detection, fact-check loops, and compliance certification for traceable, fair decisions — appearing in financial services, healthcare, and insurance."
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-role",
+                  "label": "Sweeper / Maintainer"
+                }
+              ],
+              "source": "Enterprise boards",
+              "title": "AI FinOps Sr. Engineer",
+              "summary": "Token economics, unit-cost models, and cost guardrails for AI/ML workloads — FinOps for the silicon workforce. The 'who pays for all these agent calls?' question now has a title."
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-role",
+                  "label": "Conductor"
+                }
+              ],
+              "source": "Job boards",
+              "title": "AI Workforce Manager",
+              "summary": "A people-management archetype for blended human-AI teams — onboarding and supervising agents. A management role, not DevOps, for people who understand both operational context and agent behavior."
+            },
+            {
+              "tags": [
+                {
+                  "cls": "tag-role",
+                  "label": "Orchestrator / Editor"
+                }
+              ],
+              "source": "Job boards",
+              "title": "Agent Supervisor / CS Orchestration Manager",
+              "summary": "Operational hybrids bridging ops and tech: escalation paths when agents fail and human-AI handoff protocols, customer-facing rather than backend."
+            }
+          ]
+        },
+        {
+          "title": "⚖️ The Debate",
+          "items": [
+            {
+              "tags": [
+                {
+                  "cls": "tag-debate",
+                  "label": "Debate"
+                }
+              ],
+              "source": "AI Work Brief",
+              "title": "Firm-Level Disruption vs Aggregate Data",
+              "summary": "Altman and Amodei walked back their jobs-apocalypse warnings pre-IPO; a16z and studies (NBER, Atlanta Fed, Yale Budget Lab) find no meaningful aggregate employment hit yet. But tech layoffs run 115K+ YTD (Meta, Amazon, Snap citing AI). Working model: sector- and role-specific, faster inside tech — with Klarna's re-hiring a corrective against oversimplifying either way."
+            }
+          ]
+        },
+        {
+          "title": "📌 Today's Signal",
+          "items": [
+            {
+              "tags": [
+                {
+                  "cls": "tag-signal",
+                  "label": "Signal"
+                }
+              ],
+              "source": "Brief",
+              "title": "Which Archetype Do You Want to Become?",
+              "summary": "The AIDB archetypes episode is the convergence point: it gives practitioners a vocabulary beyond 'replaced' or 'safe'. The Microsoft data (58% doing new work) and emerging titles (FDE, Algorithm Auditor, AI Workforce Manager, AI FinOps) tell the same story in job postings. Heading into Q4, the open question is who in your function becomes the Maker first — every function still has that seat open."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+};
+</script>
+<script id="render-engine">
+  // ===================== RENDER ENGINE (do not edit) =====================
+  const STORAGE_KEY = 'brief-tracker-' + BRIEF_DATA.dateStamp + '-v1';
+
+  function loadState() {
+    try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'); }
+    catch (e) { return {}; }
+  }
+  function saveState(s) {
+    try { localStorage.setItem(STORAGE_KEY, JSON.stringify(s)); }
+    catch (e) {}
+  }
+  let state = loadState();
+
+  const collapsed = {};
+
+  function itemId(t, s, i) { return t + '-s' + s + '-i' + i; }
+  function secId(t, s) { return t + '-sec' + s; }
+  function candId(id) { return id + '#c'; }
+
+  // id -> source item data, populated during build(); used by copyFlagged()
+  const ITEM_INDEX = {};
+
+  function tabItemIds(tab) {
+    const ids = [];
+    tab.sections.forEach((sec, s) => sec.items.forEach((it, i) => ids.push(itemId(tab.id, s, i))));
+    return ids;
+  }
+  function allItemIds() {
+    const ids = [];
+    BRIEF_DATA.tabs.forEach(tab => ids.push(...tabItemIds(tab)));
+    return ids;
+  }
+  function esc(str) {
+    return String(str == null ? '' : str);
+  }
+
+  function build() {
+    document.getElementById('date-label').textContent = BRIEF_DATA.dateLabel;
+    document.title = 'Brief Tracker — ' + BRIEF_DATA.dateLabel;
+
+    const progRow = document.getElementById('progress-row');
+    const tabsEl = document.getElementById('tabs');
+    const panelsEl = document.getElementById('panels');
+    progRow.innerHTML = '';
+    tabsEl.innerHTML = '';
+    panelsEl.innerHTML = '';
+
+    BRIEF_DATA.tabs.forEach((tab, ti) => {
+      const active = ti === 0;
+
+      // progress
+      const prog = document.createElement('div');
+      prog.className = 'prog';
+      prog.innerHTML =
+        '<div class="prog-label"><span>' + esc(tab.label) + '</span>' +
+        '<span id="' + tab.id + '-lbl"></span></div>' +
+        '<div class="prog-bar"><div class="prog-fill" id="' + tab.id + '-bar" ' +
+        'style="width:0%;background:' + tab.color + '"></div></div>';
+      progRow.appendChild(prog);
+
+      // tab
+      const tabDiv = document.createElement('div');
+      tabDiv.className = 'tab' + (active ? ' active' : '');
+      tabDiv.id = 'tab-' + tab.id;
+      tabDiv.textContent = tab.label;
+      tabDiv.style.borderColor = active ? tab.color : 'transparent';
+      tabDiv.style.color = active ? tab.color : '';
+      tabDiv.onclick = () => switchTab(tab.id);
+      tabsEl.appendChild(tabDiv);
+
+      // panel
+      const panel = document.createElement('div');
+      panel.className = 'panel' + (active ? ' active' : '');
+      panel.id = 'panel-' + tab.id;
+
+      const banner = document.createElement('div');
+      banner.className = 'all-done-banner';
+      banner.id = tab.id + '-done-banner';
+      banner.textContent = '✓ ' + tab.label.replace(/^[^ ]+ /, '') + ' complete';
+      panel.appendChild(banner);
+
+      if (tab.empty || !tab.sections || tab.sections.length === 0) {
+        const note = document.createElement('div');
+        note.className = 'empty-note';
+        note.innerHTML = tab.empty || 'Nothing to show for this brief today.';
+        panel.appendChild(note);
+      } else {
+        tab.sections.forEach((sec, si) => {
+          const sid = secId(tab.id, si);
+          const section = document.createElement('div');
+          section.className = 'section';
+          section.id = sid;
+
+          const hdr = document.createElement('div');
+          hdr.className = 'section-hdr';
+          hdr.onclick = () => toggleSec(sid);
+          hdr.innerHTML =
+            '<span class="section-title">' + esc(sec.title) + '</span>' +
+            '<span class="section-meta" id="' + sid + '-meta"></span>' +
+            '<span class="chevron">▼</span>';
+          section.appendChild(hdr);
+
+          const itemsWrap = document.createElement('div');
+          itemsWrap.className = 'items';
+          sec.items.forEach((it, ii) => {
+            const iid = itemId(tab.id, si, ii);
+            const item = document.createElement('div');
+            item.className = 'item';
+            item.id = iid;
+            item.onclick = () => toggle(iid);
+
+            const tagsHtml = (it.tags || []).map(tg =>
+              '<span class="tag ' + esc(tg.cls) + '">' + esc(tg.label) + '</span>').join('');
+            const srcHtml = it.source ? '<span class="item-source">' + esc(it.source) + '</span>' : '';
+
+            const body = document.createElement('div');
+            body.className = 'item-body';
+            body.innerHTML =
+              '<div class="item-meta-row">' + tagsHtml + srcHtml + '</div>' +
+              '<div class="item-title"></div>' +
+              '<div class="item-summary"></div>';
+            body.querySelector('.item-title').textContent = esc(it.title);
+            body.querySelector('.item-summary').textContent = esc(it.summary);
+
+            const cb = document.createElement('div');
+            cb.className = 'cb';
+            cb.textContent = '✓';
+
+            // Right-edge zone: flags the item as a story candidate instead of
+            // marking it read. Stops propagation so it never toggles read state.
+            const flagZone = document.createElement('div');
+            flagZone.className = 'flag-zone';
+            flagZone.textContent = '★';
+            flagZone.title = 'Flag as story candidate';
+            flagZone.onclick = (e) => { e.stopPropagation(); toggleFlag(iid); };
+
+            ITEM_INDEX[iid] = { tab: tab.label, section: sec.title, item: it };
+
+            item.appendChild(cb);
+            item.appendChild(body);
+            item.appendChild(flagZone);
+            itemsWrap.appendChild(item);
+          });
+          section.appendChild(itemsWrap);
+          panel.appendChild(section);
+        });
+      }
+      panelsEl.appendChild(panel);
+    });
+  }
+
+  function toggle(id) {
+    state[id] = !state[id];
+    saveState(state);
+    render();
+  }
+  function toggleFlag(id) {
+    const k = candId(id);
+    state[k] = !state[k];
+    saveState(state);
+    render();
+  }
+  function flaggedIds() {
+    return allItemIds().filter(id => state[candId(id)]);
+  }
+  function flaggedMarkdown() {
+    const lines = ['# Story candidates — ' + BRIEF_DATA.dateLabel, ''];
+    let lastTab = null;
+    flaggedIds().forEach(id => {
+      const rec = ITEM_INDEX[id];
+      if (!rec) return;
+      if (rec.tab !== lastTab) { lines.push('## ' + rec.tab, ''); lastTab = rec.tab; }
+      lines.push('### ' + rec.item.title);
+      const meta = [];
+      if (rec.item.source) meta.push('Source: ' + rec.item.source);
+      meta.push('Section: ' + rec.section);
+      if (state[id]) meta.push('read');
+      lines.push('*' + meta.join(' · ') + '*', '');
+      if (rec.item.summary) lines.push(rec.item.summary, '');
+    });
+    return lines.join('\n');
+  }
+
+  // Artifacts render in a sandboxed iframe, where both navigator.clipboard and
+  // execCommand('copy') are commonly blocked. So the reliable path is showing the
+  // text in a selectable textarea; the clipboard attempt is a bonus, not the plan.
+  function copyFlagged() {
+    if (!flaggedIds().length) return;
+    const ta = document.getElementById('export-text');
+    ta.value = flaggedMarkdown();
+    document.getElementById('export-title').textContent =
+      flaggedIds().length + ' flagged story candidate' + (flaggedIds().length === 1 ? '' : 's');
+    document.getElementById('export-status').textContent = '';
+    document.getElementById('export-overlay').classList.add('show');
+    selectExport();
+  }
+  function selectExport() {
+    const ta = document.getElementById('export-text');
+    ta.focus();
+    ta.setSelectionRange(0, ta.value.length);
+  }
+  function closeExport() {
+    document.getElementById('export-overlay').classList.remove('show');
+  }
+  function tryCopyExport() {
+    const ta = document.getElementById('export-text');
+    const st = document.getElementById('export-status');
+    const ok = () => { st.textContent = '✓ copied to clipboard'; };
+    const fail = () => { st.textContent = 'Clipboard blocked — select the text above and copy manually.'; };
+    selectExport();
+    try {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(ta.value).then(ok, () => {
+          try { document.execCommand('copy') ? ok() : fail(); } catch (e2) { fail(); }
+        });
+      } else {
+        document.execCommand('copy') ? ok() : fail();
+      }
+    } catch (e) { fail(); }
+  }
+  function toggleSec(id) {
+    collapsed[id] = !collapsed[id];
+    document.getElementById(id).classList.toggle('collapsed', collapsed[id]);
+  }
+  function switchTab(tabId) {
+    BRIEF_DATA.tabs.forEach(tab => {
+      const t = document.getElementById('tab-' + tab.id);
+      const p = document.getElementById('panel-' + tab.id);
+      const on = tab.id === tabId;
+      t.classList.toggle('active', on);
+      t.style.borderColor = on ? tab.color : 'transparent';
+      t.style.color = on ? tab.color : '';
+      p.classList.toggle('active', on);
+    });
+  }
+  function markAllRead() {
+    allItemIds().forEach(id => { state[id] = true; });
+    saveState(state);
+    render();
+  }
+  function resetAll() {
+    // Clears read marks only — flagged story candidates are deliberately kept.
+    allItemIds().forEach(id => { delete state[id]; });
+    saveState(state);
+    render();
+  }
+
+  function render() {
+    allItemIds().forEach(id => {
+      const el = document.getElementById(id);
+      if (!el) return;
+      el.classList.toggle('read', !!state[id]);
+      el.classList.toggle('flagged', !!state[candId(id)]);
+    });
+
+    const nFlagged = flaggedIds().length;
+    const flagBtn = document.getElementById('flag-btn');
+    if (flagBtn) {
+      flagBtn.textContent = (nFlagged ? '★ ' : '☆ ') + nFlagged + ' flagged';
+      flagBtn.classList.toggle('none', nFlagged === 0);
+      flagBtn.title = nFlagged ? 'Copy flagged items as markdown' : 'Click the ★ on the right of an item to flag it';
+    }
+
+    BRIEF_DATA.tabs.forEach(tab => {
+      tab.sections.forEach((sec, si) => {
+        const ids = sec.items.map((it, ii) => itemId(tab.id, si, ii));
+        const r = ids.filter(id => state[id]).length;
+        const t = ids.length;
+        const meta = document.getElementById(secId(tab.id, si) + '-meta');
+        if (meta) {
+          if (t > 0 && r === t) { meta.textContent = '✓ done'; meta.classList.add('done'); }
+          else { meta.textContent = r + '/' + t; meta.classList.remove('done'); }
+        }
+      });
+
+      const ids = tabItemIds(tab);
+      const r = ids.filter(id => state[id]).length;
+      const t = ids.length;
+      const lbl = document.getElementById(tab.id + '-lbl');
+      const bar = document.getElementById(tab.id + '-bar');
+      if (lbl) lbl.textContent = r + ' / ' + t;
+      if (bar) bar.style.width = (t ? (r / t * 100) : 0) + '%';
+      const banner = document.getElementById(tab.id + '-done-banner');
+      if (banner) banner.classList.toggle('show', t > 0 && r === t);
+    });
+  }
+
+  build();
+  render();
+</script>
+</body>
+</html>

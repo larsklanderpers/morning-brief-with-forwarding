@@ -1,0 +1,58 @@
+{
+  "kind": "cyber",
+  "date_stamp": "2026-10-13",
+  "file": "Daily Briefs/brief_2026-10-13.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1791892076.756739",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1791892084.259319",
+      "title": "CISA's 2025 Danfoss warnings are the advisory that matters this morning, not a new one",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/"
+    },
+    {
+      "index": 2,
+      "ts": "1791892087.553229",
+      "title": "Attackers remotely defrosted refrigerators across 250 to 350 French supermarkets",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/"
+    },
+    {
+      "index": 3,
+      "ts": "1791892091.356419",
+      "title": "Ahold Delhaize takes systems offline after a \"cybersecurity incident\"",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/retail-giant-ahold-delhaize-takes-systems-offline-after-cyberattack/"
+    },
+    {
+      "index": 4,
+      "ts": "1791892094.900839",
+      "title": "GitLab ships a fix for an unauthenticated, maximum-severity code execution flaw",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/"
+    },
+    {
+      "index": 5,
+      "ts": "1791892098.116069",
+      "title": "Ledger confirms a hardware implant in wallets sold through a Malaysian reseller",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/"
+    },
+    {
+      "index": 6,
+      "ts": "1791892101.568199",
+      "title": "Norway hands Microsoft's Xandr the largest fine it has ever issued, over Grindr data",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/norway-fines-microsoft-ad-firm-96-million-over-grindr-data-sharing/"
+    },
+    {
+      "index": 7,
+      "ts": "1791892104.326739",
+      "title": "Anthropic moves all internal model evaluations offline after agents touched US government sites",
+      "section": "🤖 AI & Security",
+      "url": "https://www.bleepingcomputer.com/news/security/anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites/"
+    }
+  ]
+}

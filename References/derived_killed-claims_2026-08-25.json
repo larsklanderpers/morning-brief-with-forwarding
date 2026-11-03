@@ -1,0 +1,3600 @@
+{
+ "_README": "DERIVED ARTIFACT - do not hand-edit. Generated 2026-08-25 from the do-not-print blocks in References/research_*.md and week-plan_*.md accuracy watchlists. The research notes are the source of truth; regenerate rather than editing. See References/DESIGN_brief-radar_2026-08-25.md sec 4.4.",
+ "generated": "2026-08-25",
+ "count": 243,
+ "claims": [
+  {
+   "id": "115k-tech-layoffs-through-may",
+   "claim": "115,000 tech layoffs through May 2026, approaching all of 2025's 124,000",
+   "verdict": "STALE",
+   "correction": "No source prints exactly 115,000. Use 125,759 (Layoffs.fyi, 6 Aug) or 149,023 (Challenger YTD). 2025 total was 123,941 at 269 companies. Name one tracker; never blend.",
+   "killed_on": "2026-07-21",
+   "source_file": "research_it-layoffs-h1-2026_2026-07-21.md, research_story-candidates_2026-08-17.md, research_story-candidates_2026-08-23.md",
+   "regenerations": 3,
+   "match_strings": [
+    "115,000",
+    "115K",
+    "124,000",
+    "approaching all of 2025"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "approaching-2025-total",
+   "claim": "\"approaching all of 2025's total\" (tech layoffs)",
+   "verdict": "STALE",
+   "correction": "Overtaken \u2014 2026 passed the 2025 total in early August.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "approaching all of 2025",
+    "approaching all of 2025's total"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "meta-amazon-snap-citing-ai",
+   "claim": "\"Meta, Amazon and Snap citing AI\" for their layoffs",
+   "verdict": "MISCHARACTERISED",
+   "correction": "Meta and Snap explicit; Amazon framed its cuts as bureaucracy/culture with AI as enabler \u2014 say \"AI-adjacent,\" not \"citing AI.\"",
+   "killed_on": "2026-07-21",
+   "source_file": "research_it-layoffs-h1-2026_2026-07-21.md, research_story-candidates_2026-08-23.md",
+   "regenerations": 1,
+   "match_strings": [
+    "Meta, Amazon and Snap",
+    "Meta, Amazon, and Snap",
+    "citing AI"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "yahoo-engadget-165000-tracker",
+   "claim": "the \">165,000\" layoffs tracker figure (Yahoo/Engadget)",
+   "verdict": "MISCHARACTERISED",
+   "correction": "Inflates by counting multi-year programmes in full (e.g. Oracle's 21,000-over-12-months). Don't use.",
+   "killed_on": "2026-07-21",
+   "source_file": "research_it-layoffs-h1-2026_2026-07-21.md",
+   "regenerations": 0,
+   "match_strings": [
+    "165,000",
+    ">165,000"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "block-50pc-workforce",
+   "claim": "Block cut \"50% of workforce\"",
+   "verdict": "REFUTED",
+   "correction": "Almost certainly wrong \u2014 use ~4,000. (The Block cut is February 2026, six months old.)",
+   "killed_on": "2026-07-21",
+   "source_file": "research_it-layoffs-h1-2026_2026-07-21.md, research_story-candidates_2026-08-17.md",
+   "regenerations": 1,
+   "match_strings": [
+    "50% of workforce",
+    "Block cut 40%",
+    "Block cut 50%"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "coca-cola-two-executives-myth",
+   "claim": "\"only two executives, each knows half, never fly on the same plane\" (Coca-Cola formula)",
+   "verdict": "REFUTED",
+   "correction": "A myth. Coca-Cola says \"a few people\"; Snopes/Africa Check rate it false. Usable instead: the recipe spent 86 years in a bank vault before Coca-Cola built it its own shrine.",
+   "killed_on": "2026-07-23",
+   "source_file": "research_secret-sauce-ip-defense_2026-07-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "never fly on the same plane",
+    "each knows half",
+    "two executives"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "kimi-k3-swebench-934",
+   "claim": "Kimi K3's 93.4% SWE-bench Verified score, printed bare",
+   "verdict": "MISCHARACTERISED",
+   "correction": "It is Moonshot's own claim. UK AISI/CAISI published only a preliminary cyber assessment 23 Jul; no independent benchmark verification. Do not print the number bare.",
+   "killed_on": "2026-07-26",
+   "source_file": "research_kimi-k3-weights_2026-07-26.md",
+   "regenerations": 0,
+   "match_strings": [
+    "93.4%",
+    "SWE-bench Verified"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "stanford-under-3pc-first-12-months",
+   "claim": "\"<3% in the first 12 months\" as the comparison baseline for the ~4%/yr AI-exposed contraction",
+   "verdict": "UNSOURCED",
+   "correction": "Has no primary \u2014 cut it. Use the lab's own \"intensified in the nine months since the paper was first released.\" Verified figures: 3.8%/yr contraction for exposed 22\u201325s vs +2.0% for least-exposed.",
+   "killed_on": "2026-07-21",
+   "source_file": "research_control-week-sweep_2026-07-21.md",
+   "regenerations": 0,
+   "match_strings": [
+    "<3%",
+    "first 12 months",
+    "3.8%/yr"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "pwc-6pc-vs-70pc-wage-premium",
+   "claim": "\"~6% wage premium at entry level vs 70%+ at senior\" attributed to PwC",
+   "verdict": "UNSOURCED",
+   "correction": "NOT a PwC figure. The full 2026 Global AI Jobs Barometer PDF was reviewed end to end: no seniority-based wage-premium breakdown anywhere; the only premium is the single aggregate 62%. Keep it out.",
+   "killed_on": "2026-08-02",
+   "source_file": "research_thu-archetypes_2026-08-02.md",
+   "regenerations": 0,
+   "match_strings": [
+    "6% wage premium",
+    "70%+",
+    "62%",
+    "AI Jobs Barometer"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "wage-premium-28-56-vs-62",
+   "claim": "the 28\u201356% AI wage premium set against PwC 2026's 62%",
+   "verdict": "UNSOURCED",
+   "correction": "Still unpinned, open since 6 Aug. Pin one figure with a primary or disown the number in text before anything is drafted.",
+   "killed_on": "2026-08-17",
+   "source_file": "week-plan_2026-08-17.md",
+   "regenerations": 0,
+   "match_strings": [
+    "28\u201356%",
+    "28-56%",
+    "62% wage premium"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "eo-deadline-lapsed",
+   "claim": "\"the federal government failed to deliver on the mandates\" / the AI framework deadline lapsed and nothing was delivered",
+   "verdict": "REFUTED",
+   "correction": "Contradicted by the 3 August 2026 White House statement announcing the voluntary framework. If any of that made it into a draft, cut it.",
+   "killed_on": "2026-08-09",
+   "source_file": "research_us-ai-eo-status_2026-08-02.md, research_eo14409recheck_20260809.md, week-plan_2026-08-10.md",
+   "regenerations": 1,
+   "match_strings": [
+    "deadline lapsed",
+    "failed to deliver on the mandates",
+    "EO 14409"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "yahoo-forkast-column",
+   "claim": "Yahoo Finance / Forkast, \"White House AI Framework Deadline Lapses\" (Lena Park, 31 July 2026) cited as reporting",
+   "verdict": "REFUTED",
+   "correction": "Opinion column, no named sources or primary documents. Do not cite. Recycled by KuCoin, Neomanex, Cryptobriefing, Vorp Labs. Note it still ranks first in search.",
+   "killed_on": "2026-08-09",
+   "source_file": "research_eo14409recheck_20260809.md, week-plan_2026-08-10.md",
+   "regenerations": 0,
+   "match_strings": [
+    "Forkast",
+    "Lena Park",
+    "White House AI Framework Deadline Lapses"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "private-ai-cost-parity",
+   "claim": "a ~$10K private-AI box breaks even against cloud inference in 3\u20136 months at 50,000 queries/month",
+   "verdict": "REFUTED",
+   "correction": "The 50,000 figure appears in neither source (Petronella says 100K+). Real break-even is ~33 months gross, 50\u2013100 months net of power. 3\u20136 months needs 280,000\u2013550,000 queries/month. The defensible economic argument is per-seat licensing, not per-token inference.",
+   "killed_on": "2026-08-10",
+   "source_file": "research_story-candidates_2026-08-10.md",
+   "regenerations": 0,
+   "match_strings": [
+    "50,000 queries",
+    "PetronellaTech",
+    "LocalAIMaster",
+    "$9,880"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "breach-cost-4-7m",
+   "claim": "$4.7M as an AI-related breach cost figure",
+   "verdict": "UNSOURCED",
+   "correction": "No primary. Nearest real figure is IBM Cost of a Data Breach 2025: $4.74M for orgs with high shadow-AI levels.",
+   "killed_on": "2026-08-10",
+   "source_file": "research_story-candidates_2026-08-10.md",
+   "regenerations": 0,
+   "match_strings": [
+    "$4.7M",
+    "$4.74M"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "personal-accounts-criminal-hands",
+   "claim": "\"employees' personal accounts are already in criminal hands\"",
+   "verdict": "UNSOURCED",
+   "correction": "Not sourced \u2014 Okta's finding is largely fraud against providers; Unit 42's is stolen developer keys.",
+   "killed_on": "2026-08-10",
+   "source_file": "research_story-candidates_2026-08-10.md",
+   "regenerations": 0,
+   "match_strings": [
+    "already in criminal hands",
+    "personal accounts"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "unit42-tens-of-millions-api-calls",
+   "claim": "Unit 42's \"tens of millions of API calls per day\"",
+   "verdict": "UNSOURCED",
+   "correction": "An unsourced capability estimate, not a measurement.",
+   "killed_on": "2026-08-10",
+   "source_file": "research_story-candidates_2026-08-10.md",
+   "regenerations": 0,
+   "match_strings": [
+    "tens of millions of API calls"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "glean-87pc-use-ai",
+   "claim": "\"87% use AI\"",
+   "verdict": "MISCHARACTERISED",
+   "correction": "Glean's own caveat concedes \"The sample skews higher on AI adoption, seniority, and digitally intensive sectors,\" and the population is \"digital workers.\" Bare, it is wrong.",
+   "killed_on": "2026-08-12",
+   "source_file": "research_story-candidates_2026-08-12.md, week-plan_2026-08-17.md",
+   "regenerations": 1,
+   "match_strings": [
+    "87% use AI",
+    "87%",
+    "Work AI Index"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "glean-11-hours-saved",
+   "claim": "\"11 hrs/week saved\" as a realised saving",
+   "verdict": "MISCHARACTERISED",
+   "correction": "Self-reported counterfactual, scope-limited to \"through automation alone\" \u2014 and contradicted roughly 3:1 by Section's AI Proficiency Report (n=5,000): 68% save four hours or less per week.",
+   "killed_on": "2026-08-12",
+   "source_file": "research_story-candidates_2026-08-12.md, week-plan_2026-08-17.md",
+   "regenerations": 1,
+   "match_strings": [
+    "11 hrs",
+    "11 hours",
+    "through automation alone"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "glean-half-savings-reabsorbed",
+   "claim": "\"half the savings are reabsorbed\"",
+   "verdict": "MISCHARACTERISED",
+   "correction": "Arithmetic on two correlated self-reports from the same respondents. Not a measurement. Safe alternative: \"6.4 hours a week botsitting\" \u2014 botsitting is Glean's coinage.",
+   "killed_on": "2026-08-12",
+   "source_file": "research_story-candidates_2026-08-12.md",
+   "regenerations": 0,
+   "match_strings": [
+    "half the savings",
+    "reabsorbed",
+    "6.4 hours"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "verification-debt-decomposition",
+   "claim": "\"verification debt, context reconstruction, compliance friction\" attributed to the Glean study",
+   "verdict": "MISATTRIBUTED",
+   "correction": "These terms do not appear in the Glean report. They are the Substack author's framing. Do not attribute that four-part decomposition to any study.",
+   "killed_on": "2026-08-12",
+   "source_file": "research_story-candidates_2026-08-12.md",
+   "regenerations": 0,
+   "match_strings": [
+    "verification debt",
+    "context reconstruction",
+    "compliance friction"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "glean-1-in-8",
+   "claim": "\"1 in 8\" (workers helped by AI) without the word \"significantly\"",
+   "verdict": "MISCHARACTERISED",
+   "correction": "Glean measured significantly better. Dropping the adverb converts \"not transformative\" into \"no help at all.\" The same report says 75% say it makes them more productive.",
+   "killed_on": "2026-08-12",
+   "source_file": "research_story-candidates_2026-08-12.md",
+   "regenerations": 0,
+   "match_strings": [
+    "1 in 8",
+    "one in eight"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "cost-per-accepted-task-analyst",
+   "claim": "\"Cost-per-Accepted-Task Analyst\" as a job title",
+   "verdict": "UNSOURCED",
+   "correction": "Zero live postings, zero historical postings, zero named employers across LinkedIn, Indeed, ZipRecruiter, Greenhouse, Lever, Ashby. It is AIDB's descriptive coinage for a function \u2014 say so rather than hedging the posting volume. The metric is real and traces to McKinsey's \"cost per completed task.\"",
+   "killed_on": "2026-08-12",
+   "source_file": "research_saturday-verify-items_2026-08-12.md",
+   "regenerations": 0,
+   "match_strings": [
+    "Cost-per-Accepted-Task Analyst",
+    "Accepted Task Analyst",
+    "cost per accepted task"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "mckinsey-60pc-refining",
+   "claim": "\"about 60 percent of an agentic task's costs are tied to refining answers\" as McKinsey research",
+   "verdict": "MISATTRIBUTED",
+   "correction": "McKinsey's own footnote attributes it to Salim, Latendresse, Khatoonabadi & Shihab, arXiv:2601.14470, 20 Jan 2026 \u2014 and the paper says 59.4%, measured on agentic software-engineering workflows only.",
+   "killed_on": "2026-08-12",
+   "source_file": "research_saturday-verify-items_2026-08-12.md",
+   "regenerations": 0,
+   "match_strings": [
+    "60 percent of an agentic task",
+    "59.4%",
+    "2601.14470",
+    "Tokenomics"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "agentic-5-30x-mckinsey",
+   "claim": "\"agentic work costs 5\u201330x a simple chat\" attributed to McKinsey",
+   "verdict": "MISATTRIBUTED",
+   "correction": "McKinsey says something different in both directions (~1,000x tokens vs chat; factor-of-30 variance between runs of the same task). The 5\u201330x traces to Gartner, March 2026, reached only through vendor blogs. Treat as unverified.",
+   "killed_on": "2026-08-12",
+   "source_file": "research_saturday-verify-items_2026-08-12.md",
+   "regenerations": 0,
+   "match_strings": [
+    "5\u201330x",
+    "5-30x",
+    "1,000x"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "company-consensus-rehire-senior",
+   "claim": "\"The company consensus is that orgs that rushed to lay people off for AI savings are finding they need to re-hire for senior roles.\"",
+   "verdict": "UNSOURCED",
+   "correction": "\"Company consensus\" is not an attribution. Must not enter a draft in this form \u2014 replace with Robert Half or Orgvue, named and dated.",
+   "killed_on": "2026-08-05",
+   "source_file": "research_naming-diagnostic_2026-08-05.md",
+   "regenerations": 0,
+   "match_strings": [
+    "company consensus",
+    "re-hire for senior roles",
+    "rushed to lay people off"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "patch-tuesday-421-62-357",
+   "claim": "August 2026 Patch Tuesday as \"421 CVEs, 62 critical, 357 important\"",
+   "verdict": "REFUTED",
+   "correction": "The three figures come from incompatible counts and do not sum (421 \u2212 62 = 359). 421 = Rapid7/SecurityWeek \u00b7 418 = SANS ISC \u00b7 400 = BleepingComputer \u00b7 398 = ZDI/Tenable. There is no primary count; MSRC publishes no total. Write \"roughly 400\" or \"398\u2013421 depending on who is counting,\" and name the counter.",
+   "killed_on": "2026-08-14",
+   "source_file": "research_story-candidates_2026-08-14.md, week-plan_2026-08-17.md, week-plan_2026-08-24.md",
+   "regenerations": 0,
+   "match_strings": [
+    "421 CVEs",
+    "357 important",
+    "62 critical",
+    "398 CVEs"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "patch-tuesday-record",
+   "claim": "August 2026 Patch Tuesday was a \"record\"",
+   "verdict": "REFUTED",
+   "correction": "July 2026 was the record at 570. Aug 2025 was 107 \u2014 roughly 3.7\u20133.9x year-on-year, which is the defensible framing and sharper than \"record.\"",
+   "killed_on": "2026-08-14",
+   "source_file": "research_story-candidates_2026-08-14.md, week-plan_2026-08-17.md, week-plan_2026-08-24.md",
+   "regenerations": 0,
+   "match_strings": [
+    "record",
+    "570",
+    "107 CVEs",
+    "3.7x"
+   ],
+   "match_note": "\"record\" alone is generic \u2014 pair it with 570/107 or with a Patch Tuesday context match.",
+   "expiry_risk": "low"
+  },
+  {
+   "id": "patch-tuesday-tripled",
+   "claim": "\"Patch Tuesday volumes tripled in 2026\"",
+   "verdict": "REFUTED",
+   "correction": "Jan 113 vs Aug 398 is month variance, not a trend.",
+   "killed_on": "2026-08-16",
+   "source_file": "research_story-candidates_2026-08-16.md",
+   "regenerations": 0,
+   "match_strings": [
+    "volumes tripled",
+    "tripled in 2026"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "cve-2026-62878-wormable",
+   "claim": "CVE-2026-62878 (Windows DNS Server) described as \"wormable\"",
+   "verdict": "MISATTRIBUTED",
+   "correction": "\"Wormable\" appears nowhere in Microsoft's advisory \u2014 it is ZDI's word and must be attributed in the same sentence. Microsoft's record: Exploited No \u00b7 Publicly Disclosed No \u00b7 \"Exploitation Less Likely,\" attacker \"could\" exploit. Microsoft rates WDS TFTP (CVE-2026-62893) more likely than DNS.",
+   "killed_on": "2026-08-14",
+   "source_file": "research_story-candidates_2026-08-14.md, week-plan_2026-08-24.md",
+   "regenerations": 0,
+   "match_strings": [
+    "CVE-2026-62878",
+    "wormable",
+    "Exploitation Less Likely"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "three-98-unauth-rces",
+   "claim": "enumerating the August 2026 CVSS 9.8 unauthenticated RCEs as a closed list of three",
+   "verdict": "MISCHARACTERISED",
+   "correction": "There are four, not three \u2014 DNS (CVE-2026-62878), QUIC (CVE-2026-62815), WDS TFTP (CVE-2026-62893); the fourth is unpinned. Do not enumerate as a closed list.",
+   "killed_on": "2026-08-14",
+   "source_file": "research_story-candidates_2026-08-14.md",
+   "regenerations": 0,
+   "match_strings": [
+    "CVE-2026-62815",
+    "CVE-2026-62893",
+    "three 9.8",
+    "four 9.8"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "cve-2026-68820-as-rce",
+   "claim": "CVE-2026-68820 characterised as a remote / unauthenticated / wormable RCE, Critical severity",
+   "verdict": "MISCHARACTERISED",
+   "correction": "It is an elevation of privilege: \"Use after free in Windows Ancillary Function Driver for WinSock allows an authorized attacker to elevate privileges locally.\" CVSS 7.0 (AV:L/AC:H/PR:L), Important not Critical, \"requires an attacker to win a race condition.\" Exploited: Yes; KEV cisaExploitAdd 2026-08-11, due 2026-08-25 under BOD 26-04. \"Zero-day\" is accurate.",
+   "killed_on": "2026-08-14",
+   "source_file": "research_story-candidates_2026-08-14.md, research_story-candidates_2026-08-17.md, research_story-candidates_2026-08-19.md, research_displacement-science_2026-08-24.md, week-plan_2026-08-24.md",
+   "regenerations": 3,
+   "match_strings": [
+    "CVE-2026-68820",
+    "WinSock",
+    "remote code execution",
+    "CVSS 7.0"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "cve-2026-68820-taskhost-april-ransomware",
+   "claim": "any sentence containing \"Task Host,\" \"April,\" \"ransomware\" or \"confirmed\" against CVE-2026-68820",
+   "verdict": "REFUTED",
+   "correction": "Four assertions refuted; the KEV ransomware field is Unknown. This was the second consecutive regeneration of the same CVE with a bigger claim each time.",
+   "killed_on": "2026-08-19",
+   "source_file": "research_story-candidates_2026-08-19.md",
+   "regenerations": 2,
+   "match_strings": [
+    "CVE-2026-68820",
+    "Task Host",
+    "ransomware"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "lazarus-attribution-68820",
+   "claim": "attributing CVE-2026-68820 exploitation to Lazarus / Operation Dream Job as CISA's or Microsoft's finding",
+   "verdict": "MISATTRIBUTED",
+   "correction": "The Lazarus / Dream Job attribution is Check Point Research's, not CISA's and not Microsoft's.",
+   "killed_on": "2026-08-14",
+   "source_file": "research_story-candidates_2026-08-14.md, research_story-candidates_2026-08-17.md, week-plan_2026-08-24.md",
+   "regenerations": 1,
+   "match_strings": [
+    "Lazarus",
+    "Dream Job",
+    "CVE-2026-68820"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "vcenter-mass-compromised-five-days",
+   "claim": "vCenter \"mass-compromised within five days\"",
+   "verdict": "REFUTED",
+   "correction": "CVE-2026-59310. 361 victim IPs (not hosts, not organisations) from QUIRSO GmbH, methodology undisclosed; their own caveat says an IP \"does not necessarily correspond to a unique company or physical system.\" Five days = time to first observed exploitation (29 Jul advisory \u2192 3 Aug). APT is \"suspected\" and unnamed. Not in CISA KEV; Broadcom acknowledges no exploitation.",
+   "killed_on": "2026-08-14",
+   "source_file": "research_story-candidates_2026-08-14.md, week-plan_2026-08-17.md, week-plan_2026-08-24.md",
+   "regenerations": 0,
+   "match_strings": [
+    "CVE-2026-59310",
+    "mass-compromised",
+    "361",
+    "QUIRSO"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "adobe-commerce-active-exploit",
+   "claim": "Adobe Commerce CVE-2026-71362 \"under active exploit\"",
+   "verdict": "REFUTED",
+   "correction": "Adobe's own bulletin APSB26-92 (11 Aug, priority 2): \"Adobe is not aware of any exploits in the wild for any of the issues addressed in these updates.\" The exploitation claim is Sansec's, which sells the Magento WAF. Blocked WAF attempts are not compromise. Not in KEV.",
+   "killed_on": "2026-08-14",
+   "source_file": "research_story-candidates_2026-08-14.md, week-plan_2026-08-17.md, week-plan_2026-08-24.md",
+   "regenerations": 0,
+   "match_strings": [
+    "CVE-2026-71362",
+    "Sansec",
+    "APSB26-92",
+    "under active exploit"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "adobe-cvss-98",
+   "claim": "CVE-2026-71362 at CVSS 9.8",
+   "verdict": "REFUTED",
+   "correction": "CVSS is 9.1. BleepingComputer prints 9.8 \u2014 do not inherit it.",
+   "killed_on": "2026-08-14",
+   "source_file": "research_story-candidates_2026-08-14.md, week-plan_2026-08-24.md",
+   "regenerations": 0,
+   "match_strings": [
+    "CVE-2026-71362",
+    "9.8",
+    "9.1"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "gunra-nine-sectors",
+   "claim": "Gunra ransomware hit \"nine sectors\" and expanded its sector spread",
+   "verdict": "REFUTED",
+   "correction": "Ten sectors are named in joint advisory AA26-222A (10 Aug 2026, FBI/CISA/DC3/NSA/USSS/Korean NPA), and the expansion sentence is about the RaaS affiliate programme, not sector spread. No total victim count is given.",
+   "killed_on": "2026-08-14",
+   "source_file": "research_story-candidates_2026-08-14.md, week-plan_2026-08-17.md",
+   "regenerations": 0,
+   "match_strings": [
+    "Gunra",
+    "nine sectors",
+    "AA26-222A"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "gunra-80-victims",
+   "claim": "\"Gunra: 80+ victims, since mid-2026\"",
+   "verdict": "REFUTED",
+   "correction": "Neither figure is in AA26-222A. Gunra was first observed April 2025.",
+   "killed_on": "2026-08-19",
+   "source_file": "research_story-candidates_2026-08-19.md",
+   "regenerations": 0,
+   "match_strings": [
+    "Gunra",
+    "80+ victims",
+    "mid-2026"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "darktrace-percentages-as-incidence",
+   "claim": "Darktrace's percentages presented as incidence \u2014 \"top AI-driven threats are\u2026\"",
+   "verdict": "MISCHARACTERISED",
+   "correction": "They are self-reported worries: \"50% of security leaders mentioned hyper-personalized phishing campaigns as one of their biggest worries\"; 45% listed automated vulnerability scanning among biggest concerns; 40% adaptive malware; 40% deepfake voice fraud.",
+   "killed_on": "2026-08-14",
+   "source_file": "research_story-candidates_2026-08-14.md, week-plan_2026-08-24.md",
+   "regenerations": 0,
+   "match_strings": [
+    "Darktrace",
+    "biggest worries",
+    "hyper-personalized phishing"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "darktrace-67pc-agentic",
+   "claim": "\"67% have deployed agentic AI for security ops\"",
+   "verdict": "MISCHARACTERISED",
+   "correction": "Verbatim: \"67% report that theirs uses agentic AI\" \u2014 i.e. present in tooling, vendor-supplied features included. Denominator ambiguous (if the base is the 77% with AI in the stack, the absolute is ~52%). Population \"over 1,500 security leaders\"; regions, recruitment, fieldwork provider and dates not disclosed.",
+   "killed_on": "2026-08-14",
+   "source_file": "research_story-candidates_2026-08-14.md, week-plan_2026-08-24.md",
+   "regenerations": 0,
+   "match_strings": [
+    "67%",
+    "agentic AI",
+    "1,500 security leaders"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "state-of-ai-cybersecurity-csa",
+   "claim": "\"State of AI Cybersecurity 2026\" attributed to the Cloud Security Alliance",
+   "verdict": "MISATTRIBUTED",
+   "correction": "It is Darktrace's report; the CSA blog says \"Originally published by Darktrace.\" A vendor survey laundered into an industry-body finding \u2014 by a vendor selling both the detection tooling and the agentic SOC product whose adoption it measures.",
+   "killed_on": "2026-08-14",
+   "source_file": "research_story-candidates_2026-08-14.md, week-plan_2026-08-17.md, week-plan_2026-08-24.md",
+   "regenerations": 0,
+   "match_strings": [
+    "State of AI Cybersecurity",
+    "Cloud Security Alliance",
+    "Darktrace"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "aura-shinyhunters",
+   "claim": "the Aura breach attributed to ShinyHunters",
+   "verdict": "MISATTRIBUTED",
+   "correction": "A name collision. Wikipedia's actor citations all belong to ShinyHunters' Salesforce Aura campaign against the /s/sfsites/aura endpoint. Aura named no actor and no intrusion date. Drop the Wikipedia citation entirely; it is carrying the error. (Attribution IS sound for Questel \u2014 do not let that bleed backwards.)",
+   "killed_on": "2026-08-14",
+   "source_file": "research_story-candidates_2026-08-14.md, week-plan_2026-08-17.md, week-plan_2026-08-24.md, research_story-candidates_2026-08-23.md",
+   "regenerations": 1,
+   "match_strings": [
+    "Aura",
+    "ShinyHunters",
+    "sfsites/aura"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "aura-900k-records",
+   "claim": "the Aura breach as ~900,000 customer records",
+   "verdict": "MISCHARACTERISED",
+   "correction": "\"Approximately 900,000 records\" is a marketing contact list \"almost exclusively from a company that Aura acquired five years ago\"; identifiable customers are <20,000 active + <15,000 former. One employee, ~one hour of access. \"No Social Security numbers, passwords, or financial information.\"",
+   "killed_on": "2026-08-24",
+   "source_file": "week-plan_2026-08-24.md",
+   "regenerations": 0,
+   "match_strings": [
+    "900,000",
+    "Aura",
+    "20,000 active"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "34-proactive-agents",
+   "claim": "\"Allie K. Miller runs 34 proactive agents\"",
+   "verdict": "UNSOURCED",
+   "correction": "LIFTED 2026-08-23 \u2014 the corpus was wrong. The number is real and hers, and it is also the headline figure on the landing page selling her $297 AI-First Academy and paid Agent Mastermind. Attribute, and name the $297 course in the same breath. (Killed 14 Aug as \"no primary states 34\"; the verification pass had missed her own domain, her own captions and a podcast episode published two days earlier \u2014 the corpus's first KILLED-CLAIM FALSE POSITIVE.)",
+   "killed_on": "2026-08-14",
+   "source_file": "research_story-candidates_2026-08-14.md, research_story-candidates_2026-08-16.md, week-plan_2026-08-17.md, week-plan_2026-08-24.md, research_story-candidates_2026-08-23.md",
+   "regenerations": 2,
+   "match_strings": [
+    "34 agents",
+    "34 proactive agents",
+    "Allie Miller",
+    "Allie K. Miller"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "isenberg-episode-29k-views",
+   "claim": "a Greg Isenberg episode with Allie K. Miller with ~29K views",
+   "verdict": "UNSOURCED",
+   "correction": "LIFTED 2026-08-23. Killed 14 Aug as \"the cited artifact does not exist\" \u2014 the agent-workforce video that does exist is The Information's, 28 Jun 2026, with 1,524 views.",
+   "killed_on": "2026-08-14",
+   "source_file": "research_story-candidates_2026-08-14.md, week-plan_2026-08-17.md, week-plan_2026-08-24.md, research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "Isenberg",
+    "1,524 views",
+    "29K views"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "miller-simon-toby-friends-directors",
+   "claim": "the AI chief of staff \"Simon,\" the assistant \"Toby,\" six Friends-named directors, and \"escalate only what needs her\"",
+   "verdict": "UNSOURCED",
+   "correction": "LIFTED 2026-08-23 along with the 34-agent figure. Attribute, and name the $297 course in the same breath.",
+   "killed_on": "2026-08-14",
+   "source_file": "research_story-candidates_2026-08-14.md, week-plan_2026-08-24.md, research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "Simon",
+    "Toby",
+    "escalate only what needs her",
+    "Friends-named"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "miller-stripe-access",
+   "claim": "Allie Miller's Stripe / calendar / email / transcripts access list",
+   "verdict": "REFUTED",
+   "correction": "STILL DO-NOT-PRINT after the 23 Aug lift. Stripe appears in no primary and she argues the opposite: \"You're not going to give it email access\u2026 start with read-only access and then earn trust.\" The list traces to one untraceable caption.",
+   "killed_on": "2026-08-14",
+   "source_file": "research_story-candidates_2026-08-14.md, week-plan_2026-08-24.md, research_story-candidates_2026-08-23.md",
+   "regenerations": 1,
+   "match_strings": [
+    "Stripe access",
+    "read-only access and then earn trust",
+    "transcripts"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "do-smart-things-quote",
+   "claim": "\"do smart things\" as an Allie Miller quotation",
+   "verdict": "UNSOURCED",
+   "correction": "STILL DO-NOT-PRINT after the 23 Aug lift. It appears only in AI-generated aggregator summaries. If used: \"a three-word prompt she has described but which I have not found her stating in her own words.\"",
+   "killed_on": "2026-08-14",
+   "source_file": "research_story-candidates_2026-08-14.md, week-plan_2026-08-24.md, research_story-candidates_2026-08-23.md",
+   "regenerations": 1,
+   "match_strings": [
+    "do smart things"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "codex-browser-use-anything",
+   "claim": "\"Codex Browser Use automates literally anything\"",
+   "verdict": "REFUTED",
+   "correction": "OpenAI's own tense refutes it \u2014 they will \"expand it so Codex can fully command the browser beyond web applications.\" No OpenAI changelog entry for \"Browser Use\" exists. Defensible framing: \"the automation floor dropped for supervised, non-credentialed GUI work.\"",
+   "killed_on": "2026-08-14",
+   "source_file": "research_story-candidates_2026-08-14.md, week-plan_2026-08-17.md",
+   "regenerations": 0,
+   "match_strings": [
+    "Browser Use",
+    "literally anything",
+    "fully command the browser"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "orchestration-is-what-to-learn",
+   "claim": "\"'What should I learn' is converging on orchestration\" / the meta-skills consensus",
+   "verdict": "UNSOURCED",
+   "correction": "No evidence base. Four searches targeting r/ExperiencedDevs and r/cscareerquestions surfaced zero actual threads; every returned source sells orchestration training. Cut, don't hedge. The only honest form is first-person and unquantified.",
+   "killed_on": "2026-08-14",
+   "source_file": "research_story-candidates_2026-08-14.md, week-plan_2026-08-17.md, research_story-candidates_2026-08-17.md, research_story-candidates_2026-08-23.md, research_displacement-science_2026-08-24.md",
+   "regenerations": 4,
+   "match_strings": [
+    "converging on orchestration",
+    "what should I learn",
+    "agentic orchestration"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "orchestrator-widening-every-function",
+   "claim": "\"Orchestrator is widening to every function\"",
+   "verdict": "UNSOURCED",
+   "correction": "Second regeneration of the 14 Aug kill. No evidence base.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 2,
+   "match_strings": [
+    "widening to every function",
+    "Orchestrator is widening"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "highest-value-gap-defensive-hire",
+   "claim": "\"Highest-value gap\" / \"the defensive hire every enterprise needs\"",
+   "verdict": "UNSOURCED",
+   "correction": "Unsourced superlatives.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "highest-value gap",
+    "defensive hire every enterprise"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "architecture-of-work-hiring-taxonomy",
+   "claim": "\"The architecture-of-work model is a hiring taxonomy\"",
+   "verdict": "UNSOURCED",
+   "correction": "No named employer, anywhere.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "architecture-of-work",
+    "hiring taxonomy"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "new-adversarial-eval-frameworks",
+   "claim": "\"New adversarial evaluation frameworks\" shipped",
+   "verdict": "UNSOURCED",
+   "correction": "Nothing shipped and no referent exists. OWASP Top 10 for Agentic Applications 2026 is a risk taxonomy, not a runnable benchmark; AgentDojo, BIPIA, CyberSecEval predate the window. The real event is the UK AISI incident report, already spent Mon 10 Aug.",
+   "killed_on": "2026-08-14",
+   "source_file": "research_story-candidates_2026-08-14.md, week-plan_2026-08-17.md",
+   "regenerations": 0,
+   "match_strings": [
+    "adversarial evaluation frameworks",
+    "AgentDojo",
+    "CyberSecEval"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "cursor-3x-faster",
+   "claim": "Cursor cloud agents are \"3x faster\"",
+   "verdict": "MISCHARACTERISED",
+   "correction": "Cursor's own words: \"it starts in a ready environment so you get a response up to 3x faster.\" Vendor self-measured on their own repos; it measures cold-start elimination via cached environments, not throughput or completion speed. The gain is zero where setup was never the bottleneck.",
+   "killed_on": "2026-08-14",
+   "source_file": "research_story-candidates_2026-08-14.md",
+   "regenerations": 0,
+   "match_strings": [
+    "3x faster",
+    "up to 3x faster",
+    "Cursor"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "boards-pushing-ceos-faster",
+   "claim": "\"Boards are pushing CEOs to move faster on AI\" / \"60% of boards are pressuring management\"",
+   "verdict": "MISCHARACTERISED",
+   "correction": "BCG measured CEOs saying boards are rushing them (61%, Split Decisions, May); boards deny it, 54% / 18%. Do not imply this covers listed companies or Australia, and \"625 leaders\" is not the denominator for the 60%.",
+   "killed_on": "2026-08-16",
+   "source_file": "research_story-candidates_2026-08-16.md, source_ai-leadership-edge-boards_2026-08-16.md, week-plan_2026-08-31.md",
+   "regenerations": 1,
+   "match_strings": [
+    "boards are pushing CEOs",
+    "60% of boards",
+    "625 leaders",
+    "pressuring management"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "board-newsletter-as-observer",
+   "claim": "\"a board-governance newsletter found\u2026\" / \"industry reporting shows boards\u2026\"",
+   "verdict": "MISATTRIBUTED",
+   "correction": "The outlet is written by the founder of a company selling board AI tooling (BoardLens), in an edition sponsored by that company. It is never \"an industry newsletter reports\u2026\" It is the vendor.",
+   "killed_on": "2026-08-16",
+   "source_file": "source_ai-leadership-edge-boards_2026-08-16.md",
+   "regenerations": 0,
+   "match_strings": [
+    "board-governance newsletter",
+    "BoardLens",
+    "industry reporting shows boards"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "yale-brookings-independently",
+   "claim": "\"Yale and Brookings independently found\u2026\" / \"Two independent institutions reached the same conclusion\" / \"Brookings confirmed Yale's finding\"",
+   "verdict": "MISCHARACTERISED",
+   "correction": "Same team \u2014 Martha Gimbel is Executive Director of the Budget Lab and co-authored the Brookings piece. Safe: \"The Brookings analysis was co-written by the Budget Lab's own executive director \u2014 same team, same method, second masthead.\" This is the co-authorship-collapse failure engine.",
+   "killed_on": "2026-08-16",
+   "source_file": "research_story-candidates_2026-08-16.md, research_story-candidates_2026-08-23.md, week-plan_2026-08-31.md",
+   "regenerations": 1,
+   "match_strings": [
+    "Yale and Brookings",
+    "independent institutions",
+    "Gimbel",
+    "Budget Lab"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "brookings-hamilton-piie-three",
+   "claim": "\"Brookings, Hamilton Project and PIIE\" presented as three institutions",
+   "verdict": "MISCHARACTERISED",
+   "correction": "One Kolko article, one event.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "Hamilton Project",
+    "PIIE",
+    "Kolko"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "a16z-as-corroboration",
+   "claim": "a16z cited as a corroborating source alongside Yale",
+   "verdict": "MISCHARACTERISED",
+   "correction": "A synthesis of four papers, one of which is the Yale work cited beside it, with direct portfolio interest in the conclusion. A position, not a confirmation.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "a16z",
+    "corroborat"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "amodei-10-20-unemployment",
+   "claim": "\"Amodei predicted 10\u201320% unemployment\"",
+   "verdict": "MISATTRIBUTED",
+   "correction": "Axios's framing prose, sitting outside the quotation marks, and the verb is \"could\": \"could wipe out half of all entry-level white-collar jobs \u2014 and spike unemployment to 10-20%.\" Three upgrades stacked: could\u2192will, range\u2192ceiling, five-year window\u2192now.",
+   "killed_on": "2026-08-16",
+   "source_file": "research_story-candidates_2026-08-16.md, research_story-candidates_2026-08-17.md, research_displacement-science_2026-08-24.md, week-plan_2026-08-31.md",
+   "regenerations": 2,
+   "match_strings": [
+    "10-20% unemployment",
+    "10\u201320% unemployment",
+    "Amodei predicted"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "amodei-unusually-painful-cnbc",
+   "claim": "\"unusually painful\" as an Amodei remark to CNBC about jobs",
+   "verdict": "MISATTRIBUTED",
+   "correction": "It is from his own essay and modifies the transition, not jobs.",
+   "killed_on": "2026-08-24",
+   "source_file": "research_displacement-science_2026-08-24.md",
+   "regenerations": 0,
+   "match_strings": [
+    "unusually painful"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "amodei-intrinsic-property-5-may",
+   "claim": "the \"intrinsic property\" / wage-insurance / UBI material dated to 5 May 2026",
+   "verdict": "MISATTRIBUTED",
+   "correction": "June 2026, a different document.",
+   "killed_on": "2026-08-24",
+   "source_file": "research_displacement-science_2026-08-24.md",
+   "regenerations": 0,
+   "match_strings": [
+    "intrinsic property",
+    "wage insurance",
+    "5 May 2026"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "forbes-21-feb-doubled-down",
+   "claim": "the Forbes 21 Feb 2026 \"doubled down\" piece used as a source",
+   "verdict": "UNSOURCED",
+   "correction": "Original inaccessible. Cut, or attribute as not-accessed.",
+   "killed_on": "2026-08-24",
+   "source_file": "research_displacement-science_2026-08-24.md",
+   "regenerations": 0,
+   "match_strings": [
+    "doubled down",
+    "Forbes",
+    "21 Feb 2026"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "both-walked-back",
+   "claim": "\"Amodei and Altman both walked back\" their displacement warnings ahead of IPO windows",
+   "verdict": "REFUTED",
+   "correction": "Amodei re-framed (a Jevons argument); only Altman conceded \u2014 \"my intuitions were just off,\" Commonwealth Bank conference with Matt Comyn, 26 May 2026. And the filings (1/8 June) postdate the statements (5/26 May): print the sequence, never the causation.",
+   "killed_on": "2026-08-16",
+   "source_file": "research_story-candidates_2026-08-16.md, research_story-candidates_2026-08-17.md, research_story-candidates_2026-08-23.md, research_displacement-science_2026-08-24.md",
+   "regenerations": 2,
+   "match_strings": [
+    "walked back",
+    "my intuitions were just off",
+    "ahead of IPO"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "90-10-quote-truncated",
+   "claim": "the Amodei 90/10 quote truncated at \"if you automate 90% of the job, then everyone does the 10%\"",
+   "verdict": "MISCHARACTERISED",
+   "correction": "Deleting \"expands to be 100%\u2026 and 10xs their productivity\" inverts a Jevons argument into a concession.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md, research_displacement-science_2026-08-24.md",
+   "regenerations": 1,
+   "match_strings": [
+    "automate 90% of the job",
+    "10xs their productivity",
+    "expands to be 100%"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "ai-layoffs-rounding-error",
+   "claim": "\"AI layoffs are a rounding error\"",
+   "verdict": "REFUTED",
+   "correction": "Factually wrong. AI is 23.6% of YTD announced cuts (112,713 of 477,033) and the #1 stated reason five consecutive months \u2014 while the total pool is DOWN 41% year on year. Andy Challenger's own honest frame: \"AI is still the reason companies give.\"",
+   "killed_on": "2026-08-16",
+   "source_file": "research_story-candidates_2026-08-16.md, week-plan_2026-08-31.md",
+   "regenerations": 1,
+   "match_strings": [
+    "rounding error",
+    "112,713",
+    "23.6%",
+    "477,033"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "bcg-10-15pc-eliminated",
+   "claim": "BCG's \"10\u201315% eliminated\" as a jobs forecast",
+   "verdict": "MISCHARACTERISED",
+   "correction": "BCG: \"not intended to be an unemployment forecast.\"",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md, research_displacement-science_2026-08-24.md",
+   "regenerations": 1,
+   "match_strings": [
+    "10\u201315%",
+    "10-15%",
+    "not intended to be an unemployment forecast"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "bcg-is-the-consensus",
+   "claim": "\"BCG's [estimate] is the consensus\"",
+   "verdict": "MISCHARACTERISED",
+   "correction": "Stanford, OECD and Anthropic's own economist all differ.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "is the consensus",
+    "BCG"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "bcg-2-5x-empathy",
+   "claim": "\"2.5x empathy/judgment/creativity\" attributed to BCG",
+   "verdict": "MISATTRIBUTED",
+   "correction": "Not in the article. Likely PwC.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md, research_displacement-science_2026-08-24.md",
+   "regenerations": 1,
+   "match_strings": [
+    "2.5x",
+    "empathy/judgment/creativity"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "stanford-13-to-19",
+   "claim": "\"Stanford's estimate rose from 13% to 19%\"",
+   "verdict": "MISCHARACTERISED",
+   "correction": "Two different estimators charted as one trend line. Like-for-like on the descriptive measure is 15% \u2192 19%. The firm-fixed-effects estimate is no longer headlined: \"the firm fixed-effects estimates are more sensitive than the raw descriptive results.\"",
+   "killed_on": "2026-08-24",
+   "source_file": "research_displacement-science_2026-08-24.md",
+   "regenerations": 0,
+   "match_strings": [
+    "13% to 19%",
+    "15% \u2192 19%",
+    "firm fixed-effects"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "stanford-16pc-gap",
+   "claim": "\"16%\" as the Brynjolfsson early-career gap in the August 2026 revision",
+   "verdict": "REFUTED",
+   "correction": "16% appears nowhere in the August 2026 revision. The Lab's own history is 15% (Jul 2025 vintage) \u2192 19% (Jun 2026). Lovett's manuscript cites the earlier vintage \u2014 do not blend the two figures or the two windows.",
+   "killed_on": "2026-08-19",
+   "source_file": "research_story-candidates_2026-08-19.md, research_story-candidates_2026-08-23.md, week-plan_2026-08-31.md",
+   "regenerations": 1,
+   "match_strings": [
+    "16%",
+    "Brynjolfsson",
+    "early-career gap"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "stanford-19pc-as-absolute",
+   "claim": "Stanford's \"19%\" as an absolute decline or an unemployment rate",
+   "verdict": "MISCHARACTERISED",
+   "correction": "It is a relative gap between two same-aged groups.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md, week-plan_2026-08-31.md",
+   "regenerations": 1,
+   "match_strings": [
+    "19% below",
+    "19%",
+    "unemployment rate"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "seniority-biased-indeed",
+   "claim": "\"seniority-biased technological change\" attributed to Indeed Hiring Lab",
+   "verdict": "MISATTRIBUTED",
+   "correction": "It is Hosseini Maasoum & Lichtinger, SSRN 5425555. Indeed cites it.",
+   "killed_on": "2026-08-24",
+   "source_file": "research_displacement-science_2026-08-24.md",
+   "regenerations": 0,
+   "match_strings": [
+    "seniority-biased",
+    "Indeed Hiring Lab",
+    "5425555"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "adp-as-ai-measurement",
+   "claim": "ADP payroll data presented as an AI measurement",
+   "verdict": "MISCHARACTERISED",
+   "correction": "It contains no AI identification strategy and the source declines the interpretation. And \"low-hire, low-fire\" is from 14 Oct 2025, not 24 Feb 2026.",
+   "killed_on": "2026-08-24",
+   "source_file": "research_displacement-science_2026-08-24.md",
+   "regenerations": 0,
+   "match_strings": [
+    "ADP",
+    "low-hire, low-fire"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "humlum-vestergaard-1pc",
+   "claim": "\"Humlum & Vestergaard rule out effects larger than 1%\" under the title \"Large Language Models, Small Labor Market Effects\"",
+   "verdict": "REFUTED",
+   "correction": "Withdrawn number, withdrawn title. It is 2%, and the paper is \"Still Waters, Rapid Currents.\"",
+   "killed_on": "2026-08-24",
+   "source_file": "research_displacement-science_2026-08-24.md",
+   "regenerations": 0,
+   "match_strings": [
+    "Humlum",
+    "Small Labor Market Effects",
+    "Still Waters, Rapid Currents"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "acemoglu-tfp-071",
+   "claim": "Acemoglu's TFP figure as 0.71%",
+   "verdict": "REFUTED",
+   "correction": "The published, peer-reviewed value is 0.66%.",
+   "killed_on": "2026-08-24",
+   "source_file": "research_displacement-science_2026-08-24.md",
+   "regenerations": 0,
+   "match_strings": [
+    "0.71%",
+    "0.66%",
+    "Acemoglu"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "acemoglu-restrepo-competing-estimates",
+   "claim": "Acemoglu & Restrepo's 0.39pp and 0.2pp presented as competing estimates",
+   "verdict": "MISCHARACTERISED",
+   "correction": "Local vs aggregate, from the same paper.",
+   "killed_on": "2026-08-24",
+   "source_file": "research_displacement-science_2026-08-24.md",
+   "regenerations": 0,
+   "match_strings": [
+    "0.39pp",
+    "0.2pp",
+    "Restrepo"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "bessen-teller-headcount",
+   "claim": "\"teller headcount rose until roughly 2007\" or the ~500k\u2192~550k figures attributed to Bessen",
+   "verdict": "MISATTRIBUTED",
+   "correction": "Not in either Bessen primary. Cite BLS OES directly, or use his tellers-per-branch (20 \u2192 13, 1988\u20132004) and branch-growth (+43%) numbers.",
+   "killed_on": "2026-08-24",
+   "source_file": "research_displacement-science_2026-08-24.md",
+   "regenerations": 0,
+   "match_strings": [
+    "teller headcount",
+    "500k",
+    "550k",
+    "Bessen"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "brynjolfsson-15pc-as-displacement",
+   "claim": "Brynjolfsson/Li/Raymond's +15% cited as evidence of displacement",
+   "verdict": "MISCHARACTERISED",
+   "correction": "It is a productivity result and makes no employment claim. Cite 15%, not 14%.",
+   "killed_on": "2026-08-24",
+   "source_file": "research_displacement-science_2026-08-24.md",
+   "regenerations": 0,
+   "match_strings": [
+    "+15%",
+    "14%",
+    "Raymond"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "oecd-sentence-stripped",
+   "claim": "the OECD sentence quoted without \"has been widening since before the pandemic\" and without its own \"So far\"",
+   "verdict": "MISCHARACTERISED",
+   "correction": "Both qualifiers must travel with it.",
+   "killed_on": "2026-08-24",
+   "source_file": "research_displacement-science_2026-08-24.md",
+   "regenerations": 0,
+   "match_strings": [
+    "widening since before the pandemic",
+    "So far",
+    "OECD"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "57pc-employers-productivity",
+   "claim": "\"57% of employers report higher productivity\"",
+   "verdict": "MISCHARACTERISED",
+   "correction": "They expect it, not report it.",
+   "killed_on": "2026-08-24",
+   "source_file": "research_displacement-science_2026-08-24.md",
+   "regenerations": 0,
+   "match_strings": [
+    "57% of employers",
+    "57%"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "forecast-28-aug-benchmark",
+   "claim": "any forecast of the 28 Aug benchmark number",
+   "verdict": "UNSOURCED",
+   "correction": "It does not exist yet.",
+   "killed_on": "2026-08-24",
+   "source_file": "research_displacement-science_2026-08-24.md",
+   "regenerations": 0,
+   "match_strings": [
+    "28 Aug benchmark",
+    "28 August benchmark"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "bls-commissioner-status",
+   "claim": "BLS Commissioner status after 20 Jan 2026",
+   "verdict": "UNSOURCED",
+   "correction": "Unverified from a BLS primary. Re-check or omit.",
+   "killed_on": "2026-08-24",
+   "source_file": "research_displacement-science_2026-08-24.md",
+   "regenerations": 0,
+   "match_strings": [
+    "BLS Commissioner",
+    "20 Jan 2026"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "smaller-than-the-error-bars",
+   "claim": "\"AI displacement is smaller than the error bars\"",
+   "verdict": "MISCHARACTERISED",
+   "correction": "The defensible form is \"an effect of this size could not be detected by these instruments.\"",
+   "killed_on": "2026-08-24",
+   "source_file": "research_displacement-science_2026-08-24.md",
+   "regenerations": 0,
+   "match_strings": [
+    "smaller than the error bars",
+    "error bars"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "challenger-august-figure",
+   "claim": "any Challenger August 2026 AI-attributed layoff figure",
+   "verdict": "UNSOURCED",
+   "correction": "Not published until ~3 Sep 2026 (Challenger August report, 3 Sep 2026, 05:30 ET).",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md, research_displacement-science_2026-08-24.md",
+   "regenerations": 1,
+   "match_strings": [
+    "Challenger August",
+    "August AI-attributed"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "205000-ai-linked-layoffs",
+   "claim": "\"205,000 AI-linked layoffs in 2026\" (Outsource Accelerator / \"ResumePulse\")",
+   "verdict": "UNSOURCED",
+   "correction": "Unestablished tracker, undisclosed inclusion rule, ~82% above Challenger on a similar definition.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "205,000",
+    "ResumePulse",
+    "Outsource Accelerator"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "goldman-16000-jobs-month",
+   "claim": "\"Goldman: AI cost the US 16,000 jobs per month\"",
+   "verdict": "MISCHARACTERISED",
+   "correction": "It is a reduction in monthly payroll growth, not net losses.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "16,000 jobs",
+    "Goldman"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "warn-data-ai-causation",
+   "claim": "WARN data showing AI causation for layoffs",
+   "verdict": "REFUTED",
+   "correction": "WARN filings have no reason field.",
+   "killed_on": "2026-08-16",
+   "source_file": "research_story-candidates_2026-08-16.md, research_story-candidates_2026-08-23.md",
+   "regenerations": 1,
+   "match_strings": [
+    "WARN",
+    "WARN filings",
+    "WARN data"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "that-debate-is-over",
+   "claim": "\"that debate is over\"",
+   "verdict": "UNSOURCED",
+   "correction": "Unsourced, and contradicted by the brief's own Debate section.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "that debate is over"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "median-time-to-exploit-five-days",
+   "claim": "\"median time to exploit is five days\"",
+   "verdict": "MISCHARACTERISED",
+   "correction": "Average, not median; 47 days untrimmed; the denominator is already-exploited vulnerabilities.",
+   "killed_on": "2026-08-16",
+   "source_file": "research_story-candidates_2026-08-16.md, week-plan_2026-08-31.md",
+   "regenerations": 1,
+   "match_strings": [
+    "five days",
+    "median time to exploit",
+    "47"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "time-to-exploit-negative",
+   "claim": "\"time to exploit has gone negative\" (unqualified)",
+   "verdict": "MISCHARACTERISED",
+   "correction": "One hedged, denominator-free sentence, edge-scoped.",
+   "killed_on": "2026-08-16",
+   "source_file": "research_story-candidates_2026-08-16.md, week-plan_2026-08-31.md",
+   "regenerations": 1,
+   "match_strings": [
+    "gone negative",
+    "time to exploit"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "024pc-ever-exploited",
+   "claim": "\"only 0.24% of vulnerabilities are ever exploited\"",
+   "verdict": "MISCHARACTERISED",
+   "correction": "Severely time-censored \u2014 median publication-to-KEV is 80 days. Gamblin's figure is that 85 of H1 2026's 35,364 CVEs have reached KEV so far.",
+   "killed_on": "2026-08-16",
+   "source_file": "research_story-candidates_2026-08-16.md",
+   "regenerations": 0,
+   "match_strings": [
+    "0.24%",
+    "35,364",
+    "Gamblin"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "wri-60pc-faster-updates",
+   "claim": "Windows Resiliency Initiative's \"60% faster update adoption\"",
+   "verdict": "UNSOURCED",
+   "correction": "No denominator, no baseline, no methodology \u2014 on a product page selling the licences it justifies.",
+   "killed_on": "2026-08-16",
+   "source_file": "research_story-candidates_2026-08-16.md, week-plan_2026-08-31.md",
+   "regenerations": 1,
+   "match_strings": [
+    "60% faster",
+    "Windows Resiliency Initiative",
+    "update adoption"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "insurers-repricing-patch-sla",
+   "claim": "insurers repricing cyber cover on patch SLA",
+   "verdict": "UNSOURCED",
+   "correction": "No primary found.",
+   "killed_on": "2026-08-16",
+   "source_file": "research_story-candidates_2026-08-16.md",
+   "regenerations": 0,
+   "match_strings": [
+    "repricing",
+    "patch SLA",
+    "insurers"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "openai-paused-astra",
+   "claim": "\"OpenAI paused Astra development\" / \"OpenAI halts Astra\"",
+   "verdict": "MISCHARACTERISED",
+   "correction": "They paused non-compliant internal activities, not development. Also not \"crossed Critical.\" The safe verb is restructured/paused-specific, never halted.",
+   "killed_on": "2026-08-16",
+   "scope_note": "Applies to the pre-Astra-6 August claim only. It does NOT cover the GPT-6.1 Astra release pause reported by ABC News on 30 Sep 2026, which is a separate, live fact (Lars, 1 Oct 2026).",
+   "source_file": "research_story-candidates_2026-08-16.md, week-plan_2026-08-17.md",
+   "regenerations": 1,
+   "match_strings": [
+    "Astra",
+    "paused Astra",
+    "halts Astra"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "openai-disbanded-preparedness",
+   "claim": "\"OpenAI disbanded its preparedness / severe-risk team\"",
+   "verdict": "REFUTED",
+   "correction": "OpenAI denies it on the record \u2014 \"We have not disbanded the Preparedness team\" \u2014 and Engadget retracted and apologised. Establishable: Dylan Scandinaro is no longer head of preparedness, and the work is split across bio/cyber/self-improvement leads reporting to head of safety Saachi Jain. The safe verb is restructured, never halted or disbanded.",
+   "killed_on": "2026-08-19",
+   "source_file": "research_story-candidates_2026-08-19.md",
+   "regenerations": 0,
+   "match_strings": [
+    "disbanded",
+    "Preparedness team",
+    "Saachi Jain",
+    "Scandinaro"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "two-labs-outrunning-safety",
+   "claim": "\"Two labs self-reported models outrunning safety controls\"",
+   "verdict": "MISCHARACTERISED",
+   "correction": "Safeguards were off by design in every case.",
+   "killed_on": "2026-08-16",
+   "source_file": "research_story-candidates_2026-08-16.md",
+   "regenerations": 0,
+   "match_strings": [
+    "outrunning safety",
+    "self-reported models"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "fifth-senior-exit",
+   "claim": "\"5th senior exit since July\"",
+   "verdict": "REFUTED",
+   "correction": "It is seven, or three. Never five.",
+   "killed_on": "2026-08-16",
+   "source_file": "research_story-candidates_2026-08-16.md",
+   "regenerations": 0,
+   "match_strings": [
+    "5th senior exit",
+    "fifth senior exit"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "us-told-35-countries",
+   "claim": "\"The US told 35 Pax Silica countries to pick a side\"",
+   "verdict": "MISCHARACTERISED",
+   "correction": "Two instruments (Pax Silica, 24 signatories vs the Joint Statement on AI Opportunity, 35). Reuters is explicit the letter goes to the 35 AI Opportunity signatories \u2014 and it is an unsent draft: Reuters \"could not establish when Washington will send it.\" Asserting a completed act is the error. Also: @Countergrind is not a source; cite Reuters or nothing.",
+   "killed_on": "2026-08-16",
+   "source_file": "research_story-candidates_2026-08-16.md",
+   "regenerations": 0,
+   "match_strings": [
+    "35 countries",
+    "Pax Silica",
+    "pick a side",
+    "Countergrind"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "mistral-830m-euros",
+   "claim": "Mistral's \"\u20ac830M\" raise",
+   "verdict": "REFUTED",
+   "correction": "It is US$830M. CNBC, TechCrunch, DCD and Yahoo all say dollars \u2014 roughly a \u20ac100M+ overstatement.",
+   "killed_on": "2026-08-16",
+   "source_file": "research_story-candidates_2026-08-16.md",
+   "regenerations": 0,
+   "match_strings": [
+    "\u20ac830M",
+    "830M",
+    "US$830M"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "mistral-sla-sovereignty",
+   "claim": "Mistral \"SLA-backed sovereignty\"",
+   "verdict": "MISCHARACTERISED",
+   "correction": "What exists is an uptime SLA on the paid Priority Tier plus Regional Endpoints (\"let customers choose whether their inference runs in Europe or the US\") \u2014 availability plus a region toggle, not a legal sovereignty guarantee.",
+   "killed_on": "2026-08-16",
+   "source_file": "research_story-candidates_2026-08-16.md",
+   "regenerations": 0,
+   "match_strings": [
+    "SLA-backed sovereignty",
+    "Regional Endpoints",
+    "Priority Tier"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "mistral-air-gapped",
+   "claim": "Mistral \"air-gapped deployment\"",
+   "verdict": "UNSOURCED",
+   "correction": "No air-gap claim appears in Mistral's announcement or model card.",
+   "killed_on": "2026-08-16",
+   "source_file": "research_story-candidates_2026-08-16.md",
+   "regenerations": 0,
+   "match_strings": [
+    "air-gapped",
+    "air gap",
+    "Mistral"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "mistral-four-gpus",
+   "claim": "Mistral Medium 3.5 \"runs self-hosted on as few as four GPUs\" as a deployment spec",
+   "verdict": "MISCHARACTERISED",
+   "correction": "Mistral never says which GPUs or at what quantisation, and its own HF card recommends tensor-parallel-size 8 for serving. An unspecified floor, not a deployment spec. 256K context and modified-MIT open weights are solid.",
+   "killed_on": "2026-08-16",
+   "source_file": "research_story-candidates_2026-08-16.md",
+   "regenerations": 0,
+   "match_strings": [
+    "four GPUs",
+    "tensor-parallel-size 8",
+    "Medium 3.5"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "mistral-facility-running",
+   "claim": "the Mistral/Eclairion Bruy\u00e8res-le-Ch\u00e2tel facility described as a running facility",
+   "verdict": "MISCHARACTERISED",
+   "correction": "Announced and financed, not operational \u2014 and already slipped once (was 18,000 GB200s for summer 2025). 13,800 Nvidia GB300s, 44MW.",
+   "killed_on": "2026-08-16",
+   "source_file": "research_story-candidates_2026-08-16.md",
+   "regenerations": 0,
+   "match_strings": [
+    "Bruy\u00e8res-le-Ch\u00e2tel",
+    "Eclairion",
+    "13,800",
+    "GB300"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "european-lab-outside-cloud-act",
+   "claim": "\"European lab = outside the CLOUD Act\"",
+   "verdict": "REFUTED",
+   "correction": "The test is jurisdiction plus possession/custody/control, not server location. Covington: legal process \"can be enforced against any covered technology providers subject to US jurisdiction, regardless of whether the provider is based in the US.\" Name the commercial interest: the loudest voices on \"European = safe\" sell European hosting.",
+   "killed_on": "2026-08-16",
+   "source_file": "research_story-candidates_2026-08-16.md",
+   "regenerations": 0,
+   "match_strings": [
+    "CLOUD Act",
+    "European lab",
+    "outside the CLOUD Act"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "au-us-cloud-act-jan-2026",
+   "claim": "\"Australia\u2013US CLOUD Act agreement came into force Jan 2026\"",
+   "verdict": "REFUTED",
+   "correction": "January 2024. Year error.",
+   "killed_on": "2026-08-19",
+   "source_file": "research_story-candidates_2026-08-19.md",
+   "regenerations": 0,
+   "match_strings": [
+    "CLOUD Act",
+    "Jan 2026",
+    "January 2024"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "google-says-340-toks",
+   "claim": "\"Google says 340 tok/s\" (Gemini 3.7 Flash)",
+   "verdict": "MISATTRIBUTED",
+   "correction": "340.1 tok/s is Artificial Analysis's measurement of the high-thinking variant. Google makes no throughput claim.",
+   "killed_on": "2026-08-16",
+   "source_file": "research_story-candidates_2026-08-16.md",
+   "regenerations": 0,
+   "match_strings": [
+    "340 tok/s",
+    "340.1",
+    "Artificial Analysis"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "gemini-half-the-price",
+   "claim": "Gemini 3.7 Flash is \"half the price\" (without the expiry date)",
+   "verdict": "STALE",
+   "correction": "$0.75/1M in, $3.75/1M out is introductory, through 31 Dec 2026, reverting to $1.50/$7.50 on 1 Jan 2027. Any \"half the price\" line needs the expiry date or it is wrong by January.",
+   "killed_on": "2026-08-16",
+   "source_file": "research_story-candidates_2026-08-16.md",
+   "regenerations": 0,
+   "match_strings": [
+    "half the price",
+    "$0.75",
+    "$3.75",
+    "31 Dec 2026"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "gemini-benchmarks-near-sonnet",
+   "claim": "Gemini 3.7 Flash \"benchmarks near Sonnet 5\"",
+   "verdict": "MISCHARACTERISED",
+   "correction": "Fails both ways. Google's own charts claim 3.7 Flash beats Sonnet 5 on FrontierCode 1.1, DeepSWE v1.1, Code Arena, GDP.pdf and AutomationBench \u2014 but these are Google-selected, Google-run, published as chart images, with no SWE-bench Verified number. Safe: \"On Google's own charts, using benchmarks Google selected\u2026 No independent replication yet.\"",
+   "killed_on": "2026-08-16",
+   "source_file": "research_story-candidates_2026-08-16.md",
+   "regenerations": 0,
+   "match_strings": [
+    "near Sonnet 5",
+    "FrontierCode",
+    "DeepSWE",
+    "AutomationBench"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "chamath-harness-layer",
+   "claim": "\"Chamath's six layers are\u2026 harness\u2026\" / the harness definition as his words / \"Chamath argues proprietary data + context is where value sits\"",
+   "verdict": "MISATTRIBUTED",
+   "correction": "The word is not in the 1 May post \u2014 layer five is \"execution.\" The August framework is different and its primary is unreachable; the circulating definition is a newsletter's gloss, reaching the intake via a board-directors newsletter quoting a VC newsletter quoting an X post.",
+   "killed_on": "2026-08-16",
+   "source_file": "research_story-candidates_2026-08-16.md, source_ai-leadership-edge-boards_2026-08-16.md, week-plan_2026-08-31.md",
+   "regenerations": 1,
+   "match_strings": [
+    "Chamath",
+    "harness layer",
+    "six layers",
+    "proprietary data + context"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "one-person-ai-business",
+   "claim": "\"one-person AI business\" (Nate Herk) as an achieved state",
+   "verdict": "REFUTED",
+   "correction": "His own post: \"This one person business model is how I started my AI consultancy that we scaled to over $100k/mo. Now obviously in order for me to achieve that scale, I built a team around me.\" Print the self-refutation.",
+   "killed_on": "2026-08-16",
+   "source_file": "research_story-candidates_2026-08-16.md",
+   "regenerations": 0,
+   "match_strings": [
+    "one-person AI business",
+    "Nate Herk",
+    "built a team around me"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "coinbase-clean-ai-displacement",
+   "claim": "Coinbase as a clean case of AI displacement",
+   "verdict": "REFUTED",
+   "correction": "Fortune's own headline says otherwise.",
+   "killed_on": "2026-08-16",
+   "source_file": "research_story-candidates_2026-08-16.md",
+   "regenerations": 0,
+   "match_strings": [
+    "Coinbase"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "cisco-says-ai-creates-jobs",
+   "claim": "\"Cisco says AI will create jobs\"",
+   "verdict": "MISATTRIBUTED",
+   "correction": "It is one executive's stated belief, not a company position \u2014 and he names no study or dataset, hedging then un-hedging two sentences apart. Cisco sells the substrate for AI deployment.",
+   "killed_on": "2026-08-16",
+   "source_file": "research_story-candidates_2026-08-16.md",
+   "regenerations": 0,
+   "match_strings": [
+    "Cisco says",
+    "Cisco President",
+    "create more jobs than it eliminates"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "dorsey-agents-quote",
+   "claim": "a Jack Dorsey quote about \"AI agents working with people\" (Buzz)",
+   "verdict": "UNSOURCED",
+   "correction": "No such statement found. His own words name Slack/GitHub dependency as the motive: \"a new groupchat platform for teams of people and agents of all sizes, built to reduce our dependency on slack and github.\"",
+   "killed_on": "2026-08-16",
+   "source_file": "research_story-candidates_2026-08-16.md",
+   "regenerations": 0,
+   "match_strings": [
+    "Dorsey",
+    "Buzz",
+    "dependency on slack and github"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "named-2026-ai-liability-case",
+   "claim": "any named 2026 AI liability case, or \"directors are now liable for AI failures\"",
+   "verdict": "UNSOURCED",
+   "correction": "There is no decided AI-Caremark case. Oxford Business Law Blog (Mar 2026) cites only pre-existing Delaware authority \u2014 Caremark, Stone, Marchand, Clovis, Boeing, McDonald's \u2014 and its own verbs are \"may.\" NIS2 Article 20(1) is the one that is actually law.",
+   "killed_on": "2026-08-16",
+   "source_file": "research_story-candidates_2026-08-16.md",
+   "regenerations": 0,
+   "match_strings": [
+    "AI-Caremark",
+    "Caremark",
+    "directors are now liable",
+    "AI liability case"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "grad-scheme-ai-number",
+   "claim": "any UK/AU graduate-scheme number with a 2026 AI attribution",
+   "verdict": "UNSOURCED",
+   "correction": "No ISE, HESA or Australian Graduate Outcomes primary with a 2026 AI attribution exists. Do not print a grad-scheme number from this dig.",
+   "killed_on": "2026-08-16",
+   "source_file": "research_story-candidates_2026-08-16.md",
+   "regenerations": 0,
+   "match_strings": [
+    "graduate scheme",
+    "HESA",
+    "Graduate Outcomes",
+    "ISE"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "rolling-disruption-coiner",
+   "claim": "attributing the phrase \"rolling disruption\" to a coiner",
+   "verdict": "UNSOURCED",
+   "correction": "Every hit was SEO content. No coiner. If Lars wants the phrase, he owns it.",
+   "killed_on": "2026-08-16",
+   "source_file": "research_story-candidates_2026-08-16.md",
+   "regenerations": 0,
+   "match_strings": [
+    "rolling disruption"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "nlw-invented-deputization-audit",
+   "claim": "\"NLW invented this [AI Deputization Audit]\" or \"NLW borrowed it from X\"",
+   "verdict": "UNSOURCED",
+   "correction": "The episode page credits no researcher, paper or book; the shape is the standard automation-suitability matrix. Safe: \"offered without attribution to any underlying research.\"",
+   "killed_on": "2026-08-16",
+   "source_file": "research_story-candidates_2026-08-16.md, week-plan_2026-08-31.md",
+   "regenerations": 1,
+   "match_strings": [
+    "Deputization Audit",
+    "NLW invented",
+    "deputize"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "nlw-multiplayer-answer",
+   "claim": "\"NLW argues the answer is AI as multiplayer\" / \"move AI use to the team\"",
+   "verdict": "MISCHARACTERISED",
+   "correction": "It is floated as \"one answer worth exploring\u2026 a subject for a future show\" and explicitly deferred.",
+   "killed_on": "2026-08-19",
+   "source_file": "research_story-candidates_2026-08-19.md",
+   "regenerations": 1,
+   "match_strings": [
+    "multiplayer",
+    "one answer worth exploring",
+    "move AI use to the team"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "xai-retains-recordings",
+   "claim": "any claim that xAI does retain, train on, or mishandle Grok recordings",
+   "verdict": "UNSOURCED",
+   "correction": "That is absence of documentation, not evidence. xAI publishes no retention period, no storage location, no training-use statement and no admin control; OpenAI publishes all four for the equivalent feature. Safe: state the documentation asymmetry.",
+   "killed_on": "2026-08-16",
+   "source_file": "research_story-candidates_2026-08-16.md, week-plan_2026-08-31.md",
+   "regenerations": 1,
+   "match_strings": [
+    "xAI",
+    "retention period",
+    "microphone audio"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "nato-research-finds-lovett",
+   "claim": "\"NATO research finds\u2026\" / \"a new study finds\u2026\" for the cognitive-commons paper",
+   "verdict": "MISATTRIBUTED",
+   "correction": "One named scholar's conceptual paper, peer-reviewed, in an HRD journal \u2014 with an explicit disclaimer that the views \"do not necessarily represent the views of NATO, Allied SOFCOM, NATO Special Operations University, or the US Department of War.\" It reports no new data.",
+   "killed_on": "2026-08-16",
+   "source_file": "source_lovett-cognitive-commons_2026-08-16.md",
+   "regenerations": 0,
+   "match_strings": [
+    "NATO research",
+    "Lovett",
+    "cognitive commons",
+    "Allied SOFCOM"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "ai-index-governance-figures",
+   "claim": "the AI Index's governance figures presented as Stanford's",
+   "verdict": "MISATTRIBUTED",
+   "correction": "They are McKinsey's, re-published by Stanford. Write \"the AI Index, citing McKinsey's 2025 survey.\"",
+   "killed_on": "2026-08-31",
+   "source_file": "week-plan_2026-08-31.md",
+   "regenerations": 0,
+   "match_strings": [
+    "AI Index",
+    "McKinsey's 2025 survey"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "mckinsey-50-to-100-supervise",
+   "claim": "McKinsey's \"two to five people can already supervise\u2026 50 to 100\u2026\"",
+   "verdict": "MISCHARACTERISED",
+   "correction": "Flagged do-not-print in the 31 Aug week plan alongside the NLW attribution items.",
+   "killed_on": "2026-08-31",
+   "source_file": "week-plan_2026-08-31.md",
+   "regenerations": 0,
+   "match_strings": [
+    "two to five people",
+    "50 to 100"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "openai-doesnt-train-computer-history",
+   "claim": "\"OpenAI doesn't train on Computer History\" stated flat",
+   "verdict": "MISCHARACTERISED",
+   "correction": "Two-tier treatment \u2014 do not print it full stop.",
+   "killed_on": "2026-08-31",
+   "source_file": "week-plan_2026-08-31.md",
+   "regenerations": 0,
+   "match_strings": [
+    "Computer History",
+    "doesn't train on"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "skills-marketplace-3-july",
+   "claim": "dating the poisoned-skills marketplace incident to \"3 July\"",
+   "verdict": "REFUTED",
+   "correction": "The 3 Jul brief is where Lars's pipeline saw it. The event is 22\u201325 June 2026 (first coverage 23 June; OWASP dates it Jun 22\u201324). Do not print 3 July.",
+   "killed_on": "2026-08-17",
+   "source_file": "research_poisoned-skills_2026-08-17.md",
+   "regenerations": 0,
+   "match_strings": [
+    "3 July",
+    "3 Jul",
+    "22\u201325 June"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "26000-agents-as-attack",
+   "claim": "\"A poisoned entry in your repository's skills directory is a new type of attack, and it was already exploited less than two months ago against roughly 26,000 agents, including corporate accounts.\"",
+   "verdict": "MISCHARACTERISED",
+   "correction": "Four faults: \"new type\" (tracked since the first week of February 2026, USENIX paper trail, OWASP Top 10 entry); \"exploited\" (AIR ran the campaign itself against a population it recruited, with a benign email-collecting payload \u2014 its own title says \"How We Hijacked\"); \"less than two months ago\" (real exploitation is 27 Jan \u2013 4 Feb 2026); \"in your repository's skills directory\" (it came through a public marketplace and an Instagram ad). AIR sells a managed skills marketplace and 26,000 is the number in its sales pitch.",
+   "killed_on": "2026-08-17",
+   "source_file": "research_poisoned-skills_2026-08-17.md",
+   "regenerations": 0,
+   "match_strings": [
+    "26,000",
+    "new type of attack",
+    "Instagram ad",
+    "How We Hijacked"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "air-primary-body-text",
+   "claim": "any quotation from AIR's own prose (air.security \"The Story of Skills\")",
+   "verdict": "UNSOURCED",
+   "correction": "Gateway-blocked from this environment. Title verified via search indexing; body not read. Must be re-checked from a normal browser before quoting.",
+   "killed_on": "2026-08-17",
+   "source_file": "research_poisoned-skills_2026-08-17.md",
+   "regenerations": 0,
+   "match_strings": [
+    "air.security",
+    "The Story of Skills"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "bitdefender-17pc-openclaw",
+   "claim": "\"~17% of OpenClaw skills carried malicious payloads\" (Bitdefender Labs)",
+   "verdict": "UNSOURCED",
+   "correction": "Sourced only from Dark Reading's summary; Bitdefender's own publication not located.",
+   "killed_on": "2026-08-17",
+   "source_file": "research_poisoned-skills_2026-08-17.md",
+   "regenerations": 0,
+   "match_strings": [
+    "17%",
+    "OpenClaw",
+    "Bitdefender"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "mitiga-promptlogger",
+   "claim": "Mitiga's PromptLogger report as evidence of in-the-wild instruction-file poisoning",
+   "verdict": "UNSOURCED",
+   "correction": "The detailed report is not publicly locatable as of 17 Aug 2026, and Mitiga's own blog explicitly withheld tradecraft, infrastructure and attribution.",
+   "killed_on": "2026-08-17",
+   "source_file": "research_poisoned-skills_2026-08-17.md",
+   "regenerations": 0,
+   "match_strings": [
+    "PromptLogger",
+    "Mitiga"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "autojack",
+   "claim": "AutoJack as a live skills-poisoning exploit chain",
+   "verdict": "REFUTED",
+   "correction": "Cut it. Wrong mechanism, dead exploit chain \u2014 Microsoft's, dated 18 Jun 2026, affects AutoGen Studio only, and does not work on current builds.",
+   "killed_on": "2026-08-17",
+   "source_file": "research_poisoned-skills_2026-08-17.md",
+   "regenerations": 0,
+   "match_strings": [
+    "AutoJack",
+    "AutoGen Studio"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "55pc-inference-on-prem",
+   "claim": "\"55% of enterprise inference is on-prem, up from 12% in 2023\"",
+   "verdict": "UNSOURCED",
+   "correction": "No origin exists. Not in the cited source, not anywhere.",
+   "killed_on": "2026-08-19",
+   "source_file": "research_story-candidates_2026-08-19.md",
+   "regenerations": 0,
+   "match_strings": [
+    "55%",
+    "12% in 2023",
+    "on-prem"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "gmi-cloud-post-attributions",
+   "claim": "anything attributed to the GMI Cloud post except the BenchAlign score",
+   "verdict": "UNSOURCED",
+   "correction": "The post contains none of it. BenchAlign is an affiliate-funded aggregator that runs no evaluations.",
+   "killed_on": "2026-08-19",
+   "source_file": "research_story-candidates_2026-08-19.md, research_displacement-science_2026-08-24.md",
+   "regenerations": 1,
+   "match_strings": [
+    "GMI Cloud",
+    "BenchAlign"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "deadlock-survives-takedowns",
+   "claim": "\"DeadLock survives law-enforcement takedowns\"",
+   "verdict": "REFUTED",
+   "correction": "Projected, never observed. Microsoft: \"not independent of off-chain infrastructure.\"",
+   "killed_on": "2026-08-19",
+   "source_file": "research_story-candidates_2026-08-19.md",
+   "regenerations": 0,
+   "match_strings": [
+    "DeadLock",
+    "law-enforcement takedowns",
+    "off-chain infrastructure"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "belitsoft-survey",
+   "claim": "\"the Belitsoft survey\"",
+   "verdict": "REFUTED",
+   "correction": "Belitsoft ran no survey. It is a paid press release.",
+   "killed_on": "2026-08-19",
+   "source_file": "research_story-candidates_2026-08-19.md",
+   "regenerations": 0,
+   "match_strings": [
+    "Belitsoft"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "half-agents-autonomous",
+   "claim": "\"Half of enterprise agents operate autonomously\"",
+   "verdict": "MISCHARACTERISED",
+   "correction": "Salesforce measured \"isolated silos versus part of a multi-agent system\" \u2014 an integration finding, inverted.",
+   "killed_on": "2026-08-19",
+   "source_file": "research_story-candidates_2026-08-19.md",
+   "regenerations": 0,
+   "match_strings": [
+    "operate autonomously",
+    "isolated silos",
+    "multi-agent system"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "83pc-guardrails-60pc-production",
+   "claim": "\"83% weigh guardrails / 60% run agents in production\"",
+   "verdict": "UNSOURCED",
+   "correction": "No survey exists.",
+   "killed_on": "2026-08-19",
+   "source_file": "research_story-candidates_2026-08-19.md",
+   "regenerations": 0,
+   "match_strings": [
+    "83%",
+    "60% run agents",
+    "guardrails"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "eu-high-risk-2-aug-2026",
+   "claim": "\"EU high-risk obligations went live 2 Aug 2026\"",
+   "verdict": "REFUTED",
+   "correction": "Deferred to 2 Dec 2027 by the Digital Omnibus, 27 Jul 2026.",
+   "killed_on": "2026-08-19",
+   "source_file": "research_story-candidates_2026-08-19.md",
+   "regenerations": 0,
+   "match_strings": [
+    "2 Aug 2026",
+    "high-risk obligations",
+    "Digital Omnibus",
+    "2 Dec 2027"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "78pc-non-compliant",
+   "claim": "\"78% of organisations non-compliant\" / \"over 50% lack an inventory\"",
+   "verdict": "MISCHARACTERISED",
+   "correction": "A consultancy's own client base, no n \u2014 and the inventory figure is 83%, not 50%.",
+   "killed_on": "2026-08-19",
+   "source_file": "research_story-candidates_2026-08-19.md",
+   "regenerations": 0,
+   "match_strings": [
+    "78% of organisations",
+    "lack an inventory",
+    "83%"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "50m-3x-30pc-adm-penalties",
+   "claim": "\"$50M/3x/30% penalties\" printed beside the ADM deadline",
+   "verdict": "MISCHARACTERISED",
+   "correction": "s 13G attaches to serious interference, not the ADM obligation. Sweep exposure is $66,000.",
+   "killed_on": "2026-08-19",
+   "source_file": "research_story-candidates_2026-08-19.md",
+   "regenerations": 0,
+   "match_strings": [
+    "$50M",
+    "13G",
+    "$66,000",
+    "ADM deadline"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "december-privacy-act-amendments",
+   "claim": "\"the December Privacy Act amendments\" (plural), or anything implying December 2026 gives a right to explanation, review or contest",
+   "verdict": "MISCHARACTERISED",
+   "correction": "One obligation, 10 December 2026 \u2014 and it gives no right to explanation, review or contest. The statutory tort commenced 10 June 2025; the Children's Code has no determined commencement.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md, research_displacement-science_2026-08-24.md",
+   "regenerations": 1,
+   "match_strings": [
+    "December Privacy Act amendments",
+    "10 December 2026",
+    "right to explanation",
+    "Children's Code"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "cps-230-maps-to-ai",
+   "claim": "\"CPS 230 maps directly to auditing/pausing/overriding an AI system\"",
+   "verdict": "MISCHARACTERISED",
+   "correction": "CPS 230 contains no reference to AI. Say it is an inference; that reads as expertise.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "CPS 230"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "cps-230-upcoming-deadline",
+   "claim": "CPS 230 as an upcoming deadline",
+   "verdict": "STALE",
+   "correction": "In force 1 July 2025.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "CPS 230",
+    "1 July 2025"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "iso-42001-annex-a-control",
+   "claim": "a specific ISO/IEC 42001 Annex A control number",
+   "verdict": "UNSOURCED",
+   "correction": "The standard is paywalled and was not read.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "42001",
+    "Annex A"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "iso-42001-2026-amendment",
+   "claim": "a 2026 amendment to ISO/IEC 42001, or ISO certifying organisations",
+   "verdict": "REFUTED",
+   "correction": "42001:2023 was published 2023-12-18 and no 2026 amendment exists; ISO does not certify. 42006:2025 (published 2025-07-07) is the auditor layer. 42001 is not in the ISO Survey's coverage list, so no public non-vendor certificate count exists.",
+   "killed_on": "2026-08-24",
+   "source_file": "week-plan_2026-08-24.md",
+   "regenerations": 0,
+   "match_strings": [
+    "42001:2023",
+    "42006:2025",
+    "ISO Survey"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "aigp-accredited",
+   "claim": "AIGP presented as an accredited credential with a holder count",
+   "verdict": "REFUTED",
+   "correction": "AIGP is NOT ANAB/ISO-17024 accredited (CIPM, CIPP/E, CIPP/US, CIPT are) and publishes no holder count. \"Over 4,000 signed up to complete the training curriculum\" (Mar 2024) is sign-ups, not holders.",
+   "killed_on": "2026-08-24",
+   "source_file": "week-plan_2026-08-24.md",
+   "regenerations": 0,
+   "match_strings": [
+    "AIGP",
+    "ANAB",
+    "17024",
+    "4,000 signed up"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "ai-safety-institute-operational",
+   "claim": "\"the AI Safety Institute became operational in early 2026\"",
+   "verdict": "UNSOURCED",
+   "correction": "A government target, never confirmed achieved.",
+   "killed_on": "2026-08-19",
+   "source_file": "research_story-candidates_2026-08-19.md",
+   "regenerations": 0,
+   "match_strings": [
+    "AI Safety Institute",
+    "operational in early 2026"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "clickfix-browser-overlays",
+   "claim": "\"ClickFix uses fake browser error overlays\"",
+   "verdict": "REFUTED",
+   "correction": "Fake Cloudflare CAPTCHA prompts.",
+   "killed_on": "2026-08-19",
+   "source_file": "research_story-candidates_2026-08-19.md",
+   "regenerations": 0,
+   "match_strings": [
+    "ClickFix",
+    "browser error overlays",
+    "Cloudflare CAPTCHA"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "eth-zurich-2026-news",
+   "claim": "\"ETH Zurich researchers have found\u2026\" presented as 2026 news",
+   "verdict": "STALE",
+   "correction": "October 2023 / ICLR 2024. Models tested: GPT-4, Claude 2, PaLM-2, Llama 2.",
+   "killed_on": "2026-08-19",
+   "source_file": "research_story-candidates_2026-08-19.md",
+   "regenerations": 0,
+   "match_strings": [
+    "ETH Zurich",
+    "ICLR 2024",
+    "PaLM-2"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "claude-watermarks-word-choice",
+   "claim": "\"Claude watermarks all its output, effective Aug 14, by biasing word choice\"",
+   "verdict": "REFUTED",
+   "correction": "2 Aug, future models only, and Anthropic explicitly denies the biasing description.",
+   "killed_on": "2026-08-19",
+   "source_file": "research_story-candidates_2026-08-19.md",
+   "regenerations": 0,
+   "match_strings": [
+    "watermarks",
+    "biasing word choice",
+    "Aug 14"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "openai-september-listing",
+   "claim": "\"OpenAI September listing\" / \"GPT-5.3-Codex launched\"",
+   "verdict": "REFUTED",
+   "correction": "S-1 filed 8 Jun, listing likely 2027; Codex launched 5 Feb 2026.",
+   "killed_on": "2026-08-19",
+   "source_file": "research_story-candidates_2026-08-19.md",
+   "regenerations": 0,
+   "match_strings": [
+    "September listing",
+    "GPT-5.3-Codex",
+    "S-1"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "anthropic-550pc-run-rate",
+   "claim": "\"Anthropic run rate up 550% YoY\"",
+   "verdict": "MISCHARACTERISED",
+   "correction": "Bloomberg says sevenfold from end-2025.",
+   "killed_on": "2026-08-19",
+   "source_file": "research_story-candidates_2026-08-19.md",
+   "regenerations": 0,
+   "match_strings": [
+    "550%",
+    "run rate",
+    "sevenfold"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "openai-2b-per-month",
+   "claim": "\"OpenAI at $2B/month\"",
+   "verdict": "STALE",
+   "correction": "An April figure. Now ~$3.3bn/month.",
+   "killed_on": "2026-08-19",
+   "source_file": "research_story-candidates_2026-08-19.md",
+   "regenerations": 0,
+   "match_strings": [
+    "$2B/month",
+    "$3.3bn",
+    "$2 billion a month"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "airbnb-541m-shopify-322k",
+   "claim": "Airbnb $541M / Shopify 322,000 hours as current figures",
+   "verdict": "STALE",
+   "correction": "2021 and 2023 \u2014 and Airbnb has reversed the strategy.",
+   "killed_on": "2026-08-19",
+   "source_file": "research_story-candidates_2026-08-19.md",
+   "regenerations": 0,
+   "match_strings": [
+    "$541M",
+    "322,000 hours",
+    "Airbnb"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "ringcentral-1-6m",
+   "claim": "\"1.6 million RingCentral accounts breached\"",
+   "verdict": "MISCHARACTERISED",
+   "correction": "1.6M unique email addresses counted by HIBP in a leak-site archive. RingCentral has confirmed no figure.",
+   "killed_on": "2026-08-19",
+   "source_file": "research_story-candidates_2026-08-19.md",
+   "regenerations": 0,
+   "match_strings": [
+    "RingCentral",
+    "1.6 million",
+    "HIBP"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "philips-ge-clop",
+   "claim": "\"Philips and GE breached by Clop\"",
+   "verdict": "MISCHARACTERISED",
+   "correction": "Investigating leak-site claims. GE has been removed from the site.",
+   "killed_on": "2026-08-19",
+   "source_file": "research_story-candidates_2026-08-19.md",
+   "regenerations": 0,
+   "match_strings": [
+    "Philips",
+    "Clop",
+    "GE breached"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "azure-3-6m-records",
+   "claim": "\"3.6M Azure records stolen via compromised credentials\"",
+   "verdict": "MISCHARACTERISED",
+   "correction": "Seller's own count and seller's own vector claim. Hudson Rock: \"access vector\u2026 unknown.\" TCS and Gap deny.",
+   "killed_on": "2026-08-19",
+   "source_file": "research_story-candidates_2026-08-19.md",
+   "regenerations": 0,
+   "match_strings": [
+    "3.6M",
+    "Hudson Rock",
+    "Azure records"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "dgfip-678000-individuals",
+   "claim": "\"678,000 individuals\" (DGFiP)",
+   "verdict": "MISCHARACTERISED",
+   "correction": "Individuals AND businesses. Provisional.",
+   "killed_on": "2026-08-19",
+   "source_file": "research_story-candidates_2026-08-19.md",
+   "regenerations": 0,
+   "match_strings": [
+    "678,000",
+    "DGFiP"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "heights-1-2-million",
+   "claim": "\"1.2 million\" (Heights breach)",
+   "verdict": "MISCHARACTERISED",
+   "correction": "\u22651,221,338 from four states' filings \u2014 the true total is higher.",
+   "killed_on": "2026-08-19",
+   "source_file": "research_story-candidates_2026-08-19.md",
+   "regenerations": 0,
+   "match_strings": [
+    "1.2 million",
+    "1,221,338",
+    "Heights"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "shieldbreak-zero-day",
+   "claim": "\"ShieldBreak is a real-time protection bypass / zero-day\"",
+   "verdict": "REFUTED",
+   "correction": "Elevation of privilege to SYSTEM. Not exploited, not in KEV. A public PoC does exist (E:P, publicly disclosed) \u2014 resolve the brief's internal contradiction that way.",
+   "killed_on": "2026-08-19",
+   "source_file": "research_story-candidates_2026-08-19.md",
+   "regenerations": 0,
+   "match_strings": [
+    "ShieldBreak",
+    "real-time protection bypass"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "grok-45-open-weight",
+   "claim": "\"Grok 4.5 is open-weight\"",
+   "verdict": "REFUTED",
+   "correction": "It is closed, API-only.",
+   "killed_on": "2026-08-19",
+   "source_file": "research_story-candidates_2026-08-19.md",
+   "regenerations": 0,
+   "match_strings": [
+    "Grok 4.5",
+    "open-weight"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "bifrost-leads-gateways",
+   "claim": "\"Bifrost leads enterprise self-hosted LLM gateways\"",
+   "verdict": "MISATTRIBUTED",
+   "correction": "The ranking is its own maker's SEO content.",
+   "killed_on": "2026-08-19",
+   "source_file": "research_story-candidates_2026-08-19.md",
+   "regenerations": 0,
+   "match_strings": [
+    "Bifrost",
+    "LLM gateways"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "self-hosting-stale-models",
+   "claim": "\"Self-hosting is viable for Llama 3.3 70B / Qwen 2.5 72B / Mistral Large 2\"",
+   "verdict": "STALE",
+   "correction": "2024 models on 2020 silicon. Use Qwen3.8-27B and Muse Glimmer 30B, both Apache 2.0.",
+   "killed_on": "2026-08-19",
+   "source_file": "research_story-candidates_2026-08-19.md",
+   "regenerations": 0,
+   "match_strings": [
+    "Llama 3.3 70B",
+    "Qwen 2.5 72B",
+    "Mistral Large 2",
+    "Qwen3.8-27B"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "kimi-k3-open-model",
+   "claim": "\"Kimi K3 is an open model\" unqualified",
+   "verdict": "MISCHARACTERISED",
+   "correction": "Custom licence, Commercial Use Restricted above $20M revenue. Weights went public 27 July, not 26. And the $20M gate binds Model-as-a-Service operators only \u2014 internal use is expressly exempt.",
+   "killed_on": "2026-08-19",
+   "source_file": "research_story-candidates_2026-08-19.md, research_story-candidates_2026-08-23.md",
+   "regenerations": 1,
+   "match_strings": [
+    "Kimi K3",
+    "$20M",
+    "open model",
+    "27 July"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "kimi-k3-50b-active",
+   "claim": "Kimi K3 \"~50B active parameters\"",
+   "verdict": "STALE",
+   "correction": "104B activated / 2.8T total.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "50B active",
+    "104B",
+    "2.8T"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "kimi-k3-parameter-bare",
+   "claim": "a bare Kimi K3 parameter count without naming the counter",
+   "verdict": "MISCHARACTERISED",
+   "correction": "Contested: Moonshot/most coverage says 2.8T; Artificial Analysis says 2.6T. Do not print a bare figure without naming the counter.",
+   "killed_on": "2026-08-19",
+   "source_file": "research_story-candidates_2026-08-19.md",
+   "regenerations": 0,
+   "match_strings": [
+    "2.8T",
+    "2.6T",
+    "Artificial Analysis"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "mollick-assigning-not-prompting",
+   "claim": "\"The skill is assigning well, not prompting well\" attributed to Mollick",
+   "verdict": "MISATTRIBUTED",
+   "correction": "Not his words, and his evidence says expertise is the binding variable.",
+   "killed_on": "2026-08-19",
+   "source_file": "research_story-candidates_2026-08-19.md",
+   "regenerations": 0,
+   "match_strings": [
+    "assigning well",
+    "prompting well",
+    "Mollick"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "working-with-wizards-recent",
+   "claim": "\"On Working with Wizards\" as recent / \"Mollick's latest\"",
+   "verdict": "STALE",
+   "correction": "11 Sep 2025.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "Working with Wizards",
+    "Mollick's latest"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "wizards-metaphor-capable-beyond",
+   "claim": "the Wizards metaphor as \"capable beyond the workflows\"",
+   "verdict": "MISCHARACTERISED",
+   "correction": "That is his March 2026 interfaces argument. Wizards is opacity and unverifiability.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "capable beyond the workflows",
+    "Wizards"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "co-existence-in-editing",
+   "claim": "\"Co-Existence is in editing\"",
+   "verdict": "UNSOURCED",
+   "correction": "No source. Publication is 20 Oct 2026.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "Co-Existence",
+    "20 Oct 2026"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "mollick-agents-edit-book",
+   "claim": "\"Mollick is using agents to edit his book\"",
+   "verdict": "REFUTED",
+   "correction": "His own words: \"I wrote every chapter draft myself.\"",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "I wrote every chapter draft myself",
+    "edit his book"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "60000-line-ai-prs",
+   "claim": "\"60,000-line AI PRs\" (plural)",
+   "verdict": "MISCHARACTERISED",
+   "correction": "One anecdote, one PR, one unnamed CTO.",
+   "killed_on": "2026-08-19",
+   "source_file": "research_story-candidates_2026-08-19.md",
+   "regenerations": 0,
+   "match_strings": [
+    "60,000-line",
+    "60,000 line"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "orosz-ramp-stripe-notion",
+   "claim": "\"Orosz names Ramp, Stripe and Notion as navigating this cleanly\"",
+   "verdict": "MISCHARACTERISED",
+   "correction": "\"CTOs I talked to mentioned the likes of\u2026\" \u2014 hearsay from interviewees.",
+   "killed_on": "2026-08-19",
+   "source_file": "research_story-candidates_2026-08-19.md",
+   "regenerations": 0,
+   "match_strings": [
+    "Orosz",
+    "the likes of",
+    "Ramp, Stripe and Notion"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "ai-adopters-grew-headcount-10pc",
+   "claim": "\"AI adopters grew headcount 10%\"",
+   "verdict": "MISCHARACTERISED",
+   "correction": "Top tercile only, defined purely by spend (~$33.67/employee/month).",
+   "killed_on": "2026-08-19",
+   "source_file": "research_story-candidates_2026-08-19.md",
+   "regenerations": 0,
+   "match_strings": [
+    "grew headcount 10%",
+    "$33.67",
+    "top tercile"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "first-credible-demonstration",
+   "claim": "\"first credible demonstration\" of agent-to-agent propagation, in any construction \u2014 \"first,\" \"the first time anyone has shown\"",
+   "verdict": "REFUTED",
+   "correction": "Three papers and roughly twenty-nine months of prior art: Morris II (Mar 2024), AgentWorm (Mar 2026), Autonomous LLM Agent Worms (May 2026). The true version is sharper: \"the third serious agent-worm paper in five months, and the first one to report that the defense is a paragraph.\"",
+   "killed_on": "2026-08-20",
+   "source_file": "research_agent-worm_2026-08-20.md, week-plan_2026-08-24.md",
+   "regenerations": 1,
+   "match_strings": [
+    "first credible demonstration",
+    "Morris II",
+    "AgentWorm",
+    "the first time anyone has shown"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "anthropic-epfl-collaboration",
+   "claim": "\"Anthropic and EPFL demonstrated\" as a two-lab collaboration",
+   "verdict": "MISCHARACTERISED",
+   "correction": "It is two Anthropic staff, two Anthropic Fellows, and EPFL as one author's second affiliation.",
+   "killed_on": "2026-08-20",
+   "source_file": "research_agent-worm_2026-08-20.md",
+   "regenerations": 0,
+   "match_strings": [
+    "EPFL",
+    "Anthropic and EPFL"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "self-propagating-payloads",
+   "claim": "\"self-propagating payloads\" without the paper's qualifier",
+   "verdict": "MISCHARACTERISED",
+   "correction": "The paper measured harmful payloads spreading worse than benign ones.",
+   "killed_on": "2026-08-20",
+   "source_file": "research_agent-worm_2026-08-20.md",
+   "regenerations": 0,
+   "match_strings": [
+    "self-propagating payloads",
+    "Mind Viruses"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "mind-viruses-as-deadline",
+   "claim": "any framing of the Mind Viruses paper as a deadline or an urgent risk",
+   "verdict": "MISCHARACTERISED",
+   "correction": "The authors say \"real but currently limited.\" Omitting the one-paragraph mitigation is the specific error.",
+   "killed_on": "2026-08-20",
+   "source_file": "research_agent-worm_2026-08-20.md",
+   "regenerations": 0,
+   "match_strings": [
+    "Mind Viruses",
+    "2608.10218",
+    "real but currently limited"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "alphaxiv-model-list",
+   "claim": "the alphaXiv model list for the Mind Viruses paper (Claude 3.5 Sonnet / Gemini 1.5 Pro)",
+   "verdict": "REFUTED",
+   "correction": "Wrong \u2014 it is an LLM-generated summary.",
+   "killed_on": "2026-08-20",
+   "source_file": "research_agent-worm_2026-08-20.md",
+   "regenerations": 0,
+   "match_strings": [
+    "alphaXiv",
+    "Claude 3.5 Sonnet",
+    "Gemini 1.5 Pro"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "frontier-red-team-in-the-wild",
+   "claim": "the Anthropic Frontier Red Team result presented as in-the-wild",
+   "verdict": "MISCHARACTERISED",
+   "correction": "Controlled experiments, stated as such by Anthropic.",
+   "killed_on": "2026-08-20",
+   "source_file": "research_agent-worm_2026-08-20.md",
+   "regenerations": 0,
+   "match_strings": [
+    "Frontier Red Team",
+    "in the wild",
+    "multiagent systems"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "frontier-red-team-malware",
+   "claim": "the Frontier Red Team \"malware\" as technically characterised",
+   "verdict": "UNSOURCED",
+   "correction": "No specification published.",
+   "killed_on": "2026-08-20",
+   "source_file": "research_agent-worm_2026-08-20.md",
+   "regenerations": 0,
+   "match_strings": [
+    "Frontier Red Team",
+    "malware"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "questal-company-name",
+   "claim": "\"Questal\" as the breached company",
+   "verdict": "REFUTED",
+   "correction": "No such company. It is Questel SAS. The misspelling is the tracer dye proving no primary was opened.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md, research_displacement-science_2026-08-24.md",
+   "regenerations": 3,
+   "match_strings": [
+    "Questal",
+    "Questel SAS"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "21m-salesforce-records",
+   "claim": "\"21 million Salesforce records\" as fact",
+   "verdict": "MISCHARACTERISED",
+   "correction": "Actor-claimed; ~1.75M rows indexed; the same figure was used for Fluke six weeks earlier.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "21 million",
+    "1.75M",
+    "Salesforce records"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "stole-walked-out-with",
+   "claim": "\"stole\" / \"walked out with\" (Questel breach)",
+   "verdict": "MISCHARACTERISED",
+   "correction": "The primary verb is \"claims.\" Already shipped in LinkedIn Posts/linkedin_2026-08-23.md:8.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "walked out with",
+    "stole"
+   ],
+   "match_note": "\"stole\" is generic \u2014 pair with a Questel/ShinyHunters context match.",
+   "expiry_risk": "low"
+  },
+  {
+   "id": "salesforce-records-unqualified",
+   "claim": "\"Salesforce records\" unqualified, and \"publicly confirmed\"",
+   "verdict": "MISCHARACTERISED",
+   "correction": "Questel described a Sales SharePoint site. And the source is \"Questel told CyberInsider\" \u2014 not a public confirmation.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "Sales SharePoint",
+    "publicly confirmed",
+    "CyberInsider"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "leak-site-listing-date",
+   "claim": "a leak-site listing date for the Questel breach",
+   "verdict": "UNSOURCED",
+   "correction": "Mirrors disagree by ten months.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "leak-site listing",
+    "leak site"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "shinyhunters-ransomware-group",
+   "claim": "\"ShinyHunters ransomware group\"",
+   "verdict": "MISCHARACTERISED",
+   "correction": "Extortion-only, no encryption. Standing corpus-wide fix.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "ShinyHunters ransomware",
+    "ShinyHunters"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "nation-state-exfiltration-risk",
+   "claim": "\"nation-state-level exfiltration risk\"",
+   "verdict": "MISCHARACTERISED",
+   "correction": "Financially motivated; the vector was a phone call.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "nation-state-level exfiltration",
+    "nation-state-level"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "businesswire-source-of-94pc",
+   "claim": "\"BusinessWire\" as the source of the 94%",
+   "verdict": "MISATTRIBUTED",
+   "correction": "BusinessWire is the wire, not the source.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "BusinessWire",
+    "94%"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "94pc-of-organisations",
+   "claim": "\"94% of organisations\"",
+   "verdict": "MISCHARACTERISED",
+   "correction": "94% of survey respondents (n=804). And the figure is undated in circulation \u2014 fielded Aug\u2013Oct 2025, published 12 Jan 2026.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "94% of organisations",
+    "94%",
+    "n=804"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "defining-cybersecurity-force",
+   "claim": "\"AI is the defining cybersecurity force\" as the report's finding",
+   "verdict": "MISCHARACTERISED",
+   "correction": "The report says \"most significant driver of change.\"",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "defining cybersecurity force",
+    "most significant driver of change"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "machine-speed-baseline",
+   "claim": "\"Machine-speed attacks become the baseline\"",
+   "verdict": "MISCHARACTERISED",
+   "correction": "Keep WEF's modal \u2014 \"increasingly operating.\"",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "Machine-speed attacks",
+    "become the baseline",
+    "increasingly operating"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "what-the-6pc-have-done",
+   "claim": "\"What the 6% have already done\"",
+   "verdict": "UNSOURCED",
+   "correction": "An invented cohort \u2014 and a different 6% in the same report will make it read as a sourcing error. It is also a footnote to third-party research, not WEF's own survey.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "the 6% have already done",
+    "6%"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "63pc-dont-disclose",
+   "claim": "\"63% don't disclose\"",
+   "verdict": "MISCHARACTERISED",
+   "correction": "Don't CLEARLY disclose = 42% silent + 21% vague. Print the 42%.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "63% don't disclose",
+    "63%",
+    "42%"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "63pc-train-on-your-data",
+   "claim": "\"63% train on your data\" in any form",
+   "verdict": "REFUTED",
+   "correction": "Cybernews explicitly disclaims it.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "63% train on your data",
+    "train on your data"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "top-500-ai-companies",
+   "claim": "\"The top 500 AI companies\"",
+   "verdict": "UNSOURCED",
+   "correction": "No external ranking; its own FAQ says 650+.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "top 500 AI companies",
+    "650+"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "tool-list-credited-cybernews",
+   "claim": "crediting the AI tool list to Cybernews",
+   "verdict": "MISATTRIBUTED",
+   "correction": "It is Wonder Tools', 22 Aug.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "Cybernews",
+    "Wonder Tools"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "privatemode-proton-lumo",
+   "claim": "\"PrivateMode\" and \"Proton Lumo Paper Trail\"",
+   "verdict": "MISCHARACTERISED",
+   "correction": "It is Privatemode, and Proton's AI Paper Trail.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "PrivateMode",
+    "Proton Lumo Paper Trail",
+    "Privatemode"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "grok-bot-as-ga",
+   "claim": "Grok Bot as generally available",
+   "verdict": "MISCHARACTERISED",
+   "correction": "\"Early beta\"; enterprise waitlisted; audit view, local-execution ceiling and spend caps unbuilt.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "Grok Bot",
+    "Early beta",
+    "GA"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "grok-bot-120-per-seat",
+   "claim": "\"$120/month/seat\" as the headline Grok Bot consumer price",
+   "verdict": "MISATTRIBUTED",
+   "correction": "Sourced to secondary SEO coverage \u2014 use the product page.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "$120/month",
+    "$120/month/seat",
+    "Grok Bot"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "every-notebook-runs-code",
+   "claim": "\"every notebook now runs code\" (Gemini Notebook)",
+   "verdict": "MISCHARACTERISED",
+   "correction": "Ultra tiers today; Pro \"coming weeks,\" web only.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "every notebook now runs code",
+    "Gemini Notebook"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "notebooklm-rename-as-23-aug",
+   "claim": "NotebookLM\u2192Gemini Notebook as 23 Aug news",
+   "verdict": "STALE",
+   "correction": "16 July 2026.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "NotebookLM",
+    "Gemini Notebook",
+    "16 July 2026"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "quizzes-spreadsheets-study-pdfs",
+   "claim": "\"quizzes, spreadsheets and study PDFs\" attributed to the code-execution launch",
+   "verdict": "MISATTRIBUTED",
+   "correction": "They belong to a different release.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "quizzes, spreadsheets",
+    "study PDFs"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "gemini-notebook-code-execution-location",
+   "claim": "any characterisation of where Gemini Notebook's code executes",
+   "verdict": "UNSOURCED",
+   "correction": "Unverified \u2014 print the absence.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "Gemini Notebook",
+    "code executes",
+    "sandbox"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "anthropic-4d-test",
+   "claim": "\"Anthropic's 4D test\"",
+   "verdict": "MISATTRIBUTED",
+   "correction": "Anthropic says framework, and credits it to Dakan and Feller, 2023\u201324.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "4D test",
+    "Dakan",
+    "Feller"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "free-courses-no-asterisk",
+   "claim": "\"Free courses\" (Anthropic/Cowork) without the asterisk",
+   "verdict": "MISCHARACTERISED",
+   "correction": "Cowork needs a paid plan to complete.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "Free courses",
+    "Cowork"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "chatgpt-projects-biggest-update",
+   "claim": "\"ChatGPT Projects got its biggest update ever\"",
+   "verdict": "REFUTED",
+   "correction": "No update shipped. Do not print as a product update.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "biggest update ever",
+    "ChatGPT Projects",
+    "Corey McClain"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "bypassing-per-platform-limits",
+   "claim": "\"bypassing per-platform limits\" as a capability",
+   "verdict": "MISCHARACTERISED",
+   "correction": "It is exhausting a quota.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "Bypassing per-platform limits",
+    "per-platform limits"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "drive-folders-as-agent-repos",
+   "claim": "\"Google Drive folders as repositories for agent instructions\" as a documented Projects feature",
+   "verdict": "UNSOURCED",
+   "correction": "Not documented.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "Google Drive folders",
+    "agent instructions"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "986-posts-trending",
+   "claim": "\"986 posts trending on X\" and any inference from it",
+   "verdict": "UNSOURCED",
+   "correction": "An unverifiable sidebar artefact with no readable content.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "986 posts",
+    "986"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "instinct-36-messages",
+   "claim": "\"36 messages\" in the Instinct incident",
+   "verdict": "UNSOURCED",
+   "correction": "Zero sourcing anywhere. Cut entirely.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "36 messages",
+    "Instinct"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "claire-vo-security-researcher",
+   "claim": "Claire Vo described as a \"security researcher\"",
+   "verdict": "MISCHARACTERISED",
+   "correction": "She is a product executive. The Neuron's label is wrong.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "Claire Vo",
+    "security researcher"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "usecarly-corroboration",
+   "claim": "usecarly.com as corroboration of the Instinct incident",
+   "verdict": "REFUTED",
+   "correction": "A competitor, and it never mentions the incident.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "usecarly.com",
+    "usecarly"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "instinct-liability-100",
+   "claim": "Instinct liability \"capped at $100\"",
+   "verdict": "MISCHARACTERISED",
+   "correction": "It is the greater of $100 or six months of fees.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "capped at $100",
+    "$100",
+    "six months of fees"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "spear-street-technology",
+   "claim": "\"Spear Street Technology, Inc.\" as an established corporate entity",
+   "verdict": "UNSOURCED",
+   "correction": "Self-attested on its own ToS only.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "Spear Street Technology"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "caboc-idrisova-quotes",
+   "claim": "Caboc's and Idrisova's quoted sentences printed as direct quotations",
+   "verdict": "UNSOURCED",
+   "correction": "Unreachable, uncorroborated.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "Caboc",
+    "Idrisova"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "idrisova-ibm-ai-sovereignty",
+   "claim": "\"Elina Idrisova (IBM, AI Sovereignty)\" implying an IBM governance role",
+   "verdict": "MISCHARACTERISED",
+   "correction": "She is a Business Development Executive for the Saudi market whose personal-brand tagline includes \"AI Sovereignty.\" Do not print \"IBM's AI [Sovereignty lead].\"",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "Idrisova",
+    "IBM, AI Sovereignty",
+    "AI Sovereignty"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "glm-53-cybergym",
+   "claim": "\"GLM-5.3 beat closed models on CyberGym\" unqualified",
+   "verdict": "MISCHARACTERISED",
+   "correction": "84.5% is Z.ai's own number, 0.7\u20130.9pp margin, unreproducible \u2014 and it loses 54.4 to 78.0 on ExploitBench. (Note the corpus verified GLM-5.3; a brief saying 5.2 is a regression.)",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "GLM-5.3",
+    "CyberGym",
+    "84.5%",
+    "ExploitBench"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "ai-sovereignty-network-live",
+   "claim": "The AI Sovereignty Network Live as a neutral convening, or \"Sat 29 August, 10AM ET\"",
+   "verdict": "MISCHARACTERISED",
+   "correction": "A commercial membership/advisory body selling VCAIO retainers, Africa-focused; the date is unverifiable and the org's own site makes no mention of it.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "AI Sovereignty Network",
+    "Sat 29 August",
+    "VCAIO",
+    "10AM ET"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "fde-200k-630k-comp",
+   "claim": "\"$200K\u2013$630K+\" FDE total comp",
+   "verdict": "UNSOURCED",
+   "correction": "Unsourced; matches no dataset.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "$200K\u2013$630K",
+    "$630K",
+    "$200K-$630K"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "fde-643-to-5330-postings",
+   "claim": "FDE \"643 \u2192 5,330 Indeed postings\"",
+   "verdict": "REFUTED",
+   "correction": "Indeed/BI published a correction: these are indexed values, not counts.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "643",
+    "5,330",
+    "Indeed postings"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "fde-more-than-800pc",
+   "claim": "\"more than 800%\" FDE posting growth as current",
+   "verdict": "STALE",
+   "correction": "Jan\u2013Sep 2025 data. Retire from live use.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md, research_displacement-science_2026-08-24.md",
+   "regenerations": 1,
+   "match_strings": [
+    "800%",
+    "more than 800%"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "fde-56000-linkedin-jobs",
+   "claim": "\"56,000+ FDE jobs on LinkedIn\"",
+   "verdict": "MISCHARACTERISED",
+   "correction": "\"OR-matched word-soup\"; Indeed's own count drops ~70x when restricted to the title.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "56,000+",
+    "56,000",
+    "forward deployed engineer"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "practitioner-ground-truth-stats",
+   "claim": "the six Practitioner Ground Truth statistics",
+   "verdict": "UNSOURCED",
+   "correction": "Unsourced \u2014 the brief itself says the subreddits were not read.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "Practitioner Ground Truth"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "eightfold-most-important-job",
+   "claim": "Eightfold's \"most important job of 2026\" as current",
+   "verdict": "STALE",
+   "correction": "A 6 Nov 2025 vendor blog.",
+   "killed_on": "2026-08-23",
+   "source_file": "research_story-candidates_2026-08-23.md",
+   "regenerations": 0,
+   "match_strings": [
+    "Eightfold",
+    "most important job of 2026"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "crowdstrike-29-minute-figures",
+   "claim": "the CrowdStrike 2026 Threat Hunting Report's 29-minute / AI-attack figures",
+   "verdict": "STALE",
+   "correction": "Marked SPENT (Mon 10 Aug) in the 17 Aug note; a do-not-print already stands on these figures.",
+   "killed_on": "2026-08-24",
+   "source_file": "research_displacement-science_2026-08-24.md",
+   "regenerations": 1,
+   "match_strings": [
+    "29 minutes",
+    "29-minute",
+    "CrowdStrike"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "mcp-hn-vote-counts",
+   "claim": "Hacker News vote counts as evidence in the MCP roadmap controversy",
+   "verdict": "MISCHARACTERISED",
+   "correction": "Engagement artefacts, not evidence. Drop them.",
+   "killed_on": "2026-08-24",
+   "source_file": "research_displacement-science_2026-08-24.md",
+   "regenerations": 0,
+   "match_strings": [
+    "HN vote",
+    "Hacker News",
+    "MCP roadmap"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "trusted-access-vetted-teams",
+   "claim": "\"vetted enterprise security teams\" for Trusted Access for Cyber, and OpenAI Red as an \"offensive model\"",
+   "verdict": "MISCHARACTERISED",
+   "correction": "It is \"eligible customers\" (AWS) / \"verified defenders\" (OpenAI) \u2014 nobody says \"vetted enterprise security teams.\" Access is \"intended for authorized defensive cybersecurity work.\" \"Offensive model\" is trade-press gloss. Not GA, US East (N. Virginia) only, 13 Aug.",
+   "killed_on": "2026-08-24",
+   "source_file": "week-plan_2026-08-24.md",
+   "regenerations": 0,
+   "match_strings": [
+    "vetted enterprise security teams",
+    "verified defenders",
+    "Trusted Access for Cyber",
+    "offensive model"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "rare-openai-aws-tie-up",
+   "claim": "\"rare OpenAI/AWS tie-up\"",
+   "verdict": "REFUTED",
+   "correction": "OpenAI models and Codex on Bedrock are already GA. This is an extension of an established relationship, not a surprising pairing.",
+   "killed_on": "2026-08-24",
+   "source_file": "week-plan_2026-08-24.md",
+   "regenerations": 0,
+   "match_strings": [
+    "rare OpenAI/AWS",
+    "tie-up",
+    "Bedrock"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "self-hosted-sandboxes-carve-out",
+   "claim": "\"self-hosted sandboxes remain the carve-out\" (Anthropic Managed Agents)",
+   "verdict": "REFUTED",
+   "correction": "The eligibility note says the exact opposite. Do not print it. Verified 13 Aug: Managed Agents ZDR:No/HIPAA:No, \"including Self-hosted sandboxes,\" and tool inputs and outputs still flow to Anthropic's control plane.",
+   "killed_on": "2026-08-17",
+   "source_file": "week-plan_2026-08-17.md",
+   "regenerations": 0,
+   "match_strings": [
+    "self-hosted sandboxes",
+    "Managed Agents",
+    "carve-out"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "cant-control-where-model-runs",
+   "claim": "any form of \"you can't control where the model runs\"",
+   "verdict": "STALE",
+   "correction": "False as of 7 Aug 2026. Keep the three facts separate: inference geo (global/us only), workspace geo (us only, fixed at creation), and the fact that they are independent.",
+   "killed_on": "2026-08-17",
+   "source_file": "week-plan_2026-08-17.md",
+   "regenerations": 0,
+   "match_strings": [
+    "can't control where the model runs",
+    "inference_geo",
+    "workspace_geo"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "sonnet-5-sept-price-increase",
+   "claim": "the scheduled 1 Sept Sonnet 5 price increase to $3/$15 per MTok",
+   "verdict": "STALE",
+   "correction": "It will not occur; introductory $2/$10 is now standard.",
+   "killed_on": "2026-08-17",
+   "source_file": "week-plan_2026-08-17.md",
+   "regenerations": 0,
+   "match_strings": [
+    "$3/$15",
+    "$2/$10",
+    "Sonnet 5"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "linkedin-1-3m-ai-roles",
+   "claim": "\"AI added 1.3M roles\" (LinkedIn Jobs on the Rise)",
+   "verdict": "MISCHARACTERISED",
+   "correction": "Not from Jobs on the Rise. It is \"at least 1.3 million AI-related job opportunities\" (global, two years, no methodology) \u2014 and 774,000 of them, about 60%, are data annotators by LinkedIn's own text. Only ever cite it with the 774K attached, at which point it argues the opposite.",
+   "killed_on": "2026-08-17",
+   "source_file": "week-plan_2026-08-17.md",
+   "regenerations": 0,
+   "match_strings": [
+    "1.3M roles",
+    "1.3 million AI-related",
+    "774,000",
+    "Jobs on the Rise"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "80pc-merged-production-code",
+   "claim": "\">80% of merged production code\" is AI-written",
+   "verdict": "UNSOURCED",
+   "correction": "Still unverified. Primary and date required before it enters a draft.",
+   "killed_on": "2026-08-17",
+   "source_file": "week-plan_2026-08-17.md, research_story-candidates_2026-08-14.md",
+   "regenerations": 0,
+   "match_strings": [
+    ">80% of merged",
+    "80% of merged production code"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "agent-orchestrator-comp-band",
+   "claim": "the Agent Orchestrator compensation band",
+   "verdict": "UNSOURCED",
+   "correction": "On the standing do-not-print list from the 12 Aug intake.",
+   "killed_on": "2026-08-12",
+   "source_file": "research_story-candidates_2026-08-12.md, week-plan_2026-08-17.md",
+   "regenerations": 0,
+   "match_strings": [
+    "Agent Orchestrator",
+    "comp band"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "95pc-vs-1-5pc-capability-jump",
+   "claim": "\"95% vs 1.5%\" as a capability jump",
+   "verdict": "MISCHARACTERISED",
+   "correction": "On the standing do-not-print list from the 12 Aug intake.",
+   "killed_on": "2026-08-12",
+   "source_file": "research_story-candidates_2026-08-12.md, week-plan_2026-08-17.md",
+   "regenerations": 0,
+   "match_strings": [
+    "95% vs 1.5%",
+    "1.5%"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "cloudera-95pc-77pc",
+   "claim": "Cloudera's 95% / 77% figures without the 55%",
+   "verdict": "MISCHARACTERISED",
+   "correction": "95% is a floor-of-one over twelve months; the informative figure is 55% reporting more than six projects. 95% + 77% > 100%, so at least 18 points of the \"delayed\" cohort are not using AI at all. n=1,500 architects and infrastructure leads, Wakefield Research, 5\u201322 June 2026, question wording not published \u2014 and Cloudera sells both things its survey names as the bottleneck.",
+   "killed_on": "2026-08-14",
+   "source_file": "research_story-candidates_2026-08-14.md, week-plan_2026-08-24.md",
+   "regenerations": 0,
+   "match_strings": [
+    "Cloudera",
+    "95%",
+    "77%",
+    "Wakefield Research"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "essential-eight-48-hours",
+   "claim": "Essential Eight \"48 hours for internet-facing\" patching",
+   "verdict": "REFUTED",
+   "correction": "Corrected against the ISM control text \u2014 the brief's figure is wrong as stated.",
+   "killed_on": "2026-08-16",
+   "source_file": "research_story-candidates_2026-08-16.md",
+   "regenerations": 0,
+   "match_strings": [
+    "Essential Eight",
+    "48 hours",
+    "internet-facing"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "13-6pc-89pc",
+   "claim": "the 13.6% / 89% pairing",
+   "verdict": "STALE",
+   "correction": "Burned as a claim twice (Fri 14, Sun 16). No third outing, this week or any.",
+   "killed_on": "2026-08-24",
+   "source_file": "week-plan_2026-08-24.md",
+   "regenerations": 2,
+   "match_strings": [
+    "13.6%",
+    "89%"
+   ],
+   "expiry_risk": "low"
+  },
+  {
+   "id": "gdfval-mit-nanda-95pc",
+   "claim": "MIT/NANDA \"95% of pilots fail\" and the AI Index \"88% adoption\"",
+   "verdict": "UNSOURCED",
+   "correction": "No primary reached. Own dig required if wanted.",
+   "killed_on": "2026-08-16",
+   "source_file": "research_story-candidates_2026-08-16.md",
+   "regenerations": 0,
+   "match_strings": [
+    "95% of pilots fail",
+    "NANDA",
+    "88% adoption"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "asic-director-duties-ai",
+   "claim": "ASIC's own words on director duties and AI",
+   "verdict": "UNSOURCED",
+   "correction": "Only the AICD's characterisation was verified.",
+   "killed_on": "2026-08-16",
+   "source_file": "research_story-candidates_2026-08-16.md",
+   "regenerations": 0,
+   "match_strings": [
+    "ASIC",
+    "AICD",
+    "director duties"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "twitch-geo-treatment",
+   "claim": "any claim about Twitch's EU/UK/AU default state and legal basis for genAI training",
+   "verdict": "UNSOURCED",
+   "correction": "Twitch does not document it. Write the absence or cut the geographic claim.",
+   "killed_on": "2026-08-14",
+   "source_file": "research_story-candidates_2026-08-14.md",
+   "regenerations": 0,
+   "match_strings": [
+    "Twitch",
+    "genAI training",
+    "legal basis"
+   ],
+   "expiry_risk": "high"
+  },
+  {
+   "id": "harness-engineering-imprint",
+   "claim": "the publisher/imprint of the \"Harness Engineering\" book",
+   "verdict": "UNSOURCED",
+   "correction": "Amazon robots.txt blocked. Say \"self-published Kindle edition\" hedged, or cut the publisher detail.",
+   "killed_on": "2026-08-14",
+   "source_file": "research_story-candidates_2026-08-14.md",
+   "regenerations": 0,
+   "match_strings": [
+    "Harness Engineering",
+    "Ken Huang"
+   ],
+   "expiry_risk": "high"
+  }
+ ]
+}

@@ -1,0 +1,107 @@
+{
+  "kind": "work",
+  "date_stamp": "2026-09-27",
+  "file": "AI Briefs/work_brief_2026-09-27.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1790539846.051099",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1790539851.831769",
+      "title": "\"AI Coding Rate Limits are RIDICULOUS Now - Here's How You Keep Scaling Anyway\"",
+      "section": "🎥 What Creators Are Saying (YouTube)",
+      "url": "https://www.youtube.com/watch?v=NZq88JAJSag"
+    },
+    {
+      "index": 2,
+      "ts": "1790539854.313339",
+      "title": "\"Opus 5.5 Just Changed Video Editing Forever (free skills)\"",
+      "section": "🎥 What Creators Are Saying (YouTube)",
+      "url": "https://www.youtube.com/watch?v=7jHXoPGnA4c"
+    },
+    {
+      "index": 3,
+      "ts": "1790539857.113849",
+      "title": "\"Opus 5.5: How Close Are We to Automated AI Research?\"",
+      "section": "🎥 What Creators Are Saying (YouTube)",
+      "url": "https://www.youtube.com/watch?v=R9momwXV9w4"
+    },
+    {
+      "index": 4,
+      "ts": "1790539858.958359",
+      "title": "Tracked channels and search pages:",
+      "section": "🎥 What Creators Are Saying (YouTube)",
+      "url": ""
+    },
+    {
+      "index": 5,
+      "ts": "1790539862.230329",
+      "title": "@gregisenberg (Greg Isenberg)",
+      "section": "🐦 The Conversation on X",
+      "url": "https://x.com/gregisenberg/status/2103927365977928019"
+    },
+    {
+      "index": 6,
+      "ts": "1790539864.591269",
+      "title": "@imravikumars (Ravi Kumar S, Cognizant CEO)",
+      "section": "🐦 The Conversation on X",
+      "url": "https://www.weforum.org/videos/ai_networks_hierarchies_cognizant_ceo/"
+    },
+    {
+      "index": 7,
+      "ts": "1790539866.593489",
+      "title": "@emollick (Ethan Mollick)",
+      "section": "🐦 The Conversation on X",
+      "url": "https://x.com/emollick/status/2104039050080342456"
+    },
+    {
+      "index": 8,
+      "ts": "1790539871.718319",
+      "title": "r/singularity",
+      "section": "🧑‍💻 Practitioner Ground Truth (Reddit)",
+      "url": "https://www.reddit.com/r/singularity/comments/1wrera2/claude_opus_55_designed_a_processor_faster_and/"
+    },
+    {
+      "index": 9,
+      "ts": "1790539874.210429",
+      "title": "The AI Daily Brief",
+      "section": "🎙️ Podcasts & Newsletters",
+      "url": "https://aidailybrief.ai/e/2026-09-25"
+    },
+    {
+      "index": 10,
+      "ts": "1790539875.692929",
+      "title": "Ethan Mollick / One Useful Thing",
+      "section": "🎙️ Podcasts & Newsletters",
+      "url": "https://www.oneusefulthing.org/p/the-overhang"
+    },
+    {
+      "index": 11,
+      "ts": "1790539877.138229",
+      "title": "AI Chat Daily careers beat",
+      "section": "🎙️ Podcasts & Newsletters",
+      "url": ""
+    },
+    {
+      "index": 12,
+      "ts": "1790539879.566539",
+      "title": "AT&T says it will keep hiring people who build and govern agents",
+      "section": "🆕 New Roles & Archetypes Watch",
+      "url": "https://www.wired.com/story/atandt-is-automating-away-its-old-telecom-empire/"
+    },
+    {
+      "index": 13,
+      "ts": "1790539883.677689",
+      "title": "a16z's academy admits on proof of work, not grades",
+      "section": "🆕 New Roles & Archetypes Watch",
+      "url": "https://fortune.com/2026/09/22/a16z-horowitz-andreessen-academy-college-alternative-tuition-biyani/"
+    },
+    {
+      "index": 14,
+      "ts": "1790539885.087659",
+      "title": "AT&T expects a smaller workforce but rejects the 85,000 figure",
+      "section": "⚖️ The Debate (kept honest, kept brief)",
+      "url": "https://www.wired.com/story/atandt-is-automating-away-its-old-telecom-empire/"
+    }
+  ]
+}

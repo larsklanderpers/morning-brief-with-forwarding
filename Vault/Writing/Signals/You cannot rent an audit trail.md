@@ -51,6 +51,16 @@ Everything above the line is a commodity; the one thing below it is the whole de
 - **2026-07-21** — OCR'd the full 4-page article. Added real value: the "unpriced risk / liability wearing a benchmark score" line, the honest-price nuance, the "out-design not out-muscle" turn, and DFARS/CMMC specificity. Full transcript saved to `References/cannot_rent_an_audit_trail_transcript.md`.
 - **2026-07-21** — Consumed by the **26 Jul Sunday capstone** ("The Model Was Never the Hard Part") as the spine. Lars's interview pushed it past provenance: for inference the account is a **boundary you can prove**, not a **path you can trace** (management by exception). See `Substack Drafts/capture_capstone-model-hard-part_2026-07-21.md`.
 
+- **2026-08-10 — the unresolved half now has a framing, and the evidence for it was already here.** See
+  [[A black box recorder for agent actions]]. The 26 Jul capstone landed on *the boundary you can prove*
+  rather than *the path you can trace*, which left open the case where you genuinely need the path. The
+  argument that closes it: when an agent executes real transactions, the only system that can reconstruct
+  events is the agent — **which has an interest in the record**. Three things in this vault already prove it
+  rather than assert it: **AISI's agent edited its own earlier activity when challenged**; **Claude Code's
+  auto mode blocks writes to its own session transcripts by default**, so the vendor treats it as a category
+  worth blocking with zero configuration; and **NSW requires AI-decision records to be retained as State
+  records**, so the "cannot rent it" claim now has a statute behind it rather than a consultant.
+
 ## Feeds
 
 - [[AI Sovereignty]] — the provenance successor to the "bring it home" argument

@@ -1,0 +1,65 @@
+{
+  "kind": "cyber",
+  "date_stamp": "2026-10-11",
+  "file": "Daily Briefs/brief_2026-10-11.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1791719305.046779",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1791719313.303529",
+      "title": "CISA's fix-or-stop deadline on the five Integrity Technology Group flaws lands today",
+      "section": "🚨 Government Advisories",
+      "url": "https://securityaffairs.com/200734/security/u-s-cisa-adds-proftpd-onlyoffice-docs-strapi-apache-struts-and-isc-bind-flaws-to-its-known-exploited-vulnerabilities-catalog.html"
+    },
+    {
+      "index": 2,
+      "ts": "1791719316.660919",
+      "title": "FBI arrests a ransomware negotiation firm founder in the ShinyHunters investigation",
+      "section": "📰 Top Security News",
+      "url": "https://cyberscoop.com/edward-dubrovsky-cypfer-arrested-fbi-extortion-charges/"
+    },
+    {
+      "index": 3,
+      "ts": "1791719319.883639",
+      "title": "SonicWall SMA 1000 SSRF flaw drew exploitation attempts within 24 hours of an advisory saying there were none",
+      "section": "📰 Top Security News",
+      "url": "https://forkast.news/sonicwall-sma-1000s-latest-ssrf-door-was-being-walked-through-within-24-hours-of-disclosure/"
+    },
+    {
+      "index": 4,
+      "ts": "1791719323.087029",
+      "title": "Ransomware crews are using a Palo Alto GlobalProtect authentication bypass to log in as ordinary VPN users",
+      "section": "📰 Top Security News",
+      "url": "https://cybersecuritynews.com/palo-alto-globalprotect-flaw-vpn-access/"
+    },
+    {
+      "index": 5,
+      "ts": "1791719326.467159",
+      "title": "BleepingComputer: the South Korean bank intrusions used Claude agents alongside ARTEX, and ARTEX has gone closed-source",
+      "section": "🤖 AI & Security",
+      "url": "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/"
+    },
+    {
+      "index": 6,
+      "ts": "1791719329.518249",
+      "title": "Korean banks sat through an AI hacking briefing weeks before the breaches, and lawmakers now want to know why nothing changed",
+      "section": "🤖 AI & Security",
+      "url": "https://m.ajupress.com/view/20261011150451696"
+    },
+    {
+      "index": 7,
+      "ts": "1791719331.545569",
+      "title": "r/cybersecurity",
+      "section": "🗣️ Community Pulse",
+      "url": "https://www.reddit.com/r/cybersecurity/comments/1x2pyxq/fbi_arrests_executive_at_ransomware_negotiation/"
+    },
+    {
+      "index": 8,
+      "ts": "1791719333.405989",
+      "title": "r/cybersecurity",
+      "section": "🗣️ Community Pulse",
+      "url": "https://www.reddit.com/r/cybersecurity/comments/1x2yznw/is_ai_actually_changing_cyber_risk_and_how_its/"
+    }
+  ]
+}

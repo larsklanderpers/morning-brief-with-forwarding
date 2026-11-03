@@ -1,0 +1,86 @@
+{
+  "kind": "cyber",
+  "date_stamp": "2026-10-16",
+  "file": "Daily Briefs/brief_2026-10-16.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1792151321.629639",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1792151328.632309",
+      "title": "CISA adds the Atlassian Data Center file-read flaw to KEV, ten days after exploitation began",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/10/15/cisa-adds-one-known-exploited-vulnerability-catalog"
+    },
+    {
+      "index": 2,
+      "ts": "1792151331.330119",
+      "title": "No new ACSC alert overnight; the 14 October OT alert is still the latest",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.cyber.gov.au/alert/protecting-operational-technology-and-edge-devices"
+    },
+    {
+      "index": 3,
+      "ts": "1792151334.342649",
+      "title": "Cyberattack on contractor BAE Systems takes down the US federal bankruptcy courts' notice system",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/bae-systems-cyberattack-disrupts-us-federal-court-operations/"
+    },
+    {
+      "index": 4,
+      "ts": "1792151337.775689",
+      "title": "BeyondTrust patches Remote Support zero-day exploited since late August, attributed to a China-nexus actor",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/"
+    },
+    {
+      "index": 5,
+      "ts": "1792151340.965429",
+      "title": "Attackers exploit Collabora flaw to drop webshells on self-hosted Nextcloud servers",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/"
+    },
+    {
+      "index": 6,
+      "ts": "1792151343.957219",
+      "title": "Citizen Lab and Confiant: ad platform delivered Candiru spyware zero-click through rendered adverts",
+      "section": "📰 Top Security News",
+      "url": "https://therecord.media/spyware-citizen-lab-advertising"
+    },
+    {
+      "index": 7,
+      "ts": "1792151351.159909",
+      "title": "Proxyjacking campaign hijacks NAS and video recorders in 34 countries to resell victims' bandwidth",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-d-link-ubiquiti-devices-to-resell-your-stolen-bandwidth/"
+    },
+    {
+      "index": 8,
+      "ts": "1792151354.610179",
+      "title": "Suspected Kazakhstan-linked espionage campaign hits governments across nine former Soviet states",
+      "section": "📰 Top Security News",
+      "url": "https://therecord.media/suspected-kazakhstan-phishing-central-asia-espionage"
+    },
+    {
+      "index": 9,
+      "ts": "1792151357.923379",
+      "title": "Google rolls out on-device and cloud AI scam detection for Android messages and calls",
+      "section": "🤖 AI & Security",
+      "url": "https://www.bleepingcomputer.com/news/security/android-gets-ai-defenses-against-messaging-scams-fake-calls/"
+    },
+    {
+      "index": 10,
+      "ts": "1792151361.027629",
+      "title": "Two vendor-sponsored posts in two days argue AI pentesting is ready, each selling the answer",
+      "section": "🤖 AI & Security",
+      "url": "https://www.bleepingcomputer.com/news/security/is-ai-pentesting-as-good-as-a-human-pentester/"
+    },
+    {
+      "index": 11,
+      "ts": "1792151362.841579",
+      "title": "Reddit lane failed this morning",
+      "section": "🗣️ Community Pulse",
+      "url": "https://www.reddit.com/r/netsec/"
+    }
+  ]
+}

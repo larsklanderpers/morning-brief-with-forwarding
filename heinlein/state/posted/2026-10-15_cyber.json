@@ -1,0 +1,93 @@
+{
+  "kind": "cyber",
+  "date_stamp": "2026-10-15",
+  "file": "Daily Briefs/brief_2026-10-15.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1792064842.531469",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1792064848.801199",
+      "title": "CISA adds four exploited flaws to KEV: Palo Alto PAN-OS, Cisco Secure Email Gateway, and two in AhsayCBS backup",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/10/14/cisa-adds-four-known-exploited-vulnerabilities-catalog"
+    },
+    {
+      "index": 2,
+      "ts": "1792064851.319199",
+      "title": "No new ACSC alert since Wednesday's OT and refrigeration alert",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.cyber.gov.au/alert/protecting-operational-technology-and-edge-devices"
+    },
+    {
+      "index": 3,
+      "ts": "1792064854.094829",
+      "title": "Cisco patches another exploited Secure Email Gateway zero-day that gives unauthenticated attackers root",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/cisco-patches-actively-exploited-secure-email-gateway-zero-day/"
+    },
+    {
+      "index": 4,
+      "ts": "1792064857.005789",
+      "title": "Palo Alto Networks confirms PAN-OS management-interface RCE exploited in the wild",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks/"
+    },
+    {
+      "index": 5,
+      "ts": "1792064860.248899",
+      "title": "Microsoft, Japan's police and Health-ISAC take down three Chinese-language phishing platforms",
+      "section": "📰 Top Security News",
+      "url": "https://therecord.media/microsoft-takes-down-3-major-chinese-phishing-platforms"
+    },
+    {
+      "index": 6,
+      "ts": "1792064862.996109",
+      "title": "FBI raids North Korean IT-worker laptop farms in Texas; two US nationals arrested, 14 charged",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-raids-dprk-it-worker-laptop-farms-in-texas-us-nationals-arrested/"
+    },
+    {
+      "index": 7,
+      "ts": "1792064868.458819",
+      "title": "UK Legal Aid Agency says stolen data reaches back to 1978",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/uk-legal-aid-agency-hackers-stole-records-dating-back-to-1978/"
+    },
+    {
+      "index": 8,
+      "ts": "1792064870.884029",
+      "title": "Poland's PM says the spyware vendor had access to data harvested under the previous government",
+      "section": "📰 Top Security News",
+      "url": "https://therecord.media/spyware-manufacturer-had-access-to-data-harvested-by-previous-polish-government"
+    },
+    {
+      "index": 9,
+      "ts": "1792064873.534109",
+      "title": "Ledger asks sellers across seven Asian markets to pull its wallets from shelves",
+      "section": "📰 Top Security News",
+      "url": "https://www.bleepingcomputer.com/news/security/ledger-asks-sellers-across-asia-to-halt-sales-after-supply-chain-attack/"
+    },
+    {
+      "index": 10,
+      "ts": "1792064876.327349",
+      "title": "Meta says attackers used an employee's stolen credentials to take code and personal data from GitHub repositories",
+      "section": "📰 Top Security News",
+      "url": "https://www.securityweek.com/meta-says-hackers-took-code-personal-data-of-1500-in-github-breach/"
+    },
+    {
+      "index": 11,
+      "ts": "1792064879.789869",
+      "title": "Booz Allen: frontier AI models reached an industrial control network from the perimeter in about 16 minutes",
+      "section": "🤖 AI & Security",
+      "url": "https://www.securityweek.com/ai-agents-navigate-unfamiliar-ot-systems-and-move-equipment-in-minutes-booz-allen-finds/"
+    },
+    {
+      "index": 12,
+      "ts": "1792064881.680299",
+      "title": "Harmonic Security raises $50 million to police employee AI use",
+      "section": "🤖 AI & Security",
+      "url": "https://www.securityweek.com/harmonic-security-raises-50-million-for-workforce-ai-protection/"
+    }
+  ]
+}

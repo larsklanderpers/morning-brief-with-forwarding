@@ -82,6 +82,51 @@ workbook. The central risk log is something GDS only "encourages". Against
 opposite status: one government made it a gate, the other a suggestion. It names neither ISO/IEC 42001
 nor NIST AI RMF.
 
+**Promoted 2026-09-20 (Heinlein inbox, Lars).** The compliance-folklore pattern has a quieter form,
+and it may be the common one. [[Five board AI policies and no law named]]: a LinkedIn Pulse article
+of 19 Sep, number 8 of a 20-part series, tells boards to require five AI policies and — on the fetch
+as read — names **no law, regulator or standard anywhere**, closing into the author's own newsletter
+and his trademarked Governance by Assurance™. The earlier instances in this thread manufacture false
+facts; this one manufactures none, because nothing in it is checkable. **The authority it runs on is
+the author's.** ⚠️ The no-law finding is an absence claim off a summarising reader, not a raw scrape
+— read the page directly before printing it.
+
+**Promoted 2026-09-20 (Heinlein inbox, Lars), and it is the opposite face of this thread.** Every
+other instrument here was improvised by somebody with no standing to write it. This one was written
+well, by the party it measures.
+[[Anthropic publishes its own pace metrics]]: three measurements of frontier-lab pace - an AL0-to-AL5
+automation index (Claude **leads 26%** of Anthropic's own AI R&D as of Aug 2026, under 1% in Feb),
+oversight numbers for ~**30,000** simultaneous agents, and **6%** of AI R&D compute going to safety -
+published days after Amodei called for pacing the frontier, and **self-measured, self-judged and
+unaudited**, with third-party evaluators still future tense. Its best sentence argues against its own
+author's interest: *"the burden of proof should sit with the developer to show that work is
+safety-related."* Against [[UK AI Risk Management Toolkit - guidance, not a gate]] and
+[[NSW mandates AI registration and assessment across government]] the axis is now three-sided: a
+government that made it a gate, a government that made it a suggestion, and **a company that wrote the
+gauge because neither of them had.** ⚠️ Read through a summarising fetcher and undated on the page
+(secondaries say 17 Sep) - foot both before printing.
+
+**Promoted 2026-09-22 (Heinlein inbox, Lars), and it is the space everything else in this thread
+grows into.** [[Governing by order while the statute count falls]]: the 119th Congress has enacted
+**111 public laws**, **34 of them in 2026** (the lowest midterm-year total since at least 1990), and
+the House closed on **16 September** until after the 3 November election. Over the same period the
+second Trump administration has signed **284 executive orders** (Federal Register API, 22 Sep),
+more than Obama signed in eight years, at about **171 a year, the highest annual rate since FDR**.
+Every other instrument on this board was improvised by a party with no standing to write it; this is
+the same move at the top of the system, where the standing exists. **The instrument that one office
+can issue alone is the one still being issued, and it is revocable on day one by the next office
+holder.** That difference in half-life is not priced anywhere in the governance literature, which is
+part of why [[Five board AI policies and no law named]] can tell boards to require policies while
+naming no law: federally, there is increasingly an order to name rather than a law.
+⛔ Three traps, all recorded in the note: **"most EOs since FDR" is false unqualified** (Truman 907,
+Eisenhower 484 - it is true only as a rate); **"fewest laws since Jefferson" does not hold** (the
+10th Congress passed about 104 in two years and the 119th is past that); and **Jefferson's "4" is
+not the same unit as 284**, since EO numbering began in 1907 and back-catalogues only to 1862.
+⚠️ And the metric itself is contested from both directions - AEI says counting laws mismeasures
+Congress, the LoC notes 4 to 6 million words of law per Congress since WWII consolidated into
+omnibus vehicles, and Speaker Johnson calls this the most productive Congress in 80 years. **The
+story is that both sides reach for the measure that suits them.**
+
 ## Pieces
 
 - 2026-07-06 — Welcome to the Other Side of the Form *(· KYC)*

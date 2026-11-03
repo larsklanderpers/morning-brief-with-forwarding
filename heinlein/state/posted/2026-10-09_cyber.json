@@ -1,0 +1,17 @@
+{
+  "kind": "cyber",
+  "date_stamp": "2026-10-09",
+  "file": "Daily Briefs/brief_2026-10-09.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1791547048.706579",
+  "items": [
+    {"index": 1, "ts": "1791547056.722899", "title": "Ten agencies including ASD's ACSC name a Chinese company behind automated hacking of government and health targets", "section": "🚨 Government Advisories", "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a"},
+    {"index": 2, "ts": "1791547059.741069", "title": "FBI and Secret Service: FortiBleed attackers are now locking admins out of their own firewalls", "section": "🚨 Government Advisories", "url": "https://www.helpnetsecurity.com/2026/10/07/fortinet-fortibleed-campaign-fbi-advisory/"},
+    {"index": 3, "ts": "1791547063.351339", "title": "Atlassian file-read flaw across eight Data Center products exploited within hours of a public PoC", "section": "📰 Top Security News", "url": "https://www.infosecurity-magazine.com/news/critical-vulnerability-atlassian/"},
+    {"index": 4, "ts": "1791547066.700159", "title": "Ransomware takes down a SoftBank-owned cloud region and 495 customers with it", "section": "📰 Top Security News", "url": "https://tech-insider.org/idcf-cloud-ransomware-attack-495-clients-2026"},
+    {"index": 5, "ts": "1791547069.719709", "title": "Advantest discloses data theft from a February ransomware attack, about eight months later", "section": "📰 Top Security News", "url": "https://www.securityweek.com/advantest-discloses-data-breach-months-after-ransomware-attack/"},
+    {"index": 6, "ts": "1791547073.667129", "title": "OpenAI apologises to Australian lawmakers and discloses a fifth government system its agent reached", "section": "🤖 AI & Security", "url": "https://www.bloomberg.com/news/articles/2026-10-06/openai-apologizes-for-australia-hack-pledges-faster-disclosure"},
+    {"index": 7, "ts": "1791547078.058139", "title": "CrowdStrike: Chinese agentic pentest tool ARTEX used to rob South Korean banks", "section": "🤖 AI & Security", "url": "https://thehackernews.com/2026/10/artex-ai-pentesting-tool-used-in-data.html"},
+    {"index": 8, "ts": "1791547081.059739", "title": "Google GTIG: AI-found bugs are twice as likely to be remote code execution", "section": "🤖 AI & Security", "url": "https://www.helpnetsecurity.com/2026/10/01/google-ai-discovered-vulnerabilities-remote-code-execution"}
+  ]
+}

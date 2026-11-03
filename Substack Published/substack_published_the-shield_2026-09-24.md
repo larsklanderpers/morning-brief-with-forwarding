@@ -1,0 +1,153 @@
+# The Shield
+
+**Status: SCHEDULED -- Thursday, 24 Sep 2026. Title fixed by him, 23 Sep: "The Shield". Moved to Scheduled on his word 23 Sep ("schedule it"). HE PUSHES TO SUBSTACK HIMSELF.**
+
+**Provenance: v1 (21 Sep, drafted from the plan + `research_the-shield_2026-09-24.md`, with four interview markers) -> rv1 (HIS edit pass, voice ground truth: every interview marker and both [YOUR TAKE] marks answered, plus a new aside section, the release-cadence payload, the regulator call, the buyer's-comfort read and a widened close) -> rv2 (mechanics) -> rv3 (Rd1 panel hits, drafter's only) -> rv4 (footing pass; two perishable dates corrected) -> rv5 (his six rulings) -> rv6 (his second set: 3(c), the secrecy concession, the Monday callback) -> rv7 (his DPA catch, rewritten to the statute) -> rv8 (HIS replacement s.708 paragraph, in his words) -> rv9 (Rd2 blockers, drafter's only).**
+
+**Panel: TWO rounds. Rd1 on rv2 = 8.3 raw CAPPED 7.0 BLOCKED (open [VERIFY]s on an unfooted release-cadence payload; slop below floor; a cross-piece register collision). **Rd2 on rv9 = 9.1 PASS** (bar 9.0; Voice-Fidelity 9.5 / AI-Slop 9.5 / Editorial Taste 9.0 / Line 8.5 / Structure 8.0 / Skeptic 8.5). No live [VERIFY]. DO-NOT-PRINT 11/11 clean, plus both DPA-specific bans.**
+
+**Series: Weekday feed (Thursday, AI growth spine) · Thread: who carries it when the label is wrong (21 Sep arc, day 4) · Beat: AI Policy / Antitrust / Liability / Frontier Labs**
+
+**PRINTED PROMISE PAID:** Mon 21 printed "Thursday takes up the shield being negotiated in Washington." Paid in the second paragraph, by name. SB 3444 not re-run; Bessent referred to, not re-quoted.
+
+**HIS RULINGS, recorded with their reasoning so no later seat re-opens them on merit:**
+**1. (23 Sep) The close collision with Wed 23 is DELIBERATE. Both pieces land on a document the affected party is not allowed to read, one day apart. His words: "That's the point." Only his framework sentence moved, up to the shields-on-the-books contrast. Not to be re-litigated.**
+**2. (23 Sep) Name United in the aside, "since I used them elsewhere," with its own Q2 revenue record -- which takes the industry-wide BTS figure out of play.**
+**3. (23 Sep) Recast "cost per task estimated by the labs" to list price, which is what the primaries foot.**
+**4. (23 Sep) "The most used AI models in the West" -- his words: an opinion, but a safe one.**
+**5. (23 Sep) Five models, not four.**
+**6. (23 Sep) Meta's Muse delay is footed at Zuckerberg's own reply to the pacing essay. His words: "Trust me, its accurate." Confirmed in `research_slowdown-positioning_2026-09-16.md`.**
+**7. (23 Sep) Add the s.3(c) affirmative-defense rebuttal, concede the secrecy rationale in one beat, and vary the Monday callback.**
+**8. (23 Sep) The s.708 paragraph is HIS, in his words, replacing the drafter's. His four statutory corrections bind every revision: the defense is conditional, never a "full defense"; government initiation and active supervision are required; DOJ/FTC participation is mandatory at development meetings but optional at implementation meetings, where a federal employee must attend; public disclosure carries specified exemptions. Participants bear the burden of establishing the defense.**
+
+**ACCURACY CATCHES, all resolved before scheduling:**
+**- ★★ HIS catch on the drafter's s.708 paragraph. The drafter had it as a "full defense" with the AG and FTC simply attending the meetings and the record simply public. All three were wrong. His replacement paragraph is what ships.**
+**- HIS sourcing: DOJ published the required finding for FEMA's pandemic healthcare-supply agreement on 17 Aug 2020 (FR 2020-18006), FEMA's implementation notice followed on 28 May 2021 (FR 2021-11278); DOJ announced approval of the DOE consortium's UPDATED voluntary agreement and plans of action on 23 Apr 2026. April is an UPDATE's approval, never the consortium's creation.**
+**- The release-cadence payload in his rv1 pass read as unfooted against the project's own briefs, which were simply behind. Footed at primaries 23 Sep: Opus 5.5 Tue 22 Sep (40% less to run than Opus 5; Sonnet 5.5 and Haiku 5.5 "in the coming weeks"); GPT-6 Sol and Luna Tue 22 Sep at half their 5.6 prices; Grok 4.7 Mon 21 Sep at Grok 4.6 rates; Gemini 3.8 Live 15 Sep. All post-date the 12 Sep essay.**
+**- TWO perishable dates corrected for a Thursday run: "today" -> "on Tuesday" (Opus 5.5); "two days ago" -> "three days ago" (Grok 4.7).**
+**- The drafter had filled an ellipsis inside a quotation of the bill's s.3(d)(1) with plausible statutory wording. Restored to its sourced form.**
+**- The drafter's claim that the pacing essay acknowledged needing a narrow waiver is footed at the complaint itself, as the complaint's characterization.**
+**- The airline line as first written asserted an industry quarter that BTS data contradicts (a $16M after-tax net gain for Q2 2026). Resolved by his ruling 2.**
+
+**OPEN AND HIS, carried deliberately, none blocking:** six proposed-not-applied items from Rd2 -- two absolutes ("Nearly every argument about this has been missing the same thing" and "the clearest explanation you will find"), "a rough fortnight" against nine days of quotes beneath it, seven competing landings before the close (five of them his), whether his s.708 source links go back into the body (kept out per house style: the corpus prints no inline links), and whether to state the labs' best case before knocking it down.
+
+**Source: `References\research_the-shield_2026-09-24.md` (+ its 23 Sep addenda). His own DPA sources and statutory corrections are filed there.**
+
+**He pushes to Substack himself. Always.**
+
+---
+
+The frontier labs asked Washington for permission, in the form of regulation and some anti-trust waivers, to slow down together. Regardless of whether you find this to be genuine or an attempt at regulatory capture, they did ask. Four of their own customers sued them for it before Washington answered.
+
+On Monday I said Thursday would take up the shield being negotiated in Washington, and that the politics of who is liable for a model were louder than the law. This is the shield. It turns out to be a real clause in a real bill, it does something narrower and stranger than most of the coverage suggests, and the lawsuit filed against the labs last Friday is the clearest explanation you will find of why they want that permission and what they clearly believe it will entail.
+
+Picture two gas stations on opposite corners of the same intersection. One morning, both owners hear the same rumor: a batch of fuel from their shared supplier might be bad. Either one could stop selling it. But if one stops and the other does not, every driver on that corner simply pulls across the street, and the careful owner loses the day's business to the careless one. So the two owners walk out into the middle of the road and agree to stop selling it together until somebody tests the tanks.
+
+That is a sensible thing to do. It is also, in the plainest reading of American antitrust law, two competitors agreeing to restrict what they sell, which is about as close to the textbook definition of a cartel as it gets. The driver who needed a full tank that afternoon, and paid more down the road, has a claim, and the law lets that driver collect three times the loss.
+
+Now notice what the agreement does *not* touch. If the bad fuel had already gone into somebody's engine, the owners' handshake in the middle of the road would do nothing at all about that. That is a different lawsuit, about a different harm, with a different plaintiff. There are two liabilities at that intersection -- one for agreeing, one for the engine -- and only one of them is on the table in Washington.
+
+## What the bill actually says
+
+The shield has a bill number. It is S. 5105, the *Collaboration on Adversarial Threats and Security Risks Act*, introduced by Senators Adam Schiff and Jim Banks on 23 July, with a House companion from Representatives Latta and Whitesides the same day. When it was introduced it was a China bill. The sponsors' press releases were headlined on Chinese espionage and distillation (a rival systematically querying your model to copy what it can do), and it was pitched as letting American labs share threat information without being accused of colluding.
+
+Read the text, though, and there are two clauses, not one. The first, section 3(a)(1), covers sharing information about security risks. The second, section 3(a)(2), says it is not an antitrust violation for two or more companies *"to coordinate or enter into agreements for the exclusive purpose of reducing covered artificial intelligence security risks via delaying or otherwise limiting the release, deployment, use, development, training, testing, or evaluation of artificial intelligence."* All they have to do is send written notice to the Assistant Attorney General for antitrust first, describing the risk and the scope of the restriction.
+
+Read that list of verbs again. Release, deployment, use, development, training, testing, evaluation. That is the whole life of a model, and the clause lets competitors agree to slow any of it. The bill's definition of a covered risk is broad enough to carry the pacing argument too; alongside theft and weapons, it includes AI that reduces developer oversight and AI that improves itself with dangerous consequences. Which is why, when the pacing debate broke two weeks ago, the Washington Post's technology newsletter looked at a two-month-old China bill and headlined it *a legal shield for pacing*. Banks reposted it on his own Senate site. Banks and Schiff have also tried to move the exemption through the annual defense bill, where it went into a manager's package of amendments with the committee leadership's blessing and then stalled with everything else, as Semafor reported last week.
+
+Two details in the text matter more than anything said about it.
+
+The first is the carve-out. The bill says the exemption *"shall not be construed to permit price-fixing, allocating a market between competitors, monopolizing ..., boycotting, or exchanges of price or cost information."* That is the sentence everyone points to when they say the shield is narrow. It begins *"Subsection (a)(1)."* It is written for the information-sharing clause. The coordinated-delay clause, the one that actually does the pacing, does not carry it. Whether a court would read the carve-out into (a)(2) anyway is a legal issue and palm reading exercise; for our purposes, it is prudent to believe the intent was for it not to apply.
+
+The obvious rebuttal is that the shield is not automatic. Section 3(c) makes it an *"affirmative defense,"* and the company claiming it has to prove *"by a preponderance of the evidence"* that it acted in good faith and for that purpose alone. True, and it cuts the other way. A defense a company raises after it is sued, and has to carry the burden on, is worth a great deal less than the clean permission the labs have been asking for in public. It protects the lab that can afford the litigation.
+
+The second is the notice. The written notice the companies send the Justice Department, and anything derived from it, is to be *"withheld, without discretion, from the public."* So the arrangement would work like this: the labs agree to slow something, they tell one office at the Justice Department what and why, and nobody else ever reads it. The only backstop the bill gives the government is an injunction, if the Attorney General can show the companies did not act in good faith or that the arrangement is *"reasonably likely to result in an overall increase"* in the very risks it claims to reduce. There is no damages remedy for the government, and a private plaintiff keeps the right to sue only for conduct that is *not* exempt.
+
+The drafters had a reason for sealing it, and it is not a bad one. A notice setting out exactly which capability is being held back, and why, is a specification for the people the holding back is meant to stop. Seal the capability, then. What the clause seals is the notice, which puts the fact that companies agreed, the names on the agreement and the clock they set under the same seal as the one technical detail that needed one.
+
+## An aside before we go further
+
+I am finding this week really depressing. We keep seeing this shape of things where the entities with power are saying "oh, woe is me, we need help" -- and not just the labs, look at the airlines, where United alone booked a record 17.7 billion dollars of revenue last quarter, which is more digits than my old Casio calculator could record without an error -- but when we start to peel back the law, the onus for the action falls squarely on the consumer. If I read back through the last few weeks, I keep finding this pattern where the people who should be responsible keep socializing their responsibilities and privatizing the revenue result. I am not going to go that deep into politics here, but I want you to know that I do, very much, see the *shape* of this, and what is being done, systemically, I just don't have a good idea how to *fix it*, so I am going to keep my tilting at windmills down to the bare minimum.
+
+## The suit that explains the ask
+
+Last Friday, 18 September, four paid subscribers filed a class action in federal court in San Francisco against Anthropic, OpenAI, SpaceXAI and Google (*Buist v. Anthropic PBC*, 3:26-cv-10693). One count, Section 1 of the Sherman Act, and the remedy they want is exactly the one the gas station driver gets: treble damages, plus an order stopping the coordination. The proposed class is every paid individual subscriber to ChatGPT, Claude, Grok or Gemini in the United States from 12 September onward.
+
+Their theory fits in one sentence, and it is theirs: *"An agreement among competitors to reduce the quality of their products and the rate at which those products improve is an agreement to restrict output."*
+
+What makes the complaint worth reading is where the evidence comes from. There are no leaked emails and no confidential witnesses. It is built entirely from what the labs said in public. The pacing essay on 12 September, which the complaint treats as the offer and which, it points out, itself acknowledged that coordination would need a narrow antitrust waiver.  Sam Altman on 14 September, quoted in the complaint as saying progress *"should be slower than it otherwise could be,"* and that OpenAI would not wait for an exemption or legislation before starting. OpenAI's policy chief confirming on 15 September that the three labs had already been talking for weeks. A standards-body proposal from Google DeepMind's Demis Hassabis back in July. Proposed in public, accepted in public, confirmed in public, in the complaint's own framing.
+
+And the plaintiffs are not who you would expect. This is not a group of accelerationists angry that their chatbot might get better more slowly. One of the named plaintiffs, Cheyenne Hunt, put it this way: *"we deserve real AI safety standards, not shady deals cut by an unaccountable cartel of billionaires in a back room."* The complaint goes out of its way to say it is not challenging any lab slowing down on its own, independent evaluators, safety research, or asking Congress for an exemption. Its objection is to the instrument, not the goal.
+
+In fairness to the labs, and there is (maybe) plenty of fairness owed here, the case has visible weaknesses. It is a complaint, filed less than a week ago, and nobody has answered it. It concedes that the effect on released products has not shown up yet. Two of the four defendants' contributions to the alleged agreement were thin, as The Next Web read the filing -- Elon Musk's was four words on social media, and Google's was an endorsement of the direction with the details left open. OpenAI has said all along that the conversations are ordinary safety cooperation and need no waiver at all. There are good arguments that public advocacy and unilateral safety work are lawful, and the labs will make them.
+
+But the point for us is not whether Buist wins. It is that the exposure the shield is designed to remove stopped being theoretical on Friday. Before, the labs were asking for protection against a lawsuit somebody might someday bring. Now they are asking for protection against one that has a docket number. And that, without some sort of grandfathering proviso, fundamentally changes the economics of the thing. 
+
+I am going to compound that one step further, just so we all have some context. Despite saying we should slow down, Anthropic released Opus 5.5 on Tuesday. They have indicated Sonnet 5.5 and Haiku 5.5 are right behind. OpenAI released GPT-6 Sol and GPT-6 Luna, substantial improvements to 5.6 Sol and Luna, based on the Astra model. Three days ago SpaceXAI released Grok 4.7. And Google released Gemini 3.8 Live and 3.8 Live Extended Thinking (full duplex voice models) last week. All after the "Pacing the Frontier Essay." All advancements on the most used AI models in the West. And all potentially more dangerous than previously from a Cyber Security perspective, at least. 
+
+So, what are we meant to make of this? If we are pacing the frontier, shouldn't that have started here? Shouldn't we be looking at things more like Meta's Muse agent that they delayed for months to ensure the training was complete and they were confident? Understanding these were not "the frontier of the frontier" releases (those all happened earlier in the month), we're still advancing at breakneck pace.
+
+And one more nuance on that; in every case except Grok 4.7 which is the same price right now as Grok 4.6, *the list price for every one of these models is lower than its predecessor's was.* So an argument about a reduction in quality *might* hold (though, despite the verbosity of Opus 5.5, the early vibe check on all five models is resoundingly positive), but not an argument about price or any of the other myriad anti-trust elements that could be pursued. That doesn't block it from proceeding; it just makes the cost to prove that much higher. 
+
+I don't blame them. I think the single biggest issue most of us outside the labs have is that we don't believe the safety protocols are sufficient, that the investment into safety engineering is enough, nor that the models can be limited substantially *enough* as things currently stand to protect against bad actors. If the concern is bio-weapons, say so, and guardrail the models appropriately. I don't know that a government-approved slowdown carries the value that they think it does. And I will add my own caution to Dario and company: as someone who has worked in multiple, highly regulated industries over the years, I can tell you for nothing that regulation rarely works on the way you want it to. While I believe a stronger security regime is in order, I worry a government-imposed security regime, which carries substantial overtones of fascism, is a whole different beast. 
+
+Right now, the labs are winning, and I think most people who are with them are, too. But that doesn't erase the lemming-like effect of racing full tilt into the unknown. There needs to be a balance and it needs to be kept by all players.
+
+
+## The shields already on the books
+
+Nearly every argument about this has been missing the same thing. The United States already has antitrust shields for competitors who need to work together. Two of them come close. Neither fits.
+
+**The research joint venture law.** Since 1984, competitors who form a registered research or production venture and notify the government can have their antitrust exposure cut from three times the damages to actual damages (15 USC 4303). It is a real discount and it is used. But the same statute says a qualifying venture cannot include agreements restricting production *"other than the production by such venture,"* or restricting the sale or licensing of what members make on their own (15 USC 4301(b)). Pacing each lab's own models is precisely the thing it excludes.
+
+**The Defense Production Act.** Section 708 goes further than a discount. It provides a defense to civil and criminal antitrust actions for qualifying conduct under government-initiated, actively supervised voluntary agreements among competitors. The price of that protection is written into the statute: DOJ and FTC participation in developing the agreement; public access to agreements and transcripts, subject to specified exemptions; a published Attorney General finding, after FTC consultation, that the purpose cannot reasonably be achieved through a less anticompetitive agreement or without one; and expiration after five years unless renewed. Participants must comply with the statute, regulations, and agreement to claim the defense.
+
+It is not theoretical either. FEMA used it for pandemic supply coordination, and in April 2026 DOJ approved an updated agreement and action plans for the Department of Energy's nuclear fuel consortium.
+
+Lay the three side by side and the pattern is hard to miss. The shields that already exist buy protection with a public record and a government that is party to the arrangement. The one on offer buys it with a sealed notice and a government that finds out. Same problem, same kind of relief, and the difference is who gets to read what was agreed -- before, during, and after the event being litigated. And it is worth establishing whether such a secretive, non-transparent framework is the right business for our government and our country to be in about arguably the most powerful technology ever designed in the history of the human race.
+
+I think, then, that we have a good model for this, and that we should be using it. We've already seen models blocked for national security issues; having the cooperation requested sourced from the same (presumably independent) third party just seems sound. That might be hard given Mr. Musk's moves to cut a lot of federal oversight a couple of years ago, but it should be the goal: a proper regulator, at a proper level, with proper teeth to enforce, taking the government's position and making it stick (and, one would hope, that position would be aligned with the best interest of the citizens themselves).
+
+## Two liabilities, and only one of them is up for negotiation
+
+Go back to the intersection. The shield in S. 5105 is entirely about the first liability, the one for agreeing. Nothing in its text addresses the engine. Liability for what a model actually does, the harm to a customer, the bad decision, the leaked file, is a separate body of law, and the antitrust fight does not reach it.
+
+That distinction keeps collapsing in the way the debate is argued. David Sacks, the former AI czar, put the two in one sentence last week: *"You have a basic obligation to make your products safe. Do not demand antitrust waivers or liability waivers in exchange for that."* Plenty of the criticism of the labs runs the same way, as though the waiver would let them off the hook for harm. It would not. What it would do is let them off the hook for agreeing on how fast to go, which is a real thing to be let off, but a different one. *However,* again, as I noted above, as soon as the government "gets to regulating", the odds that the regulation will touch more elements than anyone actually understands right now is very high. So, just because it doesn't say it *yet*, doesn't mean the final product won't say it.
+
+And the one proposal in the Senate that does touch the engine goes the other direction entirely. The bill Senators Thune and Klobuchar have been negotiating, with Senator Cruz pressing for a markup, would put a legal duty of care on frontier developers -- a duty to lessen the harm their models could cause -- and, in the reporting so far, let the government block the release of a model it considers unsafe. It has no bill number or public text yet. But its direction is more liability for developers, not less. Neil Chilson, a former acting chief technologist at the FTC who now runs AI policy at the Abundance Institute, named the trap the duty is meant to avoid better than anyone: *"The worst possible outcome we could get is that we make a list of practices that we think make things safe, and then say: 'If you check all these boxes, you're going to be clear from any liability if things go wrong.'"*
+
+Which brings us back to Monday. The statutes that have actually been signed keep pointing the liability for harm at the organization that used the model. Nothing being negotiated in Washington this month changes that for you, in either direction. The waiver is about the labs' exposure to each other's customers. The duty of care, if it ever passes, is about the labs' exposure to harm. Neither one is about yours.
+
+I have heard a fair bit of thought on this issue from various people in the AI space. And I think there is a pretty sound argument here that businesses would actually, in most cases, be quite comfortable with the idea of pacing the frontier, at least at this point, so they have a chance to catch up their systems, governance, and HR/training regimen to work with a structure they know will be around. The move from Opus 5 to Opus 5.5 is relatively small; but there are enough changes in the way the harness works, in addition to the model, that every model change ends up being just enough to carry with it an API charge, and a design change. Most businesses would rather not have to iterate that fast.
+
+
+## Nobody has walked across town
+
+The shield has had a rough fortnight. Senator Josh Hawley: *"There is absolutely no world in which I will consent to giving the most powerful companies in the history of the world -- a small group of three or four of them -- antitrust exemptions so they can what ... collude together? Absolutely no way that's happening."* FTC Chair Andrew Ferguson has said he would be *"deeply suspicious"* of any request for relief, and that companies are *"asking for barriers to entry."* Senator Cruz, at a hearing the same day, called the pitch he was hearing from the labs *"just lunacy."*
+
+The Justice Department's answer was quieter and, to me, more telling. Stanley Woodward, the Associate Attorney General, told an audience at Fordham last Thursday that *"to the extent that anybody at any of the frontier labs wants to come see us about a concern, they would get a meeting."* Then: *"That meeting hasn't been requested."* The department is weighing whether to update its existing guidance on cybersecurity cooperation, which is a much smaller thing than an exemption, and much closer to what the July version of S. 5105 was actually about.
+
+So the labs have asked Congress for a shield, told the public they do not need one, been sued as though they had already used one, and not walked across town to ask the agency that could tell them where they stand. In other words, like so many other things we have seen in the space, the environment is very ad hoc and very scattered in very many ways.
+
+## What a sealed notice does to your roadmap
+
+None of this is yours to decide, which is good and bad, as I am sure you have already realized. However, some of it is **Most Definitely** yours to plan for.
+
+**Plan for a paused roadmap.** If the pacing talks turn into anything, a coordinated pause arrives as a delay announced by your vendor, and you will not be told why; under S. 5105, the why would sit in a sealed notice at the Justice Department. Look at your own plans for the next four quarters and mark every feature, project or saving that assumes the next model version ships on the vendor's current timetable. That list is your exposure to a decision you will never see. It is usually longer than people expect, and it is much easier to write down now than to reconstruct during the quarter it slips.
+
+**Split the two questions in front of your board.** When somebody asks what the Washington fight means for the company, the honest answer comes in two parts. The antitrust waiver changes how fast your vendors may improve and how much you will be told about it. The liability fight changes who pays when a model gets it wrong, and so far the answer to that one is still you. Put them on separate lines. Mixing them is how a board walks away thinking the labs are about to become liable for your deployment, when nothing on the table does that.
+
+**Watch the docket, not the essays.** Three things will say more about where this lands than any further op-ed from a lab: whether and how the defendants answer *Buist*, whether the Justice Department updates its cooperation guidance, and whether the duty-of-care bill gets a number and a markup date. Each of them is a public record, which, in this story, is not a small thing.
+
+## Across the street
+
+The labs are right about the problem. A company that slows down alone while its rivals keep going loses the customers; the complaint against them says so in as many words (*"a company that slows alone while rivals race ahead loses customers, revenue, talent, and technological leadership"*). The law has an answer for that problem already, and the answer is that you may agree with your competitor, in the open, with the government party to it, on a clock.
+
+What the shield on offer asks for is the same permission with the record sealed. Somebody should explain to the driver across the street why that is the better deal for anyone besides the labs.
+
+---
+*Thanks for reading. I know these run long and land dense, and I appreciate you taking the time with them.*
+
+*Lars Klander writes about cybersecurity strategy, AI governance, and technology risk. Today's argument is that the shield being negotiated in Washington is a clause letting AI labs agree to slow down behind a sealed notice, that the lawsuit filed against them last week is why they want it, that the shields already on the books require the opposite, a public record, and that none of it moves liability for harm off the organization that deployed the model.*
+
+---

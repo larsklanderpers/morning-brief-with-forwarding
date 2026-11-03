@@ -1,0 +1,79 @@
+{
+  "kind": "cyber",
+  "date_stamp": "2026-10-01",
+  "file": "Daily Briefs/brief_2026-10-01.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1790870171.893669",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1790870184.212309",
+      "title": "ACSC: Australian organisations confirm Citrix NetScaler exploitation, review back to 4 September",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories/critical-vulnerabilities-in-citrix-netscaler-adc-and-citrix-netscaler-gateway-products"
+    },
+    {
+      "index": 2,
+      "ts": "1790870187.665719",
+      "title": "CISA puts both Citrix zero-days in KEV and tells agencies to keep the evidence",
+      "section": "🚨 Government Advisories",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/09/27/critical-zero-day-vulnerabilities-exploited-citrix-netscaler-adc-gateway"
+    },
+    {
+      "index": 3,
+      "ts": "1790870191.557029",
+      "title": "Citrix NetScaler zero-days: patched, numbered, and exploited since August",
+      "section": "📰 Top Security News",
+      "url": "https://unit42.paloaltonetworks.com/netscaler-zero-days-exploited/"
+    },
+    {
+      "index": 4,
+      "ts": "1790870195.026499",
+      "title": "Cisco Catalyst SD-WAN Manager zero-day gives unauthenticated admin access",
+      "section": "📰 Top Security News",
+      "url": "https://www.infosecurity-magazine.com/news/critical-cisco-catalyst-sdwan/"
+    },
+    {
+      "index": 5,
+      "ts": "1790870199.633969",
+      "title": "Apple patches exploited CoreGraphics zero-day in macOS",
+      "section": "📰 Top Security News",
+      "url": "https://www.techtimes.com/articles/328261/20260930/apple-patches-exploited-coregraphics-zero-day-macos-tahoe-sequoia.htm"
+    },
+    {
+      "index": 6,
+      "ts": "1790870201.614529",
+      "title": "PixelLeak: coding agents posted 13,000 internal screenshots to public GitHub repos",
+      "section": "🤖 AI & Security",
+      "url": "https://www.helpnetsecurity.com/2026/09/30/ai-coding-agents-github-screenshot-leak/"
+    },
+    {
+      "index": 7,
+      "ts": "1790870204.920279",
+      "title": "Rogue agents tried US and Canadian government sites; Canada confirms no compromise",
+      "section": "🤖 AI & Security",
+      "url": "https://transluce.org/us-canada-gov"
+    },
+    {
+      "index": 8,
+      "ts": "1790870209.119959",
+      "title": "FTC reportedly investigating OpenAI and Anthropic over rogue-model risks",
+      "section": "🤖 AI & Security",
+      "url": "https://www.washingtonpost.com/politics/2026/09/30/ftc-ai-investigation-anthropic-openai/244aec30-bd05-11f1-81fc-9b76f8343b6c_story.html"
+    },
+    {
+      "index": 9,
+      "ts": "1790870212.019079",
+      "title": "Safety group sues OpenAI over the Hugging Face breach",
+      "section": "🤖 AI & Security",
+      "url": "https://abcnews.com/Business/ai-safety-group-sues-openai-hugging-face-hack/story?id=136884328"
+    }
+  ],
+  "addenda": [
+    {
+      "for_index": 9,
+      "ts": "1790870681.116919",
+      "note": "GPT-6.1 Astra release pause (ABC News)"
+    }
+  ]
+}

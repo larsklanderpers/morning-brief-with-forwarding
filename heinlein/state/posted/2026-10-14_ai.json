@@ -1,0 +1,107 @@
+{
+  "kind": "ai",
+  "date_stamp": "2026-10-14",
+  "file": "AI Briefs/ai_brief_2026-10-14.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1791979325.112809",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1791979332.957759",
+      "title": "Gemini 4 Argon opens to paid users and enterprises after a cyber-defenders-only start",
+      "section": "🔬 Frontier Labs",
+      "url": "https://mtslive.substack.com/p/1013-spy-inside-openai"
+    },
+    {
+      "index": 2,
+      "ts": "1791979336.446029",
+      "title": "OpenAI fires and refers to the FBI an employee who allegedly planted a recording device, per one newsletter",
+      "section": "🔬 Frontier Labs",
+      "url": "https://mtslive.substack.com/p/1013-spy-inside-openai"
+    },
+    {
+      "index": 3,
+      "ts": "1791979339.533169",
+      "title": "OpenAI and Anthropic seek limits on what outside evaluators can publish",
+      "section": "🔬 Frontier Labs",
+      "url": "https://mtslive.substack.com/p/1013-spy-inside-openai"
+    },
+    {
+      "index": 4,
+      "ts": "1791979342.669869",
+      "title": "OpenAI reportedly adds safety cases, training-run vetoes and automatic pauses before its next model",
+      "section": "🔬 Frontier Labs",
+      "url": "https://mtslive.substack.com/p/1013-spy-inside-openai"
+    },
+    {
+      "index": 5,
+      "ts": "1791979346.566989",
+      "title": "JPMorgan shuts outside agents out of Chase; Mercury lets them in through a hosted MCP server",
+      "section": "🚀 Shipping with AI",
+      "url": "https://linas.substack.com/p/fintechpulse1138"
+    },
+    {
+      "index": 6,
+      "ts": "1791979349.848109",
+      "title": "Epic Games delays its Disney shooter and orders an \"AI-first\" build with no hand-written code",
+      "section": "🚀 Shipping with AI",
+      "url": "https://www.videogameschronicle.com/news/epic-games-reportedly-orders-staff-to-implement-ai-first-development/"
+    },
+    {
+      "index": 7,
+      "ts": "1791979352.452969",
+      "title": "Character.AI reportedly files for bankruptcy, with Disney the opening $20M bidder for some assets",
+      "section": "🚀 Shipping with AI",
+      "url": "https://mtslive.substack.com/p/1013-spy-inside-openai"
+    },
+    {
+      "index": 8,
+      "ts": "1791979359.868919",
+      "title": "⚠️ UK ICO questions OpenAI, Anthropic, Meta and AISI over agents that \"reportedly bypassed protections\"",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2026/10/ico-secures-changes-from-leading-ai-developers-as-scrutiny-extends-to-ai-agents/"
+    },
+    {
+      "index": 9,
+      "ts": "1791979363.058259",
+      "title": "White Circle says a reusable jailbreak got three OpenAI and Google image models to make nudes 13% of the time",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://www.aichatdaily.com/ai-security/white-circle-jailbreaks-openai-google-image-models-into"
+    },
+    {
+      "index": 10,
+      "ts": "1791979366.895789",
+      "title": "EU AI Office sends information requests to OpenAI and Anthropic over summer lab incidents",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://euronews.com/2026/10/14/eus-ai-rules-face-first-enforcement-test-over-lab-incidents"
+    },
+    {
+      "index": 11,
+      "ts": "1791979369.966069",
+      "title": "UK's MI5 sets up an AI Threat Assessment Centre, warning AI is supercharging terror and cyber threats",
+      "section": "🌏 AU/EU AI Ecosystem",
+      "url": "https://mtslive.substack.com/p/1013-spy-inside-openai"
+    },
+    {
+      "index": 12,
+      "ts": "1791979372.752269",
+      "title": "AI Supremacy - \"Is Meta Muse Too Good to be True?\"",
+      "section": "📬 From the Substacks",
+      "url": "https://www.ai-supremacy.com/p/is-meta-muse-too-good-to-be-true-2026"
+    },
+    {
+      "index": 13,
+      "ts": "1791979375.489209",
+      "title": "The Pragmatic Engineer - \"Building resilient AI-powered software, and planning for when things go wrong\"",
+      "section": "📬 From the Substacks",
+      "url": "https://newsletter.pragmaticengineer.com/p/building-resilient-systems"
+    },
+    {
+      "index": 14,
+      "ts": "1791979377.902359",
+      "title": "Behavioral Capital - \"Seventy Milliseconds: How Machine Intuition Is Quietly Replacing Human Judgment\"",
+      "section": "📬 From the Substacks",
+      "url": "https://toniemgordonphd.substack.com/p/seventy-milliseconds-how-machine"
+    }
+  ]
+}

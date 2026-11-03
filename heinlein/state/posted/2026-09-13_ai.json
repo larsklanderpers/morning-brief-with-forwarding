@@ -1,0 +1,114 @@
+{
+  "kind": "ai",
+  "date_stamp": "2026-09-13",
+  "file": "AI Briefs/ai_brief_2026-09-13.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1789309771.407999",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1789309810.719009",
+      "title": "Hassabis backs \"Pace the Frontier,\" and his standards body would cover open-weight frontier models too",
+      "section": "🔬 Frontier Labs",
+      "url": "https://demishassabis.substack.com/p/a-framework-for-frontier-ai-and-the-dawning-of-a-new-age"
+    },
+    {
+      "index": 2,
+      "ts": "1789309815.168019",
+      "title": "A lawyer used ChatGPT to summarise a murder-trial transcript and filed its invented witnesses",
+      "section": "🚀 Shipping with AI",
+      "url": "https://www.aljazeera.com/economy/2026/9/11/us-lawyer-cites-fake-witnesses-in-murder-case-blames-chatgpt"
+    },
+    {
+      "index": 3,
+      "ts": "1789309819.055189",
+      "title": "Power users are drifting back from GPT-6 Astra on cost",
+      "section": "🚀 Shipping with AI",
+      "url": "https://aidailybrief.ai/e/2026-09-13"
+    },
+    {
+      "index": 4,
+      "ts": "1789309823.288339",
+      "title": "DeepSeek reroutes every V4-Pro API call to V4.1-Flash from 04:00 UTC on 14 Sep",
+      "section": "🏠 Local Models",
+      "url": "https://deepseek.com/en/news/deepseek-v4-1-flash/"
+    },
+    {
+      "index": 5,
+      "ts": "1789309827.748159",
+      "title": "⚠️ Anthropic: a test model broke into a real third party and read one person's personal information",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents"
+    },
+    {
+      "index": 6,
+      "ts": "1789309832.330189",
+      "title": "⚠️ ChatGPT Work can now read your Gmail, Slack, Drive and SharePoint to learn how you write",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://x.com/ChatGPT/status/2097018264048251309"
+    },
+    {
+      "index": 7,
+      "ts": "1789309836.477579",
+      "title": "Claude \"incognito\" chats are still retained, and still in the workspace owner's export",
+      "section": "🔒 Privacy, PII & Data Sovereignty",
+      "url": "https://support.claude.com/en/articles/12260368-use-incognito-chats"
+    },
+    {
+      "index": 8,
+      "ts": "1789309839.946889",
+      "title": "Claudia Plus AI - \"What Dario's 'Pace the Frontier' means for Enterprise Adoption\"",
+      "section": "📬 From the Substacks",
+      "url": "https://claudiaplusai.substack.com/p/what-darios-pace-the-frontier-means"
+    },
+    {
+      "index": 9,
+      "ts": "1789309848.520189",
+      "title": "Opinion AI - \"Grok Bot Feels Like the Business person of AI\"",
+      "section": "📬 From the Substacks",
+      "url": "https://opinionai.substack.com/p/grok-bot-feels-like-the-business"
+    },
+    {
+      "index": 10,
+      "ts": "1789309852.513109",
+      "title": "Charlie Hills - \"Graph engineering (for normal people)\"",
+      "section": "📬 From the Substacks",
+      "url": "https://charliehills.substack.com/p/graph-engineering-claude-code"
+    },
+    {
+      "index": 11,
+      "ts": "1789309855.361459",
+      "title": "[X] @jamie_emerson__ (Jamie Emerson)",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    },
+    {
+      "index": 12,
+      "ts": "1789309858.147109",
+      "title": "[LinkedIn] Virginia Dignum (Professor of Responsible AI, AI Policy Lab)",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    },
+    {
+      "index": 13,
+      "ts": "1789309860.940919",
+      "title": "[LinkedIn] Grant Hutchons (AIQ.GLOBAL)",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    },
+    {
+      "index": 14,
+      "ts": "1789309863.957449",
+      "title": "[LinkedIn] Clifton Bieundurry (Genesis Intelligence)",
+      "section": "📡 Social Intelligence",
+      "url": ""
+    },
+    {
+      "index": 15,
+      "ts": "1789309867.184619",
+      "title": "🎙️ AI Daily Brief - 10 Ways to Think Bigger with Opportunity AI (Sun 13 Sep)",
+      "section": "📡 Social Intelligence",
+      "url": "https://aidailybrief.ai/e/2026-09-13"
+    }
+  ]
+}

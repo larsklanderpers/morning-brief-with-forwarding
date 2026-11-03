@@ -21,3 +21,11 @@ heinlein/bot/.env
 heinlein/bot/logs/
 heinlein/bot/downloads/
 heinlein/bot/queue/
+heinlein/dashboard/brief-desk.html
+
+# Large binaries (over GitHub's 50 MB warning); keep local or move to Drive
+References/CrowdStrike-2026-Threat-Hunting-Report.pdf
+References/CrowdStrike-2026-Threat-Hunting-Report.zip
+
+# Scratch
+d_tmp.txt

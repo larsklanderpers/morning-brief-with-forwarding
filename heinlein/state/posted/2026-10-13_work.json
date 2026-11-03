@@ -1,0 +1,72 @@
+{
+  "kind": "work",
+  "date_stamp": "2026-10-13",
+  "file": "AI Briefs/work_brief_2026-10-13.md",
+  "channel": "C0BUVJE9A9M",
+  "parent_ts": "1791893713.015649",
+  "items": [
+    {
+      "index": 1,
+      "ts": "1791893719.427259",
+      "title": "\"Is Learning to Build Software Still Worth It with AI? (My Honest Take)\" - Cole Medin (12 Oct, about 14K views)",
+      "section": "🎥 What Creators Are Saying (YouTube)",
+      "url": "https://www.youtube.com/watch?v=PMOnd8T7Py0"
+    },
+    {
+      "index": 2,
+      "ts": "1791893723.232979",
+      "title": "\"Every Generation Thinks This Time Is Different: The AI Job Myth\" - IBM Technology (13 Oct, about 1.1K views)",
+      "section": "🎥 What Creators Are Saying (YouTube)",
+      "url": "https://www.youtube.com/watch?v=wSuWuPUTC10"
+    },
+    {
+      "index": 3,
+      "ts": "1791893724.896199",
+      "title": "@emollick (Ethan Mollick) - \"My AI agent doing proactive customer service\" (12 Oct)",
+      "section": "🐦 The Conversation on X",
+      "url": "https://x.com/emollick/status/2109789058587377683"
+    },
+    {
+      "index": 4,
+      "ts": "1791893727.228229",
+      "title": "@emollick (Ethan Mollick) - \"combinations of agents of different ability levels\" (12 Oct)",
+      "section": "🐦 The Conversation on X",
+      "url": "https://x.com/emollick/status/2109755776202137686"
+    },
+    {
+      "index": 5,
+      "ts": "1791893730.826339",
+      "title": "AI Daily Brief - \"How to Go from AI Power User to AI Leader\" (12 Oct)",
+      "section": "🎙️ Podcasts & Newsletters",
+      "url": "https://aidailybrief.ai/e/2026-10-12"
+    },
+    {
+      "index": 6,
+      "ts": "1791893732.868649",
+      "title": "Ethan Mollick - One Useful Thing",
+      "section": "🎙️ Podcasts & Newsletters",
+      "url": "https://www.oneusefulthing.org/archive"
+    },
+    {
+      "index": 7,
+      "ts": "1791893735.244309",
+      "title": "The AI champion: peer plus one",
+      "section": "🆕 New Roles & Archetypes Watch",
+      "url": "https://aidailybrief.ai/e/2026-10-12"
+    },
+    {
+      "index": 8,
+      "ts": "1791893738.473989",
+      "title": "The internal forward-deployed engineer, recruited from the business",
+      "section": "🆕 New Roles & Archetypes Watch",
+      "url": "https://aidailybrief.ai/e/2026-10-12"
+    },
+    {
+      "index": 9,
+      "ts": "1791893741.618769",
+      "title": "US September jobs report: weak hiring, few layoffs",
+      "section": "⚖️ The Debate (kept honest, kept brief)",
+      "url": "https://www.bls.gov/news.release/empsit.nr0.htm"
+    }
+  ]
+}
