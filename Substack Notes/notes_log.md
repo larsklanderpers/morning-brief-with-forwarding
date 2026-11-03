@@ -12,20 +12,28 @@ Fields: date | source piece | type | opener shape | closer shape | standalone / 
 ## Posted
 
 ### 2026-11-03 (Tue, afternoon) -- source: `substack_scheduled_first-conversation_2026-11-03.md` (The First Conversation, Changing Management)
-- **Type:** Build-in-Public
+- **Type:** Build-in-Public (with publication + section announcement)
 - **Standalone / link-back:** standalone
-- **Opener shape:** first-person process declarative ("Before we built anything for the support bot, we graded last week's tickets by hand.")
+- **Opener shape:** announcement (blog name, Tuesday section name), then first-person process declarative ("Before we built anything for the support bot, we graded last week's tickets by hand.")
 - **Closer shape:** humans-before-agents turn ("We had to fix the definitions for the *human* agents before we could even think about an agent.")
 - **Controlling image / device:** "everyone knows" -- partial vs FULL outage definitions differing across the desk
 - **Provenance:** mostly his (lines lifted from the outage paragraph; opener drafter), candidate A, picked 3 Nov 18:06 **with his revisions**
-- **Text as offered (his revised wording NOT captured -- paste it in to record "as posted"):**
-  > Before we built anything for the support bot, we graded last week's tickets by hand.
+- **Text as posted (his paste, 3 Nov 18:10; his revision of candidate A):**
+  > I have chosen a name for the blog after quite some time. I like it. I hope you do too.
+  >
+  > I have also set a name for Tuesday's pieces, which I am calling Change(ing) Management. Tuesdays are all about useful thought and real-world grounded exercises you can do as a manager with your team. It progresses through roles in the business and the adoption of AI in each. For accuracy and usefulness, it progresses through roles in MY business. I think the lessons apply everywhere, but I could certainly be kidding myself. I hope you find them useful.
+  >
+  > This week: before we built anything for the support bot, we graded last week's tickets by hand.
   >
   > Every person on the desk had a different definition of a partial outage. They also had different definitions for what constituted a FULL outage.
   >
   > "Everyone knows" means very different things to different people.
   >
-  > We had to fix the definitions for the *human* agents before we could even think about an agent.
+  > We had to fix the definitions for the human agents before we could even think about an AI agent. Then once we did that, we had a clean baseline to create the definitions for the AI agent, too.
+  >
+  > Next week, in addition to a new desk, we'll briefly call back to the rubric and see how we went in the first week.
+- **PRINTED PROMISE (in this note):** next Tuesday (10 Nov) = a new desk PLUS a brief callback to the support rubric and how the first week went.
+- **Also announces:** the publication rename and the Tuesday section name "Change(ing) Management".
 
 ### 2026-10-13 (Tue, afternoon lift; cadence-trial optional lift) -- source: `substack_scheduled_signed-by-you_2026-10-13.md` (Only What You Saw, Management Tuesday)
 - **Type:** Contrarian
