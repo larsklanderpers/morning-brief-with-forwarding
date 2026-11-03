@@ -1,6 +1,6 @@
 ---
 name: lars-user-profile
-description: "Lars Klander — role, background, publishing goals, and the default 'send it to me' email recipient"
+description: "Lars Klander — role, background, publishing goals, the default 'send it to me' address (lars.klander@gmail.com), and Slack/Drive as his main channels"
 metadata: 
   node_type: memory
   type: user
@@ -15,7 +15,12 @@ He uses this workspace to run an automated morning brief pipeline (briefing_agen
 
 **Account email:** lars.klander@gmail.com
 
-**"Send it to me" = lklander@techresults.com (2026-08-10, his instruction).** When he says "send it to me" / "email me this" without naming a recipient, that is the address. Delivery pattern he asked for: create the draft with the Gmail connector (`create_draft`), then open Gmail in the browser and press Send — the Gmail MCP has no send tool, so the browser step is required, not optional.
+**"Send it to me" = lars.klander@gmail.com (his word, 3 Nov 2026; replaces lklander@techresults.com from 2026-08-10).** When he says "send it to me" / "email me this" without naming a recipient, that is the address. Full draft text in the body, flags at the top (see [[delivery-destinations]]).
+
+**Channels, his word 3 Nov 2026:**
+- **Slack is where most real-time comms happen.** Default drop for drafts is `#heinlein-out` ([[delivery-destinations]]). Prefer Slack over email for anything conversational.
+- **Google Drive is the general share point** for files meant to be shared or read away from the repo (his pass on a draft already lives in Google Docs). The repo stays ground truth for the pipeline; Drive is where shareable copies go.
+- Email is the fallback when he asks for it.
 
 **Why:** he reads and decides on drafts away from the desktop app, so deliverables need to land in that inbox rather than only in chat.
 

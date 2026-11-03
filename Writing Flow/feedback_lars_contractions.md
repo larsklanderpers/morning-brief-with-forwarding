@@ -1,8 +1,20 @@
 ---
 name: lars-contractions
-description: "★ HOUSE RULE RULED 25 Sep 2026 -- drafter writes zero contractions in exposition; NOBODY ever expands a contraction Lars wrote, in any register. Read alongside [[lars-writing-voice]] before any voice pass."
+description: "★ HOUSE RULE (25 Sep 2026, amended 3 Nov 2026) -- formal pieces: drafter writes zero contractions; casual-voice pieces: contractions allowed, sparingly; NOBODY ever expands a contraction Lars wrote. Read alongside [[lars-writing-voice]] before any voice pass."
 type: feedback
 ---
+
+## ★ AMENDMENT, 3 Nov 2026 (his word) -- register decides
+
+> *"Write formal pieces without contractions, things in a more casual voice can use contractions but still pretty minimally."*
+
+- **Formal pieces** (default reading: Thursday's one argument, monthly capstones, anything regulatory or analytical): the drafter writes **zero** contractions.
+- **Casual-voice pieces** (default reading: Saturday Shop Hours, Notes, first-person check-ins): the drafter **may** contract, **sparingly** -- a handful per piece, where speech cadence wants it, not as a default.
+- **Tuesday Changing Management:** judge by the piece; when unsure, treat as formal.
+- **Unchanged:** nobody expands a contraction he wrote, in any register. The `its` -> `it's` typo fix stays mechanical.
+- This replaces "zero contractions in exposition" below as the drafter rule. Any older note saying "no contractions by default" (e.g. [[agent-propagation-dig]], 20-21 Aug) is superseded.
+
+## The 25 Sep 2026 ruling (still governs his own text)
 
 **The rule, as ruled by Lars on 25 September 2026 (ruling "c" of the voice recalibration):**
 
@@ -21,7 +33,7 @@ The 6 Sep observation (in forwarding-address his nine contractions clustered in 
 
 ## How to apply
 
-- **Drafting:** no contractions in the drafter's expository prose. Direct address to the reader may carry them. This is where the rule earns its keep.
+- **Drafting:** see the 3 Nov amendment above -- zero in formal pieces, sparing in casual ones.
 - **His text:** every contraction he wrote stays, wherever it sits. No expansion by the drafter, the panel, or any mechanics pass. The panel does not flag them, count them, or score them.
 - **Mechanical `its` -> `it's`:** his missing-apostrophe "its" (~33 passes) is a typo. Fix it silently. That fix is not an expansion and is not a register decision; count it apart from his deliberate contractions.
 - **Merging:** when a panel fix collides with a sentence of his, keep his contractions in the merged sentence.
