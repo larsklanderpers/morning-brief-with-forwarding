@@ -1,4 +1,5 @@
 <!--
+SUPERSEDED 3 Nov -- built from an earlier upload; current text is rv3+. DO NOT DRAFT FROM THIS.
 DRAFT rv1 -- Tue 3 Nov 2026 (file keeps its 20 Oct date until it schedules). Changing Management. Function: SUPPORT.
 Source: Lars's draft2 (uploaded 3 Nov, ahead of the Google Doc pass and of v1). Plan: References/week-plan_2026-11-02.md, Tue 3 Nov. TUESDAY GATE: PASS.
 rv1 changes (3 Nov, mechanical, on his word): typos and dropped words; dates corrected to a 3 Nov run (AC Digest 19 Oct = "a couple of weeks ago"; Tue 13 = "a few Tuesdays ago"; Sat 10 router = "a few weeks ago"); Jev day count 45 -> 35 (Jev on his mail since end of Sep, per Sat 10); one sentence added to the Jev paragraph on his word (checks run on email first, then expanded; the question is the key). [YOUR TAKE] 3-5 removed: he confirmed the support-lead meeting happened and the draft describes it. Review appendix stays in the draft until final (his word); a copy is in Substack Drafts/notes_first-conversation_review-appendix_2026-11-03.md.
