@@ -1,6 +1,6 @@
 # SLOT CHARTER — what each day of the week is FOR
 
-**v1.7, 28 September 2026: THE OCTOBER MAP (§1.1) adopted on his word, effective the week of 5 October: Monday is a standalone Note, no piece; Wednesday opens the arc; three spine days feed Sunday. v1.6, 27 September 2026: repeated-topic rule loosened for Tue / Thu / Sun (content must be unique), and his three-lens idea plus a cadence question logged in §5 (his word). v1.5, 26 September 2026: the management Tuesday extended to end of 2026 and given a three-part shape (§2.1 amendment, his word). v1.4, 25 September 2026: the Saturday length signal is struck (§3, his ruling). v1.3, 20 September 2026, on his word: TUESDAY is re-pointed to management with AI and leading
+**v1.8, 2 November 2026: THE HOLIDAY MAP (§1.2), ruled 31 Oct on his word, supersedes §1.1 through 13 Dec: three pieces a week (Tue Changing Management, Thu one argument, Sat Shop Hours), Notes on Mon/Wed/Fri, monthly capstone. v1.7, 28 September 2026: THE OCTOBER MAP (§1.1) adopted on his word, effective the week of 5 October: Monday is a standalone Note, no piece; Wednesday opens the arc; three spine days feed Sunday. v1.6, 27 September 2026: repeated-topic rule loosened for Tue / Thu / Sun (content must be unique), and his three-lens idea plus a cadence question logged in §5 (his word). v1.5, 26 September 2026: the management Tuesday extended to end of 2026 and given a three-part shape (§2.1 amendment, his word). v1.4, 25 September 2026: the Saturday length signal is struck (§3, his ruling). v1.3, 20 September 2026, on his word: TUESDAY is re-pointed to management with AI and leading
 transitions, as a one-month trial running from Tue 29 September. See §2.1, which governs the Tuesday
 subject while the trial runs. SATURDAY is unchanged and confirmed. v1.2 adopted 10 September 2026;
 effective date set 12 September 2026, also his call (§7.5).** This is the source of truth for what each slot is
@@ -55,6 +55,27 @@ that's okay."* A Saturday that has been bent to serve the arc has usually stoppe
 - **Reviewed at the 26 Oct review** with cadence, the Thursday question and the three-lens idea (§5).
 
 ---
+
+### 1.2 ⭐ THE HOLIDAY MAP -- RULED 31 Oct 2026, his word, effective the week of MONDAY 2 NOVEMBER 2026, review MONDAY 14 DECEMBER 2026
+
+**Supersedes §1.1's day map for the six weeks it runs. §1.1 stays below as history; the Tuesday and Saturday tests in §2 and §3 are unchanged.** His reason: load elsewhere, and *"where can we do the most high-impact pieces, where we can showcase the most personality, and where we can give the most value to people who might be reading, not just sort of survey and report."*
+
+| Day | Slot | What it is |
+|---|---|---|
+| Mon | Note only | Standalone Note. No piece. |
+| **Tue** | **Changing Management** (Substack section) | Unchanged from §2.1: challenge, proposal, prompts usable today. |
+| Wed | Note only | A Note may carry a news reaction (about 150 words with a take). No research pipeline. |
+| **Thu** | **One argument** | The week's only spine piece: one thesis, 2-3 points, cost lens, insider "we". Written as the least dry piece, lands up where the argument allows. Not a news roundup. |
+| Fri | Note only | As Wed. |
+| **Sat** | **Shop Hours** (Substack section) | §3 unchanged. Each entry says in one clause where it sits in the set (encyclopaedia ruling). |
+| Sun | **Capstone, monthly** | Two in the window: **Sun 22 Nov** and **Sun 13 Dec**. Each merges the Thursdays (and any Tue/Sat thread) since the last one. No capstone on other Sundays. |
+
+- **Skip:** Thu 26 Nov (Thanksgiving) is a Note.
+- **Publication renamed 31 Oct:** *The Interesting Parts* (theinterestingparts.substack.com, one-time redirect from larsklander used). Tagline: *Workshopping the interesting parts of AI governance, AI methodology, cybersecurity strategy and technology risk.*
+- **Panel load:** full six seats on Thu and capstones. Tue and Sat: voice, AI-slop and skeptic/fact-check seats as the minimum; full panel on his word.
+- **Gates:** the Tuesday gate tests against Thursday only (the sole spine day). The Saturday gate is unchanged.
+- **Undrafted spine material from the October plans** (Wed/Fri legs, capstone legs) goes to `IDEA_BANK.md` as Thursday candidates, not into Notes.
+- **The 9 Nov review in §5 is superseded by the 14 Dec review.**
 
 ## 2. TUESDAY — the breath
 

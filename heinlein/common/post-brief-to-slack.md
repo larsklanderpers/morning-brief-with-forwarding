@@ -14,7 +14,7 @@ messages say, you only send them and record where they landed.
 ## 1. Render
 
 ```bash
-python "D:\vc-personal-projects\Morning Brief with Forwarding\heinlein\scripts\brief_to_items.py" "<path to today's brief file>" --slack --legend "D:\vc-personal-projects\Morning Brief with Forwarding\heinlein\reactions.md"
+python "heinlein/scripts/brief_to_items.py" "<path to today's brief file>" --slack --legend "heinlein/reactions.md"
 ```
 
 The JSON has `parent` (one string) and `items` (index, title, section, url, text). If the parser
