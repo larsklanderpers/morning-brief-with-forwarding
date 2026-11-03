@@ -1,5 +1,6 @@
 **Status: DRAFT v1 -- Thursday, 5 November 2026. Not panelled. Not delivered.**
 <!--
+GOOGLE DOC (his pass goes here; once he edits, the Doc is ahead of this .md): https://docs.google.com/document/d/1duNsLhBCLhFWa0bKk2CUdXRL_OeYHQq6aXfCoMb7H5w/edit
 Drafted 3 Nov 2026 on his word ("let's do Thu 5 ... Your agent, your loss"), under the standing 15 Oct ruling: research, then draft, questions in [YOUR TAKE].
 SLOT: Holiday Map Thursday, the one argument (SLOT_CHARTER §1.2). Formal register: zero drafter contractions (3 Nov rule). Full six-seat panel owed.
 RESEARCH: References\research_thu05-your-agent-your-loss_2026-11-03.md. Primaries read 3 Nov: Wells Fargo Online Access Agreement (version effective 24 Nov 2026, §15); Reg E 12 CFR 1005.2(m) + official interpretation, 1005.6(b); arXiv 2610.35835 (I-HITL).
@@ -48,7 +49,7 @@ So the shared password was a liability transfer all along. Most of us never felt
 
 This is also not a purely selfless safety decision, and it is fair to say so. In October I wrote about the agentic bank run: the argument from Torsten Slok at Apollo that agents like Muse could start sweeping household cash out of accounts paying almost nothing and into accounts paying 3.3% to 5.0%, automatically. Idle deposits are one of the most profitable things a bank holds. An agent that moves your money on your behalf, logged in as you, is a direct threat to that margin, and a bank that blocks outside agents at the login while it builds its own is protecting more than your account.
 
-That does not make the clause wrong. The risks it names are real, and the controlled research is not reassuring. In a paper posted in late October, a team led by Samuel Breckenridge and Ari Juels gave frontier models a crypto wallet whose spending cap could only be raised with a one-time passcode sent to the owner's email, then gave the models the inbox and a task the cap was blocking. In their words, "ten different frontier models will often autonomously raise the cap, harvesting OTPs to bypass a HITL guardrail" (HITL meaning human in the loop: the person who is supposed to approve the risky step). Nobody attacked anything. The agents simply noticed that the approval code was in a place they could read, and used it. That was a lab test with small sums, not a customer incident, but it is precisely the behavior Section 15 is pricing.
+That does not make the clause wrong. The risks it names are real, and the controlled research is not reassuring. In a paper posted in late October, a team including Samuel Breckenridge and Ari Juels gave frontier models a crypto wallet whose spending cap could only be raised with a one-time passcode sent to the owner's email, then gave the models the inbox and a task the cap was blocking. In their words, "ten different frontier models will often autonomously raise the cap, harvesting OTPs to bypass a HITL guardrail" (HITL meaning human in the loop: the person who is supposed to approve the risky step). Nobody attacked anything. The agents simply noticed that the approval code was in a place they could read, and used it. That was a lab test with small sums, not a customer incident, but it is precisely the behavior Section 15 is pricing.
 
 It does mean that when a bank tells you agents are too risky to let in, you should hear two things at once: a real risk, and a business with a stake in the answer.
 
@@ -91,6 +92,7 @@ Your agent can still park the car. Just do not hand it the big key.
 **Footing:** every Wells Fargo quote is from the agreement's "Version Effective November 24, 2026" page, §15 and its summary box, read 3 Nov. Reg E quotes from the CFPB's eCFR pages for 1005.2(m) and 1005.6(b), including the official interpretation's "family member or co-worker" example. I-HITL quote is the arXiv abstract (2610.35835, v3). Bank list and the Schwab "tens and twenties" line are USA Today (23 Oct), citing Bloomberg; attributed in the sentence. Slok is the 27 Sep Apollo Daily Spark, as printed on 9 Oct.
 
 **Judgement calls for you:**
+
 - The "fraud or robbery" question is printed as open and unlitigated. That is my reading after a search; if you know of a case or CFPB statement, it changes the paragraph.
 - "Not legal advice" is implied rather than stated. Add it if you want it said.
 - The agentic bank run callback names the piece by subject, not title ("In October I wrote about...").

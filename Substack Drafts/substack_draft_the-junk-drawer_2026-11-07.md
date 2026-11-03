@@ -1,5 +1,6 @@
 **Status: DRAFT v1 -- Saturday, 7 November 2026. Shop Hours #1. Not panelled. Not delivered.**
 <!--
+GOOGLE DOC (his pass goes here; once he edits, the Doc is ahead of this .md): https://docs.google.com/document/d/1FluqrpR8F8xgxg4w9_SrlK8oRO-8qqO7MYjGCy52LuE/edit
 Drafted 3 Nov 2026 on his word ("let's draft the dot piece for saturday the 7th"). Pays the printed promise in Sat 31 Duet, made three times: "Dot ... gets its own piece next week"; "more on dots next week"; "More on Dots next week, as my feelings about them have really started to solidify in the last week."
 SLOT: Shop Hours (SLOT_CHARTER §1.2 / §3). First entry in the section: bookends itself in one clause (encyclopaedia ruling). Casual register: drafter contractions allowed, sparingly (3 Nov rule).
 SATURDAY GATE: PASS -- human feature: Freya, his dot, and how to set up your own so its one memory stays useful.
@@ -110,6 +111,7 @@ Here is what my other agents reported this week: [paste or point to the channel]
 **Correct forward:** 8 Oct printed "$200-a-month" for Pro. Handled in one clause; reword as you like, but keep it.
 
 **Judgement calls for you:**
+
 - Contractions: casual register, so the drafter used them, about eight in the drafter's body text (others are inside OpenAI quotes). Expand any you do not want.
 - "Settings" for ChatGPT memory: the help page names "Customize > Memory" on mobile for shared memory. Fine either way; check the path on your own phone.
 - The "manager at the bar" callback is yours from Sat 31; used twice here (body and a prompt label). Cut one if it reads as leaning on it.
